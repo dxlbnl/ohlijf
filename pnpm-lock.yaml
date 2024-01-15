@@ -8,6 +8,9 @@ dependencies:
   '@fontsource/bellota':
     specifier: ^5.0.8
     version: 5.0.8
+  '@fontsource/martel':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@fontsource/raleway':
     specifier: ^5.0.16
     version: 5.0.16
@@ -326,6 +329,10 @@ packages:
 
   /@fontsource/bellota@5.0.8:
     resolution: {integrity: sha512-lLJ2VQL3hKfD/2myxkOAdTJw5/w8rZDmXK+pmxkM6Lspbjb/sfCx4cSZuJAd1nTpK7mtYkEVWbJ2UHcIVwY5jA==}
+    dev: false
+
+  /@fontsource/martel@5.0.8:
+    resolution: {integrity: sha512-dP/FR4I1quqYMR4lid7hakEuwsTUxEzkCvR17/tOl3yV2K27vouCPtG7G8/a4JbUTjlGFNZDujE7jvK8Ev/LBw==}
     dev: false
 
   /@fontsource/raleway@5.0.16:

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '@fontsource/raleway';
 	import '@fontsource/bellota';
+	import '@fontsource/martel';
 
 	import '../app.css';
 

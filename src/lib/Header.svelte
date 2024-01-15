@@ -3,11 +3,11 @@
 		<img
 			class="background"
 			width="100%"
-			src="robin-aurinke.jpeg"
-			alt="Robin en Aurinke zittend op een hek"
+			src="swing-on-the-campuhan-ridge-walk-ubud 3.png"
+			alt="swinging"
 		/>
 	</section>
-	<section class="darken" />
+	<section class="waas" />
 
 	<section class="content">
 		<slot />
@@ -21,7 +21,7 @@
 		grid-template-areas: 'stack';
 		/* aspect-ratio: 16/8; */
 		/* height: auto; */
-		min-height: min-content;
+		min-height: 80dvh;
 		overflow: hidden;
 
 		& > * {
@@ -42,14 +42,14 @@
 			}
 		}
 
-		& .darken {
+		& .waas {
 			inset: 0;
 			z-index: -4;
-			background-image: linear-gradient(
-				180deg,
-				rgba(0, 0, 0, 0) 33%,
-				rgba(0, 0, 0, 0.35) 55%,
-				rgba(0, 0, 0, 0.79) 90%
+			background: linear-gradient(
+				117deg,
+				rgba(0, 0, 0, 0.58) 15.34%,
+				rgba(0, 0, 0, 0.42) 37.91%,
+				rgba(58, 128, 51, 0) 74.85%
 			);
 		}
 	}
