@@ -8,13 +8,13 @@
 </script>
 
 <Header>
-	<h1 class="feature">Een lichter leven zonder pijn</h1>
-	<p class="feature">
+	<h1>Een lichter leven zonder pijn</h1>
+	<p>
 		Een praktische aanpak voor herstel van langdurige lichamelijke klachten. Wij delen informatie,
 		oefeningen en een concrete methode voor jouw herstel richting een vrij leven, waarin je weer kan
 		doen wat je wil. Ontdek of onze aanpak bij jouw symptomen past:
 	</p>
-	<button class="cta feature start">Doe de test</button>
+	<button class="cta start">Doe de test</button>
 </Header>
 
 <Content>
@@ -71,31 +71,32 @@
 
 <WieZijnWij />
 
-<section class="content">
-	<p>Download ons selfcare werkboek</p>
-	<button>Gratis download!</button>
+<section class="content call-to-action">
+	<h2>Download gratis ons selfcare werkboek</h2>
+	<button class="cta center">Gratis download!</button>
 </section>
 
 <footer></footer>
 
 <style>
-	h1 {
-		color: #fff;
-		font-family: Raleway;
-		font-size: 6.375rem;
-		font-style: italic;
-		font-weight: 700;
-		line-height: normal;
-	}
-
-	p.feature {
-		color: #fff;
-		text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-		font-family: Raleway;
-		font-size: 1.5rem;
-		font-style: normal;
-		font-weight: 500;
-		line-height: normal;
+	:global(header) {
+		& h1 {
+			color: #fff;
+			font-family: Raleway;
+			font-size: 6.375rem;
+			font-style: italic;
+			font-weight: 700;
+			line-height: normal;
+		}
+		& p {
+			color: #fff;
+			text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+			font-family: Raleway;
+			font-size: 1.5rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
 	}
 
 	button.cta {
@@ -108,14 +109,13 @@
 		justify-self: center;
 	}
 
-	.frame {
-		background: var(--white);
-		box-shadow: 10px 10px 4px 2px rgba(0, 0, 0, 0.25);
-		border-radius: 25px;
-		overflow: hidden;
-		border: 3px var(--green) solid;
-
-		align-self: center;
+	.call-to-action {
+		margin-block: 4rem;
+		text-align: center;
+		& button {
+			background: rgba(255, 213, 0, 1);
+			font-style: italic;
+		}
 	}
 
 	footer {
