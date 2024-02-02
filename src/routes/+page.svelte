@@ -2,6 +2,9 @@
 	import Header from '$lib/Header.svelte';
 	import Content from '$lib/Content.svelte';
 	import WieZijnWij from './WieZijnWij.svelte';
+	import ImageCard from '$lib/ImageCard.svelte';
+	import Columns from '$lib/Columns.svelte';
+	import Testimonials from './Testimonials.svelte';
 </script>
 
 <Header>
@@ -11,41 +14,59 @@
 		oefeningen en een concrete methode voor jouw herstel richting een vrij leven, waarin je weer kan
 		doen wat je wil. Ontdek of onze aanpak bij jouw symptomen past:
 	</p>
-	<button class="cta">Doe de test</button>
+	<button class="cta feature start">Doe de test</button>
 </Header>
 
 <Content>
-	<section class="columns">
-		<div>
+	<Columns>
+		<article>
 			<h2>De verlamming van pijn..</h2>
 			<p>
-				Wij kennen het maar al te goed..<br />
-				Je worstelt met aanhoudende symptomen die je leven beheersen en dat frustreert! Je bent gewend
-				om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten. Misschien heb je vragen
-				over je gezondheid, ervaar je angsten, of zijn er klachten waar je maar geen oplossing op lijkt
-				te vinden.<br />
-				Wij begrijpen de uitdagingen die langdurige gezondheidsproblemen met zich meebrengen en staan
-				klaar om je te begeleiden.
+				Wij begrijpen het als geen ander. Dagelijks worstel je met hardnekkige symptomen die je
+				leven overheersen en dat frustreert! Altijd in staat geweest om door te gaan, maar nu door
+				je klachten beperkt.
 			</p>
-			<a href="#"> Lees meer over de symptomen.. </a>
-		</div>
-		<div class="frame" style="height:10rem; object-fit:cover">
-			<img class="Image11" src="/art-hoofdpijn.png" />
-		</div>
-	</section>
 
-	<section>
-		<h1>De verlamming van Chronische pijn..</h1>
-		<p>Wij kennen het maar al te goed!</p>
-		<p>Je hebt alles geprobeerd, maar de behandeling werkt niet of maar tijdelijk.</p>
-		<p>
-			Je pijn of andere symptomen zorgen ervoor dat je niet alles kan doen wat je zou willen. En dat
-			frustreert je!
-		</p>
-		<a href="/symptomen"> Lees meer over de symptomen.. </a>
+			<p>
+				Gewone dagelijkse dingen lijken soms onmogelijk, en de eindeloze pogingen om verlichting te
+				vinden hebben hooguit tijdelijk geholpen. Misschien heb je zelfs momenten van moedeloosheid
+				ervaren.
+			</p>
 
-		<img src="art-chronische-pijn.svg" />
-	</section>
+			<p>
+				Herkenbaar? Bij OhLijf begrijpen we deze impact als geen ander, zowel fysiek als mentaal.
+				Het is tijd om de oorzaak aan te pakken en een pad naar duurzaam herstel te vinden. Jij
+				verdient een leven zonder deze constante belemmeringen. Laten we samen ontdekken hoe OhLijf
+				je kan helpen.
+			</p>
+			<a href="#">Lees meer over de OhLijf-methode..</a>
+		</article>
+		<ImageCard src="/art-hoofdpijn.png" alt="Een vrouw met zichtbare hoofdpijn" />
+	</Columns>
+
+	<Columns>
+		<ImageCard src="/art-hoofdpijn.png" alt="Een vrouw met zichtbare hoofdpijn" />
+		<article>
+			<h2>Overwin je symptomen</h2>
+			<p>
+				Bij OhLijf bieden we praktische begeleiding om je te helpen bij het overwinnen van
+				chronische symptomen.
+			</p>
+			<p>
+				In onze online hersteltraining nemen we je stap voor stap mee, waarbij we kleine, concrete 
+				aanpassingen in je dagelijkse leven maken die een positief sneeuwbaleffect creëren.
+			</p>
+			<p>
+				Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis
+				zonder klachten met Ohlijf, Klaar voor een positieve verandering?
+			</p>
+			<a href="/symptomen"> Bekijk de online training</a>
+		</article>
+	</Columns>
+
+	<Testimonials />
+
+	<button class="center cta">Ontdek onze methode</button>
 </Content>
 
 <WieZijnWij />
@@ -76,20 +97,15 @@
 		font-weight: 500;
 		line-height: normal;
 	}
+
 	button.cta {
-		justify-self: end;
-
-		border-radius: 1.5rem;
-		border: 3px solid #000;
-		background: #ffd500;
-		box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.35);
-
-		color: #000;
-		font-family: Raleway;
-		font-size: 1.5rem;
-		font-style: italic;
-		font-weight: 500;
-		line-height: normal;
+		margin-block: 1rem;
+	}
+	button.start {
+		justify-self: start;
+	}
+	button.center {
+		justify-self: center;
 	}
 
 	.frame {

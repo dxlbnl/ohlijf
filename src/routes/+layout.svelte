@@ -2,6 +2,7 @@
 	import '@fontsource/raleway';
 	import '@fontsource/bellota';
 	import '@fontsource/martel';
+	import '@fontsource/montserrat-alternates';
 
 	import '../app.css';
 

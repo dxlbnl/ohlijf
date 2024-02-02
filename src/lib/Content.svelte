@@ -15,4 +15,8 @@
 		/* margin-top: -17vw; */
 		margin-bottom: var(--wave-height);
 	}
+
+	main > :global(:not(.wave) + :not(.wave)) {
+		margin-top: 5rem;
+	}
 </style>

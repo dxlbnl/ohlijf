@@ -24,6 +24,10 @@
 		min-height: 80dvh;
 		overflow: hidden;
 
+		& > .content {
+			margin-bottom: 12rem;
+		}
+
 		& > * {
 			grid-area: stack;
 		}
