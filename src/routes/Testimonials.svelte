@@ -31,7 +31,6 @@
 <style>
 	h3 {
 		font-size: 2rem;
-		font-family: 'Montserrat Alternates', sans-serif;
 		color: rgba(58, 128, 51, 1);
 		margin-top: 0;
 	}

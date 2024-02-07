@@ -1,4 +1,4 @@
-<header>
+<header class="stack">
 	<section class="background">
 		<img
 			class="background"
@@ -17,8 +17,6 @@
 <style>
 	header {
 		/* position: relative; */
-		display: grid;
-		grid-template-areas: 'stack';
 		/* aspect-ratio: 16/8; */
 		/* height: auto; */
 		min-height: 80dvh;
@@ -26,10 +24,6 @@
 
 		& > .content {
 			margin-bottom: 12rem;
-		}
-
-		& > * {
-			grid-area: stack;
 		}
 
 		& > .background {
