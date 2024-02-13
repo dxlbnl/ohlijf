@@ -1,7 +1,7 @@
-<script lang="ts">
-	export let titel: string = '';
-	export let omschrijving: string = '';
-	export let foto: string = '';
+<script>
+	export let titel = '';
+	export let omschrijving = '';
+	export let foto = '';
 </script>
 
 <header class="stack">
