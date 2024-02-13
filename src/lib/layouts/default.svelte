@@ -1,18 +1,24 @@
 <script>
 	export let titel = '';
 	export let omschrijving = '';
-	export let foto = '';
+	export let foto = '/boombast.jpeg';
 </script>
 
-<header class="stack">
-	<div class="bg">
-		<img alt="" src={foto} />
-	</div>
+<header class="stack" class:expanded={titel && omschrijving}>
+	{#if foto}
+		<div class="bg">
+			<img alt="" src={foto} />
+		</div>
+	{/if}
 
-	<section class="content">
-		<h1 class="page-heading">{titel}</h1>
-		<p class="page-description">{omschrijving}</p>
-	</section>
+	{#if titel}
+		<section class="content">
+			<h1 class="page-heading">{titel}</h1>
+			{#if omschrijving}
+				<p class="page-description">{omschrijving}</p>
+			{/if}
+		</section>
+	{/if}
 </header>
 
 <main class="content">
@@ -21,16 +27,25 @@
 
 <style>
 	header {
-		margin-block: 4rem;
-		font-size: 2rem;
+		margin-bottom: 4rem;
+		min-height: 8rem;
 		color: white;
 
-		& section {
-			margin-block: 4rem;
-			& h1 {
-				color: white;
-				margin-block: 0.5rem;
-				letter-spacing: 4px;
+		& h1 {
+			font-size: 3rem;
+			text-align: center;
+		}
+
+		&.expanded {
+			font-size: 2rem;
+
+			& section {
+				margin-block: 4rem;
+				& h1 {
+					color: white;
+					margin-block: 0.5rem;
+					letter-spacing: 4px;
+				}
 			}
 		}
 

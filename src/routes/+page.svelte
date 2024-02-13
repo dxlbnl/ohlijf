@@ -64,7 +64,7 @@
 		</article>
 	</Columns>
 
-	<Testimonials />
+	<!-- <Testimonials /> -->
 
 	<button class="center cta">Ontdek onze methode</button>
 </Content>

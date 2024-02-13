@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	const menu: { url: string; name: string }[] = [];
+	export let menu: { path: string; label: string }[] = [];
 </script>
 
 <nav>
@@ -12,8 +12,8 @@
 	{#if menu.length}
 		<ul>
 			{#each menu as item}
-				<li data-active={$page.url.pathname === item.url}>
-					<a href={item.url}>{item.name}</a>
+				<li data-active={$page.url.pathname === item.path}>
+					<a href={item.path}>{item.label}</a>
 				</li>
 			{/each}
 		</ul>
@@ -23,7 +23,7 @@
 <style>
 	nav {
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 1fr min-content;
 		height: 4.5rem;
 		padding: 0 4.5rem;
 		background: var(--white);
