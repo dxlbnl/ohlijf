@@ -11,7 +11,7 @@
 		border-radius: 25px;
 		filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
 
-		aspect-ratio: 16/9;
+		aspect-ratio: 12/8;
 		object-fit: cover;
 		width: 100%;
 	}

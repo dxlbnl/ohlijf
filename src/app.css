@@ -53,10 +53,12 @@ img {
 	}
 }
 
-button.cta {
+.cta {
 	padding: 0.5rem 1rem;
 	font-size: 20px;
   padding-block: .8rem;
+  color: var(--black);
+  text-decoration: none;
 
 	/* font-style: italic; */
 
@@ -176,6 +178,16 @@ h4,
 h5,
 h6 {
 	font-family: 'Raleway', sans-serif;
+}
+
+a, .link {
+  font-family: 'Raleway', sans-serif;
+  color: var(--light-green);
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--green);
+  }
 }
 /* 
 .page-heading {

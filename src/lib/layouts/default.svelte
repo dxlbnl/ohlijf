@@ -13,7 +13,7 @@
 
 	{#if titel}
 		<section class="content">
-			<h1 class="page-heading">{titel}</h1>
+			<h1 class="title">{titel}</h1>
 			{#if omschrijving}
 				<p class="page-description">{omschrijving}</p>
 			{/if}
@@ -34,6 +34,7 @@
 		& h1 {
 			font-size: 3rem;
 			text-align: center;
+			color: white;
 		}
 
 		&.expanded {

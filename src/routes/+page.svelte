@@ -18,72 +18,56 @@
 </Header>
 
 <Content>
-	<Columns>
+	<Columns columns="1fr 2fr">
+		<ImageCard src="/hoofdpijn.jpg" alt="Een vrouw met zichtbare hoofdpijn" />
 		<article>
-			<h2>De verlamming van pijn..</h2>
+			<h2 class="heading">De verlamming van pijn..</h2>
+			<p>Wij kennen het maar al te goed...</p>
 			<p>
-				Wij begrijpen het als geen ander. Dagelijks worstel je met hardnekkige symptomen die je
-				leven overheersen en dat frustreert! Altijd in staat geweest om door te gaan, maar nu door
-				je klachten beperkt.
+				Je worstelt met aanhoudende symptomen die je leven beheersen en dat frustreert! Je bent
+				gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
 			</p>
-
 			<p>
-				Gewone dagelijkse dingen lijken soms onmogelijk, en de eindeloze pogingen om verlichting te
-				vinden hebben hooguit tijdelijk geholpen. Misschien heb je zelfs momenten van moedeloosheid
-				ervaren.
+				Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf pak je de
+				echte oorzaak aan zodat je duurzaam herstelt.
 			</p>
-
-			<p>
-				Herkenbaar? Bij OhLijf begrijpen we deze impact als geen ander, zowel fysiek als mentaal.
-				Het is tijd om de oorzaak aan te pakken en een pad naar duurzaam herstel te vinden. Jij
-				verdient een leven zonder deze constante belemmeringen. Laten we samen ontdekken hoe OhLijf
-				je kan helpen.
-			</p>
-			<a href="#">Lees meer over de OhLijf-methode..</a>
+			<a href="/methode">Ontdek of de OhLijf-methode je kan helpen </a>
 		</article>
-		<ImageCard src="/art-hoofdpijn.png" alt="Een vrouw met zichtbare hoofdpijn" />
 	</Columns>
 
-	<Columns>
-		<ImageCard src="/art-hoofdpijn.png" alt="Een vrouw met zichtbare hoofdpijn" />
+	<Columns reverse columns="1fr 2fr">
+		<ImageCard src="/vrijheid.jpg" alt="Een vrouw springt op een pad in een groene vallei" />
 		<article>
-			<h2>Overwin je symptomen</h2>
+			<h2 class="heading">Overwin je symptomen</h2>
 			<p>
 				Bij OhLijf bieden we praktische begeleiding om je te helpen bij het overwinnen van
 				chronische symptomen.
 			</p>
 			<p>
-				In onze online hersteltraining nemen we je stap voor stap mee, waarbij we kleine, concrete 
+				In onze online hersteltraining nemen we je stap voor stap mee, waarbij we kleine, concrete
 				aanpassingen in je dagelijkse leven maken die een positief sneeuwbaleffect creëren.
 			</p>
 			<p>
-				Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis
-				zonder klachten met Ohlijf, Klaar voor een positieve verandering?
+				Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis naar
+				een vrij leven zonder klachten
 			</p>
-			<a href="/symptomen"> Bekijk de online training</a>
+			<a href="/symptomen">Klaar voor een positieve verandering?</a>
 		</article>
 	</Columns>
 
 	<!-- <Testimonials /> -->
-
-	<button class="center cta">Ontdek onze methode</button>
 </Content>
 
 <WieZijnWij />
 
 <section class="content call-to-action">
-	<h2>Download gratis ons selfcare werkboek</h2>
-	<button class="cta center">Gratis download!</button>
+	<h2>Is een klachtenvrij leven voor mij mogelijk?</h2>
+	<a href="/test" class="cta center">Doe de test!</a>
 </section>
 
-<footer></footer>
-
 <style>
-	button.cta {
-		margin-block: 4rem;
-		justify-self: center;
-	}
-	button.center {
+	.cta {
+		margin-top: 3rem;
 		justify-self: center;
 	}
 
@@ -98,10 +82,5 @@
 
 	.title {
 		margin-bottom: 0;
-	}
-
-	footer {
-		height: 7rem;
-		background: #8bc385;
 	}
 </style>

@@ -4,7 +4,7 @@
 
 <svg
 	{...$$restProps}
-	class="wave pos-{position} {$$restProps.class}"
+	class="pos-{position} {$$restProps.class}"
 	viewBox="0 0 100 20"
 	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,6 @@
 	<path
 		d="M 101.18571,6.4081316 C 89.769832,17.995333 66.68206,17.995333 49.04551,10.352879 42.580158,7.5512296 18.357982,-3.9641904 -0.91395286,6.4081316"
 		fill="none"
-		stroke-width="3.20561"
 		class="wave"
 	/>
 </svg>
@@ -40,7 +39,9 @@
 	}
 
 	.wave {
-		stroke: rgba(255, 229, 214, 0.75);
+		stroke: var(--green);
+		opacity: 0.8;
+		stroke-width: 4;
 	}
 
 	.pos-top {
