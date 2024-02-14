@@ -50,8 +50,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/bellota": "^5.0.8",
-		"@fontsource/martel": "^5.0.8",
-		"@fontsource/montserrat-alternates": "^5.0.8",
 		"@fontsource/raleway": "^5.0.16",
 		"zod": "^3.22.4"
 	}

@@ -1,8 +1,9 @@
 <script lang="ts">
-	import '@fontsource/raleway';
-	import '@fontsource/bellota';
-	import '@fontsource/martel';
-	import '@fontsource/montserrat-alternates';
+	import '@fontsource/raleway/600-italic.css';
+	import '@fontsource/raleway/600.css';
+	import '@fontsource/raleway/400.css';
+	import '@fontsource/bellota/700.css';
+	import '@fontsource/martel/700.css';
 
 	import '../app.css';
 	import menuData from './menu.yaml';

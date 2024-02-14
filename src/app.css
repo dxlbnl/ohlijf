@@ -3,32 +3,13 @@
 	font-size: 16px;
 	line-height: 1.5;
 
-	--green: #3a8033;
+  --pink: #FFAA7A;
+  --light-pink: #FFE5D6;
+  --light-green: #8BC385;
+	--green: #3A8033;
+	--yellow: #FFD500;
 	--white: white;
 	--black: black;
-	--yellow: #ffd500;
-
-	--gray-50: #f7fafc;
-	--gray-100: #edf2f7;
-	--gray-200: #e2e8f0;
-	--gray-300: #cbd5e0;
-	--gray-400: #a0aec0;
-	--gray-500: #718096;
-	--gray-600: #4a5568;
-	--gray-700: #2d3748;
-	--gray-800: #1a202c;
-	--gray-900: #171923;
-
-	--green-50: #f1f9ed;
-	--green-100: #b9e8a0;
-	--green-200: #87ea53;
-	--green-300: #59ff00;
-	--green-400: #4aac15;
-	--green-500: #3c761d;
-	--green-600: #30531d;
-	--green-700: #263a1b;
-	--green-800: #1e2a17;
-	--green-900: #171e13;
 
 	--rounded: 0.25rem;
 
@@ -164,14 +145,30 @@ a {
 
 /* Typography */
 
-h1,
-h2,
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 102px;
+  font-style: italic;
+  font-weight: semibold;
+  color: var(--green);
+}
+
+h1 {
+  font-family: 'Martel', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--green);
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20;
+  font-weight: semibold;
+}
 h3,
 h4,
 h5,
 h6 {
-	font-family: 'Martel', sans-serif;
-	color: rgba(58, 128, 51, 1);
+	font-family: 'Raleway', sans-serif;
 }
 
 .page-heading {

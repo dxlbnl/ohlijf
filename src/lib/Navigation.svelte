@@ -6,7 +6,7 @@
 
 <nav>
 	<a class="logo" href="/">
-		<h1><span style:color="#8BC385">Oh</span>Lijf</h1>
+		<h1><span style:color="var(--light-green)">Oh</span>Lijf</h1>
 		<img src="logo.svg" alt="OhLijf logo" /></a
 	>
 	{#if menu.length}
@@ -39,6 +39,7 @@
 	.logo {
 		display: grid;
 		grid-template-columns: min-content auto;
+		gap: 0.5rem;
 		align-items: center;
 		text-decoration: none;
 		overflow: hidden;
@@ -47,6 +48,7 @@
 			font-family: 'Bellota', sans-serif;
 			margin: 0;
 			font-size: 2.5rem;
+			font-weight: bold;
 		}
 		& img {
 			max-height: 3.5rem;
@@ -65,7 +67,7 @@
 		list-style: none;
 
 		color: white;
-		font-size: 1.5rem;
+		font-size: 20px;
 		font-weight: 600;
 
 		& > * {
@@ -75,14 +77,4 @@
 			text-decoration: none;
 		}
 	}
-	/* @container nav (max-width: 800px) {
-		.logo h1 {
-			display: none;
-		}
-	}
-	@container nav (max-width: 700px) {
-		.logo {
-			display: none;
-		}
-	} */
 </style>
