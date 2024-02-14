@@ -50,7 +50,13 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/bellota": "^5.0.8",
+		"@fontsource/martel": "^5.0.8",
 		"@fontsource/raleway": "^5.0.16",
+		"rehype-sanitize": "^6.0.0",
+		"rehype-stringify": "^10.0.0",
+		"remark-parse": "^11.0.0",
+		"remark-rehype": "^11.1.0",
+		"unified": "^11.0.4",
 		"zod": "^3.22.4"
 	}
 }

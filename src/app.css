@@ -69,30 +69,32 @@ img {
 }
 
 button {
-	button {
-		--_background: var(--button-background, --gray-100);
-		--_hover: var(--button-hover, --gray-300);
-		--_outline: var(--button-outline, --gray-400);
+  --_background: var(--button-background, var(--light-green));
+  --_hover: var(--button-hover, var(--green));
+  --_outline: var(--button-outline, var(--black));
 
-		display: flex;
-		background: var(--_background);
-		border-radius: var(--rounded);
-		border: none;
-		padding: 0.4rem;
+  display: flex;
+  background: var(--_background);
+  border-radius: var(--rounded);
+  border: 2px solid var(--black) ;
+  padding: 1rem 5rem;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.25);
+  text-align: center;
 
-		&:hover {
-			background: var(--_hover);
-		}
-		&:focus {
-			outline-color: var(--_outline);
-			outline-style: solid;
-			outline-width: 3px;
-		}
+  font-size: 20px;
 
-		& > :global(svg) {
-			animation: rotate 2s infinite;
-		}
-	}
+  &:hover {
+    background: var(--_hover);
+  }
+  &:focus {
+    outline-color: var(--_outline);
+    outline-style: solid;
+    outline-width: 3px;
+  }
+
+  & > :global(svg) {
+    animation: rotate 2s infinite;
+  }
 }
 
 a {
