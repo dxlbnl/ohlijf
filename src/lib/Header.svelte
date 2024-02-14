@@ -1,11 +1,6 @@
 <header class="stack">
 	<section class="background">
-		<img
-			class="background"
-			width="100%"
-			src="swing-on-the-campuhan-ridge-walk-ubud 3.png"
-			alt="swinging"
-		/>
+		<img class="background" width="100%" src="strand.jpg" alt="swinging" />
 	</section>
 	<section class="waas" />
 

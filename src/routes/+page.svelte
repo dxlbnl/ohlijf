@@ -4,17 +4,17 @@
 	import WieZijnWij from './WieZijnWij.svelte';
 	import ImageCard from '$lib/ImageCard.svelte';
 	import Columns from '$lib/Columns.svelte';
-	import Testimonials from './Testimonials.svelte';
 </script>
 
 <Header>
-	<h1 class="page-heading">Een lichter leven zonder pijn</h1>
-	<p class="page-description">
-		Een praktische aanpak voor herstel van langdurige lichamelijke klachten. Wij delen informatie,
-		oefeningen en een concrete methode voor jouw herstel richting een vrij leven, waarin je weer kan
-		doen wat je wil. Ontdek of onze aanpak bij jouw symptomen past:
+	<h1 class="title white">Een lichter leven zonder pijn</h1>
+	<p class="subheader white">Helemaal klaar met die terugkerende klachten?</p>
+	<p class="subheader white">
+		Ontdek de praktische herstelmethode van OhLijf, voor een pijn- en klachtenvrij leven. Door de
+		echte oorzaak aan te pakken is 100% herstel mogelijk.
 	</p>
-	<button class="cta start">Doe de test</button>
+	<p class="subheader white bold">Check of jij van je klachten af kan komen met onze methode:</p>
+	<button class="cta">Doe de test</button>
 </Header>
 
 <Content>
@@ -80,10 +80,8 @@
 
 <style>
 	button.cta {
-		margin-block: 1rem;
-	}
-	button.start {
-		justify-self: start;
+		margin-block: 4rem;
+		justify-self: center;
 	}
 	button.center {
 		justify-self: center;
@@ -96,6 +94,10 @@
 			background: rgba(255, 213, 0, 1);
 			font-style: italic;
 		}
+	}
+
+	.title {
+		margin-bottom: 0;
 	}
 
 	footer {
