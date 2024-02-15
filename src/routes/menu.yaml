@@ -1,8 +1,5 @@
-- label: Aanbod
-  path: /aanbod
-  
-- label: Online training
-  path: /training
+- label: Doe de test
+  path: /test
 
 - label: De methode
   path: /methode

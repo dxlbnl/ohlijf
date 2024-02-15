@@ -18,7 +18,7 @@
 </Header>
 
 <Content>
-	<Columns columns="1fr 2fr">
+	<Columns columns="minmax(250px, 1fr) minmax(400px, 2fr)">
 		<ImageCard src="/hoofdpijn.jpg" alt="Een vrouw met zichtbare hoofdpijn" />
 		<article>
 			<h2 class="heading">De verlamming van pijn..</h2>
@@ -35,7 +35,7 @@
 		</article>
 	</Columns>
 
-	<Columns reverse columns="1fr 2fr">
+	<Columns reverse columns="minmax(250px, 1fr) minmax(400px, 2fr)">
 		<ImageCard src="/vrijheid.jpg" alt="Een vrouw springt op een pad in een groene vallei" />
 		<article>
 			<h2 class="heading">Overwin je symptomen</h2>

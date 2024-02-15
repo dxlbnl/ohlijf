@@ -103,8 +103,3 @@
     - Vermoeidheid
     - Pijn
     - Anders
-  extra:
-    question: >
-      Mijn voornaamste klachten zijn:
-    type: textarea
-    optional: true

@@ -17,14 +17,7 @@
 		.object({
 			question: z.string(),
 			explanation: z.string().optional(),
-			answers: z.string().array(),
-			extra: z
-				.object({
-					question: z.string(),
-					type: z.enum(['textarea']),
-					optional: z.boolean()
-				})
-				.optional()
+			answers: z.string().array()
 		})
 		.array();
 
@@ -35,20 +28,18 @@
 </script>
 
 <h2 class="heading">Vraag {currentIndex + 1}/{questions.length}</h2>
-<p class="subheading">
+<p>
 	{#await file.process(current.question) then question}
 		{@html question}
 	{/await}
 </p>
 
-
-
 {#if current.explanation}
-<p>
-	{#await file.process(current.explanation) then explanation}
-		{@html explanation}
-	{/await}
-</p>
+	<p>
+		{#await file.process(current.explanation) then explanation}
+			{@html explanation}
+		{/await}
+	</p>
 {/if}
 
 <ul>
@@ -79,7 +70,7 @@
 
 	p {
 		& :global(ul > li) {
-			margin-block: .5rem;
+			margin-block: 0.5rem;
 		}
 	}
 </style>
