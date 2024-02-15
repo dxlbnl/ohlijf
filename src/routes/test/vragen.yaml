@@ -23,19 +23,22 @@
     - Nee
     - Soms
 - question:
-    Ik heb eerder in mijn leven last gehad van andere aanhoudende of terugkerende lichamelijke klachten
+    Ik heb eerder in mijn leven last gehad van andere aanhoudende of terugkerende lichamelijke klachten.
+  explanation: >
     Het kan gaan om pijnklachten, maag- darmproblemen, extreme vermoeidheid, duizeligheid, tinnitus, etc.
   answers:
     - Ja
     - Nee
     - Twijfel
 - question: Mijn (pijn)klachten zijn soms erger en soms minder erg.
+  explanation: >
     Bijvoorbeeld ‘s avonds erger dan ‘s ochtends, of je merkt verschil bij een bepaalde beweging/houding.
   answers:
     - Ja
     - Nee
 - question: >
     Mijn (pijn)klachten verplaatsen wel eens van plek in mijn lichaam.
+  explanation: >  
     Bijv. van het midden van je onderrug naar wat meer links.
   answers:
     - Ja
@@ -46,6 +49,7 @@
     - Nee
 - question: >
     Ik heb gemerkt dat stress, spanning of emoties invloed hebben op mijn symptomen.
+  explanation: >
     Soms is de relatie onduidelijk, maar merk je wel verschillen in symptomen. Ze worden erger, minder erg of veranderen.
   answers:
     - Ja
@@ -83,11 +87,11 @@
     - Me vaak zorgen maken of piekeren
   answers:
     - Ja, 1-2 dingen
-    - Ja, 3 of meer dingen
+    - Ja, 3 of meer
     - Nee
 - question: |
     Wat is jouw belangrijkste symptoom?
-
+  explanation: >
     Vaak hebben mensen meerdere symptomen, waarvan er één overheerst.
 
     *Vermoeidheid*: aanhoudende onverklaarde vermoeidheid of gebrek aan energie, lusteloosheid, burn-out, slaapproblemen etc.
