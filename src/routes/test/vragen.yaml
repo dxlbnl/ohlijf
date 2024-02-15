@@ -16,6 +16,7 @@
     - Nee
     - Twijfel
 - question: Het hebben van de (pijn)klachten roept regelmatig frustratie bij me op.
+  explanation: >
     Ik baal wanneer de symptomen opspelen, ik ben bang dat de symptomen zullen verergeren, of ik vraag me af of het ooit over zal gaan.
   answers:
     - Ja
@@ -61,8 +62,8 @@
     - Ja
     - Nee
     - Enigszins
-- question: |
-    Ik herken één of meerdere van onderstaande eigenschappen in mijzelf:
+- question: Ik herken één of meerdere van onderstaande eigenschappen in mijzelf
+  explanation: |
     - Alles perfect willen doen
     - Graag aardig gevonden willen worden
     - Me regelmatig schuldig voelen

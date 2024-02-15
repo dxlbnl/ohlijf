@@ -16,6 +16,7 @@
 	const questionSchema = z
 		.object({
 			question: z.string(),
+			explanation: z.string().optional(),
 			answers: z.string().array(),
 			extra: z
 				.object({
@@ -39,6 +40,16 @@
 		{@html question}
 	{/await}
 </p>
+
+
+
+{#if current.explanation}
+<p>
+	{#await file.process(current.explanation) then explanation}
+		{@html explanation}
+	{/await}
+</p>
+{/if}
 
 <ul>
 	{#each current.answers as answer}
@@ -64,5 +75,11 @@
 		margin: 4rem;
 		justify-content: start;
 		gap: 2rem;
+	}
+
+	p {
+		& :global(ul > li) {
+			margin-block: .5rem;
+		}
 	}
 </style>
