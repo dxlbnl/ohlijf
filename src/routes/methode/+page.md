@@ -13,6 +13,8 @@ Dat klopt. Gelukkig passen steeds meer mensen de methode toe (de Verenigde State
  
 Dat gezegd hebbende, is het volgende allemaal op onderzoek gebaseerd. Er is nog veel onderzoek te doen en er loopt ook nog veel onderzoek op dit moment.
 
+![Robin en Aurinke op hek](/boombast.jpeg)
+
 Goed, nu over naar de OhLijf-methode.
  
 ## De verbinding tussen je lijf en je brein
