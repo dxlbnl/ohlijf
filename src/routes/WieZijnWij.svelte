@@ -9,7 +9,7 @@
 		<h2>Maak kennis met:<br /> Robin en Aurinke</h2>
 		<p>
 			De drijvende krachten achter OhLijf. Ooit worstelden we zelf met chronische klachten: van hoofdpijn
-			tot **extreme vermoeidheid**, <a href="#">lees hier ons verhaal.</a>
+			tot **extreme vermoeidheid**, <a href="/ons">lees hier ons verhaal.</a>
 		</p>
 		<p>
 			We moesten jarenlang zoeken maar de weg naar herstel bleek simpel met de juiste methode. 
