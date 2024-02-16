@@ -9,5 +9,5 @@ Resultaten verkregen door het gebruik van de informatie en tools op OhLijf & co 
 
 Door gebruik te maken van deze website, stemt u ermee in gebonden te zijn aan de algemene voorwaarden en het privacybeleid van OhLijf & co.
 
-##Copyright ©
+## Copyright ©
 Alle teksten, afbeeldingen en video’s op deze website zijn eigendom van OhLijf & co en mogen niet zonder toestemming worden gekopieerd of verspreid.
