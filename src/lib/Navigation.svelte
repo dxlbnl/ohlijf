@@ -4,7 +4,7 @@
 	export let menu: { path: string; label: string }[] = [];
 </script>
 
-<nav>
+<nav class="navigation">
 	<a class="logo" href="/">
 		<h1><span style:color="var(--light-green)">Oh</span>Lijf</h1>
 		<img src="logo.svg" alt="OhLijf logo" /></a
@@ -21,9 +21,11 @@
 </nav>
 
 <style>
-	nav {
+	.navigation {
 		display: grid;
-		grid-template-columns: 1fr min-content;
+		grid-template-columns: auto auto;
+		justify-content: space-between;
+
 		height: 4.5rem;
 		padding: 0 4.5rem;
 		background: var(--white);
