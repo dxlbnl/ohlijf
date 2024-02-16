@@ -18,7 +18,7 @@
 		</p>
 		<p>
 			OhLijf biedt praktische (online) trainingen voor **blijvend herstel** op jouw tempo. 
-			Laat ons je begeleiden met lichtheid en een glimlach..</p>
+			Laat ons je begeleiden met lichtheid en een glimlach..
 		</p>
 		<p>
 		<a href="#">Klaar voor de eerste stap?</a>
