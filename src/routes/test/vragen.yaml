@@ -2,11 +2,7 @@
   answers:
     - Ja
     - Nee
-- question: Er is geen duidelijke medische verklaring of oplossing voor mijn klachten gevonden.
-  answers:
-    - Ja
-    - Nee
-- question: Ik heb verschillende behandelingen geprobeerd maar dit hielp maar tijdelijk of helemaal niet.
+- question: Er is geen duidelijke medische verklaring voor mijn klachten gevonden of behandelingen hielpen slechts tijdelijk.
   answers:
     - Ja
     - Nee
@@ -30,16 +26,9 @@
     - Ja
     - Nee
     - Twijfel
-- question: Mijn (pijn)klachten zijn soms erger en soms minder erg.
+- question: Mijn (pijn)klachten verplaatsen wel eens van plek in mijn lichaam of van intensiteit.
   explanation: >
-    Bijvoorbeeld ‘s avonds erger dan ‘s ochtends, of je merkt verschil bij een bepaalde beweging/houding.
-  answers:
-    - Ja
-    - Nee
-- question: >
-    Mijn (pijn)klachten verplaatsen wel eens van plek in mijn lichaam.
-  explanation: >  
-    Bijv. van het midden van je onderrug naar wat meer links.
+    Bijv. van het midden van je onderrug naar wat meer links, of ‘s avonds erger dan ‘s ochtends..
   answers:
     - Ja
     - Nee
@@ -69,25 +58,18 @@
 - question: Ik herken één of meerdere van onderstaande eigenschappen in mijzelf
   explanation: |
     - Alles perfect willen doen
-    - Graag aardig gevonden willen worden
     - Me regelmatig schuldig voelen
-    - Streng voor mezelf zijn
     - Hoge verwachtingen van mezelf hebben
     - Groot gevoel voor verantwoordelijkheid
     - Onzekerheid over mezelf
     - Veel behoefte aan controle
-    - Voortdurend verlangen om beter te zijn
     - Willen pleasen of behagen van mensen
     - Angst om ruzie met iemand te krijgen
-    - Onzeker zijn in contacten
-    - Gevoelens en gedachten voor je houden
     - Vaak boosheid of frustratie mee te dragen
     - Niet voor mezelf opkomen
-    - Moeite met loslaten
     - Me vaak zorgen maken of piekeren
   answers:
-    - Ja, 1-2 dingen
-    - Ja, 3 of meer
+    - Ja
     - Nee
 - question: |
     Wat is jouw belangrijkste symptoom?
