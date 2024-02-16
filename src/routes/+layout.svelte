@@ -33,6 +33,7 @@
 
 <style>
 	footer {
+		grid-area: footer;
 		background: #8bc385;
 
 		& ul {

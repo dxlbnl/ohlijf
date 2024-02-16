@@ -7,7 +7,7 @@
 <nav>
 	<a class="logo" href="/">
 		<h1><span style:color="var(--light-green)">Oh</span>Lijf</h1>
-		<img src="logo.svg" alt="OhLijf logo" /></a
+		<img src="/logo.svg" alt="OhLijf logo" /></a
 	>
 	{#if menu.length}
 		<ul>
@@ -22,6 +22,8 @@
 
 <style>
 	nav {
+		grid-area: navigation;
+
 		display: grid;
 		grid-template-columns: auto auto;
 		justify-content: space-between;

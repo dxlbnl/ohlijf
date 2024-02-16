@@ -21,6 +21,18 @@
 
 body {
 	margin: 0; /* Remove the tiny space around the edge of the page */
+
+	display: grid;
+
+	grid-template-areas:
+		'navigation'
+		'header'
+		'main'
+		'footer';
+
+	grid-template-rows: min-content min-content 1fr min-content;
+
+	height: 100dvh;
 }
 
 img,

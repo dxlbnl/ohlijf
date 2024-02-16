@@ -21,10 +21,6 @@
 	{/if}
 </header>
 
-<main class="content">
-	<slot />
-</main>
-
 <style>
 	header {
 		min-height: 8rem;
