@@ -1,5 +1,3 @@
+import { writable } from 'svelte/store';
 
-
-export const answers = {
-  answer(question: number, ans)
-}
+export const answers = writable<string[]>();

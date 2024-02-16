@@ -6,6 +6,7 @@
 	import remarkRehype from 'remark-rehype';
 	import { unified } from 'unified';
 	import { z } from 'zod';
+	import { answers } from './answerStore';
 
 	const file = unified()
 		.use(remarkParse)
@@ -23,6 +24,7 @@
 
 	const questions = questionSchema.parse(raw_vragen);
 
+	let started = false;
 	let currentIndex = 0;
 	$: current = questions[currentIndex];
 </script>
@@ -47,6 +49,7 @@
 		<li>
 			<button
 				on:click={() => {
+					answers.set(currentIndex, answer);
 					if (currentIndex + 1 < questions.length) {
 						currentIndex++;
 					}
