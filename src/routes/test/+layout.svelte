@@ -2,7 +2,7 @@
 	import PageHeader from '$lib/PageHeader.svelte';
 </script>
 
-<PageHeader titel="De test" />
+<PageHeader titel="Ontdek meer over jouw symptomen" />
 
 <div class="content">
 	<main>
