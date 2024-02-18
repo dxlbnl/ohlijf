@@ -9,7 +9,7 @@
 	img {
 		border: 3px solid #3a8033;
 		border-radius: 25px;
-		filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+		filter: drop-shadow(var(--box-shadow));
 
 		aspect-ratio: 12/8;
 		object-fit: cover;

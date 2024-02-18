@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import { answers } from './answerStore';
+	import { results } from '../store';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 
@@ -22,7 +22,7 @@
 		<li>
 			<button
 				on:click={() => {
-					// answers.set(currentIndex, answer);
+					results.set(data.index, answer);
 					goto(data.next);
 				}}>{answer}</button
 			>

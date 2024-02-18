@@ -32,11 +32,15 @@ export const load: PageLoad = async ({ params }) => {
 		error(404, { message: 'Onbekende vraag' });
 	}
 
+	const next = questionId === questions.length ? '/test/resultaat' : `/test/${questionId + 1}`;
+	`/test/${questionId + 1}`;
+
 	return {
 		...question,
 		heading: `Vraag ${questionId}/${questions.length}`,
+		index: questionId,
 		question: await markdown.process(question.question),
 		explanation: question.explanation && (await markdown.process(question.explanation)),
-		next: `/test/${questionId + 1}`
+		next
 	};
 };
