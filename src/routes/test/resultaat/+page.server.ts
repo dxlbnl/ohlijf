@@ -1,6 +1,7 @@
 import { MAILCHIMP_API_KEY } from '$env/static/private';
 import mailchimp from '@mailchimp/mailchimp_marketing';
 import { error } from '@sveltejs/kit';
+import { db, testResult, type NewTestResult } from '$lib/database';
 
 mailchimp.setConfig({
 	apiKey: MAILCHIMP_API_KEY,
@@ -25,11 +26,11 @@ export const actions = {
 			antwoorden.map((resultaat, index) => [index + 1, resultaat])
 		);
 
-		const resultaat = {
-			naam,
+		const result: NewTestResult = {
+			name: naam,
 			email,
-			opmerking: data.get('opmerking'),
-			resultaten
+			note: data.get('opmerking') as string,
+			results: resultaten
 		};
 
 		const positiveAnswers = antwoorden.filter((answer) =>
@@ -38,13 +39,13 @@ export const actions = {
 		const tags = positiveAnswers >= 3 ? ['MBS', antwoorden.at(-1) ?? ''] : ['Geen MBS'];
 
 		// Get list info
-		const result = await mailchimp.lists.addListMember(listId, {
+		await mailchimp.lists.addListMember(listId, {
 			email_address: email,
 			status: 'subscribed',
 			tags
 		});
 
-		console.log(resultaat, result);
+		await db.insert(testResult).values(result);
 
 		return {
 			success: true
