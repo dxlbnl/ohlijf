@@ -38,6 +38,7 @@ export const actions = {
 		).length;
 		const tags = positiveAnswers >= 3 ? ['MBS', antwoorden.at(-1) ?? ''] : ['Geen MBS'];
 
+		console.log('Adding mailchimp member', email);
 		// Get list info
 		await mailchimp.lists.addListMember(listId, {
 			email_address: email,
@@ -45,6 +46,7 @@ export const actions = {
 			tags
 		});
 
+		console.log('Logging test result in the database');
 		await db.insert(testResult).values(result);
 
 		return {
