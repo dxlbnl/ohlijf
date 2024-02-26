@@ -5,7 +5,7 @@
 	export let titel = '';
 	export let omschrijving = '';
 	export let foto = '/boombast.jpeg';
-	export let sidebar = false;
+	export let sidebar = true;
 </script>
 
 <PageHeader {titel} {omschrijving} {foto} />

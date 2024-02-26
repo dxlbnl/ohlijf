@@ -1,6 +1,7 @@
 ---
 titel: Contact
 omschrijving: Laat hier je gegevens achter
+sidebar: false
 ---
 
 <script>
