@@ -1,5 +1,6 @@
 <script>
 	import PageHeader from '$lib/PageHeader.svelte';
+	import Sidebar from '$lib/Sidebar.svelte';
 
 	export let titel = '';
 	export let omschrijving = '';
@@ -8,6 +9,14 @@
 
 <PageHeader {titel} {omschrijving} {foto} />
 
-<main class="content">
+<main class="content-with-sidebar">
 	<slot />
+
+	<Sidebar />
 </main>
+
+<style>
+	main {
+		margin-block: 4rem;
+	}
+</style>

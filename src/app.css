@@ -160,6 +160,46 @@ a {
 		grid-column: full;
 	}
 }
+.content-with-sidebar {
+	--gap: clamp(1rem, 6vw, 3rem);
+	--full: minmax(var(--gap), 1fr);
+	--content: min(80ch, 70% - var(--gap));
+	--sidebar: min(20ch, 30% - var(--gap) * 2);
+	--popout: minmax(0, 2rem);
+	--feature: minmax(0, 5rem);
+
+	display: grid;
+	grid-template-columns:
+		[full-start] var(--full)
+		[feature-start] var(--feature)
+		[popout-start] var(--popout)
+		[content-start] var(--content)
+		[content-end] var(--gap)
+		[sidebar-start] var(--sidebar) [sidebar-end]
+		var(--popout) [popout-end]
+		var(--feature) [feature-end]
+		var(--full) [full-end];
+
+	grid-auto-rows: min-content;
+
+	& > * {
+		grid-column: content;
+	}
+
+	& .popout {
+		grid-column: popout;
+	}
+	& .feature {
+		grid-column: feature;
+	}
+	& .full {
+		grid-column: full;
+	}
+	& .sidebar {
+		grid-column: sidebar;
+		grid-row: 1/100000000;
+	}
+}
 
 /* Typography */
 
@@ -189,7 +229,7 @@ h1,
 h2,
 .subheading {
 	font-family: 'Raleway', sans-serif;
-	font-size: 20;
+	font-size: 20px;
 	font-weight: 600;
 }
 h3,
@@ -218,7 +258,6 @@ input[type='text'],
 textarea,
 input[type='email'] {
 	display: block;
-	min-width: 50ch;
 
 	box-shadow: var(--box-shadow);
 
