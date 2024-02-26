@@ -38,16 +38,24 @@ export const actions = {
 		).length;
 		const tags = positiveAnswers >= 3 ? ['MBS', antwoorden.at(-1) ?? ''] : ['Geen MBS'];
 
-		console.log('Adding mailchimp member', email);
-		// Get list info
-		await mailchimp.lists.addListMember(listId, {
-			email_address: email,
-			status: 'subscribed',
-			tags
-		});
+		try {
+			console.log('Adding mailchimp member', email);
+			// Get list info
+			await mailchimp.lists.addListMember(listId, {
+				email_address: email,
+				status: 'subscribed',
+				tags
+			});
+		} catch (e) {
+			console.error('Failed to add mailchimp member:', e);
+		}
 
-		console.log('Logging test result in the database');
-		await db.insert(testResult).values(result);
+		try {
+			console.log('Logging test result in the database');
+			await db.insert(testResult).values(result);
+		} catch (e) {
+			console.error('Failed to log test result', e);
+		}
 
 		return {
 			success: true
