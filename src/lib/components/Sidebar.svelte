@@ -1,11 +1,12 @@
+<script lang="ts">
+	import Input from '$lib/components/Input.svelte';
+</script>
+
 <div class="sidebar">
 	<section class="mailinglist">
 		<p>Blijf op de hoogte van de belangrijkste updates:</p>
 		<form>
-			<label>
-				e-mailadres
-				<input type="email" name="email" required />
-			</label>
+			<Input label="e-mailadres" type="email" name="email" required />
 
 			<button>Abonneer</button>
 		</form>

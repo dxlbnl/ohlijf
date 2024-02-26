@@ -1,5 +1,5 @@
 <script>
-	import PageHeader from '$lib/PageHeader.svelte';
+	import PageHeader from '$lib/components/PageHeader.svelte';
 	import { results } from './store';
 </script>
 

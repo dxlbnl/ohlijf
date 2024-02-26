@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let reverse = false;
-	export let columns: string;
+	export let columns: string | undefined;
 </script>
 
 <section class="columns" class:reverse style:grid-template-columns={columns}>

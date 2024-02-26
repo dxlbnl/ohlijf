@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { results } from '../store';
 	import type { ActionData } from './$types';
+	import Input from '$lib/components/Input.svelte';
 
 	export let form: ActionData;
 </script>
@@ -17,22 +18,11 @@
 			ontvangt meteen een eerste advies over wat je hierna het beste kunt doen.
 		</p>
 
-		<label>
-			Voornaam:
-			<input type="text" name="naam" required />
-		</label>
+		<Input label="Voornaam:" type="text" name="naam" required />
+		<Input label="E-mail:" type="email" name="email" required />
+		<Input label="Opmerking:" type="textarea" name="opmerking" />
 
-		<label>
-			E-mail:
-			<input type="email" name="email" required />
-		</label>
-
-		<label>
-			Opmerking *:
-			<textarea name="opmerking" />
-		</label>
-
-		<p>
+		<p class="approve">
 			Hiermee ga ik akkoord om belangrijke updates te ontvangen. Ik kan me ieder moment
 			uitschrijven.
 		</p>
@@ -46,9 +36,9 @@
 <style>
 	button {
 		margin: 4rem 2rem;
+		margin-top: 1rem;
 	}
-	input,
-	textarea {
-		margin: 1rem 2rem;
+	.approve {
+		margin-top: 2rem;
 	}
 </style>

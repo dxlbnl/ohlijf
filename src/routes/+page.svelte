@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Header from '$lib/Header.svelte';
-	import Content from '$lib/Content.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Content from '$lib/components/Content.svelte';
 	import WieZijnWij from './WieZijnWij.svelte';
-	import ImageCard from '$lib/ImageCard.svelte';
-	import Columns from '$lib/Columns.svelte';
+	import ImageCard from '$lib/components/ImageCard.svelte';
+	import Columns from '$lib/components/Columns.svelte';
 </script>
 
 <Header>

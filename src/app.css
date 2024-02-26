@@ -257,6 +257,7 @@ a,
 input[type='text'],
 textarea,
 input[type='email'] {
+	font-family: 'Raleway', sans-serif;
 	display: block;
 
 	box-shadow: var(--box-shadow);

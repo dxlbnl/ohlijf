@@ -1,5 +1,5 @@
 <script>
-	import Columns from '$lib/Columns.svelte';
+	// import Columns from '$lib/components/Columns.svelte';
 </script>
 
 <section class="wiezijnwij">
@@ -8,20 +8,21 @@
 	<article>
 		<h2>Maak kennis met:<br /> Robin en Aurinke</h2>
 		<p>
-			De drijvende krachten achter OhLijf. Ooit worstelden we zelf met chronische klachten: van hoofdpijn
-			tot **extreme vermoeidheid**, <a href="/ons">lees hier ons verhaal.</a>
+			De drijvende krachten achter OhLijf. Ooit worstelden we zelf met chronische klachten: van
+			hoofdpijn tot **extreme vermoeidheid**, <a href="/ons">lees hier ons verhaal.</a>
 		</p>
 		<p>
-			We moesten jarenlang zoeken maar de weg naar herstel bleek simpel met de juiste methode. 
-			We leven weer vol energie en gunnen jou deze **krachtige transformatie** ook! 
-			Daarom delen we onze kennis en ervaring om jou te helpen.
+			We moesten jarenlang zoeken maar de weg naar herstel bleek simpel met de juiste methode. We
+			leven weer vol energie en gunnen jou deze **krachtige transformatie** ook! Daarom delen we
+			onze kennis en ervaring om jou te helpen.
 		</p>
 		<p>
-			OhLijf biedt praktische (online) trainingen voor **blijvend herstel** op jouw tempo. 
-			Laat ons je begeleiden met lichtheid en een glimlach..
+			OhLijf biedt praktische (online) trainingen voor **blijvend herstel** op jouw tempo. Laat ons
+			je begeleiden met lichtheid en een glimlach..
 		</p>
 		<p>
-		<a href="#">Klaar voor de eerste stap?</a>
+			<a href="#">Klaar voor de eerste stap?</a>
+		</p>
 	</article>
 </section>
 

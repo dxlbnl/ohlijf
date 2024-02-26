@@ -5,7 +5,7 @@ foto: /boombast.jpeg
 ---
 
 <script>
-  import Columns from '$lib/Columns.svelte'
+  import Columns from '$lib/components/Columns.svelte'
 </script>
 
 

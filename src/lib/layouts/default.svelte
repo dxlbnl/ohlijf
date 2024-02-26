@@ -1,18 +1,21 @@
 <script>
-	import PageHeader from '$lib/PageHeader.svelte';
-	import Sidebar from '$lib/Sidebar.svelte';
+	import PageHeader from '$lib/components/PageHeader.svelte';
+	import Sidebar from '$lib/components/Sidebar.svelte';
 
 	export let titel = '';
 	export let omschrijving = '';
 	export let foto = '/boombast.jpeg';
+	export let sidebar = false;
 </script>
 
 <PageHeader {titel} {omschrijving} {foto} />
 
-<main class="content-with-sidebar">
+<main class:content-with-sidebar={sidebar} class:content={!sidebar}>
 	<slot />
 
-	<Sidebar />
+	{#if sidebar}
+		<Sidebar />
+	{/if}
 </main>
 
 <style>

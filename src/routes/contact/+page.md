@@ -1,17 +1,26 @@
 ---
 titel: Contact
+omschrijving: Laat hier je gegevens achter
 ---
 
-# Neem contact op met Aurinke en Robin
+<script>
+  import Input from '$lib/components/Input.svelte'
+</script>
 
-Heb je een vraag of suggestie? Robin en Aurinke vinden het leuk om van je te horen.
+## Neem contact op met Aurinke en Robin
+
+<p class='large'>
+  Heb je een vraag of suggestie? Robin en Aurinke vinden het leuk om van je te horen.
+</p>
 
 Stuur een berichtje via onderstaand contactformulier:
 
-Naam: [vak]
-E-mail: [vak]
-Bericht: [groot vak]
+<form method='post' action='/?/contact' >
+  <Input label='Naam:' name='name' />
+  <Input label='E-mail:' name='email' type='email' />
+  <Input label='Bericht:' name='message' type='textarea' />
 
-[verzend]
+  <button>Verzend</button>
+</form>
 
 

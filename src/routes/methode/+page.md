@@ -1,5 +1,6 @@
 ---
 titel: De OhLijf-methode
+sidebar: true
 ---
 
 Bij OhLijf werken we met een methode gebaseerd op de nieuwste inzichten in en onderzoeken naar aanhoudende lichamelijke klachten.

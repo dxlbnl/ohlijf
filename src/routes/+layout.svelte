@@ -12,7 +12,7 @@
 	const menuSchema = z.array(z.object({ path: z.string(), label: z.string() }));
 	const menu = menuSchema.parse(menuData);
 
-	import Navigation from '$lib/Navigation.svelte';
+	import Navigation from '$lib/components/Navigation.svelte';
 </script>
 
 <Navigation {menu} />
