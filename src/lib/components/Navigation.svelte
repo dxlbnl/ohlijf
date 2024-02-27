@@ -157,8 +157,9 @@
 
 	@container nav (max-width: 760px) {
 		nav > ul {
+			display: none;
 			position: fixed;
-			right: -100%;
+			/* right: -100%; */
 			grid-auto-flow: row;
 			top: var(--nav-height);
 			background: white;
@@ -174,6 +175,7 @@
 		}
 		#menu_state:checked ~ ul {
 			right: 0 !important;
+			display: inherit;
 		}
 	}
 </style>

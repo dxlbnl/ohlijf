@@ -1,26 +1,33 @@
 <script lang="ts">
 	export let reverse = false;
-	export let columns: string | undefined;
 </script>
 
-<section class="columns" class:reverse style:grid-template-columns={columns}>
+<section class="columns" class:reverse>
 	<slot />
 </section>
 
 <style>
 	.columns {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
 		align-items: center;
 
-		grid-gap: 4rem;
+		gap: 4rem;
+		/* overflow: hidden; */
 	}
 
-	.columns > :global(img) {
-		margin-top: 3rem;
+	@media (max-width: 600px) {
+		.columns {
+			grid-template-columns: auto;
+			gap: 1rem;
+		}
 	}
 
 	.reverse {
 		direction: rtl;
+
+		& > * {
+			direction: ltr;
+		}
 	}
 </style>

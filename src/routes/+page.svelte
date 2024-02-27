@@ -19,7 +19,7 @@
 
 <main>
 	<Content>
-		<Columns columns="minmax(250px, 1fr) minmax(400px, 2fr)">
+		<Columns>
 			<ImageCard src="/hoofdpijn.jpg" alt="Een vrouw met zichtbare hoofdpijn" />
 			<article>
 				<h2 class="heading">De verlamming van pijn..</h2>
@@ -36,7 +36,7 @@
 			</article>
 		</Columns>
 
-		<Columns reverse columns="minmax(250px, 1fr) minmax(400px, 2fr)">
+		<Columns reverse>
 			<ImageCard src="/vrijheid.jpg" alt="Een vrouw springt op een pad in een groene vallei" />
 			<article>
 				<h2 class="heading">Overwin je symptomen</h2>
