@@ -2,13 +2,42 @@
 	import { page } from '$app/stores';
 
 	export let menu: { path: string; label: string }[] = [];
+	let menuOpen = false;
+	let navEl: HTMLElement;
+
+	const closeMenu = (e: MouseEvent) => {
+		console.log('target', e.target);
+
+		let el: HTMLElement | null = e.target as HTMLElement;
+
+		if (el.tagName === 'A') {
+			menuOpen = false;
+		}
+
+		while ((el && el !== navEl) || el === document.body) {
+			el = el.parentElement;
+		}
+		if (el != navEl) {
+			menuOpen = false;
+		}
+	};
 </script>
 
-<nav>
+<nav bind:this={navEl}>
 	<a class="logo" href="/">
 		<h1><span style:color="var(--light-green)">Oh</span>Lijf</h1>
 		<img src="/logo.svg" alt="OhLijf logo" /></a
 	>
+
+	<input id="menu_state" type="checkbox" bind:checked={menuOpen} />
+	<label for="menu_state" class="menu-toggle">
+		<div class="icon">
+			<span />
+			<span />
+			<span />
+		</div>
+	</label>
+
 	{#if menu.length}
 		<ul>
 			{#each menu as item}
@@ -20,23 +49,53 @@
 	{/if}
 </nav>
 
+<svelte:body on:click={closeMenu} />
+
 <style>
 	nav {
+		--nav-height: 4.5rem;
+
 		grid-area: navigation;
 
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: minmax(20ch, auto) auto;
 		justify-content: space-between;
+		align-items: center;
 
-		height: 4.5rem;
-		padding: 0 4.5rem;
+		height: var(--nav-height);
+		padding: 0 var(--nav-height);
 		background: var(--white);
 
-		container-type: size;
 		container-name: nav;
+		container-type: size;
 
 		& * {
 			color: var(--green);
+		}
+
+		& > ul {
+			display: grid;
+			grid-auto-flow: column;
+			justify-items: end;
+			align-items: center;
+			gap: 1rem;
+
+			padding: 0;
+			margin: 0;
+			list-style: none;
+
+			color: white;
+			font-size: 20px;
+			font-weight: 600;
+
+			transition-duration: 0.25s;
+
+			& > li {
+				white-space: nowrap;
+			}
+			& a {
+				text-decoration: none;
+			}
 		}
 	}
 
@@ -59,26 +118,62 @@
 		}
 	}
 
-	ul {
-		display: grid;
-		grid-auto-flow: column;
-		justify-items: end;
-		align-items: center;
-		gap: 1rem;
+	.menu-toggle {
+		display: none;
 
-		padding: 0;
-		margin: 0;
-		list-style: none;
+		& .icon {
+			width: 2rem;
+			height: 2rem;
+			cursor: pointer;
 
-		color: white;
-		font-size: 20px;
-		font-weight: 600;
+			display: grid;
+			grid-auto-flow: row;
+			grid-auto-rows: 1fr;
+			align-items: center;
 
-		& > * {
-			white-space: nowrap;
+			& > span {
+				width: 100%;
+				height: 4px;
+				background-color: var(--green);
+				transition-duration: 0.25s;
+			}
 		}
-		& a {
-			text-decoration: none;
+	}
+	#menu_state {
+		opacity: 0;
+		display: contents;
+		&:checked + .menu-toggle > .icon {
+			grid-template-areas: 'stack';
+			& > span {
+				grid-area: stack;
+				position: rel;
+				transform: rotate(45deg);
+				&:last-child {
+					transform: rotate(135deg);
+				}
+			}
+		}
+	}
+
+	@container nav (max-width: 760px) {
+		nav > ul {
+			position: fixed;
+			right: -100%;
+			grid-auto-flow: row;
+			top: var(--nav-height);
+			background: white;
+			box-shadow: var(--box-shadow);
+		}
+		nav > ul > li > a {
+			display: block;
+			padding: 0.5rem 1rem;
+		}
+
+		.menu-toggle {
+			display: inherit;
+		}
+		#menu_state:checked ~ ul {
+			right: 0 !important;
 		}
 	}
 </style>
