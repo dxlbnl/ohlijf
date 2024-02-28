@@ -8,7 +8,7 @@ mailchimp.setConfig({
 });
 
 export const actions = {
-	async contact({ request }) {
+	async mailinglist({ request }) {
 		const data = Object.fromEntries(await request.formData());
 
 		if (!data.name || !data.name) {

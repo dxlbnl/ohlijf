@@ -32,7 +32,6 @@
 		background-color: rgba(255, 229, 214, 0.25);
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		grid-gap: 2rem;
 	}
 	img {
 		height: 100%;
@@ -42,5 +41,6 @@
 		margin-top: var(--wave-height);
 		margin-bottom: 4rem;
 		max-width: 30rem;
+		margin-inline: 2rem;
 	}
 </style>
