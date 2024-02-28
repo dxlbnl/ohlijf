@@ -10,7 +10,6 @@
 		<slot />
 	</main>
 </div>
-<pre>{JSON.stringify($results, null, 2)}</pre>
 
 <style>
 	div {
@@ -30,6 +29,16 @@
 
 		& * + p {
 			margin-top: 0;
+		}
+		& h2 {
+			margin-top: 0;
+		}
+	}
+
+	@media (max-width: 600px) {
+		main {
+			margin-block: 2rem;
+			padding: 2rem;
 		}
 	}
 </style>

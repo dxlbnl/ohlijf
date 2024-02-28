@@ -37,7 +37,7 @@
 
 		display: grid;
 		grid-auto-flow: column;
-		margin: 4rem;
+		margin: 2rem;
 		justify-content: start;
 		gap: 2rem;
 	}
@@ -45,6 +45,15 @@
 	p {
 		& :global(ul > li) {
 			margin-block: 0.5rem;
+		}
+	}
+
+	@media (max-width: 600px) {
+		ul {
+			grid-auto-flow: row;
+			margin-block: 1rem;
+			padding: 1rem;
+			gap: 1rem;
 		}
 	}
 </style>

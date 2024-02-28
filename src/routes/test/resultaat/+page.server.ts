@@ -2,6 +2,7 @@ import { MAILCHIMP_API_KEY } from '$env/static/private';
 import mailchimp from '@mailchimp/mailchimp_marketing';
 import { error } from '@sveltejs/kit';
 import { db, testResult, type NewTestResult } from '$lib/database';
+import { transporter } from '$lib/mail';
 
 mailchimp.setConfig({
 	apiKey: MAILCHIMP_API_KEY,
@@ -10,14 +11,13 @@ mailchimp.setConfig({
 
 const listId = '24d1c1cc3a';
 
-console.log(MAILCHIMP_API_KEY);
 export const actions = {
 	async default({ request }) {
 		const data = await request.formData();
-		const naam = data.get('naam') as string;
+		const name = data.get('naam') as string;
 		const email = data.get('email') as string;
 
-		if (!naam || !email) {
+		if (!name || !email) {
 			error(400, 'Naam en email zijn verplicht');
 		}
 
@@ -27,7 +27,7 @@ export const actions = {
 		);
 
 		const result: NewTestResult = {
-			name: naam,
+			name,
 			email,
 			note: data.get('opmerking') as string,
 			results: resultaten
@@ -56,6 +56,26 @@ export const actions = {
 		} catch (e) {
 			console.error('Failed to log test result', e);
 		}
+
+
+    try {
+      const info = await transporter.sendMail({
+        from: 'ohlijf@dexterlabs.nl',
+        to: 'info@ohlijf.com, ohlijf@dexterlabs.nl',
+        subject: `Ingevoerde test van ${name}`,
+        text: [
+          'Hoi Ohlijf,\n',
+          `Er is een test gemaakt door ${name}(${email}) op ohlijf.com.\n`,
+          `---\n${JSON.stringify(result.results, null, 2)}\n---`,
+          `Opmerking: ${result.note},`
+        ].join('\n')
+      })
+      
+      console.log("Message sent: %s", info.messageId);
+		} catch (e) {
+			console.error('Failed to send email:', e);
+		}
+
 
 		return {
 			success: true

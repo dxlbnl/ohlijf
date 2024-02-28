@@ -16,7 +16,7 @@ sidebar: false
 
 Stuur een berichtje via onderstaand contactformulier:
 
-<form method='post' action='/?/contact' >
+<form method='post' >
   <Input label='Naam:' name='name' />
   <Input label='E-mail:' name='email' type='email' />
   <Input label='Bericht:' name='message' type='textarea' />

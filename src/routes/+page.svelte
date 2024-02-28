@@ -14,7 +14,7 @@
 		echte oorzaak aan te pakken is 100% herstel mogelijk.
 	</p>
 	<p class="subheader white bold">Check of jij van je klachten af kan komen met onze methode:</p>
-	<button class="cta">Doe de test</button>
+	<a class="cta" href="/test">Doe de test</a>
 </Header>
 
 <main>

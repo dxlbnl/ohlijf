@@ -10,7 +10,7 @@
 	--white: white;
 	--black: black;
 
-	--rounded: 1.5rem;
+	--rounded: 1rem;
 
 	--wave-height: 4dvw;
 
@@ -91,7 +91,7 @@ button {
 	background: var(--_background);
 	border-radius: var(--rounded);
 	border: 2px solid var(--black);
-	padding: 1rem 5rem;
+	padding: .5rem 2rem;
 	box-shadow: var(--box-shadow);
 	text-align: center;
 
