@@ -163,8 +163,8 @@ a {
 .content-with-sidebar {
 	--gap: clamp(1rem, 6vw, 3rem);
 	--full: minmax(var(--gap), 1fr);
-	--content: min(80ch, 70% - var(--gap));
-	--sidebar: min(20ch, 30% - var(--gap) * 2);
+	--content: min(80ch, 60% - var(--gap));
+	--sidebar: min(30ch, 40% - var(--gap) * 2);
 	--popout: minmax(0, 2rem);
 	--feature: minmax(0, 5rem);
 
@@ -200,6 +200,20 @@ a {
 		grid-row: 1/100000000;
 	}
 }
+
+@media (max-width: 600px) {
+  .content-with-sidebar {
+    --content: min(100ch, 100% - 2 * var(--gap));
+    --sidebar: 0;
+
+    & .sidebar {
+      grid-column: content;
+      grid-row: auto;
+    }
+  }
+}
+
+
 
 /* Typography */
 
