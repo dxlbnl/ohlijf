@@ -1,6 +1,7 @@
 ---
 titel: Over ons
 sidebar: true
+foto: /Vrouw armen wijd.jpg
 ---
 ![Robin en Aurinke happy in speeltuin](/Aurinke-Robin-happy.jpeg)
 Wij zijn **Robin & Aurinke** en we hebben heel wat doorstaan om af te komen van chronische pijn en onbegrepen klachten. En raad eens? Het is ons gelukt! Die ervaring heeft ons heel erg gemotiveerd om anderen te helpen in hun **zoektocht naar herstel**, en zo is OhLijf ontstaan.

@@ -2,6 +2,7 @@
 titel: Contact
 omschrijving: Laat hier je gegevens achter
 sidebar: false
+foto: /Vrouw armen wijd.jpg
 ---
 
 <script>
