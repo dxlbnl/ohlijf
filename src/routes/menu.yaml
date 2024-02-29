@@ -1,10 +1,10 @@
-- label: Doe de test
+- label: Doe de test!
   path: /test
 
-- label: De methode
+- label: Onze aanpak
   path: /methode
 
-- label: De training
+- label: Onze training
   path: /mind-body-training  
 
 - label: Over ons
@@ -12,5 +12,3 @@
 
 - label: Contact
   path: /contact
-
-  
