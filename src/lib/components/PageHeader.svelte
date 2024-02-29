@@ -1,7 +1,7 @@
 <script>
 	export let titel = '';
 	export let omschrijving = '';
-	export let foto = '/boombast.jpeg';
+	export let foto = '/Vrouw armen wijd.jpeg';
 </script>
 
 <header class="stack" class:expanded={titel && omschrijving}>
