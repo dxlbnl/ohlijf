@@ -18,16 +18,6 @@ const config = {
 		adapter: adapter({
       images: {
         domains: [],
-        remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: '**.vercel.app',
-          },
-          {
-            protocol: 'https',
-            hostname: '**.ohlijf.com',
-          },
-        ],
         sizes: [640, 828, 1200, 1920, 3840],
         formats: ['image/avif', 'image/webp'],
         minimumCacheTTL: 300
