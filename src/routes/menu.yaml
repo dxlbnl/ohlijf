@@ -4,12 +4,13 @@
 - label: De methode
   path: /methode
 
+- label: De training
+  path: /mind-body-training  
+
 - label: Over ons
   path: /ons
 
 - label: Contact
   path: /contact
 
-- label: De training
-  path: /mind-body-training
   
