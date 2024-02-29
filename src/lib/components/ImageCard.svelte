@@ -7,7 +7,7 @@
 
 <style>
 	img {
-		border: 3px solid #3a8033;
+		border: 3px solid var(--light-green);
 		border-radius: 25px;
 		filter: drop-shadow(var(--box-shadow));
 

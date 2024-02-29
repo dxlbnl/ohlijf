@@ -20,7 +20,7 @@
 <main>
 	<Content>
 		<Columns>
-			<ImageCard src="/hoofdpijn.jpg" alt="Een vrouw met zichtbare hoofdpijn" />
+			<ImageCard src="/images/home/hoofdpijn.jpg" alt="Een vrouw met zichtbare hoofdpijn" />
 			<article>
 				<h2 class="heading">De verlamming van pijn..</h2>
 				<p>Wij kennen het maar al te goed...</p>
@@ -37,7 +37,10 @@
 		</Columns>
 
 		<Columns reverse>
-			<ImageCard src="/vrijheid.jpg" alt="Een vrouw springt op een pad in een groene vallei" />
+			<ImageCard
+				src="/images/home/vrijheid.jpg"
+				alt="Een vrouw springt op een pad in een groene vallei"
+			/>
 			<article>
 				<h2 class="heading">Overwin je symptomen</h2>
 				<p>

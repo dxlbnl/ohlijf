@@ -267,6 +267,9 @@ a,
 .large {
 	font-size: 20px;
 }
+.bold {
+  font-weight: 600;
+}
 
 input[type='text'],
 textarea,

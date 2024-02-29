@@ -17,14 +17,14 @@
 
 		<article>
 			<a class="article" href="/ons">
-				<img src="/robin-aurinke.jpeg" />
+				<img src="/images/default/robin-aurinke.jpeg" />
 				<h3>Over ons</h3>
 				<p>Lees het verhaal van Robin & Aurinke en waarom zij OhLijf zijn gestart.</p>
 			</a>
 		</article>
 		<article>
 			<a class="article" href="/test">
-				<img src="/test.png" />
+				<img src="/images/default/test.png" />
 				<h3>Doe de test</h3>
 				<p>
 					Test hier of jij ook een klachtenvrij leven kan leiden door de echte oorzaak aan te

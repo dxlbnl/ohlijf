@@ -1,6 +1,6 @@
 <header class="stack">
 	<section class="background">
-		<img class="background" width="100%" src="strand.jpg" alt="swinging" />
+		<img class="background" width="100%" src="/images/home/vrouw-blij-header.jpg" alt="swinging" />
 	</section>
 	<section class="waas" />
 
