@@ -9,15 +9,15 @@
 		<h2>Maak kennis met:<br /> Robin en Aurinke</h2>
 		<p>
 			De drijvende krachten achter OhLijf. Ooit worstelden we zelf met chronische klachten: van
-			hoofdpijn tot **extreme vermoeidheid**, <a href="/ons">lees hier ons verhaal.</a>
+			hoofdpijn tot <b> extreme vermoeidheid </b>, <a href="/ons">lees hier ons verhaal.</a>
 		</p>
 		<p>
 			We moesten jarenlang zoeken maar de weg naar herstel bleek simpel met de juiste methode. We
-			leven weer vol energie en gunnen jou deze **krachtige transformatie** ook! Daarom delen we
+			leven weer vol energie en gunnen jou deze <b> krachtige transformatie </b> ook! Daarom delen we
 			onze kennis en ervaring om jou te helpen.
 		</p>
 		<p>
-			OhLijf biedt praktische (online) trainingen voor **blijvend herstel** op jouw tempo. Laat ons
+			OhLijf biedt praktische (online) trainingen voor <b> blijvend herstel </b> op jouw tempo. Laat ons
 			je begeleiden met lichtheid en een glimlach..
 		</p>
 		<p>
