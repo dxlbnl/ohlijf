@@ -1,8 +1,7 @@
 ---
 titel: De OhLijf-methode
-omschrijving:  
-sidebar: true
-foto: /Vrouw armen wijd.jpg
+omschrijving:  Op deze pagina lees je de opzet van de Ohlijf-methode en het ontstaan hiervan
+sidebar: false
 
 ---
 

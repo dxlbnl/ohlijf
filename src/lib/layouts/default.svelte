@@ -4,7 +4,7 @@
 
 	export let titel = '';
 	export let omschrijving = '';
-	export let foto = '/boombast.jpeg';
+	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
 </script>
 

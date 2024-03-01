@@ -1,13 +1,16 @@
 <script>
+	import Image from './Image.svelte';
+
 	export let titel = '';
 	export let omschrijving = '';
-	export let foto = '/Vrouw armen wijd.jpeg';
+	export let foto = 'default/armen-wijd';
+	export let fotoAlt = 'een vrouw met armen wijd';
 </script>
 
 <header class="stack" class:expanded={titel && omschrijving}>
 	{#if foto}
 		<div class="bg">
-			<img alt="" src={foto} />
+			<Image name={foto} alt={fotoAlt} />
 		</div>
 	{/if}
 
@@ -26,15 +29,17 @@
 		min-height: 8rem;
 		color: white;
 
-		& h1 {
+		/* & h1 {
 			font-size: 3rem;
 			text-align: center;
 			color: white;
+		} */
+
+		& .page-description {
+			font-size: 26px;
 		}
 
 		&.expanded {
-			font-size: 2rem;
-
 			& section {
 				margin-block: 4rem;
 				& h1 {
