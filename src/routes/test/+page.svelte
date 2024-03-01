@@ -6,7 +6,7 @@
 	Ben je benieuwd wat de <b>echte oorzaak</b> is voor jouw aanhoudende klachten? Test hier of de methode
 	van OhLijf jou kan helpen richting herstel.
 </p>
-<p>De test bestaat uit 14 vragen en duurt ongeveer <b>4 minuten.</b></p>
+<p>De test bestaat uit 12 vragen en duurt ongeveer <b>4 minuten.</b></p>
 <p>
 	Je krijgt de <b>resultaten</b> toegestuurd per mail en <b>advies</b> welke stappen je nu kunt nemen.
 </p>
