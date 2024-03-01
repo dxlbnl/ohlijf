@@ -28,12 +28,6 @@
 	header {
 		min-height: 8rem;
 
-		/* & h1 {
-			font-size: 3rem;
-			text-align: center;
-			color: white;
-		} */
-
 		& .title {
 			color: white;
 		}
@@ -49,7 +43,6 @@
 				& h1 {
 					color: white;
 					margin-block: 0.5rem;
-					letter-spacing: 4px;
 				}
 			}
 		}
