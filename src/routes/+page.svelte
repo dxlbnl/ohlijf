@@ -2,7 +2,7 @@
 	import Header from '$lib/components/Header.svelte';
 	import Content from '$lib/components/Content.svelte';
 	import WieZijnWij from './WieZijnWij.svelte';
-	import ImageCard from '$lib/components/ImageCard.svelte';
+	import Image from '$lib/components/Image.svelte';
 	import Columns from '$lib/components/Columns.svelte';
 </script>
 
@@ -20,7 +20,12 @@
 <main>
 	<Content>
 		<Columns>
-			<ImageCard src="/hoofdpijn.jpg" alt="Een vrouw met zichtbare hoofdpijn" />
+			<Image
+				name="home/hoofdpijn"
+				sizes={[200, 400, 600]}
+				base={600}
+				alt="Een vrouw met zichtbare hoofdpijn"
+			/>
 			<article>
 				<h2 class="heading">De verlamming van pijn..</h2>
 				<p>Wij kennen het maar al te goed...</p>
@@ -37,7 +42,12 @@
 		</Columns>
 
 		<Columns reverse>
-			<ImageCard src="/vrijheid.jpg" alt="Een vrouw springt op een pad in een groene vallei" />
+			<Image
+				name="home/vrijheid"
+				sizes={[200, 400, 600]}
+				base={600}
+				alt="Een vrouw springt op een pad in een groene vallei"
+			/>
 			<article>
 				<h2 class="heading">Overwin je symptomen</h2>
 				<p>
@@ -77,11 +87,20 @@
 		margin-block: 4rem;
 		text-align: center;
 		& button {
-			background: rgba(255, 213, 0, 1);
+			background: rgb(119, 119, 118);
 			font-style: italic;
 		}
 	}
 
+	main :global(img) {
+		border: 3px solid #3a8033;
+		border-radius: 25px;
+		filter: drop-shadow(var(--box-shadow));
+
+		aspect-ratio: 12/8;
+		object-fit: cover;
+		width: 100%;
+	}
 	.title {
 		margin-bottom: 0;
 	}

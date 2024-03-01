@@ -26,7 +26,7 @@
 <nav bind:this={navEl}>
 	<a class="logo" href="/">
 		<h1><span style:color="var(--light-green)">Oh</span>Lijf</h1>
-		<img src="/logo.svg" alt="OhLijf logo" /></a
+		<img src="/logo.svg" alt="OhLijf logo" width="60" height="56" /></a
 	>
 
 	<input id="menu_state" type="checkbox" bind:checked={menuOpen} />

@@ -1,6 +1,11 @@
+<script lang="ts">
+	import Image from '$lib/components/Image.svelte';
+</script>
+
 <header class="stack">
 	<section class="background">
-		<img class="background" width="100%" src="strand.jpg" alt="swinging" />
+		<!-- <img class="background" width="100%" src="strand.jpg" alt="swinging" /> -->
+		<Image name="home/vrouw-blij-header" alt="Een vrouw blij op het strand" />
 	</section>
 	<section class="waas" />
 
@@ -27,6 +32,10 @@
 			position: relative;
 			z-index: -10;
 
+			& > picture {
+				position: relative;
+				height: 100%;
+			}
 			& > img {
 				position: absolute;
 				inset: 0;
