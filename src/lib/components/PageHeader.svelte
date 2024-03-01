@@ -27,7 +27,6 @@
 <style>
 	header {
 		min-height: 8rem;
-		color: white;
 
 		/* & h1 {
 			font-size: 3rem;
@@ -35,8 +34,13 @@
 			color: white;
 		} */
 
+		& .title {
+			color: white;
+		}
+
 		& .page-description {
 			font-size: 26px;
+			color: white;
 		}
 
 		&.expanded {

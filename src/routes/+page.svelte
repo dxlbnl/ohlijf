@@ -21,6 +21,7 @@
 	<Content>
 		<Columns>
 			<Image
+				class="image"
 				name="home/hoofdpijn"
 				sizes={[200, 400, 600]}
 				base={600}
@@ -43,6 +44,7 @@
 
 		<Columns reverse>
 			<Image
+				class="image"
 				name="home/vrijheid"
 				sizes={[200, 400, 600]}
 				base={600}
@@ -92,15 +94,16 @@
 		}
 	}
 
-	main :global(img) {
-		border: 3px solid #3a8033;
-		border-radius: 25px;
-		filter: drop-shadow(var(--box-shadow));
-
-		aspect-ratio: 12/8;
-		object-fit: cover;
-		width: 100%;
+	.subheader {
+		width: 60%;
 	}
+
+	@media (max-width: 600px) {
+		.subheader {
+			width: auto;
+		}
+	}
+
 	.title {
 		margin-bottom: 0;
 	}

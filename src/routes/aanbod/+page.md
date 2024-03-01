@@ -1,7 +1,6 @@
 ---
 titel: De standaard pagina
 omschrijving: Korte omschrijving van wat er op de standaard pagina allemaal wordt omschreven.
-foto: /boombast.jpeg
 ---
 
 <script>

@@ -25,7 +25,7 @@
 			ons je begeleiden met lichtheid en een glimlach..
 		</p>
 		<p>
-			<a href="#">Klaar voor de eerste stap?</a>
+			<a href="/methode">Klaar voor de eerste stap?</a>
 		</p>
 	</article>
 </section>
@@ -36,15 +36,16 @@
 		background-color: rgba(255, 229, 214, 0.25);
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+		& article {
+			margin-top: var(--wave-height);
+			margin-bottom: 4rem;
+			max-width: 30rem;
+			margin-inline: 2rem;
+		}
 	}
-	img {
+	.wiezijnwij :global(img) {
 		height: 100%;
 		object-fit: cover;
-	}
-	article {
-		margin-top: var(--wave-height);
-		margin-bottom: 4rem;
-		max-width: 30rem;
-		margin-inline: 2rem;
 	}
 </style>

@@ -85,7 +85,6 @@
 			list-style: none;
 
 			color: white;
-			font-size: 16px;
 			font-weight: 600;
 
 			transition-duration: 0.25s;
@@ -95,6 +94,11 @@
 			}
 			& a {
 				text-decoration: none;
+				transition: 0.25s;
+
+				&:hover {
+					color: var(--dark-green);
+				}
 			}
 		}
 	}

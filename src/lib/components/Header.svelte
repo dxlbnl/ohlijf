@@ -21,11 +21,11 @@
 		/* position: relative; */
 		/* aspect-ratio: 16/8; */
 		/* height: auto; */
-		min-height: 80dvh;
+		min-height: 70dvh;
 		overflow: hidden;
 
 		& > .content {
-			margin-bottom: 12rem;
+			margin-bottom: calc(2rem + var(--wave-height));
 		}
 
 		& > .background {
@@ -40,7 +40,7 @@
 				position: absolute;
 				inset: 0;
 				object-fit: cover;
-				object-position: 50% 30%;
+				object-position: 60% 30%;
 				height: 100%;
 				width: 100%;
 			}

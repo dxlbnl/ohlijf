@@ -6,6 +6,7 @@
 	--light-pink: #ffe5d6;
 	--light-green: #8bc385;
 	--green: #3a8033;
+	--dark-green: #1a3f16;
 	--yellow: #ffd500;
 	--white: white;
 	--black: black;
@@ -58,6 +59,16 @@ img {
 	background-size: cover;
 }
 
+.image {
+  border: 3px solid var(--light-green);
+  border-radius: 25px;
+  filter: drop-shadow(var(--box-shadow));
+
+  aspect-ratio: 12/8;
+  object-fit: cover;
+  width: 100%;
+}
+
 @keyframes rotate {
 	0% {
 		transform: rotate(-45deg);
@@ -67,20 +78,6 @@ img {
 	}
 }
 
-.cta {
-	padding: 0.5rem 1rem;
-	font-size: 20px;
-	padding-block: 0.8rem;
-	color: var(--black);
-	text-decoration: none;
-
-	/* font-style: italic; */
-
-	background: var(--yellow);
-	border-radius: var(--rounded);
-	border: 2px solid var(--black);
-	box-shadow: var(--box-shadow);
-}
 
 button {
 	--_background: var(--button-background, var(--light-green));
@@ -109,11 +106,6 @@ button {
 	& > :global(svg) {
 		animation: rotate 2s infinite;
 	}
-}
-
-a {
-	color: black;
-	font-weight: bold;
 }
 
 /* Layout */
@@ -201,20 +193,6 @@ a {
 	}
 }
 
-@media (max-width: 600px) {
-  .content-with-sidebar {
-    --content: min(100ch, 100% - 2 * var(--gap));
-    --sidebar: 0;
-
-    & .sidebar {
-      grid-column: content;
-      grid-row: auto;
-    }
-  }
-}
-
-
-
 /* Typography */
 
 .title {
@@ -255,7 +233,8 @@ h6 {
 
 a,
 .link {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 	color: var(--light-green);
 	text-decoration: underline;
 
@@ -280,3 +259,44 @@ input[type='email'] {
 	border-radius: 10px;
 	padding: 0.5rem;
 }
+
+
+
+.cta {
+	padding: 0.5rem 1rem;
+	font-size: 20px;
+	padding-block: 0.8rem;
+	color: var(--black);
+	text-decoration: none;
+
+	/* font-style: italic; */
+
+	background: var(--yellow);
+	border-radius: var(--rounded);
+	border: 2px solid var(--black);
+	box-shadow: var(--box-shadow);
+  transition: .25s;
+
+  &:hover {
+    background: #d6b404;
+    color: black;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-with-sidebar {
+    --content: min(100ch, 100% - 2 * var(--gap));
+    --sidebar: 0;
+
+    & .sidebar {
+      grid-column: content;
+      grid-row: auto;
+    }
+  }
+
+  .title {
+    font-size: 60px;
+  }
+  
+}
+
