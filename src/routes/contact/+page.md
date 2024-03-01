@@ -1,6 +1,6 @@
 ---
 titel: Contact
-omschrijving: Laat hier je gegevens achter
+omschrijving: Stuur een berichtje
 sidebar: false
 ---
 
