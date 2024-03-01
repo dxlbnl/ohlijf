@@ -34,12 +34,15 @@
 	ul {
 		list-style: none;
 		padding: 0;
-
 		display: grid;
 		grid-auto-flow: column;
 		margin: 2rem;
 		justify-content: start;
 		gap: 2rem;
+
+		& button {
+			width: 100%;
+		}
 	}
 
 	p {
@@ -54,6 +57,7 @@
 			margin-block: 1rem;
 			padding: 1rem;
 			gap: 1rem;
+			width: 20%;
 		}
 	}
 </style>
