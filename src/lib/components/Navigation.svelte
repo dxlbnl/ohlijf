@@ -175,6 +175,8 @@
 		nav > ul > li > a {
 			display: block;
 			padding: 0.5rem 1rem;
+			height: auto;
+			line-height: 1rem;
 		}
 
 		.menu-toggle {
