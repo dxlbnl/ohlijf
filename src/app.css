@@ -15,7 +15,7 @@
 
 	--wave-height: 8dvw;
 
-	--box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.35);
+	--box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.35);
 }
 
 * {
@@ -274,10 +274,12 @@ input[type='email'] {
 	background: var(--yellow);
 	border-radius: var(--rounded);
 	border: 2px solid var(--black);
-	box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+
   transition: .25s;
 
   &:hover {
+    box-shadow: none;
     background: #d6b404;
     color: black;
   }

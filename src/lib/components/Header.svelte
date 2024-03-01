@@ -7,7 +7,7 @@
 		<!-- <img class="background" width="100%" src="strand.jpg" alt="swinging" /> -->
 		<Image name="home/vrouw-blij-header" alt="Een vrouw blij op het strand" />
 	</section>
-	<section class="waas" />
+	<!-- <section class="waas" /> -->
 
 	<section class="content">
 		<slot />
@@ -32,17 +32,14 @@
 			position: relative;
 			z-index: -10;
 
-			& > picture {
-				position: relative;
-				height: 100%;
-			}
 			& > img {
 				position: absolute;
 				inset: 0;
 				object-fit: cover;
 				object-position: 60% 30%;
-				height: 100%;
+				height: 150%;
 				width: 100%;
+				top: -20%;
 			}
 		}
 

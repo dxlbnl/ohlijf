@@ -93,6 +93,9 @@
 				white-space: nowrap;
 			}
 			& a {
+				display: block;
+				height: 4.5rem;
+				line-height: 4.5rem;
 				text-decoration: none;
 				transition: 0.25s;
 
