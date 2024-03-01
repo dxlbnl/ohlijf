@@ -1,5 +1,6 @@
 ---
 titel: De OhLijf-methode
+Omschrijving: Wat is onze aanpak?
 sidebar: true
 ---
 

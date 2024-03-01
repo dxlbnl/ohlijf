@@ -1,5 +1,6 @@
 ---
-titel: Training voor herstel van aanhoudende vermoeidheid en Post Covid
+titel: Training
+omschrijving: Training voor herstel van aanhoudende vermoeidheid en Post Covid
 ---
 
 ## Je zou zo graag alles weer kunnen
