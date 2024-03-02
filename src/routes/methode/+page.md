@@ -12,7 +12,7 @@ Voor we die gaan uitleggen, even dit. Wij – de oprichters van OhLijf Aurinke e
 ## De methode van OhLijf is gebaseerd op een mind-body-gerichte methode.
 En dat maakt het lastig voor ons. Die mind-body-methode klinkt namelijk al snel vrij ongelooflijk. Je kan er 100% van je klachten mee herstellen en toch gebruiken niet alle behandelaars hem?
  
-Dat klopt. Gelukkig passen steeds meer mensen de methode toe (de Verenigde Staten lijkt hierin wat voor te lopen) en wij gaan mee in die stroom pioniers die het aandurven de methode volop toe te passen. Want **we zien de fantastische resultaten bij mensen die dachten de rest van hun leven vast te zitten aan hun symptomen**. We hebben de methode succesvol op onszelf toegepast en zijn hersteld van jarenlange hevige symptomen. ([Lees hier meer over Aurinke en Robin](www.ohlijf.com/ons))
+Dat klopt. Gelukkig passen steeds meer mensen de methode toe (de Verenigde Staten lijkt hierin wat voor te lopen) en wij gaan mee in die stroom pioniers die het aandurven de methode volop toe te passen. Want **we zien de fantastische resultaten bij mensen die dachten de rest van hun leven vast te zitten aan hun symptomen**. We hebben de methode succesvol op onszelf toegepast en zijn hersteld van jarenlange hevige symptomen. ([Lees hier meer over Aurinke en Robin](/ons))
  
 Dat gezegd hebbende, is het volgende allemaal op onderzoek gebaseerd. Er is nog veel onderzoek te doen en er loopt ook nog veel onderzoek op dit moment.
 
