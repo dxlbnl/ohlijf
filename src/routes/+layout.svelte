@@ -7,13 +7,11 @@
 
 	import '../app.css';
 	import menuData from './menu.yaml';
-	import { z } from 'zod';
 
-	const menuSchema = z.array(z.object({ path: z.string(), label: z.string() }));
-	const menu = menuSchema.parse(menuData);
-
-	import Navigation from '$lib/components/Navigation.svelte';
+	import Navigation, { menuSchema } from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+
+	const menu = menuSchema.parse(menuData);
 </script>
 
 <Navigation {menu} />

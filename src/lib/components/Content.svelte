@@ -19,4 +19,10 @@
 	main > :global(:not(.wave) + :not(.wave)) {
 		margin-top: 2rem;
 	}
+	main > :global(:not(.wave) + .wave) {
+		margin-top: 4rem;
+	}
+	main > :global(.wave + :not(.wave)) {
+		margin-top: 2rem;
+	}
 </style>

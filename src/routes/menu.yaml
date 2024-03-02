@@ -5,7 +5,8 @@
   path: /methode
 
 - label: Onze training
-  path: /training  
+  path: /training
+  special: true
 
 - label: Over ons
   path: /ons

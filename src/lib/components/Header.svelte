@@ -18,9 +18,6 @@
 	header {
 		grid-area: header;
 
-		/* position: relative; */
-		/* aspect-ratio: 16/8; */
-		/* height: auto; */
 		min-height: 70dvh;
 		overflow: hidden;
 

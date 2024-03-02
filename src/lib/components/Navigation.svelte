@@ -1,7 +1,20 @@
+<script context="module" lang="ts">
+	import { z } from 'zod';
+
+	export const menuSchema = z.array(
+		z.object({
+			path: z.string(),
+			label: z.string(),
+			special: z.boolean().optional()
+		})
+	);
+	export type Menu = z.infer<typeof menuSchema>;
+</script>
+
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	export let menu: { path: string; label: string }[] = [];
+	export let menu: Menu = [];
 	let menuOpen = false;
 	let navEl: HTMLElement;
 
@@ -41,7 +54,7 @@
 	{#if menu.length}
 		<ul>
 			{#each menu as item}
-				<li data-active={$page.url.pathname === item.path}>
+				<li data-active={$page.url.pathname === item.path} class:special={item.special}>
 					<a href={item.path}>{item.label}</a>
 				</li>
 			{/each}
@@ -69,8 +82,12 @@
 		container-name: nav;
 		container-type: size;
 
-		& * {
+		& a {
 			color: var(--green);
+		}
+
+		& .special a {
+			/* color: var(--pink); */
 		}
 
 		& > ul {
@@ -84,7 +101,6 @@
 			margin: 0;
 			list-style: none;
 
-			color: white;
 			font-weight: 600;
 
 			transition-duration: 0.25s;

@@ -23,7 +23,7 @@
 			<button
 				on:click={() => {
 					results.set(data.index, answer);
-					goto(data.next, { noScroll });
+					goto(data.next, { noScroll: true });
 				}}>{answer}</button
 			>
 		</li>
