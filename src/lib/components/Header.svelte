@@ -5,7 +5,7 @@
 <header class="stack">
 	<section class="background">
 		<!-- <img class="background" width="100%" src="strand.jpg" alt="swinging" /> -->
-		<Image name="home/strand" alt="Een vrouw blij op het strand" />
+		<Image name="home/hero-vaag.jpg" alt="Een vrouw blij op het strand" />
 	</section>
 	<!-- <section class="waas" /> -->
 
