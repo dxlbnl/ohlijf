@@ -25,7 +25,7 @@
 			ons je begeleiden met lichtheid en een glimlach..
 		</p>
 		<p>
-			<a href="/methode">Klaar voor de eerste stap?</a>
+			<a href="/training">Klaar voor de eerste stap?</a>
 		</p>
 	</article>
 </section>

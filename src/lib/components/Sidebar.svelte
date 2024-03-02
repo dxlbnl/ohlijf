@@ -68,6 +68,10 @@
 			padding: 1rem 2rem;
 			margin-block: 1rem;
 		}
+
+		& p {
+			font-size: 14px;
+		}
 	}
 
 	article {
@@ -86,7 +90,6 @@
 		}
 
 		& p {
-			font-size: 12px;
 			margin-block: 0;
 		}
 	}

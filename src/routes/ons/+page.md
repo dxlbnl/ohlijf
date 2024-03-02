@@ -2,7 +2,7 @@
 titel: Over ons
 sidebar: true
 ---
-![Robin en Aurinke happy in speeltuin](/Aurinke-Robin-happy.jpeg)
+![Robin en Aurinke happy in speeltuin](/images/home/Aurinke-Robin-happy.JPG)
 Wij zijn **Robin & Aurinke** en we hebben heel wat doorstaan om af te komen van chronische pijn en onbegrepen klachten. En raad eens? Het is ons gelukt! Die ervaring heeft ons heel erg gemotiveerd om anderen te helpen in hun **zoektocht naar herstel**, en zo is OhLijf ontstaan.
 
 Ons doel? Jou een stevige basis bieden voor een blijvend herstel. Wij leveren duidelijke (online) trainingen, zodat je op je eigen tempo kunt herstellen, wanneer het jou uitkomt.
