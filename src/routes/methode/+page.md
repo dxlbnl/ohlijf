@@ -16,7 +16,7 @@ Dat klopt. Gelukkig passen steeds meer mensen de methode toe (de Verenigde State
  
 Dat gezegd hebbende, is het volgende allemaal op onderzoek gebaseerd. Er is nog veel onderzoek te doen en er loopt ook nog veel onderzoek op dit moment.
 
-![Vrouw leunt tegen boom=400 600 800](/images/pages/vrouw-boom)
+![Vrouw leunt tegen boom=400 600 800](/pages/vrouw-boom)
 
 Goed, nu over naar de OhLijf-methode.
  
