@@ -44,4 +44,4 @@ Hadden we al gezegd dat je niet hoeft te leren leven met je klachten?
 
 **De OhLijf-methode gaat voor 100% herstel van je klachten.**
  
-[Klik hier voor meer informatie over de online training.](/test)
+[Klik hier voor meer informatie over de online training.](/training)
