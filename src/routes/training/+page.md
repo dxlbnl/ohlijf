@@ -14,6 +14,8 @@ Hoe zou het voor jou zijn als je **alles weer kon**? Wat is dat ene ding dat je 
 Wij kennen je struggles maar al te goed. Oprichter van OhLijf Aurinke zat meer dan 2 jaar thuis op de bank als een hoopje ellende. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
 Pas toen ze in aanraking kwam met de mind-body-visie kwam haar herstel op gang. En nu runt ze OhLijf en werkt ze aan een mooie toekomst!
 
+![Blij koppel grasvel](/pages/Blij koppel grasveld)
+
 ### Gun jezelf je herstel
 Voor jou is dit ook mogelijk. Wij hebben de OhLijf-methode ontwikkeld, gebaseerd op de nieuwste onderzoeken in de mind-body-visie.
 
