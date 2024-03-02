@@ -1,14 +1,35 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+	import { enhance, applyAction } from '$app/forms';
 	import Input from '$lib/components/Input.svelte';
+	import { goto } from '$app/navigation';
+	let posting = false;
 </script>
 
 <div class="sidebar">
 	<section class="mailinglist">
 		<p>Blijf op de hoogte van de belangrijkste updates:</p>
-		<form>
+		<form
+			method="POST"
+			action="/?/mailinglist"
+			use:enhance={() => {
+				posting = true;
+				return async ({ update, result }) => {
+					if (result.type === 'redirect') {
+						goto(result.location);
+					} else {
+						await applyAction(result);
+					}
+					// Set invalidateAll to false if you don't want to reload page data when submitting
+					update({ invalidateAll: true }).finally(async () => {
+						posting = false;
+					});
+				};
+			}}
+		>
 			<Input label="e-mailadres" type="email" name="email" required />
 
-			<button>Abonneer</button>
+			<button disabled={posting}>Abonneer</button>
 		</form>
 	</section>
 

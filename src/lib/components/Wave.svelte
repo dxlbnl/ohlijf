@@ -33,7 +33,7 @@
 
 <style>
 	svg {
-		height: var(--wave-height);
+		height: calc(2px + var(--wave-height));
 		width: 100vw;
 		z-index: 1;
 	}
