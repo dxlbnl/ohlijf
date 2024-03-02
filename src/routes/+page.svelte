@@ -4,7 +4,6 @@
 	import WieZijnWij from './WieZijnWij.svelte';
 	import Image from '$lib/components/Image.svelte';
 	import Columns from '$lib/components/Columns.svelte';
-	import TestBanner from '$lib/components/TestBanner.svelte';
 </script>
 
 <Header>
@@ -46,7 +45,7 @@
 		<Columns reverse>
 			<Image
 				class="image"
-				name="strand.jpg"
+				name="home/vrijheid"
 				sizes={[200, 400, 600]}
 				base={600}
 				alt="Een vrouw springt op een pad in een groene vallei"
@@ -65,7 +64,7 @@
 					Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis
 					naar een vrij leven zonder klachten
 				</p>
-				<a href="/methode">Klaar voor een positieve verandering?</a>
+				<a href="/symptomen">Klaar voor een positieve verandering?</a>
 			</article>
 		</Columns>
 
@@ -74,13 +73,25 @@
 
 	<WieZijnWij />
 
-	<TestBanner />
+	<section class="content call-to-action">
+		<h2>Is een klachtenvrij leven voor mij mogelijk?</h2>
+		<a href="/test" class="cta center">Doe de test!</a>
+	</section>
 </main>
 
 <style>
 	.cta {
 		margin-top: 3rem;
 		justify-self: center;
+	}
+
+	.call-to-action {
+		margin-block: 4rem;
+		text-align: center;
+		& button {
+			background: rgb(119, 119, 118);
+			font-style: italic;
+		}
 	}
 
 	.subheader {
