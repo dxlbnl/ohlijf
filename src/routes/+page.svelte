@@ -4,6 +4,7 @@
 	import WieZijnWij from './WieZijnWij.svelte';
 	import Image from '$lib/components/Image.svelte';
 	import Columns from '$lib/components/Columns.svelte';
+	import TestBanner from '$lib/components/TestBanner.svelte';
 </script>
 
 <Header>
@@ -73,25 +74,13 @@
 
 	<WieZijnWij />
 
-	<section class="content call-to-action">
-		<h2>Is een klachtenvrij leven voor mij mogelijk?</h2>
-		<a href="/test" class="cta center">Doe de test!</a>
-	</section>
+	<TestBanner />
 </main>
 
 <style>
 	.cta {
 		margin-top: 3rem;
 		justify-self: center;
-	}
-
-	.call-to-action {
-		margin-block: 4rem;
-		text-align: center;
-		& button {
-			background: rgb(119, 119, 118);
-			font-style: italic;
-		}
 	}
 
 	.subheader {
