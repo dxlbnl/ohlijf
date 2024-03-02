@@ -64,7 +64,7 @@
 					Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis
 					naar een vrij leven zonder klachten
 				</p>
-				<a href="/symptomen">Klaar voor een positieve verandering?</a>
+				<a href="/methode">Klaar voor een positieve verandering?</a>
 			</article>
 		</Columns>
 

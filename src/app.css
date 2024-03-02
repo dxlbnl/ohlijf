@@ -60,13 +60,13 @@ img {
 }
 
 .image {
-  border: 3px solid var(--light-green);
-  border-radius: 25px;
-  filter: drop-shadow(var(--box-shadow));
+	border: 3px solid var(--light-green);
+	border-radius: 25px;
+	filter: drop-shadow(var(--box-shadow));
 
-  aspect-ratio: 12/8;
-  object-fit: cover;
-  width: 100%;
+	aspect-ratio: 12/8;
+	object-fit: cover;
+	width: 100%;
 }
 
 @keyframes rotate {
@@ -78,7 +78,6 @@ img {
 	}
 }
 
-
 button {
 	--_background: var(--button-background, var(--light-green));
 	--_hover: var(--button-hover, var(--green));
@@ -88,7 +87,7 @@ button {
 	background: var(--_background);
 	border-radius: var(--rounded);
 	border: 2px solid var(--black);
-	padding: .5rem 2rem;
+	padding: 0.5rem 2rem;
 	box-shadow: var(--box-shadow);
 	text-align: center;
 
@@ -232,18 +231,18 @@ h6 {
 }
 
 p {
-  line-height: 1.5rem;
+	line-height: 1.5rem;
 }
 
 a,
 .link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-	color: var(--light-green);
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: var(--green);
 	text-decoration: underline;
 
 	&:hover {
-		color: var(--green);
+		color: var(--light-green);
 	}
 }
 
@@ -264,8 +263,6 @@ input[type='email'] {
 	padding: 0.5rem;
 }
 
-
-
 .cta {
 	padding: 0.5rem 1rem;
 	font-size: 20px;
@@ -278,31 +275,29 @@ input[type='email'] {
 	background: var(--yellow);
 	border-radius: var(--rounded);
 	border: 2px solid var(--black);
-  box-shadow: var(--box-shadow);
+	box-shadow: var(--box-shadow);
 
-  transition: .25s;
+	transition: 0.25s;
 
-  &:hover {
-    box-shadow: none;
-    background: #d6b404;
-    color: black;
-  }
+	&:hover {
+		box-shadow: none;
+		background: #d6b404;
+		color: black;
+	}
 }
 
 @media (max-width: 600px) {
-  .content-with-sidebar {
-    --content: min(100ch, 100% - 2 * var(--gap));
-    --sidebar: 0;
+	.content-with-sidebar {
+		--content: min(100ch, 100% - 2 * var(--gap));
+		--sidebar: 0;
 
-    & .sidebar {
-      grid-column: content;
-      grid-row: auto;
-    }
-  }
+		& .sidebar {
+			grid-column: content;
+			grid-row: auto;
+		}
+	}
 
-  .title {
-    font-size: 60px;
-  }
-  
+	.title {
+		font-size: 60px;
+	}
 }
-
