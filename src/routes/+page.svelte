@@ -46,7 +46,7 @@
 		<Columns reverse>
 			<Image
 				class="image"
-				name="home/vrijheid"
+				name="strand.jpg"
 				sizes={[200, 400, 600]}
 				base={600}
 				alt="Een vrouw springt op een pad in een groene vallei"
