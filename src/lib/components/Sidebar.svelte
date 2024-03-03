@@ -67,6 +67,10 @@
 
 			padding: 1rem 2rem;
 			margin-block: 1rem;
+
+			&:first-child {
+				margin-top: 0;
+			}
 		}
 
 		& p {
