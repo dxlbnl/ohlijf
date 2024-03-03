@@ -15,7 +15,7 @@ Ons doel? Jou een stevige basis bieden voor een blijvend herstel. Wij leveren du
 Luchtig en met een glimlach, brengen we de stof **praktisch en behapbaar** - want laten we eerlijk zijn, het is vaak al zwaar genoeg..
 
 ## Robin Boelsums
-Robin, een ondernemende wervelwind, weet precies wat ze wil. Ze heeft gewerkt als docent stedenbouw, zette een blog op over duurzaamheid en heeft zelfs een korte internationale carrière gehad. Bijna 20 jaar kampte ze met vrijwel dagelijkse **hoofdpijn, rugpijn, RSI** en andere onbegrepen klachten. Jarenlang probeerde ze van alles om er vanaf te komen. Er bleek één specifieke benadering die het kwartje deed vallen. Toen is ze van 6 dagen per week mét pijn, in slechts maanden gegaan naar nooit meer chronische pijn. 
+Robin, een ondernemende wervelwind, weet precies wat ze wil. Ze heeft gewerkt als HBO-docent, zette een blog op over duurzaamheid en heeft zelfs een korte internationale carrière gehad. Bijna 20 jaar kampte ze met vrijwel dagelijkse **hoofdpijn, rugpijn, RSI** en andere onbegrepen klachten. Jarenlang probeerde ze van alles om er vanaf te komen. Er bleek één specifieke benadering die het kwartje deed vallen. Toen is ze van 6 dagen per week mét pijn, in slechts maanden gegaan naar nooit meer chronische pijn. 
 
 ## Aurinke Stokx-Vos
 Aurinke, een positieve krachtpatser die voorheen als constructeur werkte, staat bekend om haar doorzettingsvermogen en kritische blik. Altijd in voor een dansje en gezelligheid, totdat **Corona** haar verraste. Ze kon ineens niet meer werken, zat hele dagen op de bank en voelde zich een hoopje ellende. Na een intense ziekteperiode van ruim 2,5  jaar kwam het leven langzaam weer op gang. Eindelijk geen onzekere toekomst meer, maar **een nieuwe start**, Aurinke 2.0.
