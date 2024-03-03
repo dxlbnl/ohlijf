@@ -1,6 +1,7 @@
 ---
 titel: Over ons
 sidebar: true
+foto: home/Aurinke-Robin-happy
 ---
 
 <script>
