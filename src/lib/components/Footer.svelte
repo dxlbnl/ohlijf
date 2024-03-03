@@ -41,6 +41,10 @@
 		& a {
 			color: var(--black);
 			font-weight: normal;
+
+			&:hover {
+				color: var(--dark-green);
+			}
 		}
 	}
 </style>

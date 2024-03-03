@@ -61,6 +61,10 @@ img {
 	background-size: cover;
 }
 
+ul {
+	line-height: 1.5rem;
+}
+
 .image {
 	border: 3px solid var(--light-green);
 	border-radius: 25px;
