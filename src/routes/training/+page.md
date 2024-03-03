@@ -8,7 +8,7 @@ sidebar: false
 
 <script>
   import Image from '$lib/components/Image.svelte'
-  import Input from '$lib/components/Input.svelte'
+  import TrainingForm from './TrainingForm.svelte'
 </script>
 
 ## Je zou zo graag alles weer kunnen
@@ -34,23 +34,7 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 
 Meld je nu aan voor de **VIP-lijst** en ontvang als eerste bericht wanneer de training beschikbaar is.
 
-<div class='full popout' >
-  <section class='content'>
-    <form method=POST>
-      <Input label='Naam:' />
-      <Input label='E-mail:' />
-      <Input label='Mijn belangrijkste klachten *'>
-        <p class='note'>
-          *Dit helpt ons de training te optimaliseren.
-        </p>
-      </Input>
-
-      <button>Ik word graag VIP!</button>
-    </form>
-  </section>
-</div>
-
-→ Na klikken: dankjewel voor je aanmelding!
+<TrainingForm />
 
 ### Hoe is de training opgebouwd?
 - Korte, heldere video’s van ervaringsdeskundigen Aurinke en Robin
@@ -84,16 +68,4 @@ Aan onze VIP’s bieden we 50% korting aan, dus schrijf je in:
 
 De training is in de loop van 2024 beschikbaar. Meld je aan voor de VIP-lijst om als eerste bericht te krijgen. Alleen onze VIP’s krijgen 50% korting!
 
-Naam: [...........................................]
-E-mail: [...........................................]
-Mijn belangrijkste klachten*: [...........................................]
-*Met deze info optimaliseren we onze training.
-
-[Ja, ik word VIP!]
-
-<style>
-  .popout {
-    background: var(--light-pink);
-    padding-block: 2rem;
-  }
-</style>
+<TrainingForm />

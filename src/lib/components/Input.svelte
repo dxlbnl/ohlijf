@@ -11,6 +11,8 @@
 	{:else}
 		<input {type} {...$$restProps} />
 	{/if}
+
+	<slot />
 </label>
 
 <style>
