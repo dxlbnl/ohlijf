@@ -1,20 +1,28 @@
 <script lang="ts">
-	import '@fontsource/raleway';
-	import '@fontsource/bellota';
+	import '@fontsource/raleway/600-italic.css';
+	import '@fontsource/raleway/600.css';
+	import '@fontsource/raleway/400.css';
+	import '@fontsource/bellota/700.css';
+	import '@fontsource/martel/700.css';
 
 	import '../app.css';
+	import menuData from './menu.yaml';
 
-	import Navigation from '$lib/Navigation.svelte';
+	import Navigation, { menuSchema } from '$lib/components/Navigation.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
 	inject({ mode: dev ? 'development' : 'production' });
-	console.log('Injected');
 	injectSpeedInsights();
+
+	const menu = menuSchema.parse(menuData);
 </script>
 
-<Navigation />
+<Navigation {menu} />
 
 <slot />
+
+<Footer />

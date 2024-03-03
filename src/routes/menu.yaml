@@ -1,0 +1,15 @@
+- label: Doe de test!
+  path: /test
+
+- label: Onze aanpak
+  path: /methode
+
+- label: Onze training
+  path: /training
+  special: true
+
+- label: Over ons
+  path: /ons
+
+- label: Contact
+  path: /contact

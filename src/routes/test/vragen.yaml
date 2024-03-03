@@ -1,0 +1,87 @@
+- question: Ik heb meer dan 6 weken last van pijn, erge vermoeidheid of andere lichamelijke klachten.
+  answers:
+    - Ja
+    - Nee
+- question: Er is geen duidelijke medische verklaring voor mijn klachten gevonden of behandelingen hielpen slechts tijdelijk.
+  answers:
+    - Ja
+    - Nee
+- question: Er speelden stressvolle of onprettige gebeurtenissen in mijn leven rond de periode dat de klachten begonnen.
+  answers:
+    - Ja
+    - Nee
+    - Twijfel
+- question: Het hebben van de (pijn)klachten roept regelmatig frustratie bij me op.
+  explanation: >
+    Ik baal wanneer de symptomen opspelen, ik ben bang dat de symptomen zullen verergeren, of ik vraag me af of het ooit over zal gaan.
+  answers:
+    - Ja
+    - Nee
+    - Soms
+- question:
+    Ik heb eerder in mijn leven last gehad van andere aanhoudende of terugkerende lichamelijke klachten.
+  explanation: >
+    Het kan gaan om pijnklachten, maag- darmproblemen, extreme vermoeidheid, duizeligheid, tinnitus, etc.
+  answers:
+    - Ja
+    - Nee
+    - Twijfel
+- question: Mijn (pijn)klachten verplaatsen wel eens van plek in mijn lichaam of van intensiteit.
+  explanation: >
+    Bijv. van het midden van je onderrug naar wat meer links, of ‘s avonds erger dan ‘s ochtends..
+  answers:
+    - Ja
+    - Nee
+- question: Mijn klachten zijn weleens een periode (een dag, een week of langer) helemaal weg geweest.
+  answers:
+    - Ja
+    - Nee
+- question: >
+    Ik heb gemerkt dat stress, spanning of emoties invloed hebben op mijn symptomen.
+  explanation: >
+    Soms is de relatie onduidelijk, maar merk je wel verschillen in symptomen. Ze worden erger, minder erg of veranderen.
+  answers:
+    - Ja
+    - Nee
+- question: >
+    Ik heb naast lichamelijke klachten ook last van angsten, slaapproblemen, burn-out of depressieve klachten.
+  answers:
+    - Ja
+    - Nee
+    - Enigszins
+- question: >
+    Ik ben in mijn leven slachtoffer (geweest) van fysiek geweld, seksueel misbruik, emotioneel misbruik of emotionele of fysieke verwaarlozing.
+  answers:
+    - Ja
+    - Nee
+    - Enigszins
+- question: Ik herken één of meerdere van onderstaande eigenschappen in mijzelf
+  explanation: |
+    - Alles perfect willen doen
+    - Me regelmatig schuldig voelen
+    - Hoge verwachtingen van mezelf hebben
+    - Groot gevoel voor verantwoordelijkheid
+    - Onzekerheid over mezelf
+    - Veel behoefte aan controle
+    - Willen pleasen of behagen van mensen
+    - Angst om ruzie met iemand te krijgen
+    - Vaak boosheid of frustratie mee te dragen
+    - Niet voor mezelf opkomen
+    - Me vaak zorgen maken of piekeren
+  answers:
+    - Ja
+    - Nee
+- question: |
+    Wat is jouw belangrijkste symptoom?
+  explanation: >
+    Vaak hebben mensen meerdere symptomen, waarvan er één overheerst.
+
+    *Vermoeidheid*: aanhoudende onverklaarde vermoeidheid of gebrek aan energie, lusteloosheid, burn-out, slaapproblemen etc.
+
+    *Pijn*: alle soorten pijn, buikpijn, hoofdpijn, rugpijn, ischias, RSI etc.
+
+    *Anders*: prikkelbare darmsyndroom, duizelingen, tinnitus, frozen shoulder, doof gevoel, tintelingen, PCS, overprikkeling of andere onbegrepen klachten.
+  answers:
+    - Vermoeidheid
+    - Pijn
+    - Anders
