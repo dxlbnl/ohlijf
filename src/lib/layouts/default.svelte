@@ -25,11 +25,11 @@
 	{#if sidebar}
 		<Sidebar />
 	{/if}
-
-	{#if testBanner}
-		<TestBanner title={testBanner} background="var(--bg-pink)" />
-	{/if}
 </main>
+
+{#if testBanner}
+	<TestBanner title={testBanner} background="var(--bg-pink)" />
+{/if}
 
 <style>
 	main {

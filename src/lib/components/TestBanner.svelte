@@ -14,7 +14,8 @@
 			color: var(--green);
 			font-family: martel;
 		}
-		margin-block: 4rem;
+		/* margin-block: 4rem; */
+		padding-block: 2rem;
 		text-align: center;
 
 		& .cta {

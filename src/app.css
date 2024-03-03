@@ -32,6 +32,7 @@ body {
 		'navigation'
 		'header'
 		'main'
+		'banner'
 		'footer';
 
 	grid-template-rows: min-content min-content 1fr min-content;
