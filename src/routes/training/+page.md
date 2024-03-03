@@ -1,7 +1,15 @@
 ---
 titel: Training
 omschrijving: Training voor herstel van aanhoudende vermoeidheid en Post Covid
+
+sidebar: false
+
 ---
+
+<script>
+  import Image from '$lib/components/Image.svelte'
+  import Input from '$lib/components/Input.svelte'
+</script>
 
 ## Je zou zo graag alles weer kunnen
 Je had zo’n vrij en vol leven, maar tegenwoordig heb je **veel minder energie**. Je zou wensen dat je weer alles kan, maar weet niet waar te beginnen.
@@ -14,23 +22,33 @@ Hoe zou het voor jou zijn als je **alles weer kon**? Wat is dat ene ding dat je 
 Wij kennen je struggles maar al te goed. Oprichter van OhLijf Aurinke zat meer dan 2 jaar thuis op de bank als een hoopje ellende. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
 Pas toen ze in aanraking kwam met de mind-body-visie kwam haar herstel op gang. En nu runt ze OhLijf en werkt ze aan een mooie toekomst!
 
-![Blij koppel grasvel](/pages/Blij koppel grasveld)
+<Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
+
 
 ### Gun jezelf je herstel
 Voor jou is dit ook mogelijk. Wij hebben de OhLijf-methode ontwikkeld, gebaseerd op de nieuwste onderzoeken in de mind-body-visie.
 
-We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jezelf te kiezen**. Gun jezelf weer een leven **vol energie** en mogelijkheden.
+We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jeze*Dit helpt ons de training te optimaliseren.lf te kiezen**. Gun jezelf weer een leven **vol energie** en mogelijkheden.
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
 Meld je nu aan voor de **VIP-lijst** en ontvang als eerste bericht wanneer de training beschikbaar is.
 
-Naam: [...........................................]
-E-mail: [...........................................]
-Mijn belangrijkste klachten*: [...........................................]
-*Dit helpt ons de training te optimaliseren.
+<div class='full popout' >
+  <section class='content'>
+    <form method=POST>
+      <Input label='Naam:' />
+      <Input label='E-mail:' />
+      <Input label='Mijn belangrijkste klachten *'>
+        <p class='note'>
+          *Dit helpt ons de training te optimaliseren.
+        </p>
+      </Input>
 
-[Ik word graag VIP!] 
+      <button>Ik word graag VIP!</button>
+    </form>
+  </section>
+</div>
 
 → Na klikken: dankjewel voor je aanmelding!
 
@@ -56,7 +74,6 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 
 Aan onze VIP’s bieden we 50% korting aan, dus schrijf je in:
 
-[Ik word VIP]  (als je klikt schiet pagina naar boven of onder naar invulveld)
 
 ## Voor wie is deze training niet?
 - Als de vermoeidheid een bijwerking is van medicijnen of enkel komt door te weinig slapen (bijv. met baby)
@@ -73,3 +90,10 @@ Mijn belangrijkste klachten*: [...........................................]
 *Met deze info optimaliseren we onze training.
 
 [Ja, ik word VIP!]
+
+<style>
+  .popout {
+    background: var(--light-pink);
+    padding-block: 2rem;
+  }
+</style>

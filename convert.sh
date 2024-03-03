@@ -24,15 +24,28 @@ for width in "${widths[@]}"; do
     if (( ${current_dimensions[0]} >= $width )); then
         # Output file names
         webp_output="${image_file%.*}_${width}.webp"
+        jpeg_output="${image_file%.*}_${width}.jpeg"
         avif_output="${image_file%.*}_${width}.avif"
 
         # Check if the output files already exist
-        if [[ ! -f $webp_output && ! -f $avif_output ]]; then
+        if [[ ! -f $jpeg_output ]]; then
             # Convert to the current width in webp format in the background
-            convert "$image_file" -resize ${width}x -quality 85 "$webp_output" &
+            convert "$image_file" -resize ${width}x -quality 85 "$jpeg_output"
+        else
+            echo "Skipping conversion for ${image_file} at width ${width} as output files already exist."
+        fi
 
+        # Check if the output files already exist
+        if [[ ! -f $webp_output ]]; then
+            # Convert to the current width in webp format in the background
+            convert "$image_file" -resize ${width}x -quality 85 "$webp_output"
+        else
+            echo "Skipping conversion for ${image_file} at width ${width} as output files already exist."
+        fi
+
+        if [[ ! -f $avif_output ]]; then
             # Convert to the current width in avif format in the background
-            avifenc "$image_file" -o "$avif_output" &
+            avifenc "$jpeg_output" -o "$avif_output"
         else
             echo "Skipping conversion for ${image_file} at width ${width} as output files already exist."
         fi
@@ -42,4 +55,3 @@ for width in "${widths[@]}"; do
 done
 
 # Wait for all background processes to finish
-wait
