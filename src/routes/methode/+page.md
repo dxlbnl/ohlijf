@@ -1,7 +1,7 @@
 ---
 titel: De OhLijf-methode
 omschrijving:  Op deze pagina lees je de opzet van de Ohlijf-methode en het ontstaan hiervan
-sidebar: false
+sidebar: true
 
 ---
 <script>
