@@ -19,8 +19,6 @@
 	let navEl: HTMLElement;
 
 	const closeMenu = (e: MouseEvent) => {
-		console.log('target', e.target);
-
 		let el: HTMLElement | null = e.target as HTMLElement;
 
 		if (el.tagName === 'A') {
