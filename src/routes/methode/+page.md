@@ -4,6 +4,9 @@ omschrijving:  Op deze pagina lees je de opzet van de Ohlijf-methode en het onts
 sidebar: false
 
 ---
+<script>
+  import Image from '$lib/components/Image.svelte'
+</script>
 
 Bij OhLijf werken we met een methode gebaseerd op de nieuwste inzichten in en onderzoeken naar aanhoudende lichamelijke klachten.
  
@@ -16,7 +19,7 @@ Dat klopt. Gelukkig passen steeds meer mensen de methode toe (de Verenigde State
  
 Dat gezegd hebbende, is het volgende allemaal op onderzoek gebaseerd. Er is nog veel onderzoek te doen en er loopt ook nog veel onderzoek op dit moment.
 
-![Vrouw leunt tegen boom=400 600 800](/pages/vrouw-boom)
+<Image class="image" name='pages/vrouw-boom' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
 
 Goed, nu over naar de OhLijf-methode.
  

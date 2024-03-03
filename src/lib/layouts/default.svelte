@@ -1,3 +1,10 @@
+<script context="module">
+	// import img from '$lib/components/Image.svelte'
+	// import img from './img.svelte';
+
+	// export { img };
+</script>
+
 <script>
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
@@ -27,5 +34,9 @@
 <style>
 	main {
 		margin-block: 4rem;
+	}
+
+	main :global(.image) {
+		aspect-ratio: 8/3;
 	}
 </style>
