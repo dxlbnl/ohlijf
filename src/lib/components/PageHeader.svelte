@@ -29,7 +29,14 @@
 		min-height: 8rem;
 
 		& .title {
+			overflow-wrap: anywhere;
 			color: white;
+			/* word-break: break-all; */
+			hyphens: auto;
+
+			/* -webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			-ms-hyphens: auto; */
 		}
 
 		& .page-description {
