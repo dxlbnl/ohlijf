@@ -58,7 +58,10 @@
 		"@fontsource/martel": "^5.0.8",
 		"@fontsource/raleway": "^5.0.16",
 		"@mailchimp/mailchimp_marketing": "^3.0.80",
+		"@resvg/resvg-js": "^2.6.0",
+		"@vercel/analytics": "^1.1.1",
 		"@vercel/postgres": "^0.7.2",
+		"@vercel/speed-insights": "^1.0.4",
 		"drizzle-orm": "^0.29.4",
 		"mjml": "^4.15.3",
 		"nodemailer": "^6.9.10",
@@ -68,9 +71,9 @@
 		"rehype-stringify": "^10.0.0",
 		"remark-parse": "^11.0.0",
 		"remark-rehype": "^11.1.0",
+		"satori": "^0.10.13",
+		"satori-html": "^0.3.2",
 		"unified": "^11.0.4",
-		"zod": "^3.22.4",
-		"@vercel/analytics": "^1.1.1",
-		"@vercel/speed-insights": "^1.0.4"
+		"zod": "^3.22.4"
 	}
 }
