@@ -26,11 +26,11 @@
 <svelte:head>
 	<!-- <meta property="twitter:image" content="Twitter link preview image URL"> -->
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:title" content="Ohlijf" />
+	<meta property="twitter:title" content="OhLijf" />
 	<meta property="twitter:description" content={description} />
 	<meta property="description" content={description} />
 	<!-- <meta property="og:image" content="Link preview image URL"> -->
-	<meta property="og:title" content="Ohlijf" />
+	<meta property="og:title" content="OhLijf" />
 	<meta property="og:description" content={description} />
 	<!-- <meta property="og:url" content="Canonical link preview URL"> -->
 </svelte:head>
