@@ -28,7 +28,7 @@
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content="Ohlijf" />
 	<meta property="twitter:description" content={description} />
-	<!-- <meta property="description" content="Search engine description" /> -->
+	<meta property="description" content={description} />
 	<!-- <meta property="og:image" content="Link preview image URL"> -->
 	<meta property="og:title" content="Ohlijf" />
 	<meta property="og:description" content={description} />
