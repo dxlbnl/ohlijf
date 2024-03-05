@@ -4,5 +4,5 @@ export const config = {
 };
 
 export function GET({ fetch }) {
-	return fetch('https://plausible.dxlb.nl/js/script.js');
+	return fetch('https://analytics.dxlb.nl/matomo.php');
 }

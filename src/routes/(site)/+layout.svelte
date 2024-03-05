@@ -14,6 +14,7 @@
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import Matomo from '$lib/components/Matomo.svelte';
 
 	inject({ mode: dev ? 'development' : 'production' });
 	injectSpeedInsights();
@@ -34,6 +35,8 @@
 	<meta property="og:description" content={description} />
 	<!-- <meta property="og:url" content="Canonical link preview URL"> -->
 </svelte:head>
+
+<Matomo disableCookies />
 
 <Navigation {menu} />
 
