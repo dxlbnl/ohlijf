@@ -22,7 +22,7 @@ Robin, een ondernemende wervelwind, weet precies wat ze wil. Ze heeft gewerkt al
 Aurinke, een positieve krachtpatser die voorheen als constructeur werkte, staat bekend om haar doorzettingsvermogen en kritische blik. Altijd in voor een dansje en gezelligheid, totdat **Corona** haar verraste. Ze kon ineens niet meer werken, zat hele dagen op de bank en voelde zich een hoopje ellende. Na een intense ziekteperiode van ruim 2,5  jaar kwam het leven langzaam weer op gang. Eindelijk geen onzekere toekomst meer, maar **een nieuwe start**, Aurinke 2.0.
 
 Beiden aan dezelfde Technische Universiteit gestudeerd, kwamen we elkaar toevallig weer tegen. We deelden onze verwondering over de **kracht van onze hersenen en ons lijf**. Tegelijkertijd wilden we -zoals in de studie geleerd- alles met betrouwbare bronnen onderbouwen, dus die deelden we volop.
-Dat zo’n eenvoudige methode zoveel verandering in gang kan zetten, vonden we haast niet te geloven. De andere focus en het trainen van de hersenen hebben ons naar volledig herstel geleid. 
+Dat zo’n eenvoudige methode zoveel verandering in gang kan zetten, vonden we haast niet te geloven. De andere focus en het trainen van de hersenen hebben ons de ruimte gegeven voor herstel.  
 >**“Het voelt alsof we de heilige graal in handen hebben.”**
 
 Dit willen we delen met iedereen die het nodig heeft. Met OhLijf bieden we wat we zelf oh zo graag hadden gehad in onze zoektocht. Iemand die precies vertelt welke stappen nodig zijn en hoe je die praktisch in je (nu zo andere) leven integreert. [Lees hier meer over de OhLijf-Methode](/methode).
