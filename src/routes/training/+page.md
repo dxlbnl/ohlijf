@@ -28,7 +28,7 @@ Pas toen ze in aanraking kwam met de mind-body-visie kwam haar herstel op gang. 
 ### Gun jezelf je herstel
 Voor jou is dit ook mogelijk. Wij hebben de OhLijf-methode ontwikkeld, gebaseerd op de nieuwste onderzoeken in de mind-body-visie.
 
-We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jeze*Dit helpt ons de training te optimaliseren.lf te kiezen**. Gun jezelf weer een leven **vol energie** en mogelijkheden.
+We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jezelf te kiezen**. Gun jezelf weer een leven **vol energie** en mogelijkheden.
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
