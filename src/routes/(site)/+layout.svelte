@@ -5,7 +5,7 @@
 	import '@fontsource/bellota/700.css';
 	import '@fontsource/martel/700.css';
 
-	import '../app.css';
+	import '../../app.css';
 	import menuData from './menu.yaml';
 
 	import Navigation, { menuSchema } from '$lib/components/Navigation.svelte';
