@@ -19,7 +19,7 @@ Dat klopt. Gelukkig passen steeds meer mensen de methode toe (de Verenigde State
  
 Dat gezegd hebbende, is het volgende allemaal op onderzoek gebaseerd. Er is nog veel onderzoek te doen en er loopt ook nog veel onderzoek op dit moment.
 
-<Image class="image" name='pages/vrouw-boom' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
+<Image class="full image" name='pages/vrouw-boom' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
 
 Goed, nu over naar de OhLijf-methode.
  
