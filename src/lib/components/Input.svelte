@@ -2,14 +2,19 @@
 	export let label: string;
 
 	export let type: 'text' | 'email' | 'textarea' = 'text';
+	export let value: string;
 </script>
 
 <label>
 	{label}
 	{#if type === 'textarea'}
-		<textarea {...$$restProps} />
+		<textarea {...$$restProps} bind:value />
+	{:else if type === 'text'}
+		<input type="text" {...$$restProps} bind:value />
+	{:else if type === 'email'}
+		<input type="email" {...$$restProps} bind:value />
 	{:else}
-		<input {type} {...$$restProps} />
+		<p>{type} not implemented</p>
 	{/if}
 
 	<slot />

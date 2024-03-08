@@ -73,6 +73,7 @@
 		"remark-rehype": "^11.1.0",
 		"satori": "^0.10.13",
 		"satori-html": "^0.3.2",
+		"sveltekit-superforms": "^2.8.0",
 		"unified": "^11.0.4",
 		"zod": "^3.22.4"
 	}
