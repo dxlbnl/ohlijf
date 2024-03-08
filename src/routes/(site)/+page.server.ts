@@ -1,6 +1,12 @@
 import { MAILCHIMP_API_KEY } from '$env/static/private';
+
+import { superValidate } from 'sveltekit-superforms';
+import { zod } from 'sveltekit-superforms/adapters';
 import mailchimp from '@mailchimp/mailchimp_marketing';
-import { error } from '@sveltejs/kit';
+import { fail } from '@sveltejs/kit';
+import { mailingFormSchema } from '$lib/forms';
+
+import type { Actions } from './$types';
 
 mailchimp.setConfig({
 	apiKey: MAILCHIMP_API_KEY,
@@ -8,20 +14,22 @@ mailchimp.setConfig({
 });
 const listId = '24d1c1cc3a';
 
-export const actions = {
+export const actions: Actions = {
 	async mailinglist({ request }) {
-    const data = await request.formData()
-    const email = data.get('email') as string
+		// Use superValidate in form actions too, but with the request
+		const form = await superValidate(request, zod(mailingFormSchema));
 
-		if (!email) {
-			error(400, 'Emailadres is verplicht');
+		// Convenient validation check:
+		if (!form.valid) {
+			// Always return { form } and things will just work.
+			return fail(400, { form });
 		}
 
 		try {
-			console.log('Adding mailchimp member', email);
+			console.log('Adding mailchimp member', form.data.email);
 			// Get list info
 			await mailchimp.lists.addListMember(listId, {
-				email_address: email,
+				email_address: form.data.email,
 				status: 'subscribed',
 				tags: ['interesse']
 			});
@@ -29,11 +37,10 @@ export const actions = {
 			console.error('Failed to add mailchimp member:', e);
 		}
 
-
-		console.log('Submitted contact form', data);
+		console.log('Submitted contact form', form.data);
 
 		return {
-			success: true
+			form
 		};
 	}
 };
