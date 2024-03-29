@@ -25,6 +25,8 @@
 </script>
 
 <svelte:head>
+	<title>Ohlijf</title>
+
 	<!-- <meta property="twitter:image" content="Twitter link preview image URL"> -->
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:title" content="OhLijf" />
