@@ -28,8 +28,7 @@ Vervolgens kun je ook nog eens spanning en stress ontwikkelen doordat je in gaat
 Dit soort (pijn)klachten die ontstaan in het brein wordt Mind-Body-Syndroom genoemd, of in het Engels ook wel Tension Myositis Syndrome (door Dr. Sarno ontwikkeld).
 
 We hebben een test ontwikkeld om te zien of het bij jou ook je brein is die je klachten veroorzaakt.
-
-[doe de test]
+[Klik hier om de test te doen.](/test)
 
 ## Tips voor minder pijn
 We hebben een mooi overzicht gemaakt van tips die je gaan helpen om de pijn te verlichten. In Women’s Health stonden al wat tips, maar er valt nog zoveel meer te vertellen! 
