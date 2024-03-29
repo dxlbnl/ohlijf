@@ -8,7 +8,7 @@ sidebar: true
 
 <script>
   import Image from '$lib/components/Image.svelte'
-  import TrainingForm from './TrainingForm.svelte'
+  import TrainingForm from '$lib/components/TrainingForm.svelte'
 </script>
 
 ## Je zou zo graag alles weer kunnen
