@@ -37,7 +37,7 @@ Klik hier om de tips te downloaden.
 ## Heb je liever dat iemand je begeleidt in dit hele proces?
 Dat begrijp ik heel goed! Ik moest zoveel zelf uitzoeken, het was echt een zoektocht om te vinden hoe ik het beste kon herstellen en wat ik wanneer het beste kon toepassen. Ik legde mezelf eigenlijk te veel druk op, en dat bleek averechts te werken…
 
-Daarom sta ik graag voor je klaar om je te begeleiden in je herstelreis. Want ik weet zeker dat als ik het kan, jij het ook kan! [Neem contact met me op](/contact) om geheel vrijblijvend een kennismakingsgesprek van 45 min. in te plannen. Ik doe dat heel graag, het is voor mij ook heel waardevol om mensen die in dit schuitje zitten te leren kennen. Er is geen enkele verplichting om daarna ook met mij samen te werken, maar wel een mogelijkheid.
+Daarom sta ik graag voor je klaar om je te begeleiden in je herstelreis. Want ik weet zeker dat als ik het kan, jij het ook kan! [Neem contact met me op](/contact) om geheel vrijblijvend een kennismakingsgesprek van 30 min. in te plannen. Ik doe dat heel graag, het is voor mij ook heel waardevol om mensen die in dit schuitje zitten te leren kennen. Er is geen enkele verplichting om daarna ook met mij samen te werken, maar wel een mogelijkheid.
 
 ## Online training
 Omdat ik graag zo veel mogelijk mensen wil helpen, ben ik samen met Aurinke (wij zijn de oprichters van OhLijf) een online training aan het maken voor mensen om te herstellen van chronische klachten. Wij houden je virtuele hand vast in de stappen die je gaat zetten. Daarnaast kan je je ervaringen delen in de community of vragen stellen in onze live Q&A-sessies.
