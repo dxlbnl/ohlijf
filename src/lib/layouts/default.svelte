@@ -15,9 +15,16 @@
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
 	export let testBanner = 'Ontdek de echte oorzaak van je klachten';
+	export let meta = {};
 </script>
 
 <PageHeader {titel} {omschrijving} {foto} />
+
+<svelte:head>
+	{#each Object.keys(meta) as key}
+		<meta name={key} content={meta[key]} />
+	{/each}
+</svelte:head>
 
 <main class:content-with-sidebar={sidebar} class:content={!sidebar}>
 	<slot />
