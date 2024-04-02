@@ -5,6 +5,7 @@
 	import { page } from '$app/stores';
 	import { get } from 'svelte/store';
 	import { superForm } from 'sveltekit-superforms';
+	import { goto } from '$app/navigation';
 
 	const { data } = get(page);
 
@@ -12,7 +13,8 @@
 		applyAction: false,
 		onResult({ result }) {
 			if (result.type === 'redirect') {
-				window.open(result.location, '_blank');
+				// window.open(result.location, '_blank');
+				goto(result.location);
 			}
 		}
 	});
