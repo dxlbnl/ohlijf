@@ -301,6 +301,8 @@ input[type='email'] {
 		& .sidebar {
 			grid-column: content;
 			grid-row: auto;
+
+			margin-top: 2rem;
 		}
 	}
 
