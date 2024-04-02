@@ -3,7 +3,8 @@ titel: Tips bij pijn
 omschrijving: Speciaal voor lezeressen van Women's Health
 
 sidebar: true
-
+meta:
+  description: Hier krijgen lezeressen van Women's Health praktische tips
 ---
 
 <script>
