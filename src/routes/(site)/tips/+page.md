@@ -32,7 +32,7 @@ We hebben een test ontwikkeld om te zien of het bij jou ook je brein is die je k
 ## Tips voor minder pijn
 We hebben een mooi overzicht gemaakt van tips die je gaan helpen om de pijn te verlichten. In Women’s Health stonden al wat tips, maar er valt nog zoveel meer te vertellen! 
 
-<a href='/tips/download' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<a href='/tips/download' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Download de tips
 </a>
 

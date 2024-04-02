@@ -9,17 +9,27 @@
 
 	const { data } = get(page);
 
-	const { form, errors, constraints, submitting, posted } = superForm(data.form);
+	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form, {
+		applyAction: false,
+		onResult({ result }) {
+			if (result.type === 'redirect') {
+				goto(result.location);
+			}
+		}
+	});
 </script>
 
-<PageHeader titel="Tips voor pijnvermindering" omschrijving="Ontvang onze tips" />
+<PageHeader titel="Tips bij pijn" omschrijving="Ontvang onze tips" />
 
 <main class="content">
 	{#if $posted}
-		<p>We hopen je een beetje op weg te kunnen helpen om minder pijn te ervaren. Veel succes met de tips!</p>
+		<p>
+			We hopen je een beetje op weg te kunnen helpen om minder pijn te ervaren. Veel succes met de
+			tips!
+		</p>
 	{:else}
 		<p>Laat hier je e-mail achter, dan ontvang je direct de tips!</p>
-		<form method="POST" target="_blank">
+		<form method="POST" use:enhance>
 			<Input
 				label="e-mailadres"
 				type="email"
@@ -39,3 +49,12 @@
 		</form>
 	{/if}
 </main>
+
+<style>
+	main {
+		margin-block: 2rem;
+	}
+	button {
+		margin-block: 2rem;
+	}
+</style>
