@@ -203,7 +203,7 @@ button {
 
 .title {
 	font-family: 'Raleway', sans-serif;
-	font-size: 102px;
+	font-size: 70px;
 	font-style: italic;
 	font-weight: 600;
 	color: var(--green);
@@ -301,6 +301,8 @@ input[type='email'] {
 		& .sidebar {
 			grid-column: content;
 			grid-row: auto;
+
+			margin-top: 2rem;
 		}
 	}
 

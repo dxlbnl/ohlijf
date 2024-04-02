@@ -7,6 +7,10 @@
 	export let fotoAlt = 'een vrouw met armen wijd';
 </script>
 
+<svelte:head>
+	<title>Ohlijf - {titel}</title>
+</svelte:head>
+
 <header class="stack" class:expanded={titel && omschrijving}>
 	{#if foto}
 		<div class="bg">

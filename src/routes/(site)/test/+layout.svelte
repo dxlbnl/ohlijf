@@ -1,6 +1,5 @@
 <script>
 	import PageHeader from '$lib/components/PageHeader.svelte';
-	import { results } from './store';
 </script>
 
 <PageHeader titel="Ontdek meer over jouw symptomen" />

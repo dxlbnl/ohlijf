@@ -2,31 +2,40 @@
 	import { superForm } from 'sveltekit-superforms';
 	import { page } from '$app/stores';
 	import Input from '$lib/components/Input.svelte';
+	import Loader from '$lib/components/Loader.svelte';
 	import { get } from 'svelte/store';
 
 	// $: data = $page.data;
 	const { data } = get(page);
 
-	const { form, errors, constraints, enhance } = superForm(data.form);
-	let posting = false;
+	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form);
 </script>
 
 <div class="sidebar">
 	<section class="mailinglist">
-		<p>Blijf op de hoogte van de belangrijkste updates:</p>
-		<form method="POST" action="/?/mailinglist" use:enhance>
-			<Input
-				label="e-mailadres"
-				type="email"
-				name="email"
-				aria-invalid={$errors.email ? 'true' : undefined}
-				bind:value={$form.name}
-				{...$constraints.name}
-			/>
-			{#if $errors.email}<span class="invalid">{$errors.email}</span>{/if}
+		{#if $posted}
+			<p>Bedankt voor je inschrijving</p>
+		{:else}
+			<p>Blijf op de hoogte van de belangrijkste updates:</p>
+			<form method="POST" action="/?/mailinglist" use:enhance>
+				<Input
+					label="e-mailadres"
+					type="email"
+					name="email"
+					disabled={$submitting}
+					aria-invalid={$errors.email ? 'true' : undefined}
+					bind:value={$form.name}
+					{...$constraints.name}
+				/>
+				{#if $errors.email}<span class="invalid">{$errors.email}</span>{/if}
 
-			<button disabled={posting}>Abonneer</button>
-		</form>
+				{#if $submitting}
+					<Loader />
+				{:else}
+					<button disabled={$submitting}> Abonneer </button>
+				{/if}
+			</form>
+		{/if}
 	</section>
 
 	<section class="lees-ook">

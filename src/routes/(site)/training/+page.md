@@ -1,14 +1,14 @@
 ---
 titel: Training
-omschrijving: Training voor herstel van aanhoudende vermoeidheid en Post Covid
+omschrijving: Training voor herstel van aanhoudende vermoeidheid en Long Covid
 
-sidebar: false
+sidebar: true
 
 ---
 
 <script>
   import Image from '$lib/components/Image.svelte'
-  import TrainingForm from './TrainingForm.svelte'
+  import TrainingForm from '$lib/components/TrainingForm.svelte'
 </script>
 
 ## Je zou zo graag alles weer kunnen

@@ -11,6 +11,7 @@
 		{#if !$page.form?.success}
 			<form
 				method="POST"
+				action="/?/trainingform"
 				use:enhance={() => {
 					posting = true;
 					return ({ update }) => {

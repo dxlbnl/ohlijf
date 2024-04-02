@@ -6,6 +6,10 @@
 	import Columns from '$lib/components/Columns.svelte';
 </script>
 
+<svelte:head>
+	<title>Ohlijf- Een lichter leven zonder pijn</title>
+</svelte:head>
+
 <Header>
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
 	<p class="subheader white">Helemaal klaar met die terugkerende klachten?</p>
