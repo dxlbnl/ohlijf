@@ -9,15 +9,7 @@
 
 	const { data } = get(page);
 
-	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form, {
-		applyAction: false,
-		onResult({ result }) {
-			if (result.type === 'redirect') {
-				// window.open(result.location, '_blank');
-				goto(result.location);
-			}
-		}
-	});
+	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form);
 </script>
 
 <PageHeader titel="Tips" omschrijving="Krijg snel de tips" />
@@ -27,7 +19,7 @@
 		<p>Bedankt voor je interesse, en succes met de tips</p>
 	{:else}
 		<p>Laat je e-mail achter, en ontvang direct de tips:</p>
-		<form method="POST" use:enhance>
+		<form method="POST" target="_blank">
 			<Input
 				label="e-mailadres"
 				type="email"
