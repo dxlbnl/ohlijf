@@ -12,13 +12,13 @@
 	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form);
 </script>
 
-<PageHeader titel="Tips" omschrijving="Krijg snel de tips" />
+<PageHeader titel="Tips voor pijnvermindering" omschrijving="Ontvang onze tips" />
 
 <main class="content">
 	{#if $posted}
-		<p>Bedankt voor je interesse, en succes met de tips</p>
+		<p>We hopen je een beetje op weg te kunnen helpen om minder pijn te ervaren. Veel succes met de tips!</p>
 	{:else}
-		<p>Laat je e-mail achter, en ontvang direct de tips:</p>
+		<p>Laat hier je e-mail achter, dan ontvang je direct de tips!</p>
 		<form method="POST" target="_blank">
 			<Input
 				label="e-mailadres"
