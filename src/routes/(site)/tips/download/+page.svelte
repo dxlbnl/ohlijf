@@ -9,7 +9,7 @@
 
 	const { data } = get(page);
 
-	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form);
+	const { form, errors, constraints, submitting, posted } = superForm(data.form);
 </script>
 
 <PageHeader titel="Tips voor pijnvermindering" omschrijving="Ontvang onze tips" />
