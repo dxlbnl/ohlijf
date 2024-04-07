@@ -61,7 +61,8 @@ export const actions: Actions = {
 			await mailchimp.lists.addListMember(listId, {
 				email_address: email,
 				status: 'subscribed',
-				tags: ['VIP']
+				tags: ['VIP'],
+				merge_fields: {FNAME:name}
 			});
 		} catch (e) {
 			console.error('Failed to add mailchimp member:', e);
