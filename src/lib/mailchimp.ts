@@ -24,13 +24,17 @@ export const addOrUpdateMailinglistMember = async ({ email, tags, name }: AddPro
 		console.log('Failed to get mailchimp member, create one', email);
 	}
 
+	const merge_fields = name
+		? {
+				FNAME: name
+			}
+		: {};
+
 	if (listMember) {
 		console.log('Updating mailchimp member', email);
 		if (name) {
 			await mailchimp.lists.updateListMember(listId, subscriberHash, {
-				merge_fields: {
-					FNAME: name
-				}
+				merge_fields
 			});
 		}
 
@@ -44,11 +48,7 @@ export const addOrUpdateMailinglistMember = async ({ email, tags, name }: AddPro
 			email_address: email,
 			status: 'subscribed',
 			tags,
-			...(name
-				? {
-						FNAME: name
-					}
-				: {})
+			merge_fields
 		});
 	}
 };
