@@ -64,7 +64,7 @@
 
 		<input
 			type="hidden"
-			name="resultaten"
+			name="results"
 			value={$results ? JSON.stringify($results) : $form.results}
 		/>
 	</form>
