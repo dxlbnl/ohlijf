@@ -8,7 +8,7 @@
 	// $: data = $page.data;
 	const { data } = get(page);
 
-	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form);
+	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.mailingform);
 </script>
 
 <div class="sidebar">
@@ -24,8 +24,8 @@
 					name="email"
 					disabled={$submitting}
 					aria-invalid={$errors.email ? 'true' : undefined}
-					bind:value={$form.name}
-					{...$constraints.name}
+					bind:value={$form.email}
+					{...$constraints.email}
 				/>
 				{#if $errors.email}<span class="invalid">{$errors.email}</span>{/if}
 
