@@ -1,18 +1,10 @@
-import { MAILCHIMP_API_KEY } from '$env/static/private';
-
 import { superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
-import mailchimp from '@mailchimp/mailchimp_marketing';
 import { fail, redirect } from '@sveltejs/kit';
 import { downloadFormSchema } from '$lib/forms';
 
 import type { Actions, PageServerLoad } from './$types';
-
-mailchimp.setConfig({
-	apiKey: MAILCHIMP_API_KEY,
-	server: 'us21'
-});
-const listId = '24d1c1cc3a';
+import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 
 export const load: PageServerLoad = async () => {
 	return { form: await superValidate(zod(downloadFormSchema)) };
@@ -31,12 +23,7 @@ export const actions: Actions = {
 
 		try {
 			console.log('Adding mailchimp member', form.data.email);
-			// Get list info
-			await mailchimp.lists.addListMember(listId, {
-				email_address: form.data.email,
-				status: 'subscribed',
-				tags: ['tips']
-			});
+			await addOrUpdateMailinglistMember({ email: form.data.email, tags: ['tips'] });
 		} catch (e) {
 			console.error('Failed to add mailchimp member:', e);
 		}

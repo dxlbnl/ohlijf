@@ -18,8 +18,7 @@
     - Ja
     - Nee
     - Soms
-- question:
-    Ik heb eerder in mijn leven last gehad van andere aanhoudende of terugkerende lichamelijke klachten.
+- question: Ik heb eerder in mijn leven last gehad van andere aanhoudende of terugkerende lichamelijke klachten.
   explanation: >
     Het kan gaan om pijnklachten, maag- darmproblemen, extreme vermoeidheid, duizeligheid, tinnitus, etc.
   answers:
@@ -76,11 +75,14 @@
   explanation: >
     Vaak hebben mensen meerdere symptomen, waarvan er één overheerst.
 
-    *Vermoeidheid*: aanhoudende onverklaarde vermoeidheid of gebrek aan energie, lusteloosheid, burn-out, slaapproblemen etc.
 
-    *Pijn*: alle soorten pijn, buikpijn, hoofdpijn, rugpijn, ischias, RSI etc.
+    **Vermoeidheid**: aanhoudende onverklaarde vermoeidheid of gebrek aan energie, lusteloosheid, burn-out, slaapproblemen etc.
 
-    *Anders*: prikkelbare darmsyndroom, duizelingen, tinnitus, frozen shoulder, doof gevoel, tintelingen, PCS, overprikkeling of andere onbegrepen klachten.
+
+    **Pijn**: alle soorten pijn, buikpijn, hoofdpijn, rugpijn, ischias, RSI etc.
+
+
+    **Anders**: prikkelbare darmsyndroom, duizelingen, tinnitus, frozen shoulder, doof gevoel, tintelingen, PCS, overprikkeling of andere onbegrepen klachten.
   answers:
     - Vermoeidheid
     - Pijn

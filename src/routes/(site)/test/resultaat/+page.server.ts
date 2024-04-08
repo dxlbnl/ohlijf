@@ -42,7 +42,7 @@ export const actions = {
 
 		try {
 			// Get list info
-			addOrUpdateMailinglistMember({ email: form.data.email, tags });
+			addOrUpdateMailinglistMember({ email, tags });
 		} catch (e) {
 			console.error('Failed to add mailchimp member:', e);
 		}
