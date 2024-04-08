@@ -2,7 +2,7 @@
 titel: Training
 omschrijving: Training voor herstel van aanhoudende vermoeidheid en Long Covid
 
-sidebar: true
+sidebar: false
 
 ---
 
@@ -34,7 +34,7 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 
 Meld je nu aan voor de **VIP-lijst** en ontvang als eerste bericht wanneer de training beschikbaar is.
 
-<TrainingForm />
+<TrainingForm id=trainingform1 />
 
 ### Hoe is de training opgebouwd?
 - Korte, heldere video’s van ervaringsdeskundigen Aurinke en Robin
@@ -68,4 +68,4 @@ Aan onze VIP’s bieden we 50% korting aan, dus schrijf je in:
 
 De training is in de loop van 2024 beschikbaar. Meld je aan voor de VIP-lijst om als eerste bericht te krijgen. Alleen onze VIP’s krijgen 50% korting!
 
-<TrainingForm />
+<TrainingForm id=trainingform2/>
