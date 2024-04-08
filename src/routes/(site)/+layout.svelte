@@ -39,8 +39,6 @@
 	<!-- <meta property="og:url" content="Canonical link preview URL"> -->
 </svelte:head>
 
-<pre>{JSON.stringify($page, null, 2)}</pre>
-
 <Matomo disableCookies />
 
 <Navigation {menu} />
@@ -48,11 +46,3 @@
 <slot />
 
 <Footer />
-
-<style>
-	pre {
-		postion: static;
-		bottom: 0;
-		background-color: white;
-	}
-</style>
