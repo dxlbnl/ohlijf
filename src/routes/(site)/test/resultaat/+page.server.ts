@@ -71,7 +71,7 @@ export const actions = {
 		}
 
 		return {
-			success: true
+			form
 		};
 	}
 };
