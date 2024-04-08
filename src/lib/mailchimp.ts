@@ -16,13 +16,13 @@ type AddProps = {
 };
 export const addOrUpdateMailinglistMember = async ({ email, tags, name }: AddProps) => {
 	const subscriberHash = getsubscriberHash(email);
-  let listMember;
-  
-  try {
-    listMember = await mailchimp.lists.getListMember(listId, subscriberHash);
-  } catch () {
-    console.log('Failed to get mailchimp member, create one', email);
-  }
+	let listMember;
+
+	try {
+		listMember = await mailchimp.lists.getListMember(listId, subscriberHash);
+	} catch (_) {
+		console.log('Failed to get mailchimp member, create one', email);
+	}
 
 	if (listMember) {
 		console.log('Updating mailchimp member', email);
