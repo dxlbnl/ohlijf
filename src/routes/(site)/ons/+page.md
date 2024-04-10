@@ -8,7 +8,7 @@ sidebar: true
   import Image from '$lib/components/Image.svelte'
 </script>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h5eO0bWbOlo?si=bX-vna594NZ-LYqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="672" height="378" src="https://www.youtube.com/embed/h5eO0bWbOlo?si=bX-vna594NZ-LYqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Wij zijn **Robin & Aurinke** en we hebben heel wat doorstaan om af te komen van chronische pijn, vermoeidheid en onbegrepen klachten. En raad eens? Het is ons gelukt! Die ervaring heeft ons heel erg gemotiveerd om anderen te helpen in hun **zoektocht naar herstel**, en zo is OhLijf ontstaan.
 
