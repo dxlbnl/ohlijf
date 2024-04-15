@@ -8,7 +8,7 @@
 </p>
 <p>De test bestaat uit 12 vragen en duurt ongeveer <b>4 minuten.</b></p>
 <p>
-	Je krijgt de <b>resultaten</b> toegestuurd per mail en <b>advies</b> welke stappen je nu kunt nemen.
+	Na de test ontvang je de <resultaten> in je mailbox.
 </p>
 
 <a class="cta" href="/test/1">Start de test</a>
