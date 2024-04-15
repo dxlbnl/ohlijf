@@ -8,12 +8,14 @@ sidebar: true
   import Image from '$lib/components/Image.svelte'
 </script>
 
-<Image class="image" name='home/Aurinke-Robin-happy' sizes={[400,800,1200]} base={800} alt='Robin en Aurinke happy in speeltuin' ratio='12/8' />
+<iframe width="672" height="378" src="https://www.youtube.com/embed/h5eO0bWbOlo?si=bX-vna594NZ-LYqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Wij zijn **Robin & Aurinke** en we hebben heel wat doorstaan om af te komen van chronische pijn, vermoeidheid en onbegrepen klachten. En raad eens? Het is ons gelukt! Die ervaring heeft ons heel erg gemotiveerd om anderen te helpen in hun **zoektocht naar herstel**, en zo is OhLijf ontstaan.
 
 Ons doel? Jou een stevige basis bieden voor een blijvend herstel. Wij leveren duidelijke (online) trainingen, zodat je op je eigen tempo kunt herstellen, wanneer het jou uitkomt.
-Luchtig en met een glimlach, brengen we de stof **praktisch en behapbaar** - want laten we eerlijk zijn, het is vaak al zwaar genoeg..
+Luchtig en met een glimlach, brengen we de stof **praktisch en behapbaar** - want laten we eerlijk zijn, het is vaak al zwaar genoeg...
+
+<Image class="image" name='home/Aurinke-Robin-happy' sizes={[400,800,1200]} base={800} alt='Robin en Aurinke happy in speeltuin' ratio='12/8' />
 
 ## Robin Boelsums
 Robin, een ondernemende wervelwind, weet precies wat ze wil. Ze heeft gewerkt als HBO-docent, zette een blog op over duurzaamheid en heeft zelfs een korte internationale carrière gehad. Bijna 20 jaar kampte ze met vrijwel dagelijkse **hoofdpijn, rugpijn, RSI** en andere onbegrepen klachten. Jarenlang probeerde ze van alles om er vanaf te komen. Er bleek één specifieke benadering die het kwartje deed vallen. Toen is ze van 6 dagen per week mét pijn, in slechts maanden gegaan naar nooit meer chronische pijn. 
