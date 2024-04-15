@@ -42,8 +42,12 @@
 	main {
 		margin-block: 4rem;
 	}
-
 	main :global(.image) {
 		aspect-ratio: 8/3;
+	}
+
+	main :global(.video) {
+		width: 100%;
+		aspect-ratio: 16/9;
 	}
 </style>
