@@ -42,7 +42,7 @@ export const actions = {
 
 		try {
 			// Get list info
-			addOrUpdateMailinglistMember({ email, tags });
+			addOrUpdateMailinglistMember({ email, tags, name });
 		} catch (e) {
 			console.error('Failed to add mailchimp member:', e);
 		}
@@ -61,6 +61,7 @@ export const actions = {
 					'Hoi Ohlijf,\n',
 					`Er is een test gemaakt door ${name}(${email}) op ohlijf.com.\n`,
 					`Het resultaat is: ${tags.join(', ')}\n`,
+          `De ingevulde vragen:\n${JSON.stringify(resultaten, null, 2)}\n`,
 					`Opmerking: ${result.note},`
 				].join('\n')
 			);
