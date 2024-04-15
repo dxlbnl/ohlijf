@@ -19,8 +19,7 @@
 		<h2 class="heading">Bedankt voor het invullen</h2>
 
 		<p class="large">
-			Vul je e-mailadres in om het resultaat te ontvangen, dit kan een paar uurtjes duren. Je
-			ontvangt meteen een eerste advies over wat je hierna het beste kunt doen.
+			Vul je e-mailadres in om het resultaat te ontvangen.
 		</p>
 
 		<Input
