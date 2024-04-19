@@ -32,7 +32,7 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jez
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-Meld je nu aan voor de **VIP-lijst** en ontvang als eerste bericht wanneer de training beschikbaar is.
+Meld je nu aan voor onze **interesselijst** en ontvang als eerste bericht wanneer de training beschikbaar is.
 
 <TrainingForm id=trainingform1 />
 
@@ -56,8 +56,6 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Je staat open voor persoonlijke groei
 - Je zoekt een oplossing die ook op de lange termijn blijft werken
 
-Aan onze VIP’s bieden we 50% korting aan, dus schrijf je in:
-
 
 ## Voor wie is deze training niet?
 - Als de vermoeidheid een bijwerking is van medicijnen of enkel komt door te weinig slapen (bijv. met baby)
@@ -66,6 +64,6 @@ Aan onze VIP’s bieden we 50% korting aan, dus schrijf je in:
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
 
-De training is in de loop van 2024 beschikbaar. Meld je aan voor de VIP-lijst om als eerste bericht te krijgen. Alleen onze VIP’s krijgen 50% korting!
+De training is per 1 juli 2024 beschikbaar. Meld je aan voor onze interesselijst om als eerste bericht te krijgen.
 
 <TrainingForm id=trainingform2/>
