@@ -53,7 +53,7 @@
 				{#if $submitting}
 					<Loader />
 				{:else}
-					<button disabled={$submitting}>Ik word graag VIP!</button>
+					<button disabled={$submitting}>Ik heb interesse!</button>
 				{/if}
 			</form>
 		{/if}
