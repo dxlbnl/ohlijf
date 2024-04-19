@@ -45,7 +45,7 @@ export const actions: Actions = {
 		try {
 			await addOrUpdateMailinglistMember({
 				email: email,
-				tags: ['VIP'],
+				tags: ['interesse'],
 				name: name
 			});
 		} catch (e) {
@@ -54,10 +54,10 @@ export const actions: Actions = {
 
 		try {
 			const info = await mailHome(
-				`VIP aanmelding van ${name}`,
+				`interesse training aanmelding van ${name}`,
 				[
 					'Hoi Ohlijf,\n',
-					`Er is een VIP aanmelding van ${name}(${email}) op ohlijf.com.\n`,
+					`Er is een interesse-training-aanmelding van ${name}(${email}) op ohlijf.com.\n`,
 					`Klachten: ${complaints}`
 				].join('\n')
 			);
