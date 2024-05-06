@@ -4,7 +4,8 @@ import { fail, redirect } from '@sveltejs/kit';
 import { downloadFormSchema } from '$lib/forms';
 
 import type { Actions, PageServerLoad } from './$types';
-import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
+import { addOrUpdateContact } from '$lib/systeme';
+// import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 
 export const load: PageServerLoad = async () => {
 	return { form: await superValidate(zod(downloadFormSchema)) };
@@ -22,10 +23,9 @@ export const actions: Actions = {
 		}
 
 		try {
-			console.log('Adding mailchimp member', form.data.email);
-			await addOrUpdateMailinglistMember({ email: form.data.email, tags: ['tips'] });
+			await addOrUpdateContact({ email: form.data.email, tags: ['tips'] });
 		} catch (e) {
-			console.error('Failed to add mailchimp member:', e);
+			console.error('Failed to add contact:', e);
 		}
 
 		console.log('Submitted contact form', form.data);

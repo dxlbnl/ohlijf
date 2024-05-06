@@ -5,7 +5,8 @@ import { mailingFormSchema, trainingFormSchema } from '$lib/forms';
 import { mailHome } from '$lib/mail';
 
 import type { Actions } from './$types';
-import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
+import { addOrUpdateContact } from '$lib/systeme';
+// import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 
 export const actions: Actions = {
 	async mailinglist({ request }) {
@@ -19,9 +20,9 @@ export const actions: Actions = {
 		}
 
 		try {
-			addOrUpdateMailinglistMember({ email: form.data.email, tags: ['interesse'] });
+			addOrUpdateContact({ email: form.data.email, tags: ['interesse'] });
 		} catch (e) {
-			console.error('Failed to add mailchimp member:', e);
+			console.error('Failed to create contact:', e);
 		}
 
 		console.log('Submitted contact form', form.data);
@@ -43,13 +44,13 @@ export const actions: Actions = {
 		const { email, name, complaints } = form.data;
 
 		try {
-			await addOrUpdateMailinglistMember({
+			await addOrUpdateContact({
 				email: email,
 				tags: ['interesse'],
 				name: name
 			});
 		} catch (e) {
-			console.error('Failed to add mailchimp member:', e);
+			console.error('Failed to create contact:', e);
 		}
 
 		try {

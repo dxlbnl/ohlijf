@@ -4,7 +4,8 @@ import { zod } from 'sveltekit-superforms/adapters';
 import { testForm } from '$lib/forms.js';
 import { fail, superValidate } from 'sveltekit-superforms';
 import type { PageServerLoad } from './$types';
-import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
+import { addOrUpdateContact, type Tag } from '$lib/systeme';
+// import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 
 export const load: PageServerLoad = async () => {
 	const form = await superValidate(zod(testForm), { id: 'testResult' });
@@ -42,9 +43,9 @@ export const actions = {
 
 		try {
 			// Get list info
-			addOrUpdateMailinglistMember({ email, tags, name });
+			addOrUpdateContact({ email, tags: tags as Tag[], name });
 		} catch (e) {
-			console.error('Failed to add mailchimp member:', e);
+			console.error('Failed to create contact:', e);
 		}
 
 		try {
