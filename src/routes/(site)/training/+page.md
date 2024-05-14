@@ -3,6 +3,7 @@ titel: Training
 omschrijving: Training voor herstel van aanhoudende vermoeidheid en Long Covid
 
 sidebar: false
+testBanner: false
 
 ---
 
