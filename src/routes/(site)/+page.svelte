@@ -72,7 +72,30 @@
 			</article>
 		</Columns>
 
-		<!-- <Testimonials /> -->
+		<h2>Waarom kiezen cursisten voor Ohlijf?</h2>
+
+		<section class="testimonials">
+			<article>
+				<img src="/mia.png" alt="Mia" />
+				<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
+				<h3>Mia (53) Long Covid</h3>
+			</article>
+
+			<article>
+				<img src="/mia.png" alt="Mia" />
+				<p>Ik heb geleerd om lief te zijn voor mezelf. “Als het even niet lukt is het oké.”</p>
+				<h3>Emma (18) Chronische vermoeidheid</h3>
+			</article>
+
+			<article>
+				<img src="/mia.png" alt="Mia" />
+				<p>
+					Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
+					snappen mij!
+				</p>
+				<h3>Lora (34) Long Covid</h3>
+			</article>
+		</section>
 	</Content>
 
 	<WieZijnWij />
@@ -105,6 +128,18 @@
 	@media (max-width: 600px) {
 		.subheader {
 			width: auto;
+		}
+	}
+
+	.testimonials {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(15ch, 1fr));
+
+		& > article {
+			display: grid;
+			grid-auto-flow: row;
+			justify-items: center;
+			align-items: stretch;
 		}
 	}
 

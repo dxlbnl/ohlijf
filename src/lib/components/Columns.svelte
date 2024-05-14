@@ -1,15 +1,16 @@
 <script lang="ts">
 	export let reverse = false;
+	export let minColumnWidth = '30ch';
 </script>
 
-<section class="columns" class:reverse>
+<section class="columns" class:reverse style:--min-column-width={minColumnWidth}>
 	<slot />
 </section>
 
 <style>
 	.columns {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(var(--min-column-width, 30ch), 1fr));
 		align-items: center;
 
 		gap: 4rem;
