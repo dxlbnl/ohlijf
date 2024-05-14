@@ -32,9 +32,11 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jez
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-Meld je nu aan voor onze **interesselijst** en ontvang als eerste bericht wanneer de training beschikbaar is.
+Meld je aan via de button:
 
-<TrainingForm id=trainingform1 />
+<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Ik herstel lekker wel!
+</a>
 
 ### Hoe is de training opgebouwd?
 - Korte, heldere video’s van ervaringsdeskundigen Aurinke en Robin
@@ -64,6 +66,31 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
 
-De training is per 1 juli 2024 beschikbaar. Meld je aan voor onze interesselijst om als eerste bericht te krijgen.
+We gaan 1 juli van start. Schrijf je in via de knop:
 
-<TrainingForm id=trainingform2/>
+<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Ik herstel lekker wel!
+</a>
+
+## Wat ga je leren in dit traject?
+Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We zijn in zoveel valkuilen gestapt, hebben samen een lijstje van 100 klachten waar we ervaring mee hebben. Of het nu gaat over 'nee' zeggen tegen je schoonmoeder of je hoofdpijn durven omarmen. 
+
+De training is opgebouwd uit 12 sessies. We behandelen daarbij 4 hoofdthema's.
+
+### 1. Reserves opbouwen en lief zijn voor jezelf
+Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen en te weinig voor jezelf. We gaan ruimte creëren om te kunnen herstellen. Heel rustig, want we weten dat je weinig tijd of energie hebt.
+
+### 2. Negatieve gedachten en angsten
+Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat mijn partner zoveel voor mij moet doen". Er komen zoveel lastige gedachten kijken bij het ervaren van die heftige symptomen. We geven heel praktische oefeningen hoe je deze negatieve spiraal doorbreekt zodat alles weer lichter gaat voelen.
+
+### 3. Emoties voelen in plaats van analyseren
+Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel belangrijk om je **zenuwstelsel tot rust** te brengen. En weet je? Het voelt nog lekker ook, en dat ga jij ook leren.
+
+### 4. De kers op de taart: jouw 2.0 versie
+Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
+
+Schrijf je nu in voor €890, betalen in termijnen mogelijk.
+
+<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Ik herstel lekker wel!
+</a>
