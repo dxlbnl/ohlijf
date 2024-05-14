@@ -72,29 +72,31 @@
 			</article>
 		</Columns>
 
-		<h2>Waarom kiezen cursisten voor Ohlijf?</h2>
-
 		<section class="testimonials">
-			<article>
-				<img src="/mia.png" alt="Mia" />
-				<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
-				<h3>Mia (53) Long Covid</h3>
-			</article>
+			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
 
-			<article>
-				<img src="/mia.png" alt="Mia" />
-				<p>Ik heb geleerd om lief te zijn voor mezelf. “Als het even niet lukt is het oké.”</p>
-				<h3>Emma (18) Chronische vermoeidheid</h3>
-			</article>
+			<section>
+				<article>
+					<img src="/mia.png" alt="Mia" />
+					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
+					<h3>Mia (53) Long Covid</h3>
+				</article>
 
-			<article>
-				<img src="/mia.png" alt="Mia" />
-				<p>
-					Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
-					snappen mij!
-				</p>
-				<h3>Lora (34) Long Covid</h3>
-			</article>
+				<article>
+					<img src="/mia.png" alt="Mia" />
+					<p>Ik heb geleerd om lief te zijn voor mezelf. “Als het even niet lukt is het oké.”</p>
+					<h3>Emma (18) Chronische vermoeidheid</h3>
+				</article>
+
+				<article>
+					<img src="/mia.png" alt="Mia" />
+					<p>
+						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
+						snappen mij!
+					</p>
+					<h3>Lora (34) Long Covid</h3>
+				</article>
+			</section>
 		</section>
 	</Content>
 
@@ -132,14 +134,25 @@
 	}
 
 	.testimonials {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(15ch, 1fr));
-
-		& > article {
+		margin-block: 2rem;
+		& h2 {
+			margin-block: 1rem;
+		}
+		& > section {
 			display: grid;
-			grid-auto-flow: row;
-			justify-items: center;
-			align-items: stretch;
+			grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+			gap: 2ch;
+
+			& > article {
+				display: grid;
+				grid-auto-flow: row;
+				justify-items: center;
+				align-items: stretch;
+
+				& > * {
+					text-align: center;
+				}
+			}
 		}
 	}
 
