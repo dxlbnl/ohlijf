@@ -36,7 +36,7 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 Meld je aan via de button:
 
 <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik durf het aan!
+  Ik herstel lekker wel!
 </a>
 
 ## Wat ga je leren in dit traject?
@@ -56,7 +56,7 @@ Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel bela
 ### 4. De kers op de taart: jouw 2.0 versie
 Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
 
-**Schrijf je nu in voor €890, betalen in termijnen is mogelijk.**
+**Schrijf je nu in en betaal 3 termijnen van €297**
 
 <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik ga ervoor!
@@ -95,7 +95,7 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 **We gaan 1 juli van start. Schrijf je in via de knop**
 
 <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik herstel lekker wel!
+  Ik durf het aan!
 </a>
 
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd om te herstellen.
