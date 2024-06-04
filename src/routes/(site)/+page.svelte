@@ -77,24 +77,21 @@
 
 			<section>
 				<article>
-					<img src="/mia.png" alt="Mia" />
 					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
-					<h3>Mia (53) Long Covid</h3>
+					<h3>Mia (63) Long Covid</h3>
 				</article>
 
 				<article>
-					<img src="/mia.png" alt="Mia" />
-					<p>Ik heb geleerd om lief te zijn voor mezelf. “Als het even niet lukt is het oké.”</p>
-					<h3>Emma (18) Chronische vermoeidheid</h3>
+					<pFijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
+					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
 				</article>
 
 				<article>
-					<img src="/mia.png" alt="Mia" />
 					<p>
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
 						snappen mij!
 					</p>
-					<h3>Lora (34) Long Covid</h3>
+					<h3>Lora (35) Long Covid</h3>
 				</article>
 			</section>
 		</section>
