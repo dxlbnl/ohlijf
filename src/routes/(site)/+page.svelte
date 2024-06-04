@@ -74,6 +74,14 @@
 
 		<section class="testimonials">
 			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
+				
+				<article>
+					<p>
+						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
+						snappen mij!
+					</p>
+					<h3>Lora (35) Long Covid</h3>
+				</article>
 
 			<section>
 				<article>
@@ -86,13 +94,7 @@
 					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
 				</article>
 
-				<article>
-					<p>
-						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
-						snappen mij!
-					</p>
-					<h3>Lora (35) Long Covid</h3>
-				</article>
+
 			</section>
 		</section>
 	</Content>
@@ -145,9 +147,16 @@
 				grid-auto-flow: row;
 				justify-items: center;
 				align-items: stretch;
+				margin: 1rem;
+				gap: 1rem;
 
 				& > * {
 					text-align: center;
+					margin: 0;
+				}
+
+				& > p {
+					font-style:italic;
 				}
 			}
 		}
