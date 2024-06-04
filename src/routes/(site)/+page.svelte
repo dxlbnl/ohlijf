@@ -74,7 +74,8 @@
 
 		<section class="testimonials">
 			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
-				
+
+			<section>
 				<article>
 					<p>
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
@@ -83,17 +84,15 @@
 					<h3>Lora (35) Long Covid</h3>
 				</article>
 
-			<section>
-				<article>
-					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
-					<h3>Mia (63) Long Covid</h3>
-				</article>
-
 				<article>
 					<p>Fijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
 					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
 				</article>
 
+				<article>
+					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
+					<h3>Mia (63) Long Covid</h3>
+				</article>
 
 			</section>
 		</section>
