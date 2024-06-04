@@ -82,7 +82,7 @@
 				</article>
 
 				<article>
-					<pFijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
+					<p>Fijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
 					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
 				</article>
 
