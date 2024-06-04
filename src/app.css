@@ -229,12 +229,14 @@ h2,
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
+	margin-bottom: 0;
 }
 h3,
 h4,
 h5,
 h6 {
 	font-family: 'Raleway', sans-serif;
+	margin-bottom: 0;
 }
 
 p {

@@ -72,7 +72,30 @@
 			</article>
 		</Columns>
 
-		<!-- <Testimonials /> -->
+		<section class="testimonials">
+			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
+
+			<section>
+				<article>
+					<p>
+						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
+						snappen mij!
+					</p>
+					<h3>Lora (35) Long Covid</h3>
+				</article>
+
+				<article>
+					<p>Fijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
+					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
+				</article>
+
+				<article>
+					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
+					<h3>Mia (63) Long Covid</h3>
+				</article>
+
+			</section>
+		</section>
 	</Content>
 
 	<WieZijnWij />
@@ -105,6 +128,36 @@
 	@media (max-width: 600px) {
 		.subheader {
 			width: auto;
+		}
+	}
+
+	.testimonials {
+		margin-block: 2rem;
+		& h2 {
+			margin-block: 1rem;
+		}
+		& > section {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+			gap: 2ch;
+
+			& > article {
+				display: grid;
+				grid-auto-flow: row;
+				justify-items: center;
+				align-items: stretch;
+				margin: 1rem;
+				gap: 1rem;
+
+				& > * {
+					text-align: center;
+					margin: 0;
+				}
+
+				& > p {
+					font-style:italic;
+				}
+			}
 		}
 	}
 
