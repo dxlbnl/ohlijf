@@ -17,7 +17,7 @@
 		Ontdek de praktische herstelmethode van OhLijf, voor een pijn- en klachtenvrij leven. Door de
 		echte oorzaak aan te pakken is 100% herstel mogelijk.
 	</p>
-	<p class="subheader white bold">Kennismaken met onze methode? Check of jij van je klachten af kan komen met de gratis video-training:</p>
+	<p class="subheader white bold">Kennismaken met onze methode? Doe de gratis video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
 	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid">Naar de gratis training</a>
 </Header>
 
@@ -101,8 +101,8 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Is een klachtenvrij leven voor mij mogelijk?</h2>
-		<a href="/test" class="cta center">Doe de test!</a>
+		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
+		<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center">Ik herstel lekker wel!</a>
 	</section>
 </main>
 
