@@ -73,7 +73,7 @@
 		</Columns>
 
 		<section class="testimonials">
-			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
+			<h2 class="heading">Waarom kiezen voor OhLijf?</h2>
 
 			<section>
 				<article>
