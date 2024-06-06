@@ -81,7 +81,7 @@
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
 						snappen mij!
 					</p>
-					<h3>Lora (35) Long Covid</h3>
+					<h3>Lora (35) Post Viraal Syndroom</h3>
 				</article>
 
 				<article>
