@@ -17,7 +17,7 @@
 		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn en vermoeidheid. Door de
 		echte oorzaak aan te pakken is 100% herstel mogelijk.
 	</p>
-	<p class="subheader white bold">Kennismaken met onze methode? Check of jij van je klachten af kan komen met de gratis video-training:</p>
+	<p class="subheader white bold">Kennismaken met onze methode? Doe de gratis video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
 	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid">Naar de gratis training</a>
 </Header>
 
@@ -71,7 +71,7 @@
 		</Columns>
 
 		<section class="testimonials">
-			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
+			<h2 class="heading">Waarom kiezen voor OhLijf?</h2>
 
 			<section>
 				<article>
@@ -79,7 +79,7 @@
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
 						snappen mij!
 					</p>
-					<h3>Lora (35) Long Covid</h3>
+					<h3>Lora (35) Post Viraal Syndroom</h3>
 				</article>
 
 				<article>
@@ -99,8 +99,8 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Is een klachtenvrij leven voor mij mogelijk?</h2>
-		<a href="/test" class="cta center">Doe de test!</a>
+		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
+		<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center">Ik herstel lekker wel!</a>
 	</section>
 </main>
 
