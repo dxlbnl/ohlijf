@@ -14,7 +14,7 @@
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
 	<p class="subheader white">Helemaal klaar met die terugkerende klachten?</p>
 	<p class="subheader white">
-		Ontdek de praktische herstelmethode van OhLijf, voor een pijn- en klachtenvrij leven. Door de
+		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn en vermoeidheid. Door de
 		echte oorzaak aan te pakken is 100% herstel mogelijk.
 	</p>
 	<p class="subheader white bold">Kennismaken met onze methode? Doe de gratis video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
@@ -32,17 +32,16 @@
 				alt="Een vrouw met zichtbare hoofdpijn"
 			/>
 			<article>
-				<h2 class="heading">De verlamming van pijn..</h2>
+				<h2 class="heading">De verlamming van pijn...</h2>
 				<p>Wij kennen het maar al te goed...</p>
 				<p>
 					Je worstelt met aanhoudende symptomen die je leven beheersen en dat frustreert! Je bent
 					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
 				</p>
 				<p>
-					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf pak je de
-					echte oorzaak aan zodat je duurzaam herstelt.
+					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Robin herstelde na 20 jaar dagelijks pijn en werd hierover geïnterviewd door Women's Health.
 				</p>
-				<a href="/methode">Ontdek of de OhLijf-methode je kan helpen </a>
+				<a href="/downloads/wh-robin.pdf" target="_blank">Lees Robins herstelverhaal</a>
 			</article>
 		</Columns>
 
@@ -65,10 +64,9 @@
 					aanpassingen in je dagelijkse leven maken die een positief sneeuwbaleffect creëren.
 				</p>
 				<p>
-					Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis
-					naar een vrij leven zonder klachten
+					Een andere mindset en praktische oefeningen zorgen ervoor dat je zelf kan herstellen. Klaar voor een positieve verandering?
 				</p>
-				<a href="/methode">Klaar voor een positieve verandering?</a>
+				<a href="/training">Bekijk onze online training</a>
 			</article>
 		</Columns>
 
