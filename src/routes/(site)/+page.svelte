@@ -41,7 +41,7 @@
 				<p>
 					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Robin herstelde na 20 jaar dagelijks pijn en werd hierover geïnterviewd door Women's Health.
 				</p>
-				<a href="/downloads/wh-robin.pdf">Lees Robins herstelverhaal</a>
+				<a href="/downloads/wh-robin.pdf" target="_blank">Lees Robins herstelverhaal</a>
 			</article>
 		</Columns>
 
