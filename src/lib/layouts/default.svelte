@@ -40,7 +40,7 @@
 
 <style>
 	main {
-		margin-block: 4rem;
+		padding-block: 4rem;
 	}
 	main :global(.image) {
 		aspect-ratio: 8/3;
