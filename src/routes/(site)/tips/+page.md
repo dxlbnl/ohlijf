@@ -45,7 +45,6 @@ Daarom sta ik graag voor je klaar om je te begeleiden in je herstelreis. Want ik
 ## Online training
 Omdat ik graag zo veel mogelijk mensen wil helpen, ben ik samen met Aurinke (wij zijn de oprichters van OhLijf) een online training aan het maken voor mensen om te herstellen van chronische klachten. Wij houden je virtuele hand vast in de stappen die je gaat zetten. Daarnaast kan je je ervaringen delen in de community of vragen stellen in onze live Q&A-sessies.
 
-Deze online training is gericht op mensen die naast pijn ook veel vermoeidheid ervaren, zoals bij Long Covid. Deze training verschijnt aan het begin van de zomer.
-Een training die gericht is op pijn zal later in 2024 verschijnen.
+Deze online training is gericht op mensen met chronische pijn, vermoeidheid of andere onbegrepen klachten. We starten 1 juli en hebben er al heel veel zin in!
 
 [Check de training hier.](/training)
