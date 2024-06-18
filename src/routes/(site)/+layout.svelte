@@ -13,10 +13,10 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	import { dev } from '$app/environment';
+	import { page } from '$app/stores';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import Matomo from '$lib/components/Matomo.svelte';
-	import { page } from '$app/stores';
 
 	inject({ mode: dev ? 'development' : 'production' });
 	injectSpeedInsights();
@@ -42,7 +42,9 @@
 
 <Matomo disableCookies />
 
-<Navigation {menu} />
+{#if !$page.url.searchParams.has('focus')}
+	<Navigation {menu} />
+{/if}
 
 <slot />
 
