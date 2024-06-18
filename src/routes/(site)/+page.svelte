@@ -14,10 +14,10 @@
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
 	<p class="subheader white">Helemaal klaar met die terugkerende klachten?</p>
 	<p class="subheader white">
-		Ontdek de praktische herstelmethode van OhLijf, voor een pijn- en klachtenvrij leven. Door de
+		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn en vermoeidheid. Door de
 		echte oorzaak aan te pakken is 100% herstel mogelijk.
 	</p>
-	<p class="subheader white bold">Kennismaken met onze methode? Check of jij van je klachten af kan komen met de gratis video-training:</p>
+	<p class="subheader white bold">Kennismaken met onze methode? Doe de gratis video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
 	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid">Naar de gratis training</a>
 </Header>
 
@@ -32,17 +32,16 @@
 				alt="Een vrouw met zichtbare hoofdpijn"
 			/>
 			<article>
-				<h2 class="heading">De verlamming van pijn..</h2>
+				<h2 class="heading">De verlamming van pijn...</h2>
 				<p>Wij kennen het maar al te goed...</p>
 				<p>
 					Je worstelt met aanhoudende symptomen die je leven beheersen en dat frustreert! Je bent
 					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
 				</p>
 				<p>
-					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf pak je de
-					echte oorzaak aan zodat je duurzaam herstelt.
+					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Robin herstelde na 20 jaar dagelijks pijn en werd hierover geïnterviewd door Women's Health.
 				</p>
-				<a href="/methode">Ontdek of de OhLijf-methode je kan helpen </a>
+				<a href="/downloads/wh-robin.pdf" target="_blank">Lees Robins herstelverhaal</a>
 			</article>
 		</Columns>
 
@@ -65,37 +64,34 @@
 					aanpassingen in je dagelijkse leven maken die een positief sneeuwbaleffect creëren.
 				</p>
 				<p>
-					Ontdek meer over de effectieve methode die wij hanteren en start jouw persoonlijke reis
-					naar een vrij leven zonder klachten
+					Een andere mindset en praktische oefeningen zorgen ervoor dat je zelf kan herstellen. Klaar voor een positieve verandering?
 				</p>
-				<a href="/methode">Klaar voor een positieve verandering?</a>
+				<a href="/training">Bekijk onze online training</a>
 			</article>
 		</Columns>
 
 		<section class="testimonials">
-			<h2 class="heading">Waarom kiezen cursisten voor Ohlijf?</h2>
+			<h2 class="heading">Waarom kiezen voor OhLijf?</h2>
 
 			<section>
 				<article>
-					<img src="/mia.png" alt="Mia" />
-					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
-					<h3>Mia (53) Long Covid</h3>
-				</article>
-
-				<article>
-					<img src="/mia.png" alt="Mia" />
-					<p>Ik heb geleerd om lief te zijn voor mezelf. “Als het even niet lukt is het oké.”</p>
-					<h3>Emma (18) Chronische vermoeidheid</h3>
-				</article>
-
-				<article>
-					<img src="/mia.png" alt="Mia" />
 					<p>
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
 						snappen mij!
 					</p>
-					<h3>Lora (34) Long Covid</h3>
+					<h3>Lora (35) Post Viraal Syndroom</h3>
 				</article>
+
+				<article>
+					<p>Fijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
+					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
+				</article>
+
+				<article>
+					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
+					<h3>Mia (63) Long Covid</h3>
+				</article>
+
 			</section>
 		</section>
 	</Content>
@@ -103,8 +99,8 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Is een klachtenvrij leven voor mij mogelijk?</h2>
-		<a href="/test" class="cta center">Doe de test!</a>
+		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
+		<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center">Ik herstel lekker wel!</a>
 	</section>
 </main>
 
@@ -148,9 +144,16 @@
 				grid-auto-flow: row;
 				justify-items: center;
 				align-items: stretch;
+				margin: 1rem;
+				gap: 1rem;
 
 				& > * {
 					text-align: center;
+					margin: 0;
+				}
+
+				& > p {
+					font-style:italic;
 				}
 			}
 		}
