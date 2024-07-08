@@ -25,11 +25,11 @@ Goed, nu over naar de OhLijf-methode.
  
 ## De verbinding tussen je lijf en je brein
 Zonder brein, geen pijn. Je hersenen spelen een hele grote rol bij de meeste chronische klachten. Ik zeg de ‘meeste’, want er zijn uitzonderingen. Je weet dat je hersenen een grote rol spelen als je enkele van deze dingen herkent:
-Je klachten duren langer dan 6 weken
-Soms verschuift een symptoom van plek
-Je klacht voel je de ene keer meer en de andere keer minder
-Je hebt verschillende behandelingen geprobeerd maar die hielpen kort of niet
-Het hebben van symptomen roept frustratie of spanning bij je op
+* Je klachten duren langer dan 6 weken
+* Soms verschuift een symptoom van plek
+* Je klacht voel je de ene keer meer en de andere keer minder
+* Je hebt verschillende behandelingen geprobeerd maar die hielpen kort of niet
+* Het hebben van symptomen roept frustratie of spanning bij je op
 
 [Doe voor een compleet overzicht de test en ontdek of je hersenen een grote rol spelen bij je klachten.](/test)
 
@@ -45,6 +45,6 @@ Tot slot werken we aan **jouw 2.0-versie**. We móeten zoveel elke dag, hoe ga j
 
 Hadden we al gezegd dat je niet hoeft te leren leven met je klachten?
 
-**De OhLijf-methode gaat voor 100% herstel van je klachten.**
+**De OhLijf-methode gaat voor volledig herstel van je klachten.**
  
 [Klik hier voor meer informatie over de online training.](/training)
