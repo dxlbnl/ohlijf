@@ -56,12 +56,6 @@ Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel bela
 ### 4. De kers op de taart: jouw 2.0 versie
 Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
 
-**Schrijf je nu in en betaal 3 termijnen van €297**
-
-<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik ga ervoor!
-</a>
-
 ### Wat onze training zo fijn maakt
 - Korte, heldere video’s van ervaringsdeskundigen Aurinke en Robin
 - Laagdrempelige **oefeningen** om te doen
@@ -73,6 +67,9 @@ Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat and
 
 #### Toegang tot Club OhLijf 
 De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan elkaar kunt stellen. Hier kun je 24/7 kracht uit putten. De community is toegankelijk via de app of website van de training.
+
+## Wanneer start de training?
+De training wordt een paar keer per jaar aangeboden. Iedereen start op hetzelfde moment zodat je ook dezelfde struggles en tips met elkaar kan delen. De eerstvolgende training wordt naar verwachting in de **herfst van 2024** gegeven. Schrijf je in op de interesselijst en je hoort als eerste wanneer de training weer start.
 
 <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
@@ -92,11 +89,5 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
 
-**We gaan 1 juli van start. Schrijf je in via de knop**
-
-<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik durf het aan!
-</a>
-
-We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd om te herstellen.
+We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen.
 Je bent van harte welkom bij OhLijf!
