@@ -4,7 +4,6 @@ omschrijving: Training voor herstel van langdurige klachten
 
 sidebar: false
 testBanner: false
-
 ---
 
 <script>
@@ -33,7 +32,7 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jez
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-Meld je aan via de button:
+Ben je benieuwd? Meld je aan voor de interesselijst en je hoort als eerst wanneer de training van start gaat.
 
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
@@ -73,6 +72,8 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 ## Wanneer start de training?
 De training wordt een paar keer per jaar aangeboden. Iedereen start op hetzelfde moment zodat je ook dezelfde struggles en tips met elkaar kan delen. De eerstvolgende training wordt naar verwachting in de **herfst van 2024** gegeven. Schrijf je in op de interesselijst en je hoort als eerste wanneer de training weer start.
 
+Interesse? Laat je e-mailadres achter en je wordt op de hoogte gehouden.
+
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
 </a> -->
@@ -96,5 +97,4 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen.
 Je bent van harte welkom bij OhLijf!
 
-
-<TrainingForm id=trainingform1 />
+<!-- <TrainingForm id=trainingform1 /> -->
