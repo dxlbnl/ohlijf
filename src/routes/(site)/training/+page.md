@@ -12,8 +12,8 @@ testBanner: false
 </script>
 
 ## Je zou zo graag alles weer kunnen
-Je had zo’n vrij en vol leven, maar tegenwoordig heb je **veel minder energie**. Je zou wensen dat je weer alles kan, maar weet niet waar te beginnen.
-Elke keer vraag je je af of je wel of niet naar die afspraak kan. Of je weer een terugval zal krijgen.
+Je had zo’n vrij en vol leven, maar tegenwoordig heb je **veel minder energie**. Je zou wensen dat je weer alles kan, maar weet niet waar te beginnen.<br>
+Elke keer vraag je je af of je wel of niet naar die afspraak kan. Of je weer een terugval zal krijgen.<br>
 Misschien voel je je beperkt in het zorgen voor je gezin, wil je weer kunnen **sporten** en werken.
 
 Hoe zou het voor jou zijn als je **alles weer kon**? Wat is dat ene ding dat je zo mist en zo graag weer zou kunnen?
@@ -81,17 +81,17 @@ De eerstvolgende training start op **1 november 2024**. Schrijf je in op de inte
 <TrainingForm id=trainingform1 />
 
 ## Is er persoonlijke begeleiding?
-Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. Je mag daarbij je webcam aanzetten zodat we direct in gesprek gaan (of gewoon meeluisteren mag ook)
-We merken dat we het heel fijn vinden om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een 'nulmeting') te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen.
-Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies.
+Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. <br>
+We vinden het heel fijn om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een 'nulmeting') te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen. <br>
+Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies. <br>
 Op deze manier voelt een online training op afstand toch ook een beetje persoonlijk.
 
 ## Hoeveel kost OhLijfs Grote Hersteltraining?
-Je krijgt een jaar toegang tot de training met video's, oefeningen en community en betaalt daarvoor 6 x €149 (maandelijks). 
+Je krijgt een jaar toegang tot de training met video's, oefeningen en community en betaalt daarvoor 6 x €149 (maandelijks). <br>
 Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is. (zie contactpagina)
 
 ## Hoeveel tijd kost de hersteltraining?
-Je krijgt elke week toegang tot een nieuwe sessie, 12 in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. Je mag het dus lekker rustig op je eigen tempo doen, we willen dit life-changing herstel niet overhaasten.
+Je krijgt elke week toegang tot een nieuwe sessie, 12 in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. Je mag het dus lekker rustig op je eigen tempo doen, we willen dit life-changing herstel niet overhaasten.<br>
 Elke video is 5-10 minuten, per sessie zijn dit er meestal 3. Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen rustig op :)
 
 ## Voor wie is deze mind-body-training?
