@@ -19,8 +19,10 @@ Misschien voel je je beperkt in het zorgen voor je gezin, wil je weer kunnen **s
 Hoe zou het voor jou zijn als je **alles weer kon**? Wat is dat ene ding dat je zo mist en zo graag weer zou kunnen?
 
 ## Je hoeft niet te leren leven met je klachten.
-Wij kennen je struggles maar al te goed. Oprichter van OhLijf Aurinke zat meer dan 2 jaar thuis op de bank als een hoopje ellende. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
+Wij kennen je struggles maar al te goed. Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
 Pas toen ze in aanraking kwam met de mind-body-visie kwam haar herstel op gang. En nu runt ze OhLijf en werkt ze aan een mooie toekomst!
+
+Aurinkes compagnon **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en duizelingen. Na meer dan 10 verschillende behandelingen, was ze de wanhoop nabij. Gelukkig ontdekte zij toen de mind-body-methode en ging ze van elke dag pijn naar bijna geen pijn meer.
 
 <Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
 
@@ -32,7 +34,7 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jez
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-Ben je benieuwd? Meld je aan voor de interesselijst en je hoort als eerst wanneer de training van start gaat.
+Ben je benieuwd? OhLijfs Grote Hersteltraining gaat **1 november 2024** van start! Je kunt je binnenkort aanmelden, dus zet je e-mailadres alvast op de interesselijst.
 
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
@@ -41,7 +43,7 @@ Ben je benieuwd? Meld je aan voor de interesselijst en je hoort als eerst wannee
 <TrainingForm id=trainingform1 />
 
 ## Wat ga je leren in dit traject?
-Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We zijn in zoveel valkuilen gestapt, hebben samen een lijstje van 100 klachten waar we ervaring mee hebben. Of het nu gaat over 'nee' zeggen tegen je schoonmoeder of je hoofdpijn durven omarmen. 
+Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We zijn in zoveel valkuilen gestapt, hebben samen een lijstje van 100 klachten waar we ervaring mee hebben. 
 
 De training is opgebouwd uit 12 sessies. We behandelen daarbij 4 hoofdthema's.
 
@@ -69,16 +71,22 @@ Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat and
 #### Toegang tot Club OhLijf 
 De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan elkaar kunt stellen. Hier kun je 24/7 kracht uit putten. De community is toegankelijk via de app of website van de training.
 
-## Wanneer start de training?
-De training wordt een paar keer per jaar aangeboden. Iedereen start op hetzelfde moment zodat je ook dezelfde struggles en tips met elkaar kan delen. De eerstvolgende training wordt naar verwachting in de **herfst van 2024** gegeven. Schrijf je in op de interesselijst en je hoort als eerste wanneer de training weer start.
-
-Interesse? Laat je e-mailadres achter en je wordt op de hoogte gehouden.
+## Wanneer start OhLijfs Grote Hersteltraining?
+De eerstvolgende training start op **1 november 2024**. Schrijf je in op de interesselijst en je hoort als eerste wanneer de deuren open gaan voor aanmeldingen. Iedereen start op hetzelfde moment zodat je ook dezelfde ervaringen en tips met elkaar kan delen. 
 
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
 </a> -->
 
 <TrainingForm id=trainingform1 />
+
+## Hoeveel kost OhLijfs Grote Hersteltraining?
+Je krijgt een jaar toegang tot de training met video's, oefeningen en community en betaalt daarvoor 6 x €149 (maandelijks). 
+Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is. (zie contactpagina)
+
+## Hoeveel tijd kost de hersteltraining?
+Je krijgt elke week toegang tot een nieuwe sessie, 12 in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. Je mag het dus lekker rustig op je eigen tempo doen, we willen dit life-changing herstel niet overhaasten.
+Elke video is 5-10 minuten, per sessie zijn dit er meestal 3. Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen rustig op :)
 
 ## Voor wie is deze mind-body-training?
 Deze training is voor jou als je je herkent in de volgende dingen:
@@ -95,6 +103,6 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
 
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen.
-Je bent van harte welkom bij OhLijf!
+Je bent zo harte welkom bij OhLijf!
 
 <!-- <TrainingForm id=trainingform1 /> -->
