@@ -80,7 +80,7 @@
 				<article>
 					<p>
 						Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een 
-						hele grote winst.<br />
+						hele grote winst.<br /><br />
 						Ik ben reuze blij met de training!<br />
 						(deelnemer training, week 4)
 					</p>
@@ -90,7 +90,8 @@
 				<article>
 					<p>
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.<br /><br />
-						Jullie snappen mij!
+						Jullie snappen mij!<br />
+						(deelnemer training)
 					</p>
 					<h4>Lora (Long Covid)</h4>
 				</article>
@@ -98,7 +99,7 @@
 				<article>
 					<p>
 						Ik raak er steeds meer van overtuigd ook na het zien van jullie video's dat deze methode weleens de 
-						oplossing kan zijn voor mijn klachten.<br />
+						oplossing kan zijn voor mijn klachten.<br /><br />
 						Jullie doen het zo leuk en duidelijk in die niet te lange video's. Ben jullie zo dankbaar!<br />
 						(deelnemer training, week 3)
 					</p>
