@@ -39,8 +39,9 @@
 					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
 				</p>
 				<p>
-					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf kijken we naar jou als geheel met al je gedachten en overtuigingen. 
-					We leren je alle tools die je nodig hebt om je symptomen onder controle te krijgen en te leren hersellen.
+					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf leer je wat jouw klachten triggert, omgaan met negatieve gedachten en begrijp je de rol van emoties. 
+					Met onze duidelijke oefeningen kun je je symptomen onder controle te krijgen en stap voor stap hersellen.
+				</p>
 				<a href="/methode" target="_blank">Ontdek onze methode</a>
 			</article>
 		</Columns>
@@ -76,8 +77,10 @@
 			<section>
 				<article>
 					<p>
-						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
-						snappen mij!
+						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. 
+					</p>
+					<p> 
+						Jullie snappen mij!
 					</p>
 					<h3>Lora, Long Covid</h3>
 				</article>
