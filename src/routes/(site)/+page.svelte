@@ -75,12 +75,24 @@
 			<h2 class="heading">Waarom kiezen voor OhLijf?</h2>
 
 			<section>
+
+
+				<article>
+					<p>
+						Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een 
+						hele grote winst.<br />
+						Ik ben reuze blij met de training!<br />
+						(deelnemer training, week 4)
+					</p>
+					<h4>Carla (Chronische hoofdpijn en vermoeidheid)</h4>
+				</article>
+
 				<article>
 					<p>
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.<br /><br />
 						Jullie snappen mij!
 					</p>
-					<h3>Lora, Long Covid</h3>
+					<h4>Lora (Long Covid)</h4>
 				</article>
 
 				<article>
@@ -90,18 +102,9 @@
 						Jullie doen het zo leuk en duidelijk in die niet te lange video's. Ben jullie zo dankbaar!<br />
 						(deelnemer training, week 3)
 					</p>
-					<h3>Jet, Chronische hoofdpijn en weinig energie</h3>
+					<h4>Jet (Chronische hoofdpijn en weinig energie)</h4>
 				</article>
 
-				<article>
-					<p>
-						Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een 
-						hele grote winst.<br />
-						Ik ben reuze blij met de training!<br />
-						(deelnemer training, week 4)
-					</p>
-					<h3>Carla, Chronische hoofdpijn en vermoeidheid</h3>
-				</article>
 
 			</section>
 		</section>
