@@ -14,10 +14,10 @@
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
 	<p class="subheader white">Helemaal klaar met die aanhoudende symptomen?</p>
 	<p class="subheader white">
-		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn en vermoeidheid. Door de
-		echte oorzaak aan te pakken, waarbij je mind en body samenwerken, is herstel mogelijk.
+		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn, vermoeidheid en onbegrepen klachten. Door de
+		echte oorzaak aan te pakken en je mind en body te laten samenwerken, is herstel mogelijk.
 	</p>
-	<p class="subheader white bold">Kennismaken met onze mind-body-methode? Doe de gratis 7-daagse video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
+	<p class="subheader white bold">Gratis kennismaken met onze methode? Doe de 7-daagse video-training en ervaar zelf verlichting:</p>
 	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" target="_blank">Naar de gratis training</a>
 </Header>
 
