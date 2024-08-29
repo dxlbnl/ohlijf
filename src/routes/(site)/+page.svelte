@@ -77,7 +77,7 @@
 			<section>
 				<article>
 					<p>
-						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.\
+						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.<br />
 						Jullie snappen mij!
 					</p>
 					<h3>Lora, Long Covid</h3>
