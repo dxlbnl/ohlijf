@@ -77,25 +77,29 @@
 			<section>
 				<article>
 					<p>
-						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. 
-					</p>
-					<p> 
+						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.\
 						Jullie snappen mij!
 					</p>
 					<h3>Lora, Long Covid</h3>
 				</article>
 
 				<article>
-					<p>Ik raak er steeds meer van overtuigd ook na het zien van jullie video's dat deze methode weleens de 
-					oplossing kan zijn voor mijn klachten. 
-Ben jullie zo dankbaar.
-Jullie doen het zo leuk en duidelijk in die niet te lange video's. Dank daarvoor! (deelnemer training, week 3)</p>
+					<p>
+						Ik raak er steeds meer van overtuigd ook na het zien van jullie video's dat deze methode weleens de 
+						oplossing kan zijn voor mijn klachten. \
+						Jullie doen het zo leuk en duidelijk in die niet te lange video's. Ben jullie zo dankbaar! \
+						(deelnemer training, week 3)
+					</p>
 					<h3>Jet, Chronische hoofdpijn en weinig energie</h3>
 				</article>
 
 				<article>
-					<p>Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een 
-					hele grote winst. Ik ben reuze blij met de training! (deelnemer training, week 4)</p>
+					<p>
+						Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een 
+						hele grote winst. \
+						Ik ben reuze blij met de training! \
+						(deelnemer training, week 4)
+					</p>
 					<h3>Carla, Chronische hoofdpijn en vermoeidheid</h3>
 				</article>
 
