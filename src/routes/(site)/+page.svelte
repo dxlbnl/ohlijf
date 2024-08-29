@@ -12,13 +12,13 @@
 
 <Header>
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
-	<p class="subheader white">Helemaal klaar met die terugkerende klachten?</p>
+	<p class="subheader white">Helemaal klaar met die aanhoudende symptomen?</p>
 	<p class="subheader white">
 		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn en vermoeidheid. Door de
-		echte oorzaak aan te pakken is 100% herstel mogelijk.
+		echte oorzaak aan te pakken, waarbij je mind en body samenwerken, is herstel mogelijk.
 	</p>
-	<p class="subheader white bold">Kennismaken met onze methode? Doe de gratis video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
-	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid">Naar de gratis training</a>
+	<p class="subheader white bold">Kennismaken met onze mind-body-methode? Doe de gratis 7-daagse video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
+	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" target="_blank">Naar de gratis training</a>
 </Header>
 
 <main>
@@ -39,9 +39,9 @@
 					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
 				</p>
 				<p>
-					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Robin herstelde na 20 jaar dagelijks pijn en werd hierover geïnterviewd door Women's Health.
-				</p>
-				<a href="/downloads/wh-robin.pdf" target="_blank">Lees Robins herstelverhaal</a>
+					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf kijken we naar jou als geheel met al je gedachten en overtuigingen. 
+					We leren je alle tools die je nodig hebt om je symptomen onder controle te krijgen en te leren hersellen.
+				<a href="/methode" target="_blank">Ontdek onze methode</a>
 			</article>
 		</Columns>
 
@@ -79,17 +79,21 @@
 						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
 						snappen mij!
 					</p>
-					<h3>Lora (35) Post Viraal Syndroom</h3>
+					<h3>Lora, Long Covid</h3>
 				</article>
 
 				<article>
-					<p>Fijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
-					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
+					<p>Ik raak er steeds meer van overtuigd ook na het zien van jullie video's dat deze methode weleens de 
+					oplossing kan zijn voor mijn klachten. 
+Ben jullie zo dankbaar.
+Jullie doen het zo leuk en duidelijk in die niet te lange video's. Dank daarvoor! (deelnemer training, week 3)</p>
+					<h3>Jet, Chronische hoofdpijn en weinig energie</h3>
 				</article>
 
 				<article>
-					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
-					<h3>Mia (63) Long Covid</h3>
+					<p>Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een 
+					hele grote winst. Ik ben reuze blij met de training! (deelnemer training, week 4)</p>
+					<h3>Carla, Chronische hoofdpijn en vermoeidheid</h3>
 				</article>
 
 			</section>
@@ -100,7 +104,7 @@
 
 	<section class="content call-to-action">
 		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
-		<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center">Ik herstel lekker wel!</a>
+		<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center" target="_blank">Ik herstel lekker wel!</a>
 	</section>
 </main>
 
