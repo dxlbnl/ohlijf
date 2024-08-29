@@ -80,6 +80,12 @@ De eerstvolgende training start op **1 november 2024**. Schrijf je in op de inte
 
 <TrainingForm id=trainingform1 />
 
+## Is er persoonlijke begeleiding?
+Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. Je mag daarbij je webcam aanzetten zodat we direct in gesprek gaan (of gewoon meeluisteren mag ook)
+We merken dat we het heel fijn vinden om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een 'nulmeting') te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen.
+Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies.
+Op deze manier voelt een online training op afstand toch ook een beetje persoonlijk.
+
 ## Hoeveel kost OhLijfs Grote Hersteltraining?
 Je krijgt een jaar toegang tot de training met video's, oefeningen en community en betaalt daarvoor 6 x €149 (maandelijks). 
 Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is. (zie contactpagina)
