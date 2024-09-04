@@ -11,30 +11,39 @@ testBanner: false
   import TrainingForm from '$lib/components/TrainingForm.svelte'
 </script>
 
+Door anders te kijken naar jouw symptomen, gaat er een hele nieuwe weg voor je open. Wij hebben vertrouwen dat ook jij van overleven kunt gaan naar weer volop genieten. 
+Je mag op de pauzeknop duwen en voor jezelf kiezen. Gun jezelf je herstel.
+Wij nemen je stapje voor stapje mee en reiken alles aan dat je nodig hebt om te leren herstellen van jouw klachten. Zodat je alles weer kan.
+
 ## Je zou zo graag alles weer kunnen
-Je had zo’n vrij en vol leven, maar tegenwoordig heb je **veel minder energie**. Je zou wensen dat je weer alles kan, maar weet niet waar te beginnen.<br>
-Elke keer vraag je je af of je wel of niet naar die afspraak kan. Of je weer een terugval zal krijgen.<br>
-Misschien voel je je beperkt in het zorgen voor je gezin, wil je weer kunnen **sporten** en werken.
+Je wilt zo graag voor je gezin kunnen zorgen, die mooie reis maken, weer kunnen werken of sporten. De beperkingen van je lijf ben je klaar mee. Misschien ben je wel wanhopig, want je hebt al zoveel geprobeerd…
 
-Hoe zou het voor jou zijn als je **alles weer kon**? Wat is dat ene ding dat je zo mist en zo graag weer zou kunnen?
+## Gun jezelf je herstel
+We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezelf te kiezen. Gun jezelf weer een leven vol energie en mogelijkheden.
+De Grote Vriendelijke Hersteltraining biedt jou:
+* De signalen van je lichaam begrijpen en niet te vechten tegen de pijn
+* Rust in je hoofd. Niet meer die wat-als-gedachten of vraagtekens over hoe je hieruit komt
+* Geen zorgen meer over de toekomst, maar wegzakken in het vertrouwen dat je gaat herstellen
+* Niet meer altijd ‘aanstaan’ maar durven tijd voor jezelf te nemen en je overgeven aan het proces
+* Liefde voor jezelf voelen in plaats van een streng stemmetje dat jou pusht het beter te doen
+* Je authentieke zelf zijn. Je mag je masker afzetten en eerlijk zijn over hoe je je voelt en welke emoties er zijn
+* Rustig stapje voor stapje opbouwen naar een voller leven, zonder geforceerd door te pushen en te snel willen gaan
 
-## Je hoeft niet te leren leven met je klachten.
-Wij kennen je struggles maar al te goed. Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
-Pas toen ze in aanraking kwam met de mind-body-visie kwam haar herstel op gang. En nu runt ze OhLijf en werkt ze aan een mooie toekomst!
-
-Aurinkes compagnon **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en duizelingen. Na meer dan 10 verschillende behandelingen, was ze de wanhoop nabij. Gelukkig ontdekte zij toen de mind-body-methode en ging ze van elke dag pijn naar bijna geen pijn meer.
+## Wij kennen je struggles maar al te goed
+Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
+En mede-oprichter **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en duizelingen. Na meer dan 10 verschillende behandelingen, was ze de wanhoop nabij. 
+Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer herstellen. Beide leven ze nu een leven dat dichter staat bij wie ze zijn. En die klachten? Die zijn bijna helemaal weg, af en toe komt er nog een symptoom en dat is een mooi signaal dat weer wat wil vertellen.
 
 <Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
 
-
-### Gun jezelf je herstel
-Voor jou is dit ook mogelijk. Wij hebben de OhLijf-methode ontwikkeld, gebaseerd op de nieuwste onderzoeken in de mind-body-visie.
+## Je hoeft niet te leren leven met je klachten.
+Wij hebben de OhLijf-methode ontwikkeld, gebaseerd op de nieuwste onderzoeken in de mind-body-visie.
 
 We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jezelf te kiezen**. Gun jezelf weer een leven **vol energie** en mogelijkheden.
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-Ben je benieuwd? OhLijfs Grote Hersteltraining gaat **1 november 2024** van start! Je kunt je binnenkort aanmelden, dus zet je e-mailadres alvast op de interesselijst.
+Ben je benieuwd? De Grote Vriendelijke Hersteltraining gaat **1 november 2024** van start! Je kunt je binnenkort aanmelden, dus zet je e-mailadres alvast op de interesselijst.
 
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
@@ -86,12 +95,12 @@ We vinden het heel fijn om de mensen die de training volgen **persoonlijk** te l
 Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies. <br>
 Op deze manier voelt een online training op afstand toch ook een beetje persoonlijk.
 
-## Hoeveel kost OhLijfs Grote Hersteltraining?
-Je krijgt een jaar toegang tot de training met video's, oefeningen en community en betaalt daarvoor 6 x €149 (maandelijks). <br>
-Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is. (zie contactpagina)
+## Hoeveel kost de Grote Vriendelijke Hersteltraining?
+Je krijgt een jaar toegang tot de training met video's, oefeningen en community, 6 live Q&A's en betaalt daarvoor 6 x €149 (maandelijks). <br>
+Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
 
 ## Hoeveel tijd kost de hersteltraining?
-Je krijgt elke week toegang tot een nieuwe sessie, 12 in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. Je mag het dus lekker rustig op je eigen tempo doen, we willen dit life-changing herstel niet overhaasten.<br>
+Je krijgt elke week toegang tot een nieuwe sessie, 12 in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. Volg het lekker op je eigen tempo, we willen dit **life-changing** herstel niet overhaasten.<br>
 Elke video is 5-10 minuten, per sessie zijn dit er meestal 3. Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen rustig op :)
 
 ## Voor wie is deze mind-body-training?
