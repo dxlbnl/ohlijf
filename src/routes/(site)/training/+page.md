@@ -93,7 +93,6 @@ De eerstvolgende training start op **1 november 2024**. Schrijf je in op de inte
 Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. <br>
 We vinden het heel fijn om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een 'nulmeting') te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen. <br>
 Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies. <br>
-Op deze manier voelt een online training op afstand toch ook een beetje persoonlijk.
 
 ## Hoeveel kost de Grote Vriendelijke Hersteltraining?
 Je krijgt een jaar toegang tot de training met video's, oefeningen en community, 6 live Q&A's en betaalt daarvoor 6 x €149 (maandelijks). <br>
