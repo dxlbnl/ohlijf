@@ -49,11 +49,11 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 
 Ben je benieuwd? De Grote Vriendelijke Hersteltraining gaat **1 november 2024** van start! Je kunt je binnenkort aanmelden, dus zet je e-mailadres alvast op de interesselijst.
 
-<!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
-</a> -->
+</a>
 
-<TrainingForm id=trainingform1 />
+<!-- <TrainingForm id=trainingform1 /> -->
 
 ## Wat ga je leren in dit traject?
 Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We zijn in zoveel valkuilen gestapt, hebben samen een lijstje van 100 klachten waar we ervaring mee hebben. 
@@ -92,11 +92,11 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 ## Wanneer start OhLijfs Grote Hersteltraining?
 De eerstvolgende training start op **1 november 2024**. Schrijf je in op de interesselijst en je hoort als eerste wanneer de deuren open gaan voor aanmeldingen. Iedereen start op hetzelfde moment zodat je ook dezelfde ervaringen en tips met elkaar kan delen. 
 
-<!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
-</a> -->
+</a>
 
-<TrainingForm id=trainingform1 />
+<!-- <TrainingForm id=trainingform1 /> -->
 
 ## Is er persoonlijke begeleiding?
 Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. <br>
