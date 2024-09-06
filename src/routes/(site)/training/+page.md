@@ -11,6 +11,12 @@ testBanner: false
   import TrainingForm from '$lib/components/TrainingForm.svelte'
 </script>
 
+<style>
+  iframe {
+    margin-bottom: 2rem;
+  }
+</style>
+
 Durf anders te kijken naar je symptomen en er gaat een hele nieuwe weg voor je open! Wij hebben er mega-vertrouwen in dat ook jij van overleven kunt gaan naar weer volop genieten.
 Laat jezelf dragen door een Hersteltraining waarin je aan de hand wordt meegenomen om al die kleine stapjes te nemen die samen zorgen voor een berg inzichten in het ontstaan en aanhouden van je symptomen en alle oefeningen die je nodig hebt om te kunnen herstellen.
 
