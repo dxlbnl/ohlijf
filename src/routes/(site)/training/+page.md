@@ -15,6 +15,10 @@ testBanner: false
   iframe {
     margin-bottom: 2rem;
   }
+
+  .center-text {
+    text-align: center;
+  }
 </style>
 
 Durf anders te kijken naar je symptomen en er gaat een hele nieuwe weg voor je open! Wij hebben er mega-vertrouwen in dat ook jij van overleven kunt gaan naar weer volop genieten.
@@ -39,6 +43,23 @@ En mede-oprichter **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en d
 Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer herstellen. Beide leven ze nu een leven dat dichter staat bij wie ze zijn. En die klachten? Die zijn bijna helemaal weg, af en toe komt er nog een symptoom en dat is een mooi signaal dat weer wat wil vertellen.
 
 <Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
+
+<div class='center-text'>
+Die laatste oefening!
+Ga naar je pijn..
+Werkt zooo goed.
+De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
+En als ik er naartoe ga en ermee praat..
+Voel ik het ontspannen.. 🍀🍀🍀
+Dus ja, weer een mooie gouden sleutel in handen.
+Ik ga dit heul vaak toepassen 😊
+Super dank hiervoor.
+Wilde het even laten weten.
+Fijne dei 💕
+  
+**Jet (chronische hoofdpijn en vermoeidheid)**
+</div>
+
 
 ## Je hoeft niet te leren leven met je klachten.
 Wij hebben de OhLijf-methode ontwikkeld, gebaseerd op de nieuwste onderzoeken in de mind-body-visie.
