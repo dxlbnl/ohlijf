@@ -37,12 +37,12 @@ Je wilt zo graag voor je gezin kunnen zorgen, die mooie reis maken, weer kunnen 
 ## Gun jezelf je herstel
 We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezelf te kiezen. Gun jezelf weer een leven vol energie en mogelijkheden.
 De Grote Vriendelijke Hersteltraining leert jou:
-- De signalen van je lichaam begrijpen en niet meer vechten tegen de pijn
-- Geen zorgen meer over de toekomst, maar wegzakken in het vertrouwen dat je gaat herstellen
+- De signalen van je lichaam begrijpen en **niet meer vechten** tegen de pijn
+- Geen zorgen meer over de toekomst, maar wegzakken in het **vertrouwen** dat je gaat herstellen
 - Niet meer altijd ‘aanstaan’ maar je overgeven aan het proces
-- Met simpele oefeningen direct verlichting in je klachten ervaren
+- Met simpele oefeningen **direct verlichting** in je klachten ervaren
 - De ui afpellen en ontdekken waarom jouw chronische klachten zijn ontstaan
-- En natuurlijk: alle stapjes die nodig zijn om te kunnen herstellen van jouw klachten
+- En natuurlijk: alle stapjes die nodig zijn om te kunnen **herstellen van jouw klachten**
 
 ## Wij kennen je struggles maar al te goed
 Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. <br>
