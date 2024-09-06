@@ -12,13 +12,20 @@
 
 <Header>
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
-	<p class="subheader white">Helemaal klaar met die terugkerende klachten?</p>
+	<p class="subheader white">Helemaal klaar met die aanhoudende symptomen?</p>
 	<p class="subheader white">
-		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn en vermoeidheid. Door de
-		echte oorzaak aan te pakken is 100% herstel mogelijk.
+		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn, vermoeidheid en
+		onbegrepen klachten. Door de echte oorzaak aan te pakken en je mind en body te laten
+		samenwerken, is herstel mogelijk.
 	</p>
-	<p class="subheader white bold">Kennismaken met onze methode? Doe de gratis video-training bij chronische vermoeidheid, pijn en onbegrepen klachten en ervaar zelf verlichting:</p>
-	<a class="cta" href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid">Naar de gratis training</a>
+	<p class="subheader white bold">
+		Gratis kennismaken met onze methode? Doe de 7-daagse video-training en ervaar zelf verlichting:
+	</p>
+	<a
+		class="cta"
+		href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid"
+		target="_blank">Naar de gratis training</a
+	>
 </Header>
 
 <main>
@@ -39,9 +46,12 @@
 					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
 				</p>
 				<p>
-					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Robin herstelde na 20 jaar dagelijks pijn en werd hierover geïnterviewd door Women's Health.
+					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf leer je wat
+					jouw klachten triggert, omgaan met negatieve gedachten en begrijp je de rol van emoties.
+					Met onze duidelijke oefeningen kun je je symptomen onder controle te krijgen en stap voor
+					stap hersellen.
 				</p>
-				<a href="/downloads/wh-robin.pdf" target="_blank">Lees Robins herstelverhaal</a>
+				<a href="/methode" target="_blank">Ontdek onze methode</a>
 			</article>
 		</Columns>
 
@@ -64,7 +74,8 @@
 					aanpassingen in je dagelijkse leven maken die een positief sneeuwbaleffect creëren.
 				</p>
 				<p>
-					Een andere mindset en praktische oefeningen zorgen ervoor dat je zelf kan herstellen. Klaar voor een positieve verandering?
+					Een andere mindset en praktische oefeningen zorgen ervoor dat je zelf kan herstellen.
+					Klaar voor een positieve verandering?
 				</p>
 				<a href="/training">Bekijk onze online training</a>
 			</article>
@@ -76,22 +87,42 @@
 			<section>
 				<article>
 					<p>
-						Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt. Jullie
-						snappen mij!
+						Ik realiseer me dat ik al regelmatig ben wakker geworden zonder hoofdpijn. En dat is een
+						hele grote winst.
 					</p>
-					<h3>Lora (35) Post Viraal Syndroom</h3>
+					<p>Ik ben reuze blij met de training!</p>
+					<section>
+						(deelnemer training, week 4)
+						<span class="name">Carla (Chronische hoofdpijn en vermoeidheid)</span>
+					</section>
 				</article>
 
 				<article>
-					<p>Fijn dat er zoveel keuze is in de oefeningen, zo kan ik kiezen wat bij me past.</p>
-					<h3>Emma (19) Chronische pijn en vermoeidheid</h3>
+					<p>Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.</p>
+
+					<p>Jullie snappen mij!</p>
+
+					<section>
+						(deelnemer training)
+						<span class="name">Lora (Long Covid)</span>
+					</section>
 				</article>
 
 				<article>
-					<p>Jullie zijn een mooi team samen! Jullie onderscheiden je met de praktische insteek.</p>
-					<h3>Mia (63) Long Covid</h3>
-				</article>
+					<p>
+						Ik raak er steeds meer van overtuigd ook na het zien van jullie video's dat deze methode
+						weleens de oplossing kan zijn voor mijn klachten.
+					</p>
 
+					<p>
+						Jullie doen het zo leuk en duidelijk in die niet te lange video's. Ben jullie zo
+						dankbaar!
+					</p>
+					<section>
+						(deelnemer training, week 3)
+						<span class="name">Jet (Chronische hoofdpijn en weinig energie)</span>
+					</section>
+				</article>
 			</section>
 		</section>
 	</Content>
@@ -100,7 +131,11 @@
 
 	<section class="content call-to-action">
 		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
-		<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center">Ik herstel lekker wel!</a>
+		<a
+			href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid"
+			class="cta center"
+			target="_blank">Ik herstel lekker wel!</a
+		>
 	</section>
 </main>
 
@@ -137,15 +172,19 @@
 		& > section {
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+			align-items: start;
 			gap: 2ch;
 
 			& > article {
 				display: grid;
-				grid-auto-flow: row;
-				justify-items: center;
-				align-items: stretch;
+				gap: 2ch;
 				margin: 1rem;
-				gap: 1rem;
+
+				& .name {
+					margin: 0.2rem;
+					font-weight: bold;
+					display: inline-block;
+				}
 
 				& > * {
 					text-align: center;
@@ -153,7 +192,7 @@
 				}
 
 				& > p {
-					font-style:italic;
+					font-style: italic;
 				}
 			}
 		}

@@ -1,5 +1,5 @@
-- label: Doe de test!
-  path: /test
+# - label: Doe de test!
+#   path: /test
 
 - label: Onze aanpak
   path: /methode
