@@ -1,6 +1,6 @@
 ---
-titel: Training
-omschrijving: Training voor herstel van langdurige klachten
+titel: Hersteltraining
+omschrijving: De Grote Vriendelijke Hersteltraining start 1 nov 2024
 
 sidebar: false
 testBanner: false
@@ -11,23 +11,21 @@ testBanner: false
   import TrainingForm from '$lib/components/TrainingForm.svelte'
 </script>
 
-Door anders te kijken naar jouw symptomen, gaat er een hele nieuwe weg voor je open. Wij hebben vertrouwen dat ook jij van overleven kunt gaan naar weer volop genieten. 
-Je mag op de pauzeknop duwen en voor jezelf kiezen. Gun jezelf je herstel.
-Wij nemen je stapje voor stapje mee en reiken alles aan dat je nodig hebt om te leren herstellen van jouw klachten. Zodat je alles weer kan.
+Durf anders te kijken naar je symptomen en er gaat een hele nieuwe weg voor je open! Wij hebben er mega-vertrouwen in dat ook jij van overleven kunt gaan naar weer volop genieten.
+Laat jezelf dragen door een Hersteltraining waarin je aan de hand wordt meegenomen om al die kleine stapjes te nemen die samen zorgen voor een berg inzichten in het ontstaan en aanhouden van je symptomen en alle oefeningen die je nodig hebt om te kunnen herstellen.
 
 ## Je zou zo graag alles weer kunnen
 Je wilt zo graag voor je gezin kunnen zorgen, die mooie reis maken, weer kunnen werken of sporten. De beperkingen van je lijf ben je klaar mee. Misschien ben je wel wanhopig, want je hebt al zoveel geprobeerd…
 
 ## Gun jezelf je herstel
 We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezelf te kiezen. Gun jezelf weer een leven vol energie en mogelijkheden.
-De Grote Vriendelijke Hersteltraining biedt jou:
-* De signalen van je lichaam begrijpen en niet te vechten tegen de pijn
-* Rust in je hoofd. Niet meer die wat-als-gedachten of vraagtekens over hoe je hieruit komt
-* Geen zorgen meer over de toekomst, maar wegzakken in het vertrouwen dat je gaat herstellen
-* Niet meer altijd ‘aanstaan’ maar durven tijd voor jezelf te nemen en je overgeven aan het proces
-* Liefde voor jezelf voelen in plaats van een streng stemmetje dat jou pusht het beter te doen
-* Je authentieke zelf zijn. Je mag je masker afzetten en eerlijk zijn over hoe je je voelt en welke emoties er zijn
-* Rustig stapje voor stapje opbouwen naar een voller leven, zonder geforceerd door te pushen en te snel willen gaan
+De Grote Vriendelijke Hersteltraining leert jou:
+- De signalen van je lichaam begrijpen en niet meer vechten tegen de pijn
+- Geen zorgen meer over de toekomst, maar wegzakken in het vertrouwen dat je gaat herstellen
+- Niet meer altijd ‘aanstaan’ maar je overgeven aan het proces
+- Met simpele oefeningen direct verlichting in je klachten ervaren
+- De ui afpellen en ontdekken waarom jouw chronische klachten zijn ontstaan
+- En natuurlijk: alle stapjes die nodig zijn om te kunnen herstellen van jouw klachten
 
 ## Wij kennen je struggles maar al te goed
 Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
@@ -67,6 +65,11 @@ Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel bela
 
 ### 4. De kers op de taart: jouw 2.0 versie
 Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
+
+## Veelgestelde vragen in video
+Robin vertelt je precies wat je kan verwachten.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YI50JMCdtoM?si=W2UW5dojaLtd2R1H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Wat onze training zo fijn maakt
 - Korte, heldere video’s van ervaringsdeskundigen Aurinke en Robin
