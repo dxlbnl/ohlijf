@@ -53,16 +53,12 @@ Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer her
 
 
 <div class='review'>
-  Die laatste oefening! Ga naar je pijn... Werkt zooo goed.
-  De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
-  En als ik er naartoe ga en ermee praat, voel ik het ontspannen.. 🍀🍀🍀
-  Dus ja, weer een mooie gouden sleutel in handen.
-  Ik ga dit heul vaak toepassen 😊 Super dank hiervoor.
-  Wilde het even laten weten.
-  Fijne dei 💕
-  
-  <b>Jet in week 6 van de Hersteltraining 
-  (chronische hoofdpijn en vermoeidheid)</b>
+Ben jullie nu al zo ontzettend dankbaar, voel mij zoveel beter!
+Zondag met mijn neef naar Artis 2 en half uur rondgelopen, thuis gekomen gerust en toen nog half uur gefietst.
+Heb ik jaren van gedroomd dat ik weer twee activiteiten op een dag kan doen.
+Ik geniet weer. Dikke dikke knuffel.  
+  <b>Ellen in week 4 van de Hersteltraining </b>
+  (chronische vermoeidheid)
 </div>
 
 
@@ -128,6 +124,21 @@ De eerstvolgende training start op **1 november 2024**. Schrijf je in op de inte
 Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. <br>
 We vinden het heel fijn om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een 'nulmeting') te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen. <br>
 Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies. <br>
+
+
+<div class='review'>
+  Die laatste luisteroefening! Ga naar je pijn... Werkt zooo goed.
+  De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
+  En als ik er naartoe ga en ermee praat, voel ik het ontspannen.. 🍀🍀🍀
+  Dus ja, weer een mooie gouden sleutel in handen.
+  Ik ga dit heul vaak toepassen 😊 Super dank hiervoor.
+  Wilde het even laten weten.
+  Fijne dei 💕
+  
+  <b>Jet in week 6 van de Hersteltraining </b>
+  (chronische hoofdpijn en vermoeidheid)
+</div>
+
 
 ## Hoeveel kost de Grote Vriendelijke Hersteltraining?
 Je krijgt een jaar toegang tot de training met video's, oefeningen en community, 6 live Q&A's en betaalt daarvoor 6 x €149 (maandelijks). <br>
