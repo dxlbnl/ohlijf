@@ -71,6 +71,7 @@ Robin vertelt je precies wat je kan verwachten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YI50JMCdtoM?si=W2UW5dojaLtd2R1H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<br>
 ### Wat onze training zo fijn maakt
 - Korte, heldere video’s van ervaringsdeskundigen Aurinke en Robin
 - Laagdrempelige **oefeningen** om te doen
