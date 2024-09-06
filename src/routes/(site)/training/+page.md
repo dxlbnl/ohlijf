@@ -16,8 +16,11 @@ testBanner: false
     margin-bottom: 2rem;
   }
 
-  .center-text {
+  .review {
     text-align: center;
+    font-style: italic;
+    white-space: pre;
+    margin-block: 2rem;
   }
 </style>
 
@@ -38,26 +41,27 @@ De Grote Vriendelijke Hersteltraining leert jou:
 - En natuurlijk: alle stapjes die nodig zijn om te kunnen herstellen van jouw klachten
 
 ## Wij kennen je struggles maar al te goed
-Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. 
-En mede-oprichter **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en duizelingen. Na meer dan 10 verschillende behandelingen, was ze de wanhoop nabij. 
+Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende en diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. <br>
+En mede-oprichter **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en duizelingen. Na meer dan 10 verschillende behandelingen, was ze de wanhoop nabij. <br>
 Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer herstellen. Beide leven ze nu een leven dat dichter staat bij wie ze zijn. En die klachten? Die zijn bijna helemaal weg, af en toe komt er nog een symptoom en dat is een mooi signaal dat weer wat wil vertellen.
 
 <Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
 
-<div class='center-text'>
-Die laatste oefening!
-Ga naar je pijn..
-Werkt zooo goed.
-De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
-En als ik er naartoe ga en ermee praat..
-Voel ik het ontspannen.. 🍀🍀🍀
-Dus ja, weer een mooie gouden sleutel in handen.
-Ik ga dit heul vaak toepassen 😊
-Super dank hiervoor.
-Wilde het even laten weten.
-Fijne dei 💕
+
+<div class='review'>
+  Die laatste oefening!
+  Ga naar je pijn..
+  Werkt zooo goed.
+  De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
+  En als ik er naartoe ga en ermee praat..
+  Voel ik het ontspannen.. 🍀🍀🍀
+  Dus ja, weer een mooie gouden sleutel in handen.
+  Ik ga dit heul vaak toepassen 😊
+  Super dank hiervoor.
+  Wilde het even laten weten.
+  Fijne dei 💕
   
-**Jet (chronische hoofdpijn en vermoeidheid)**
+  <b>Jet (chronische hoofdpijn en vermoeidheid)</b>
 </div>
 
 
