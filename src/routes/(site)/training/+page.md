@@ -143,7 +143,7 @@ Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de t
 
 
 ## Hoeveel kost de Grote Vriendelijke Hersteltraining?
-Je krijgt een jaar toegang tot de training met video's, oefeningen en community, 6 live Q&A's en betaalt daarvoor 6 x €149 (maandelijks). <br>
+Voor dit **life-changing** traject betaal je 6 x €149 (maandelijks). <br>
 Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
 
 ## Hoeveel tijd kost de hersteltraining?
