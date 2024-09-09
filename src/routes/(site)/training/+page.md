@@ -70,13 +70,13 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jez
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-Ben je benieuwd? De Grote Vriendelijke Hersteltraining gaat **1 november 2024** van start! Je kunt je binnenkort aanmelden, dus zet je e-mailadres alvast op de interesselijst.
+De inschrijvingen zijn geopend, meld je nu aan!
 
-<!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik herstel lekker wel!
-</a> -->
+</a>
 
-<TrainingForm id=trainingform1 />
+<!-- <TrainingForm id=trainingform1 /> -->
 
 ## Wat ga je leren in dit traject?
 Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We zijn in zoveel valkuilen gestapt, hebben samen een lijstje van 100 klachten waar we ervaring mee hebben. 
@@ -113,13 +113,13 @@ Robin vertelt je precies wat je kan verwachten.
 De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan elkaar kunt stellen. Hier kun je 24/7 kracht uit putten. De community is toegankelijk via de app of website van de training.
 
 ## Wanneer start OhLijfs Grote Hersteltraining?
-De eerstvolgende training start op **1 november 2024**. Schrijf je in op de interesselijst en je hoort als eerste wanneer de deuren open gaan voor aanmeldingen. Iedereen start op hetzelfde moment zodat je ook dezelfde ervaringen en tips met elkaar kan delen. 
+De eerstvolgende training start op **1 november 2024**. Meld je nu aan via de knop:
 
-<!-- <a href='https://ohlijf.systeme.io/inschrijving-juli-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik herstel lekker wel!
-</a> -->
+<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Doe mij die training
+</a>
 
-<TrainingForm id=trainingform1 />
+<!-- <TrainingForm id=trainingform1 /> -->
 
 ## Is er persoonlijke begeleiding?
 Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen. <br>
@@ -163,6 +163,10 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je zoekt naar een quick fix
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
+
+<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Start mijn herstel
+</a>
 
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen. <br>
 Je bent zo welkom bij OhLijf!
