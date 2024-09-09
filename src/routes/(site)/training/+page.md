@@ -143,12 +143,12 @@ Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de t
 
 
 ## Hoeveel kost de Grote Vriendelijke Hersteltraining?
-Voor dit **life-changing** traject betaal je 6 x €149 (maandelijks). <br>
+Voor dit levensveranderende traject betaal je 6 x €149 (wordt maandelijks afgeschreven). <br>
 Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
 
 ## Hoeveel tijd kost de hersteltraining?
 Je krijgt elke week toegang tot een nieuwe sessie, 12 in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. Volg het lekker op je eigen tempo, we willen dit **life-changing** herstel niet overhaasten.<br>
-Elke video is 5-10 minuten, per sessie zijn dit er meestal 3. Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen rustig op :)
+Verwacht per sessie ongeveer 20 minuten aan korte video's. Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen rustig op :)
 
 ## Voor wie is deze mind-body-training?
 Deze training is voor jou als je je herkent in de volgende dingen:
