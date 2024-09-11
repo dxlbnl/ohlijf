@@ -1,5 +1,9 @@
 import type { RequestHandler } from './$types';
 
+// Receive data from a systeme funnel webhook
+// Get or create the user on thehuddle
+//
+
 export const POST: RequestHandler = async ({ request }) => {
 	if (request.headers.get('Content-Type') !== 'application/json') {
 		console.log('No JSON');
