@@ -4,6 +4,7 @@ import type { RequestHandler } from './$types';
 import { createUser, findUserByEmail, login, updateUserLevels } from '$lib/thehuddle/api';
 import { THEHUDDLE_USER, THEHUDDLE_PASSWORD } from '$env/static/private';
 
+export const maxDuration = 40; // This function can run for a maximum of 5 seconds
 // Receive data from a systeme funnel webhook
 // Get or create the user on thehuddle
 //
