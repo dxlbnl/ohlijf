@@ -29,7 +29,6 @@ const loginResponseSchema = z.object({
 const userSchema = z.object({
 	id: z.number(),
 	firstname: z.string(),
-	lastname: z.string(),
 	email: z.string().email('Invalid email address')
 });
 const findUsersResponseSchema = z.object({
@@ -50,7 +49,6 @@ const createUserResponseSchema = z.object({
 
 type NewUser = {
 	firstname: string;
-	lastname: string;
 	email: string;
 	level_ids: number[];
 };
@@ -128,6 +126,7 @@ async function ssoCallback(key: string) {
 }
 
 export async function login(username: string, password: string) {
+	console.log('Logging in');
 	const at = await accessToken(username, password);
 	const key = await singleSignOn(username, at);
 	await ssoCallback(key);
@@ -185,6 +184,7 @@ export async function createUser(newUser: NewUser) {
 }
 
 export async function findUserByEmail(email: string) {
+	console.log('Finding user by email', email);
 	const response = await fetch(
 		`https://ohlijf.thehuddle.nl/api/v3/users?${new URLSearchParams({
 			where_like: `email:${email}`,
