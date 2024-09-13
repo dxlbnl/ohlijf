@@ -1,15 +1,29 @@
-import { getCSRFToken, login } from '$lib/thehuddle/api';
-import { json } from '@sveltejs/kit';
+import { createUser, findUserByEmail, login, updateUserLevels } from '$lib/thehuddle/api';
 import { THEHUDDLE_USER, THEHUDDLE_PASSWORD } from '$env/static/private';
 
-export const GET = async () => {
-	const cookiejar = {};
-	const authToken = await login(THEHUDDLE_USER, THEHUDDLE_PASSWORD, cookiejar);
-	const csrfToken = await getCSRFToken(cookiejar);
-	console.log(csrfToken);
+const baseLevelId = 53472;
+const rustAankoopLevelId = 57520;
 
-	return json({
-		authToken,
-		csrfToken
-	});
+export const GET = async () => {
+	await login(THEHUDDLE_USER, THEHUDDLE_PASSWORD);
+	// await api.loadAdmin();
+	// await api.getSettings();
+	const firstname = 'Alex';
+	const lastname = 'Doe';
+	const email = 'test123@dxlb.nl';
+
+	const user = await findUserByEmail(email);
+
+	if (!user) {
+		await createUser({
+			firstname,
+			lastname,
+			email,
+			level_ids: [baseLevelId, rustAankoopLevelId]
+		});
+	} else {
+		await updateUserLevels(user.id, [...user.level_ids, rustAankoopLevelId]);
+	}
+
+	return new Response('User processed');
 };

@@ -11,6 +11,6 @@ export const POST: RequestHandler = async ({ request }) => {
 	}
 
 	const data = await request.json();
-	console.log('Received data', data);
+	console.log('Received data', JSON.stringify(data));
 	return new Response();
 };
