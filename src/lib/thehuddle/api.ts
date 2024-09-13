@@ -180,6 +180,10 @@ export async function createUser(newUser: NewUser) {
 		throw new Error('Invalid response');
 	}
 
+	if (response.status !== 200) {
+		console.log('Error creating user:', await response.text());
+	}
+
 	const { data: user } = createUserResponseSchema.parse(await response.json());
 	console.log(user);
 	return user;
