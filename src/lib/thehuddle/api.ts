@@ -29,6 +29,7 @@ const loginResponseSchema = z.object({
 const userSchema = z.object({
 	id: z.number(),
 	firstname: z.string(),
+	lastname: z.string(),
 	email: z.string().email('Invalid email address')
 });
 const findUsersResponseSchema = z.object({
@@ -49,6 +50,7 @@ const createUserResponseSchema = z.object({
 
 type NewUser = {
 	firstname: string;
+	lastname: string;
 	email: string;
 	level_ids: number[];
 };

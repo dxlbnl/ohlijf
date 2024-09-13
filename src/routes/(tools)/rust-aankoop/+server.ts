@@ -38,6 +38,7 @@ export const POST: RequestHandler = async ({ request }) => {
 	if (!user) {
 		await createUser({
 			firstname: data.data.contact.fields.first_name,
+			lastname: '',
 			email: data.data.contact.email,
 			level_ids: [baseLevelId, rustAankoopLevelId]
 		});
