@@ -28,8 +28,9 @@ export const POST: RequestHandler = async ({ request }) => {
 		console.log('No JSON');
 		return new Response('Expected JSON', { status: 400 });
 	}
-
-	const data = webhookDataSchema.parse(await request.json());
+	const json = await request.json();
+	console.log('Received data:', JSON.stringify(JSON));
+	const data = webhookDataSchema.parse(json);
 
 	await login(THEHUDDLE_USER, THEHUDDLE_PASSWORD);
 
