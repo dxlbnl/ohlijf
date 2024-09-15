@@ -8,7 +8,6 @@ import { THEHUDDLE_USER, THEHUDDLE_PASSWORD } from '$env/static/private';
 // Get or create the user on thehuddle
 //
 
-const baseLevelId = 53472;
 const rustAankoopLevelId = 57520;
 
 const webhookDataSchema = z.object({
@@ -53,7 +52,7 @@ export const POST: RequestHandler = async ({ request }) => {
 				firstname: data.data.customer.fields.first_name,
 				lastname: data.data.customer.fields.surname,
 				email: data.data.customer.email,
-				level_ids: [baseLevelId, rustAankoopLevelId]
+				level_ids: [rustAankoopLevelId]
 			},
 			profile
 		);
