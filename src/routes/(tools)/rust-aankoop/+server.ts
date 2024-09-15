@@ -12,12 +12,17 @@ const baseLevelId = 53472;
 const rustAankoopLevelId = 57520;
 
 const webhookDataSchema = z.object({
-	type: z.literal('contact.optin.completed'),
+	type: z.literal('customer.sale.completed'),
 	data: z.object({
-		contact: z.object({
+		customer: z.object({
 			email: z.string().email('Invalid email address'),
 			fields: z.object({
-				first_name: z.string()
+				first_name: z.string(),
+				surname: z.string(),
+				city: z.string(),
+				street_address: z.string(),
+				postcode: z.string(),
+				country: z.string()
 			})
 		})
 	})
@@ -34,19 +39,28 @@ export const POST: RequestHandler = async ({ request }) => {
 
 	await login(THEHUDDLE_USER, THEHUDDLE_PASSWORD);
 
-	const user = await findUserByEmail(data.data.contact.email);
+	const user = await findUserByEmail(data.data.customer.email);
+	const profile = {
+		address: data.data.customer.fields.street_address,
+		city: data.data.customer.fields.city,
+		country: data.data.customer.fields.country,
+		zipcode: data.data.customer.fields.postcode
+	};
 
 	if (!user) {
-		await createUser({
-			firstname: data.data.contact.fields.first_name,
-			lastname: 'Gebruiker',
-			email: data.data.contact.email,
-			level_ids: [baseLevelId, rustAankoopLevelId]
-		});
+		await createUser(
+			{
+				firstname: data.data.customer.fields.first_name,
+				lastname: data.data.customer.fields.surname,
+				email: data.data.customer.email,
+				level_ids: [baseLevelId, rustAankoopLevelId]
+			},
+			profile
+		);
 	} else {
-		await updateUserLevels(user.id, [...user.level_ids, rustAankoopLevelId]);
+		await updateUserLevels(user.id, [...user.level_ids, rustAankoopLevelId], profile);
 	}
 
-	console.log(`Updated user ${data.data.contact.email} with rust-aankoop level`);
+	console.log(`Updated user ${data.data.customer.email} with rust-aankoop level`);
 	return new Response();
 };

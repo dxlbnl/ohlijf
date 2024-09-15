@@ -154,7 +154,7 @@ async function loadAdmin() {
 	console.log('Retrieved CSRF token:', csrfToken);
 }
 
-export async function createUser(newUser: NewUser) {
+export async function createUser(newUser: NewUser, profile: unknown = {}) {
 	if (!csrfToken) {
 		throw new Error('CSRF token not set');
 	}
@@ -167,7 +167,7 @@ export async function createUser(newUser: NewUser) {
 		referrer: 'https://ohlijf.thehuddle.nl/admin/v2/users/manage/create',
 		body: JSON.stringify({
 			...newUser,
-			profile: {},
+			profile,
 			role: 'user'
 		}),
 		method: 'POST'
@@ -228,7 +228,7 @@ export async function getOrCreateUser(user: NewUser) {
 	return await createUser(user);
 }
 
-export async function updateUserLevels(userId: number, levelIds: number[]) {
+export async function updateUserLevels(userId: number, levelIds: number[], profile: unknown = {}) {
 	await fetch(`https://ohlijf.thehuddle.nl/api/v3/users/${userId}`, {
 		credentials: 'include',
 		headers: {
@@ -243,7 +243,8 @@ export async function updateUserLevels(userId: number, levelIds: number[]) {
 		body: JSON.stringify({
 			$id: userId,
 			id: userId,
-			level_ids: levelIds
+			level_ids: levelIds,
+			profile
 		}),
 		method: 'PUT',
 		mode: 'cors'
