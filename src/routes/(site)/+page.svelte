@@ -19,11 +19,11 @@
 		samenwerken, is herstel mogelijk.
 	</p>
 	<p class="subheader white bold">
-		Gratis kennismaken met onze methode? Doe de 7-daagse video-training en ervaar zelf verlichting:
+		Gratis kennismaken met onze methode? Doe de 3-daagse training en ervaar zelf verlichting:
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid"
+		href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen"
 		target="_blank">Naar de gratis training</a
 	>
 </Header>
@@ -132,7 +132,7 @@
 	<section class="content call-to-action">
 		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
 		<a
-			href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid"
+			href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen"
 			class="cta center"
 			target="_blank">Ik herstel lekker wel!</a
 		>
