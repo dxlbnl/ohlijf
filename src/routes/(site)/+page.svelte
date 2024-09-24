@@ -19,7 +19,7 @@
 		samenwerken, is herstel mogelijk.
 	</p>
 	<p class="subheader white bold">
-		Gratis kennismaken met onze methode? Doe de 7-daagse video-training en ervaar zelf verlichting:
+		Gratis kennismaken met onze methode? Doe de 3-daagse training en ervaar zelf verlichting:
 	</p>
 	<a
 		class="cta"
@@ -130,7 +130,7 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
+		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis 3-daagse training:</h2>
 		<a
 			href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen"
 			class="cta center"
