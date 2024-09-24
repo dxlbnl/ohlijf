@@ -167,6 +167,7 @@ export async function createUser(newUser: NewUser, profile: unknown = {}) {
 		referrer: 'https://ohlijf.thehuddle.nl/admin/v2/users/manage/create',
 		body: JSON.stringify({
 			...newUser,
+			send_welcome_mail: true,
 			profile,
 			role: 'user'
 		}),
