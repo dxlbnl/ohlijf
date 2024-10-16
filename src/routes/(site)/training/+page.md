@@ -50,12 +50,12 @@ Ik ben weer een gelukkig mens aan het worden
 
 ## Gun jezelf je herstel
 We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezelf te kiezen. Gun jezelf weer een leven vol energie en mogelijkheden. Na de Grote Vriendelijke Hersteltraining:
-De Grote Vriendelijke Hersteltraining leert jou:
-- Heb je inzicht in de oorzaak van je klachten en vertrouwen in je herstel.
-- Leer je de signalen van je lichaam begrijpen en hoef je niet meer vechten tegen de pijn
-- Heb je simpele oefeningen om direct verlichting in je klachten ervaren
-- Kun je vol vertrouwen weer deelnemen aan het leven, zonder de angst voor terugvallen of nieuwe klachten.
-- Heb je innerlijke rust gevonden, minder stress en geniet je van meer geluk in je dagelijks leven.
+
+- Heb je inzicht in de oorzaak van je klachten en **vertrouwen in je herstel.**
+- Leer je de signalen van je lichaam begrijpen en hoef je **niet meer te vechten** tegen de pijn
+- Heb je simpele oefeningen om direct **verlichting in je klachten** ervaren
+- Kun je **vol vertrouwen** weer deelnemen aan het leven, zonder de angst voor terugvallen of nieuwe klachten.
+- Heb je innerlijke rust gevonden, minder stress en **geniet** je van meer geluk in je dagelijks leven.
 
 
 <div class='review'>
@@ -93,17 +93,19 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 
 De inschrijvingen zijn geopend, meld je nu aan!
 
+<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Ik herstel lekker wel!
+</a>
+
+<!-- <TrainingForm id=trainingform1 /> -->
+
+
 <div class='review'>
 “ik vind de grote hersteltraining uitstekend en geef het daarom een 10”
   <b>Carla na afloop van de Hersteltraining </b>
   (Chronische hoofdpijn en vermoeidheid)
 </div>
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik herstel lekker wel!
-</a>
-
-<!-- <TrainingForm id=trainingform1 /> -->
 
 ## Wat ga je leren in dit traject?
 Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We zijn in zoveel valkuilen gestapt, hebben samen een lijstje van 100 klachten waar we ervaring mee hebben. 
@@ -204,9 +206,6 @@ Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de t
 </div>
 
 
-<Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
-
-
 ## Hoeveel kost de Grote Vriendelijke Hersteltraining?
 Deze training is een investering in je toekomst, in een leven zonder beperkingen. Voor dit levensveranderende traject betaal je 6 x €149 (wordt maandelijks afgeschreven). Dat weegt niet op tegen de kosten van het ziek zijn: de energie, tijd en medische kosten.
 Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
@@ -227,6 +226,7 @@ Terugvallen zijn helaas onderdeel van het herstelproces. In de training leer je 
 ## Hoe snel merk ik resultaat?
 Dit verschilt per persoon. Sommigen voelen zich al binnen enkele weken beter, terwijl anderen wat meer tijd nodig hebben. Wat je kunt verwachten, is dat je geleidelijk **meer energie krijgt**, minder stress ervaart en meer vertrouwen voelt in je herstel. Het belangrijkste is dat je de tijd neemt die je nodig hebt – dit is jouw unieke herstelreis.
 
+<Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
 
 ## Voor wie is deze mind-body-training?
 Deze training is voor jou als je je herkent in de volgende dingen:
