@@ -1,5 +1,5 @@
 ---
-titel: Herstel begint hier: Jouw weg naar vrijheid en energie 
+titel: Herstel begint hier! Jouw weg naar vrijheid en energie 
 omschrijving: De Grote Vriendelijke Hersteltraining start 1 nov 2024
 
 sidebar: false
