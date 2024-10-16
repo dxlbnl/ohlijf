@@ -78,7 +78,10 @@ Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer her
 
 
 <div class='review'>
-"Jullie duidelijke, begrijpelijke uitleg, laagdrempelige aanpak en de humor maken het een hele fijne training. De oefeningen zijn heel prettig en geven nieuwe inzichten. Niet alleen mijn klachten worden minder, maar ik zit überhaupt beter in mijn vel en voel me zoveel relaxter. Ik leer meer naar mezelf luisteren en beter voor mezelf zorgen. Al blijft dat natuurlijk nog met vallen en opstaan ;-)"
+Jullie duidelijke, begrijpelijke uitleg, laagdrempelige aanpak en de humor maken het een hele fijne training. 
+  De oefeningen zijn heel prettig en geven nieuwe inzichten. 
+  Niet alleen mijn klachten worden minder, maar ik zit überhaupt beter in mijn vel en voel me zoveel relaxter. 
+  Ik leer meer naar mezelf luisteren en beter voor mezelf zorgen. Al blijft dat natuurlijk nog met vallen en opstaan ;-)
   <b>Femke in week 9 van de Hersteltraining </b>
   (Hoofdpijn, schouder- en nekpijn)
 </div>
@@ -101,7 +104,7 @@ De inschrijvingen zijn geopend, meld je nu aan!
 
 
 <div class='review'>
-“ik vind de grote hersteltraining uitstekend en geef het daarom een 10”
+Ik vind de grote hersteltraining uitstekend en geef het daarom een 10
   <b>Carla na afloop van de Hersteltraining </b>
   (Chronische hoofdpijn en vermoeidheid)
 </div>
@@ -117,7 +120,11 @@ Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen e
 
 
 <div class='review'>
-Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! Prachtig, vond het zo spannend om eerlijk aan te geven dat het deelnemen aan de community op dit moment mij veel spanning geeft en teveel energie kost. Maar blij dat ik dit bij jullie mag en kan aangeven en hiermee kan oefenen. Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, wat zijn mijn behoeftes en dit eerlijk durven delen. (blijft nog wel een beetje spannend en tja dat schuldgevoel komt ook nog om de hoek🙈, maar mooie eerste stappen).
+Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
+Prachtig, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
+Maar ik blij dat ik dit bij jullie mag en hiermee kan oefenen. 
+Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, 
+wat zijn mijn behoeftes en dit eerlijk durven delen.
 Wat mooi en krachtig dat jullie hiermee de cursus beginnen! 🙏
 
   <b>Iris na de start van de Hersteltraining </b>
@@ -128,7 +135,9 @@ Wat mooi en krachtig dat jullie hiermee de cursus beginnen! 🙏
 Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat mijn partner zoveel voor mij moet doen". Er komen zoveel lastige gedachten kijken bij het ervaren van die heftige symptomen. We geven heel praktische oefeningen hoe je deze negatieve spiraal doorbreekt zodat alles weer lichter gaat voelen.
 
 <div class='review'>
-Ik kreeg een terugval, ik wist dat die een keer zou komen. Maar nu had ik een toolbox vol om me eruit te helpen. Dat was heel geruststellend.
+Ik kreeg een terugval, ik wist dat die een keer zou komen. 
+Maar nu had ik een toolbox vol om me eruit te helpen. 
+Dat was heel geruststellend.
 
   <b>Lora na afloop van de pilottraining </b>
   (Post-COVID)
@@ -138,7 +147,8 @@ Ik kreeg een terugval, ik wist dat die een keer zou komen. Maar nu had ik een to
 Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel belangrijk om je **zenuwstelsel tot rust** te brengen. En weet je? Het voelt nog lekker ook, en dat ga jij ook leren.
 
 <div class='review'>
-Ik vond jullie aanpak ruimtescheppend, door veel begrip te tonen en ondersteuning te geven. Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk alles er mag zijn.
+Ik vond jullie aanpak ruimtescheppend, door veel begrip te tonen en ondersteuning te geven. 
+Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk alles er mag zijn.
 
   <b>Mia na afloop van de pilottraining </b>
   (Post Viraal Syndroom)
