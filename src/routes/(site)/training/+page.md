@@ -1,5 +1,5 @@
 ---
-titel: Hersteltraining
+titel: Herstel begint hier: 
 omschrijving: De Grote Vriendelijke Hersteltraining start 1 nov 2024
 
 sidebar: false
