@@ -27,7 +27,7 @@ testBanner: false
     }
   }
 </style>
-Lieve doorzetter,
+Lieve doorzetter, <br>
 Je hebt al zoveel geprobeerd, maar opgegeven? Nooit. Jij bent klaar voor verandering en wil een leven zonder de belemmeringen van pijn, vermoeidheid, en onzekerheid. Je bent klaar om het heft in eigen handen te nemen en zoekt de weg naar écht herstel. Je hebt door dat stress een rol speelt, maar dit is geen kwestie van ‘harder je best doen’. Het gaat om anders kijken naar jezelf en je klachten.
 
 ## Voel je weer vrij
