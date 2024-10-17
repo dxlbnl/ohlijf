@@ -1,5 +1,5 @@
 ---
-titel: Jouw herstel begint hier!
+titel: Herstellen begint hier..
 omschrijving: De Grote Vriendelijke Hersteltraining start 1 nov 2024
 
 sidebar: false
@@ -28,11 +28,12 @@ testBanner: false
   }
 </style>
 Lieve doorzetter, <br>
-Je hebt al zoveel geprobeerd, maar opgegeven? Nooit. Jij bent klaar voor verandering en wil een leven zonder de belemmeringen van pijn, vermoeidheid, en onzekerheid. Je bent klaar om het heft in eigen handen te nemen en zoekt de weg naar écht herstel. Je hebt door dat stress een rol speelt, maar dit is geen kwestie van ‘harder je best doen’. Het gaat om anders kijken naar jezelf en je klachten.
+
+Je hebt al zoveel geprobeerd, maar opgegeven? Nooit. Jij bent klaar voor verandering en wil een leven zonder de belemmeringen van pijn, vermoeidheid, en onzekerheid. Je bent klaar om het heft in eigen handen te nemen en zoekt de weg naar **blijvend herstel**. Je hebt door dat stress een rol speelt, maar dit is geen kwestie van ‘harder je best doen’. Het gaat om anders kijken naar jezelf en je klachten.
 
 ## Voel je weer vrij
 Stel je voor: je staat op vol met energie. Je kunt zonder zorgen de dag beginnen: ontbijten met je gezin, een korte wandeling maken of eindelijk weer eens spontaan iets ondernemen. Geen constante twijfel meer of je lijf het wel aankan.
-Misschien droom je van die ene vakantie, een middagje zonder pijn, of simpelweg een dag waarin je je geen zorgen hoeft te maken over je energieniveau. Je wilt weer lachen zonder die zware last van fysieke klachten.
+Misschien droom je van die ene vakantie, een middagje zonder pijn, of simpelweg **een zorgeloze dag** waarin je je geen zorgen hoeft te maken over je energieniveau. Je wilt weer lachen zonder die zware last van fysieke klachten.
 Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat je met wilskracht kunt oplossen. Jij bent klaar om het anders aan te pakken, om de regie over je leven terug te nemen.
 
 
@@ -67,6 +68,11 @@ Ik geniet weer. Dikke dikke knuffel.
   (chronische vermoeidheid)
 </div>
 
+<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Ik gun mezelf deze kans
+</a>
+
+<!-- <TrainingForm id=trainingform1 /> -->
 
 ## Wij kennen je struggles maar al te goed
 Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende met de diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. <br>
@@ -97,7 +103,7 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 De inschrijvingen zijn geopend, meld je nu aan!
 
 <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Ik herstel lekker wel!
+  Ik kies voor mijn herstel
 </a>
 
 <!-- <TrainingForm id=trainingform1 /> -->
@@ -256,7 +262,7 @@ We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben 
 Je bent zo welkom bij OhLijf!
 
 <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Start mijn herstel
+  Doe mij die training
 </a>
 
 <!-- <TrainingForm id=trainingform1 /> -->
