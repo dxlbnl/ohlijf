@@ -236,7 +236,7 @@ Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half 
 Je bent absoluut **niet de enige** die dit ervaart. De training is ontworpen voor mensen die weinig energie hebben. Daarom bestaat het uit **korte, behapbare video’s** die je op je eigen tempo kunt volgen. We beginnen met een module die focust op lief zijn voor jezelf en ruimte creëren in je leven. Dit geeft je de nodige rust en een zachte start. 
 
 ### Wat als ik terugval tijdens de training?
-Terugvallen zijn helaas onderdeel van het herstelproces. In de training leer je precies hoe je hiermee om kunt gaan, bouw je het vertrouwen op dat je er **sterker uitkomt** en zullen ze steeds minder vaak voorkomen en minder heftig worden.. We geven jou de tools om terugvallen te zien als leermomenten en niet als mislukkingen.
+Terugvallen of moeilijke momenten kunnen helaas onderdeel zijn van het herstelproces. In de training leer je precies hoe je hiermee om kunt gaan, bouw je het vertrouwen op dat je er **sterker uitkomt** en zullen ze steeds minder vaak voorkomen en minder heftig worden.. We geven jou de tools om terugvallen te zien als leermomenten en niet als mislukkingen.
 
 ### Hoe snel merk ik resultaat?
 Dit verschilt per persoon. Sommigen voelen zich al binnen enkele weken beter, terwijl anderen wat meer tijd nodig hebben. Wat je kunt verwachten, is dat je geleidelijk steeds **meer energie en minder pijn voelt**, je meer ontspanning ervaart en meer vertrouwen voelt in je herstel. Het belangrijkste is dat je de tijd neemt die je nodig hebt – dit is jouw unieke herstelreis.
