@@ -40,7 +40,7 @@ Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat 
 <div class='review'>
 Ik ben weer <b>een gelukkig mens</b> aan het worden
  
-  <b>Ellen na het volgen van de Hersteltraining </b>
+  <b>Ellen </b>
   (chronische vermoeidheid)
 </div>
 
@@ -58,8 +58,9 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezel
 <div class='review'>
 Ben jullie nu al zo ontzettend <b>dankbaar</b>, voel mij zoveel beter!
 Zondag met mijn neef naar Artis 2 en half uur rondgelopen, thuis gekomen gerust en toen nog half uur gefietst.
-<b>Heb ik jaren van gedroomd</b>b> dat ik weer twee activiteiten op een dag kan doen.
+<b>Heb ik jaren van gedroomd</b> dat ik weer twee activiteiten op een dag kan doen.
 Ik geniet weer. Dikke dikke knuffel.  
+  
   <b>Ellen in week 4 van de Hersteltraining </b>
   (chronische vermoeidheid)
 </div>
@@ -90,7 +91,7 @@ Jullie onderscheiden je met de <b>praktische</b> insteek
 
 <div class='review'>
 Twee verschillende persoonlijkheden die perfect bij elkaar passen
-Het enthousiasme is geweldig net als de humor.
+  Het enthousiasme is geweldig net als de humor.
 
   <b>Ellen </b>
   (chronische vermoeidheid)
@@ -124,6 +125,7 @@ De inschrijvingen zijn geopend, meld je nu aan!
 
 <div class='review'>
 Ik vind de grote hersteltraining <b>uitstekend</b> en geef het daarom een <b>10</b>
+  
   <b>Carla na afloop van de Hersteltraining </b>
   (Chronische hoofdpijn en vermoeidheid)
 </div>
@@ -140,13 +142,13 @@ Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen e
 
 <div class='review'>
 Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
-<b>Prachtig</b>, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
-Maar ik blij dat ik dit bij jullie mag en hiermee kan oefenen. 
-Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, 
-wat zijn mijn behoeftes en dit eerlijk durven delen.
-Wat <b>mooi en krachtig</b> dat jullie hiermee de cursus beginnen! 🙏
+  <b>Prachtig</b>, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
+  Maar ik blij dat ik dit bij jullie mag en hiermee kan oefenen. 
+  Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, 
+  wat zijn mijn behoeftes en dit eerlijk durven delen.
+  Wat <b>mooi en krachtig</b> dat jullie hiermee de cursus beginnen! 🙏
 
-  <b>Iris na de start van de Hersteltraining </b>
+<b>Iris na de start van de Hersteltraining </b>
   (Post-COVID)
 </div>
 
@@ -155,10 +157,10 @@ Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat
 
 <div class='review'>
 Ik kreeg een terugval, ik wist dat die een keer zou komen. 
-Maar nu had ik een <b>toolbox vol</b> om me eruit te helpen. 
-Dat was heel <b>geruststellend.</b>
+  Maar nu had ik een <b>toolbox vol</b> om me eruit te helpen. 
+  Dat was heel <b>geruststellend.</b>
 
-  <b>Lora na afloop van de pilottraining </b>
+<b>Lora na afloop van de pilottraining </b>
   (Post-COVID)
 </div>
 
@@ -167,9 +169,9 @@ Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel bela
 
 <div class='review'>
 Ik vond jullie aanpak <b>ruimtescheppend</b>, door veel begrip te tonen en ondersteuning te geven. 
-Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk <b>alles er mag zijn</b>.
+  Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk <b>alles er mag zijn</b>.
 
-  <b>Mia na afloop van de pilottraining </b>
+<b>Mia na afloop van de pilottraining </b>
   (Post Viraal Syndroom)
 </div>
 
@@ -196,10 +198,10 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 
 <div class='review'>
 Dit is zo'n fijne en goede training. Heeft mij veel gebracht, ik voel me <b>90% beter</b>.
-Ik heb veel inzichten gekregen. De training is met enthousiasme gemaakt en met humor wat erg prettig is.
-Ik ben <b>erg blij</b> met dit traject. Zeker aan te raden!
+  Ik heb veel inzichten gekregen. De training is met enthousiasme gemaakt en met humor wat erg prettig is.
+  Ik ben <b>erg blij</b> met dit traject. Zeker aan te raden!
 
-  <b>Ellen na afloop van de hersteltraining </b>
+<b>Ellen na afloop van de hersteltraining </b>
   (chronische vermoeidheid)
 </div>
 
@@ -228,7 +230,7 @@ Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de t
   Wilde het even laten weten.
   Fijne dag 💕
   
-  <b>Jet in week 6 van de Hersteltraining </b>
+<b>Jet in week 6 van de Hersteltraining </b>
   (chronische hoofdpijn en vermoeidheid)
 </div>
 
