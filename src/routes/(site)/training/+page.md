@@ -13,18 +13,25 @@ style: '--content-width: 80ch;'
 
   import Sticker from './Sticker.svelte'
   import Text from './Text.svelte'
+  import Review from './Review.svelte'
 </script>
 
 <style>
   iframe {
     margin-bottom: 2rem;
+    max-width: 100%;
   }
 
   .review {
+    grid-column: full;
     text-align: center;
     font-style: italic;
-    white-space: pre;
-    margin-block: 2rem;
+    white-space: pre-line;
+
+    margin-block: 1rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+    background-color: var(--light-pink);
 
     b {
       font-style: normal;
@@ -41,13 +48,9 @@ Stel je voor: je staat op vol met energie. Je kunt zonder zorgen de dag beginnen
 Misschien droom je van die ene vakantie, een middagje zonder pijn, of simpelweg **een zorgeloze dag** waarin je je geen zorgen hoeft te maken over je energieniveau. Je wilt weer lachen zonder die zware last van fysieke klachten.
 Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat je met wilskracht kunt oplossen. Jij bent klaar om het anders aan te pakken, om de regie over je leven terug te nemen.
 
-
-<div class='review'>
-Ik ben 80% hersteld en zit nu echt goed in m'n vel!
- 
-  <b>Carla na afloop van Hersteltraining</b>
-  (chronische hoofdijn en vermoeidheid)
-</div>
+<Review naam='Carla na afloop van Hersteltraining' klachten='(chronische hoofdijn en vermoeidheid)'>
+  Ik ben 80% hersteld en zit nu echt goed in m'n vel!
+</Review>
 
 <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik wil ook herstellen
@@ -63,15 +66,12 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezel
 - Heb je innerlijke rust gevonden, minder stress en **geniet** je van meer geluk in je dagelijks leven.
 
 
-<div class='review'>
-Ben jullie nu al zo ontzettend <b>dankbaar</b>, voel mij zoveel beter!
-Zondag met mijn neef naar Artis 2 en half uur rondgelopen, thuis gekomen, gerust en toen nog half uur gefietst.
-<b>Heb ik jaren van gedroomd</b> dat ik weer twee activiteiten op een dag kan doen.
-Ik geniet weer. Dikke dikke knuffel.  
-  
-  <b>Ellen in week 4 van de Hersteltraining </b>
-  (chronische vermoeidheid)
-</div>
+<Review naam='Ellen in week 4 van de Hersteltraining' klachten='(chronische vermoeidheid)'>
+  Ben jullie nu al zo ontzettend <b>dankbaar</b>, voel mij zoveel beter!
+  Zondag met mijn neef naar Artis 2 en half uur rondgelopen, thuis gekomen, gerust en toen nog half uur gefietst.
+  <b>Heb ik jaren van gedroomd</b> dat ik weer twee activiteiten op een dag kan doen.
+  Ik geniet weer. Dikke dikke knuffel.  
+</Review>
 
 <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik gun mezelf deze kans
@@ -90,29 +90,20 @@ Beiden ontdekten we de mind-body-visie en leerden met vallen en opstaan weer her
 ## Oud-deelnemers over onze aanpak:
 
 
-<div class='review'>
-Jullie onderscheiden je met de <b>praktische</b> insteek.
+<Review naam='Mia' klachten='(Post Viraal Syndroom)'>
+  Jullie onderscheiden je met de <b>praktische</b> insteek.
+</Review>
 
-  <b>Mia </b>
-  (Post Viraal Syndroom)
-</div>
-
-<div class='review'>
-Twee verschillende persoonlijkheden die perfect bij elkaar passen.
+<Review naam='Ellen' klachten='(chronische vermoeidheid)'>
+  Twee verschillende persoonlijkheden die perfect bij elkaar passen.
   Het enthousiasme is geweldig, net als de humor.
+</Review>
 
-  <b>Ellen </b>
-  (chronische vermoeidheid)
-</div>
-
-<div class='review'>
-Jullie duidelijke, begrijpelijke uitleg, <b>laagdrempelige</b> aanpak en de <b>humor</b> maken het een hele fijne training. 
+<Review naam='Femke' klachten='(Hoofdpijn, schouder- en nekpijn)'>
+  Jullie duidelijke, begrijpelijke uitleg, <b>laagdrempelige</b> aanpak en de <b>humor</b> maken het een hele fijne training. 
   De oefeningen zijn heel prettig en geven nieuwe inzichten. 
   Ik zit beter in mijn vel en voel me zoveel relaxter. 
- 
-  <b>Femke </b>
-  (Hoofdpijn, schouder- en nekpijn)
-</div>
+</Review>
 
 
 ## Je hoeft niet te leren leven met je klachten.
@@ -130,12 +121,9 @@ De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november
 <!-- <TrainingForm id=trainingform1 /> -->
 
 
-<div class='review'>
-Ik vind de grote hersteltraining <b>uitstekend</b> en geef het daarom een <b>10</b>
-  
-  <b>Carla na afloop van de Hersteltraining </b>
-  (Chronische hoofdpijn en vermoeidheid)
-</div>
+<Review naam='Carla na afloop van de Hersteltraining' klachten='(Chronische hoofdpijn en vermoeidheid)'>
+  Ik vind de grote hersteltraining <b>uitstekend</b> en geef het daarom een <b>10</b>
+</Review>
 
 
 ## Wat ga je leren in dit traject?
@@ -147,40 +135,31 @@ De training is opgebouwd in 12 sessies. We behandelen daarbij 4 hoofdthema's.
 Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen en te weinig voor jezelf. We gaan ruimte creëren om te kunnen herstellen. Heel rustig, want we weten dat je weinig tijd of energie hebt.
 
 
-<div class='review'>
-Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
+<Review naam='Iris na de start van de Hersteltraining' klachten='(Post-COVID)'>
+  Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
   <b>Prachtig</b>, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
   Maar ik ben blij dat ik dit bij jullie mag en hiermee kan oefenen. 
   Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, 
   wat zijn mijn behoeftes en dit eerlijk durven delen.
   Wat <b>mooi en krachtig</b> dat jullie hiermee de cursus beginnen! 🙏
-
-<b>Iris na de start van de Hersteltraining </b>
-  (Post-COVID)
-</div>
+</Review>
 
 ### 2. Negatieve gedachten en angsten
 Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat mijn partner zoveel voor mij moet doen". Er komen zoveel lastige gedachten kijken bij het ervaren van die heftige symptomen. We geven heel praktische oefeningen hoe je deze negatieve spiraal doorbreekt zodat alles weer lichter gaat voelen.
 
-<div class='review'>
-Ik kreeg een terugval, ik wist dat die een keer zou komen. 
+<Review naam='Lora na afloop van de pilottraining' klachten='(Post-COVID)'>
+  Ik kreeg een terugval, ik wist dat die een keer zou komen. 
   Maar nu had ik een <b>toolbox vol</b> om me eruit te helpen. 
   Dat was heel <b>geruststellend.</b>
-
-<b>Lora na afloop van de pilottraining </b>
-  (Post-COVID)
-</div>
+</Review>
 
 ### 3. Emoties voelen in plaats van analyseren
 Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel belangrijk om je **zenuwstelsel tot rust** te brengen. En weet je? Het voelt nog lekker ook, en dat ga jij ook leren.
 
-<div class='review'>
-Ik vond jullie aanpak <b>ruimtescheppend</b>, door veel begrip te tonen en ondersteuning te geven. 
+<Review naam='Mia na afloop van de pilottraining' klachten='(Post Viraal Syndroom)'>
+  Ik vond jullie aanpak <b>ruimtescheppend</b>, door veel begrip te tonen en ondersteuning te geven. 
   Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk <b>alles er mag zijn</b>.
-
-<b>Mia na afloop van de pilottraining </b>
-  (Post Viraal Syndroom)
-</div>
+</Review>
 
 ### 4. De kers op de taart: jouw 2.0 versie
 Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
@@ -203,14 +182,11 @@ Robin vertelt je precies wat je kan verwachten.
 De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan elkaar kunt stellen. Hier kun je 24/7 kracht uit putten. De community is toegankelijk via de app of website van de training.
 
 
-<div class='review'>
-Dit is zo'n fijne en goede training. Heeft mij veel gebracht, ik voel me <b>90% beter</b>.
+<Review naam='Ellen na afloop van de hersteltraining' klachten='(chronische vermoeidheid)'>
+  Dit is zo'n fijne en goede training. Heeft mij veel gebracht, ik voel me <b>90% beter</b>.
   Ik heb veel inzichten gekregen. De training is met enthousiasme gemaakt en met humor wat erg prettig is.
   Ik ben <b>erg blij</b> met dit traject. Zeker aan te raden!
-
-<b>Ellen na afloop van de hersteltraining </b>
-  (chronische vermoeidheid)
-</div>
+</Review>
 
 ## Veelgestelde vragen
 
@@ -248,7 +224,7 @@ Terugvallen of moeilijke momenten kunnen helaas onderdeel zijn van het herstelpr
 ### Hoe snel merk ik resultaat?
 Dit verschilt per persoon. Sommigen voelen zich al binnen enkele weken beter, terwijl anderen wat meer tijd nodig hebben. Wat je kunt verwachten, is dat je geleidelijk steeds **meer energie en minder pijn voelt**, je meer ontspanning ervaart en meer vertrouwen voelt in je herstel. Het belangrijkste is dat je de tijd neemt die je nodig hebt – dit is jouw unieke herstelreis.
 
-<div class='review'>
+<Review naam='Jet in week 6 van de Hersteltraining' klachten='(chronische hoofdpijn en vermoeidheid)'>
  Die laatste luisteroefening! Ga naar je pijn... <b>Werkt zooo goed</b>.
   De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
   En als ik er naartoe ga en ermee praat, voel ik het ontspannen.. 🍀🍀🍀
@@ -256,10 +232,7 @@ Dit verschilt per persoon. Sommigen voelen zich al binnen enkele weken beter, te
   Ik ga dit heul vaak toepassen 😊 Super dank hiervoor.
   Wilde het even laten weten.
   Fijne dag 💕
-  
-<b>Jet in week 6 van de Hersteltraining </b>
-  (chronische hoofdpijn en vermoeidheid)
-</div>
+</Review>
 
 <Image class="image" name='pages/blij-grasveld' sizes={[400,800,1200]} base={800} alt='Blij koppel op een grasveld' />
 

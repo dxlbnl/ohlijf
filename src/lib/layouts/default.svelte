@@ -15,7 +15,7 @@
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
 	export let testBanner = 'Ontdek de echte oorzaak van je klachten';
-	export let meta: Record<string, any> = {};
+	export let meta = {};
 
 	export let style = ''
 </script>
