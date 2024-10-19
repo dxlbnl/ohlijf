@@ -5,7 +5,7 @@
 	// export { img };
 </script>
 
-<script>
+<script lang='ts'>
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import TestBanner from '$lib/components/TestBanner.svelte';
@@ -15,7 +15,9 @@
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
 	export let testBanner = 'Ontdek de echte oorzaak van je klachten';
-	export let meta = {};
+	export let meta: Record<string, any> = {};
+
+	export let style = ''
 </script>
 
 <PageHeader {titel} {omschrijving} {foto} />
@@ -26,7 +28,7 @@
 	{/each}
 </svelte:head>
 
-<main class:content-with-sidebar={sidebar} class:content={!sidebar}>
+<main class:content-with-sidebar={sidebar} class:content={!sidebar} {style}>
 	<slot />
 
 	{#if sidebar}
@@ -41,6 +43,8 @@
 <style>
 	main {
 		padding-block: 4rem;
+
+		position: relative;
 	}
 	main :global(.image) {
 		aspect-ratio: 8/3;

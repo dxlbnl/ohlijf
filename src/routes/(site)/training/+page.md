@@ -4,11 +4,15 @@ omschrijving: Doe nu mee met de Grote Vriendelijke Hersteltraining
 
 sidebar: false
 testBanner: false
+style: '--content-width: 80ch;'
 ---
 
 <script>
   import Image from '$lib/components/Image.svelte'
   import TrainingForm from '$lib/components/TrainingForm.svelte'
+
+  import Sticker from './Sticker.svelte'
+  import Text from './Text.svelte'
 </script>
 
 <style>
@@ -27,6 +31,9 @@ testBanner: false
     }
   }
 </style>
+
+<Sticker>Start 1 november</Sticker>
+
 Je hebt al zoveel geprobeerd, maar opgegeven? Nooit. Jij bent klaar voor verandering en wil een leven zonder de belemmeringen van pijn, vermoeidheid, en onzekerheid. Je bent klaar om het heft in eigen handen te nemen en zoekt de weg naar **blijvend herstel**. Je hebt door dat stress een rol speelt, maar dit is geen kwestie van ‘harder je best doen’. Het gaat om anders kijken naar jezelf en je klachten.
 
 ## Voel je weer vrij
