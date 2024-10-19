@@ -38,7 +38,7 @@ Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat 
 <div class='review'>
 Ik ben 80% hersteld en zit nu echt goed in m'n vel!
  
-  <b>Carla </b>
+  <b>Carla na afloop van Hersteltraining</b>
   (chronische hoofdijn en vermoeidheid)
 </div>
 
