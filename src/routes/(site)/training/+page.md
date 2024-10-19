@@ -222,13 +222,13 @@ Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de t
 
 
 <div class='review'>
-  Die laatste luisteroefening! Ga naar je pijn... Werkt zooo goed.
+ <b> Die laatste luisteroefening! Ga naar je pijn... Werkt zooo goed.
   De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
   En als ik er naartoe ga en ermee praat, voel ik het ontspannen.. 🍀🍀🍀
   Dus ja, weer een mooie gouden sleutel in handen.
   Ik ga dit heul vaak toepassen 😊 Super dank hiervoor.
   Wilde het even laten weten.
-  Fijne dei 💕
+  Fijne dei 💕</b>
   
   <b>Jet in week 6 van de Hersteltraining </b>
   (chronische hoofdpijn en vermoeidheid)
