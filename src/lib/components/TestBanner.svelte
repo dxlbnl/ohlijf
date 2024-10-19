@@ -5,7 +5,7 @@
 
 <section class="content test-banner" style:background>
 	<h2>{title}</h2>
-	<a href="https://ohlijf.systeme.io/gratis-hersteltraining-pijn-vermoeidheid" class="cta center">Naar de gratis training!</a>
+	<a href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen" class="cta center">Naar de gratis training!</a>
 </section>
 
 <style>

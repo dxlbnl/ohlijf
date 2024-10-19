@@ -130,7 +130,7 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis training:</h2>
+		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis 3-daagse training:</h2>
 		<a
 			href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen"
 			class="cta center"

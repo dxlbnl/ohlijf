@@ -270,6 +270,10 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
 
+<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+  Start mijn herstel
+</a>
+
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen. <br>
 Je bent zo welkom bij OhLijf!
 
