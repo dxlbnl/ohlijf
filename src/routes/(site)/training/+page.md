@@ -1,5 +1,5 @@
 ---
-titel: Herstellen begint hier..
+titel: Herstellen begint hier
 omschrijving: De Grote Vriendelijke Hersteltraining start 1 nov 2024
 
 sidebar: false
@@ -38,11 +38,7 @@ Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat 
 
 
 <div class='review'>
-Ik voel mij veel beter. De vermoeidheid gaat ook veel beter.
-Ik voel weer emoties en zie het leven weer zitten. 
-Kan meer dan ik dacht.
-
-Ik ben weer een gelukkig mens aan het worden
+Ik ben weer **een gelukkig mens** aan het worden
  
   <b>Ellen na het volgen van de Hersteltraining </b>
   (chronische vermoeidheid)
@@ -60,9 +56,9 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezel
 
 
 <div class='review'>
-Ben jullie nu al zo ontzettend dankbaar, voel mij zoveel beter!
+Ben jullie nu al zo ontzettend **dankbaar**, voel mij zoveel beter!
 Zondag met mijn neef naar Artis 2 en half uur rondgelopen, thuis gekomen gerust en toen nog half uur gefietst.
-Heb ik jaren van gedroomd dat ik weer twee activiteiten op een dag kan doen.
+**Heb ik jaren van gedroomd** dat ik weer twee activiteiten op een dag kan doen.
 Ik geniet weer. Dikke dikke knuffel.  
   <b>Ellen in week 4 van de Hersteltraining </b>
   (chronische vermoeidheid)
@@ -82,13 +78,30 @@ En mede-oprichter **Robin** leefde 20 jaar met dagelijks rugpijn, hoofdpijn en d
 
 Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer herstellen. Beide leven ze nu een leven dat dichter staat bij wie ze zijn. En die klachten? Die zijn bijna helemaal weg, af en toe komt er nog een symptoom en dat is een mooi signaal dat weer wat wil vertellen.
 
+**Dit zeiden anderen over onze aanpak:**
+
 
 <div class='review'>
-Jullie duidelijke, begrijpelijke uitleg, laagdrempelige aanpak en de humor maken het een hele fijne training. 
+Jullie onderscheiden je met de **praktische** insteek
+
+  <b>Mia </b>
+  (Post Viraal Syndroom)
+</div>
+
+<div class='review'>
+Twee verschillende persoonlijkheden die perfect bij elkaar passen
+Het enthousiasme is geweldig net als de humor.
+
+  <b>Ellen </b>
+  (chronische vermoeidheid)
+</div>
+
+<div class='review'>
+Jullie duidelijke, begrijpelijke uitleg, **laagdrempelige** aanpak en de **humor** maken het een hele fijne training. 
   De oefeningen zijn heel prettig en geven nieuwe inzichten. 
-  Niet alleen mijn klachten worden minder, maar ik zit überhaupt beter in mijn vel en voel me zoveel relaxter. 
-  Ik leer meer naar mezelf luisteren en beter voor mezelf zorgen. Al blijft dat natuurlijk nog met vallen en opstaan ;-)
-  <b>Femke in week 9 van de Hersteltraining </b>
+  Ik zit beter in mijn vel en voel me zoveel relaxter. 
+ 
+  <b>Femke </b>
   (Hoofdpijn, schouder- en nekpijn)
 </div>
 
@@ -110,7 +123,7 @@ De inschrijvingen zijn geopend, meld je nu aan!
 
 
 <div class='review'>
-Ik vind de grote hersteltraining uitstekend en geef het daarom een 10
+Ik vind de grote hersteltraining **uitstekend** en geef het daarom een **10**
   <b>Carla na afloop van de Hersteltraining </b>
   (Chronische hoofdpijn en vermoeidheid)
 </div>
@@ -127,11 +140,11 @@ Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen e
 
 <div class='review'>
 Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
-Prachtig, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
+**Prachtig**, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
 Maar ik blij dat ik dit bij jullie mag en hiermee kan oefenen. 
 Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, 
 wat zijn mijn behoeftes en dit eerlijk durven delen.
-Wat mooi en krachtig dat jullie hiermee de cursus beginnen! 🙏
+Wat **mooi en krachtig** dat jullie hiermee de cursus beginnen! 🙏
 
   <b>Iris na de start van de Hersteltraining </b>
   (Post-COVID)
