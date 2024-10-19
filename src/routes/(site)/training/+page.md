@@ -38,7 +38,7 @@ Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat 
 
 
 <div class='review'>
-Ik ben weer **een gelukkig mens** aan het worden
+Ik ben weer <b>een gelukkig mens</b> aan het worden
  
   <b>Ellen na het volgen van de Hersteltraining </b>
   (chronische vermoeidheid)
@@ -56,9 +56,9 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezel
 
 
 <div class='review'>
-Ben jullie nu al zo ontzettend **dankbaar**, voel mij zoveel beter!
+Ben jullie nu al zo ontzettend <b>dankbaar</b>, voel mij zoveel beter!
 Zondag met mijn neef naar Artis 2 en half uur rondgelopen, thuis gekomen gerust en toen nog half uur gefietst.
-**Heb ik jaren van gedroomd** dat ik weer twee activiteiten op een dag kan doen.
+<b>Heb ik jaren van gedroomd</b>b> dat ik weer twee activiteiten op een dag kan doen.
 Ik geniet weer. Dikke dikke knuffel.  
   <b>Ellen in week 4 van de Hersteltraining </b>
   (chronische vermoeidheid)
@@ -82,7 +82,7 @@ Beiden ontdekten ze de mind-body-visie en leerden met vallen en opstaan weer her
 
 
 <div class='review'>
-Jullie onderscheiden je met de **praktische** insteek
+Jullie onderscheiden je met de <b>praktische</b> insteek
 
   <b>Mia </b>
   (Post Viraal Syndroom)
@@ -97,7 +97,7 @@ Het enthousiasme is geweldig net als de humor.
 </div>
 
 <div class='review'>
-Jullie duidelijke, begrijpelijke uitleg, **laagdrempelige** aanpak en de **humor** maken het een hele fijne training. 
+Jullie duidelijke, begrijpelijke uitleg, <b>laagdrempelige</b> aanpak en de <b>humor</b> maken het een hele fijne training. 
   De oefeningen zijn heel prettig en geven nieuwe inzichten. 
   Ik zit beter in mijn vel en voel me zoveel relaxter. 
  
@@ -123,7 +123,7 @@ De inschrijvingen zijn geopend, meld je nu aan!
 
 
 <div class='review'>
-Ik vind de grote hersteltraining **uitstekend** en geef het daarom een **10**
+Ik vind de grote hersteltraining <b>uitstekend</b> en geef het daarom een <b>10</b>
   <b>Carla na afloop van de Hersteltraining </b>
   (Chronische hoofdpijn en vermoeidheid)
 </div>
@@ -140,11 +140,11 @@ Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen e
 
 <div class='review'>
 Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
-**Prachtig**, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
+<b>Prachtig</b>, vond het zo spannend om eerlijk mijn grenzen aan te geven. 
 Maar ik blij dat ik dit bij jullie mag en hiermee kan oefenen. 
 Inchecken bij mijzelf, luisteren naar welke signalen mijn lichaam afgeeft, 
 wat zijn mijn behoeftes en dit eerlijk durven delen.
-Wat **mooi en krachtig** dat jullie hiermee de cursus beginnen! 🙏
+Wat <b>mooi en krachtig</b> dat jullie hiermee de cursus beginnen! 🙏
 
   <b>Iris na de start van de Hersteltraining </b>
   (Post-COVID)
@@ -155,8 +155,8 @@ Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat
 
 <div class='review'>
 Ik kreeg een terugval, ik wist dat die een keer zou komen. 
-Maar nu had ik een toolbox vol om me eruit te helpen. 
-Dat was heel geruststellend.
+Maar nu had ik een <b>toolbox vol</b> om me eruit te helpen. 
+Dat was heel <b>geruststellend.</b>
 
   <b>Lora na afloop van de pilottraining </b>
   (Post-COVID)
@@ -166,8 +166,8 @@ Dat was heel geruststellend.
 Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel belangrijk om je **zenuwstelsel tot rust** te brengen. En weet je? Het voelt nog lekker ook, en dat ga jij ook leren.
 
 <div class='review'>
-Ik vond jullie aanpak ruimtescheppend, door veel begrip te tonen en ondersteuning te geven. 
-Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk alles er mag zijn.
+Ik vond jullie aanpak <b>ruimtescheppend</b>, door veel begrip te tonen en ondersteuning te geven. 
+Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk <b>alles er mag zijn</b>.
 
   <b>Mia na afloop van de pilottraining </b>
   (Post Viraal Syndroom)
@@ -195,11 +195,9 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 
 
 <div class='review'>
-Dit is zo'n fijne en goede training. Heeft mij veel gebracht, ik voel me 90% beter.
-Veel inzichten gekregen en het is duidelijk dat ik Mind and body syndroom heb en daar mijn klachten van had.
-Duidelijke uitleg, korte video's en teksten, wat erg fijn is als je je niet goed voelt.
-Met enthousiasme gemaakt en met humor wat erg prettig is.
-Ben erg blij met dit traject. Zeker aan te raden!
+Dit is zo'n fijne en goede training. Heeft mij veel gebracht, ik voel me <b>90% beter</b>.
+Ik heb veel inzichten gekregen. De training is met enthousiasme gemaakt en met humor wat erg prettig is.
+Ik ben <b>erg blij</b> met dit traject. Zeker aan te raden!
 
   <b>Ellen na afloop van de hersteltraining </b>
   (chronische vermoeidheid)
@@ -222,13 +220,13 @@ Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de t
 
 
 <div class='review'>
- <b> Die laatste luisteroefening! Ga naar je pijn... </b>Werkt zooo goed.
+ Die laatste luisteroefening! Ga naar je pijn... <b>Werkt zooo goed</b>.
   De pijn ontstaat meestal vanuit een stijve nek. Verkrampte spieren.
   En als ik er naartoe ga en ermee praat, voel ik het ontspannen.. 🍀🍀🍀
-  Dus ja, weer een mooie gouden sleutel in handen.
+  Dus ja, weer een mooie <b>gouden sleutel</b> in handen.
   Ik ga dit heul vaak toepassen 😊 Super dank hiervoor.
   Wilde het even laten weten.
-  Fijne dei 💕
+  Fijne dag 💕
   
   <b>Jet in week 6 van de Hersteltraining </b>
   (chronische hoofdpijn en vermoeidheid)
