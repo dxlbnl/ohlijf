@@ -22,21 +22,6 @@ style: '--content-width: 80ch;'
     max-width: 100%;
   }
 
-  .review {
-    grid-column: full;
-    text-align: center;
-    font-style: italic;
-    white-space: pre-line;
-
-    margin-block: 1rem;
-    padding: 1rem;
-    line-height: 1.5rem;
-    background-color: var(--light-pink);
-
-    b {
-      font-style: normal;
-    }
-  }
 </style>
 
 <Sticker>Start 1 november</Sticker>

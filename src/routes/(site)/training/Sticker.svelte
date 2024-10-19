@@ -5,7 +5,9 @@
 <style>
     div {
         background-color: var(--yellow);
-        padding: 2rem;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
 
         position: absolute;
         top: -2rem;
