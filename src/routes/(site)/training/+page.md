@@ -112,7 +112,7 @@ De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november
 
 
 ## Wat ga je leren in dit traject?
-Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel hebben zijn we in veel valkuilen gestpat, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :) 
+Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel zijn we in veel valkuilen gestapt, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :) 
 
 De training is opgebouwd in 12 sessies. We behandelen daarbij 4 hoofdthema's.
 
