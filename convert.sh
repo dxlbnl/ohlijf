@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Dependencies:
+# - imagemagick
+# - https://tech.bixoto.com/install-avifenc-on-ubuntu-20-04/
+
 # Check if a file is provided as the first argument
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <image_file> [width1 width2 width3 ...]"

@@ -33,6 +33,9 @@ Stel je voor: je staat op vol met energie. Je kunt zonder zorgen de dag beginnen
 Misschien droom je van die ene vakantie, een middagje zonder pijn, of simpelweg **een zorgeloze dag** waarin je je geen zorgen hoeft te maken over je energieniveau. Je wilt weer lachen zonder die zware last van fysieke klachten.
 Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat je met wilskracht kunt oplossen. Jij bent klaar om het anders aan te pakken, om de regie over je leven terug te nemen.
 
+<Image class="image" name='training/vrouw-springt' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
+
+
 <Review naam='Carla na afloop van Hersteltraining' klachten='(chronische hoofdijn en vermoeidheid)'>
   Ik ben 80% hersteld en zit nu echt goed in m'n vel!
 </Review>
@@ -110,6 +113,8 @@ De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november
   Ik vind de grote hersteltraining <b>uitstekend</b> en geef het daarom een <b>10</b>
 </Review>
 
+
+<Image class="image" name='training/laptop-en-schrijven' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
 
 ## Wat ga je leren in dit traject?
 Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel hebben zijn we in veel valkuilen gestpat, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :) 
