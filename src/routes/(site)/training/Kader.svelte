@@ -11,6 +11,7 @@
 
 <style>
     div {
-        background-color: lightgray;
+        background-color: var(--lightgray);
+        border-radius: var(--rounded);
     }
 </style>

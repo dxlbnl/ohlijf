@@ -15,6 +15,7 @@ style: '--content-width: 80ch;'
   import Text from './Text.svelte'
   import Review from './Review.svelte'
   import Kader from './Kader.svelte'
+  import Question from './Question.svelte'
 </script>
 
 <style>
@@ -191,39 +192,52 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 
 ## Veelgestelde vragen
 
-### Wanneer start OhLijfs Grote Hersteltraining?
-De eerstvolgende training start op **1 november 2024**. Meld je nu aan via de knop:
+<Question question='Wanneer start OhLijfs Grote Hersteltraining?'>
+  <p>De eerstvolgende training start op <b>1 november 2024</b>. Meld je nu aan via de knop:</p>
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Start jouw herstelreis
-</a>
+  <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+    Start jouw herstelreis
+  </a>
+</Question>
 
 <!-- <TrainingForm id=trainingform1 /> -->
 
-### Is er persoonlijke begeleiding?
-Ja, we vinden het belangrijk om persoonlijk contact te hebben met onze deelnemers. Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen.
-We vinden het heel fijn om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een ‘nulmeting’) te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen.
-Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies.  Je staat er dus nooit alleen voor. <br>
+<Question question='Is er persoonlijke begeleiding?'>
+  Ja, we vinden het belangrijk om persoonlijk contact te hebben met onze deelnemers. Gedurende 6 maanden is er <b>elke maand een live Q&A</b> waarbij we ingaan op al je persoonlijke vragen.
+  We vinden het heel fijn om de mensen die de training volgen <b>persoonlijk</b> te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een ‘nulmeting’) te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen.
+  Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies.  Je staat er dus nooit alleen voor. <br>
+</Question>
 
-### Hoeveel kost de Grote Vriendelijke Hersteltraining?
-Deze training is een investering in je toekomst, in een leven zonder beperkingen. Voor dit levensveranderende traject betaal je 6 x €149 (wordt maandelijks afgeschreven). Dat weegt niet op tegen de kosten van het ziek zijn: de energie, tijd en medische kosten.
-Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
 
-### Ik heb al zoveel geprobeerd, werkt dit wel voor mij?
-Veel van onze deelnemers zaten in hetzelfde schuitje: ze hadden al talloze behandelingen geprobeerd zonder succes. Wat onze training anders maakt, is de focus op de diepere oorzaak van klachten en hoe je weer rust en ruimte kunt inbouwen. Dit is geen snelle oplossing, maar een duurzame aanpak die je leert zelf de regie te nemen over je herstel.
+<Question question='Hoeveel kost de Grote Vriendelijke Hersteltraining?'>
+  Deze training is een investering in je toekomst, in een leven zonder beperkingen. Voor dit levensveranderende traject betaal je 6 x €149 (wordt maandelijks afgeschreven). Dat weegt niet op tegen de kosten van het ziek zijn: de energie, tijd en medische kosten.
+  Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
+</Question>
 
-### Hoeveel tijd kost de hersteltraining?
-Je kunt de training in je eigen tempo volgen, we willen dit **life-changing** herstel niet overhaasten.  Elke week krijg je toegang tot een nieuwe sessie met korte video's, ongeveer 20 minuten per sessie. 12 sessies in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. <br>
-Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen het rustig op :)
+<Question question='Ik heb al zoveel geprobeerd, werkt dit wel voor mij?'>
+  Veel van onze deelnemers zaten in hetzelfde schuitje: ze hadden al talloze behandelingen geprobeerd zonder succes. Wat onze training anders maakt, is de focus op de diepere oorzaak van klachten en hoe je weer rust en ruimte kunt inbouwen. Dit is geen snelle oplossing, maar een duurzame aanpak die je leert zelf de regie te nemen over je herstel.
+</Question>
 
-### Ik heb geen energie om een training te volgen. Hoe moet ik dit aanpakken?
-Je bent absoluut **niet de enige** die dit ervaart. De training is ontworpen voor mensen die weinig energie hebben. Daarom bestaat het uit **korte, behapbare video’s** die je op je eigen tempo kunt volgen. We beginnen met een module die focust op lief zijn voor jezelf en ruimte creëren in je leven. Dit geeft je de nodige rust en een zachte start. 
 
-### Wat als ik terugval tijdens de training?
-Terugvallen of moeilijke momenten kunnen helaas onderdeel zijn van het herstelproces. In de training leer je precies hoe je hiermee om kunt gaan, bouw je het vertrouwen op dat je er **sterker uitkomt** en zullen ze steeds minder vaak voorkomen en minder heftig worden.. We geven jou de tools om terugvallen te zien als leermomenten en niet als mislukkingen.
+<Question question='Hoeveel tijd kost de hersteltraining?'>
+  Je kunt de training in je eigen tempo volgen, we willen dit <b>life-changing</b> herstel niet overhaasten.  Elke week krijg je toegang tot een nieuwe sessie met korte video's, ongeveer 20 minuten per sessie. 12 sessies in totaal. Je kunt het dus in 12 weken doorlopen maar we raden je aan om er alle tijd voor te nemen die je nodig hebt. <br>
+  Daarnaast doe je oefeningen, het is goed om hier enkele dagen per week een half uurtje voor te reserveren. Maar als je zwaar vermoeid bent, zal dit in het begin minder zijn, dat is helemaal ok. We bouwen het rustig op :)
+</Question>
 
-### Hoe snel merk ik resultaat?
-Dit verschilt per persoon. Sommigen voelen zich al binnen enkele weken beter, terwijl anderen wat meer tijd nodig hebben. Wat je kunt verwachten, is dat je geleidelijk steeds **meer energie en minder pijn voelt**, je meer ontspanning ervaart en meer vertrouwen voelt in je herstel. Het belangrijkste is dat je de tijd neemt die je nodig hebt – dit is jouw unieke herstelreis.
+
+<Question question='Ik heb geen energie om een training te volgen. Hoe moet ik dit aanpakken?'>
+  Je bent absoluut <b>niet de enige</b> die dit ervaart. De training is ontworpen voor mensen die weinig energie hebben. Daarom bestaat het uit <b>korte, behapbare video’s</b> die je op je eigen tempo kunt volgen. We beginnen met een module die focust op lief zijn voor jezelf en ruimte creëren in je leven. Dit geeft je de nodige rust en een zachte start. 
+</Question>
+
+
+<Question question='Wat als ik terugval tijdens de training?'>
+  Terugvallen of moeilijke momenten kunnen helaas onderdeel zijn van het herstelproces. In de training leer je precies hoe je hiermee om kunt gaan, bouw je het vertrouwen op dat je er <b>sterker uitkomt</b> en zullen ze steeds minder vaak voorkomen en minder heftig worden.. We geven jou de tools om terugvallen te zien als leermomenten en niet als mislukkingen.
+</Question>
+
+
+<Question question='Hoe snel merk ik resultaat?'>
+  Dit verschilt per persoon. Sommigen voelen zich al binnen enkele weken beter, terwijl anderen wat meer tijd nodig hebben. Wat je kunt verwachten, is dat je geleidelijk steeds <b>meer energie en minder pijn voelt</b>, je meer ontspanning ervaart en meer vertrouwen voelt in je herstel. Het belangrijkste is dat je de tijd neemt die je nodig hebt – dit is jouw unieke herstelreis.
+</Question>
 
 <Review naam='Jet in week 6 van de Hersteltraining' klachten='(chronische hoofdpijn en vermoeidheid)'>
  Die laatste luisteroefening! Ga naar je pijn... <b>Werkt zooo goed</b>.
