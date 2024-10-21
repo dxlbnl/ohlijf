@@ -119,7 +119,7 @@ De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november
 <Image class="image" name='training/laptop-en-schrijven' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
 
 ## Wat ga je leren in dit traject?
-Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel hebben zijn we in veel valkuilen gestpat, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :)
+Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel zijn we in veel valkuilen gestapt, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :) 
 
 De training is opgebouwd in 12 sessies. We behandelen daarbij 4 hoofdthema's.
 
@@ -264,10 +264,6 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je zoekt naar een quick fix
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
-
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Start mijn herstel
-</a>
 
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen. <br>
 Je bent zo welkom bij OhLijf!
