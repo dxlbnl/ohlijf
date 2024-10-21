@@ -14,6 +14,7 @@ style: '--content-width: 80ch;'
   import Sticker from './Sticker.svelte'
   import Text from './Text.svelte'
   import Review from './Review.svelte'
+  import Kader from './Kader.svelte'
 </script>
 
 <style>
@@ -117,13 +118,15 @@ De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november
 <Image class="image" name='training/laptop-en-schrijven' sizes={[400,800,1200]} base={800} alt='Vrouw leunt tegen boom' />
 
 ## Wat ga je leren in dit traject?
-Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel hebben zijn we in veel valkuilen gestpat, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :) 
+Wij hebben de training gemaakt die wij graag gehad hadden willen hebben. We hebben in 2 jaar tijd alles uitgezocht, wetenschappelijk onderzoek doorgespit, naar ervaringsverhalen geluisterd, en hebben samen een lijst van wel 100 klachten waar we last van hadden. Bij ons herstel hebben zijn we in veel valkuilen gestpat, het was soms vallen en opstaan... We zorgen er graag voor dat jij niet in die valkuilen hoeft te stappen :)
 
 De training is opgebouwd in 12 sessies. We behandelen daarbij 4 hoofdthema's.
 
-### 1. Reserves opbouwen en lief zijn voor jezelf
-Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen en te weinig voor jezelf. We gaan ruimte creëren om te kunnen herstellen. Heel rustig, want we weten dat je weinig tijd of energie hebt.
-
+<Kader title='1. Reserves opbouwen en lief zijn voor jezelf'>
+  <p>
+  Je leven is te vol, of <b>je hoofd is te vol</b>, of je doet te veel voor anderen en te weinig voor jezelf. We gaan ruimte creëren om te kunnen herstellen. Heel rustig, want we weten dat je weinig tijd of energie hebt.
+  </p>
+</Kader>
 
 <Review naam='Iris na de start van de Hersteltraining' klachten='(Post-COVID)'>
   Ik heb net de eerste video van module 1 gekeken, en wat sluit dit mooi aan! 
@@ -134,8 +137,11 @@ Je leven is te vol, of **je hoofd is te vol**, of je doet te veel voor anderen e
   Wat <b>mooi en krachtig</b> dat jullie hiermee de cursus beginnen! 🙏
 </Review>
 
-### 2. Negatieve gedachten en angsten
-Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat mijn partner zoveel voor mij moet doen". Er komen zoveel lastige gedachten kijken bij het ervaren van die heftige symptomen. We geven heel praktische oefeningen hoe je deze negatieve spiraal doorbreekt zodat alles weer lichter gaat voelen.
+<Kader title='2. Negatieve gedachten en angsten'>
+  <p>
+    Van "Als ik vanavond maar geen hoofdpijn krijg" tot "<b>>Ik voel me schuldig</b> dat mijn partner zoveel voor mij moet doen". Er komen zoveel lastige gedachten kijken bij het ervaren van die heftige symptomen. We geven heel praktische oefeningen hoe je deze negatieve spiraal doorbreekt zodat alles weer lichter gaat voelen.
+  </p>
+</Kader>
 
 <Review naam='Lora na afloop van de pilottraining' klachten='(Post-COVID)'>
   Ik kreeg een terugval, ik wist dat die een keer zou komen. 
@@ -143,16 +149,21 @@ Van "Als ik vanavond maar geen hoofdpijn krijg" tot "**Ik voel me schuldig** dat
   Dat was heel <b>geruststellend.</b>
 </Review>
 
-### 3. Emoties voelen in plaats van analyseren
-Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel belangrijk om je **zenuwstelsel tot rust** te brengen. En weet je? Het voelt nog lekker ook, en dat ga jij ook leren.
+<Kader title='3. Emoties voelen in plaats van analyseren'>
+  <p>Of wegdrukken of negeren of afzwakken. Stilstaan bij je emoties blijkt heel belangrijk om je <b>zenuwstelsel tot rust</b> te brengen. En weet je? Het voelt nog lekker ook, en dat ga jij ook leren.
+  </p>
+</Kader>
 
 <Review naam='Mia na afloop van de pilottraining' klachten='(Post Viraal Syndroom)'>
   Ik vond jullie aanpak <b>ruimtescheppend</b>, door veel begrip te tonen en ondersteuning te geven. 
   Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk <b>alles er mag zijn</b>.
 </Review>
 
-### 4. De kers op de taart: jouw 2.0 versie
-Wat wil je nu echt? **Wat maakt jou gelukkig** en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
+<Kader title='4. De kers op de taart: jouw 2.0 versie'>
+  <p>
+    Wat wil je nu echt? <b>Wat maakt jou gelukkig</b> en wat doe je eigenlijk omdat anderen het van je verwachten? We halen die diepe verlangens naar boven zodat je niet alleen klachtenvrij door het leven gaat maar ook kiest voor wat jou gelukkig maakt. Het één helpt bij het ander!
+  </p>
+</Kader>
 
 ## Veelgestelde vragen in video
 Robin vertelt je precies wat je kan verwachten.
