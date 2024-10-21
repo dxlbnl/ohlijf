@@ -6,7 +6,9 @@
 <details class='content popout'>
     <summary>{question}</summary>
     
-    <slot />
+    <p>
+        <slot />
+    </p>
 </details>
 <style>
     
