@@ -40,7 +40,7 @@
 				/>
 				<Input
 					name="complaints"
-					label="Mijn belangrijkste klachten *"
+					label="Mijn belangrijkste klachten"
 					type="textarea"
 					disabled={$submitting}
 					aria-invalid={$errors.complaints ? 'true' : undefined}

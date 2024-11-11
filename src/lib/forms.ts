@@ -7,7 +7,7 @@ export const downloadFormSchema = mailingFormSchema;
 export const trainingFormSchema = z.object({
 	email: z.string().email(),
 	name: z.string(),
-	complaints: z.string()
+	complaints: z.string().optional()
 });
 
 export const testForm = z.object({
