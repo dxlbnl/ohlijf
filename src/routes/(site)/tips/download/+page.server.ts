@@ -23,7 +23,7 @@ export const actions: Actions = {
 		}
 
 		try {
-			await addOrUpdateContact({ email: form.data.email, tags: ['tips'] });
+			await addOrUpdateContact({ email: form.data.email, tags: ['interesse'] });
 		} catch (e) {
 			console.error('Failed to add contact:', e);
 		}
