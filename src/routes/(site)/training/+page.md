@@ -37,9 +37,9 @@ Je weet dat stress en je lichaam elkaar beïnvloeden, maar dit is niet iets wat 
   Ik ben 80% hersteld en zit nu echt goed in m'n vel!
 </Review>
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik wil ook herstellen
-</a>
+</a> -->
 
 ## Gun jezelf je herstel
 We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezelf te kiezen. Gun jezelf weer een leven vol energie en mogelijkheden. Na de Grote Vriendelijke Hersteltraining:
@@ -61,6 +61,8 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezel
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik gun mezelf deze kans
 </a> -->
+
+De volgende training start in het voorjaar, de datum is nog niet bekend. Wil je **als eerste horen** wanneer deze start en ook als eerst de kans krijgen om je in te schrijven? Zet jezelf dan op de wachtlijst, dat kan hieronder:
 
 <TrainingForm id=trainingform1 />
 
@@ -97,7 +99,7 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om **voor jez
 
 In de training nemen we je **stap voor stap** mee richting een vrij en licht leven. We beginnen heel rustig met reserves opbouwen, zodat je weer meer aankan.
 
-De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november start de training.
+Meld je aan voor de **wachtlijst**, dan hoor als eerste wanneer de volgende training start:
 
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik kies voor mijn herstel
@@ -176,7 +178,7 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 ## Veelgestelde vragen
 
 ### Wanneer start OhLijfs Grote Hersteltraining?
-De eerstvolgende training start op **1 november 2024**. Meld je nu aan via de knop:
+We zijn 1 november met een groep gestart en de volgende training staat gepland in het voorjaar. Wil je als eerste horen wanneer deze start? Zet jezelf dan vrijblijvend op de wachtlijst:
 
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Start jouw herstelreis
@@ -241,5 +243,6 @@ Je bent zo welkom bij OhLijf!
 <!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Doe mij die training
 </a> -->
+Meld je aan voor de wachtlijst en ontvang bericht wanneer de volgende training gepland staat:
 
 <TrainingForm id=trainingform1 />
