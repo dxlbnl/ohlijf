@@ -24,7 +24,7 @@ style: '--content-width: 80ch;'
 
 </style>
 
-<Sticker>Start 1 november</Sticker>
+<!-- <Sticker>Start 1 november</Sticker> -->
 
 Je hebt al zoveel geprobeerd, maar opgegeven? Nooit. Jij bent klaar voor verandering en wil een leven zonder de belemmeringen van pijn, vermoeidheid, en onzekerheid. Je bent klaar om het heft in eigen handen te nemen en zoekt de weg naar **blijvend herstel**. Je hebt door dat stress een rol speelt, maar dit is geen kwestie van ‘harder je best doen’. Het gaat om anders kijken naar jezelf en je klachten.
 
@@ -58,11 +58,11 @@ We weten dat je graag klaarstaat voor anderen, maar nu is het tijd om voor jezel
   Ik geniet weer. Dikke dikke knuffel.  
 </Review>
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik gun mezelf deze kans
-</a>
+</a> -->
 
-<!-- <TrainingForm id=trainingform1 /> -->
+<TrainingForm id=trainingform1 />
 
 ## Wij kennen je struggles maar al te goed
 Oprichter van OhLijf **Aurinke** zat meer dan 2 jaar thuis op de bank als een hoopje ellende met de diagnose Long Covid. Zo vermoeid dat ze niet meer kon werken, en zelfs 10 minuten wandelen te veel was. <br>
@@ -99,11 +99,11 @@ In de training nemen we je **stap voor stap** mee richting een vrij en licht lev
 
 De inschrijvingen zijn geopend t/m 31 oktober, dus meld je nu aan! Op 1 november start de training.
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Ik kies voor mijn herstel
-</a>
+</a> -->
 
-<!-- <TrainingForm id=trainingform1 /> -->
+<TrainingForm id=trainingform1 />
 
 
 <Review naam='Carla na afloop van de Hersteltraining' klachten='(Chronische hoofdpijn en vermoeidheid)'>
@@ -178,20 +178,20 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 ### Wanneer start OhLijfs Grote Hersteltraining?
 De eerstvolgende training start op **1 november 2024**. Meld je nu aan via de knop:
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Start jouw herstelreis
-</a>
+</a> -->
 
-<!-- <TrainingForm id=trainingform1 /> -->
+<TrainingForm id=trainingform1 />
 
 ### Is er persoonlijke begeleiding?
-Ja, we vinden het belangrijk om persoonlijk contact te hebben met onze deelnemers. Gedurende 6 maanden is er **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen.
+Ja, we vinden het belangrijk om persoonlijk contact te hebben met onze deelnemers. We geven **elke maand een live Q&A** waarbij we ingaan op al je persoonlijke vragen.
 We vinden het heel fijn om de mensen die de training volgen **persoonlijk** te leren kennen. We vragen je daarom om bij de start wat informatie over jezelf en je klachten (een ‘nulmeting’) te vertellen. We reageren op vragen in de community Club OhLijf en je kunt ons altijd mailen.
 Daarnaast houden we per persoon bij hoe het met je gaat. Hoe ver ben je met de training, welke vragen spelen er en halverwege is er een checkpoint met persoonlijk advies.  Je staat er dus nooit alleen voor. <br>
 
-### Hoeveel kost de Grote Vriendelijke Hersteltraining?
+<!-- ### Hoeveel kost de Grote Vriendelijke Hersteltraining?
 Deze training is een investering in je toekomst, in een leven zonder beperkingen. Voor dit levensveranderende traject betaal je 6 x €149 (wordt maandelijks afgeschreven). Dat weegt niet op tegen de kosten van het ziek zijn: de energie, tijd en medische kosten.
-Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina).
+Heb je door je klachten weinig of geen inkomen, mail ons dan even wat er mogelijk is (zie contactpagina). -->
 
 ### Ik heb al zoveel geprobeerd, werkt dit wel voor mij?
 Veel van onze deelnemers zaten in hetzelfde schuitje: ze hadden al talloze behandelingen geprobeerd zonder succes. Wat onze training anders maakt, is de focus op de diepere oorzaak van klachten en hoe je weer rust en ruimte kunt inbouwen. Dit is geen snelle oplossing, maar een duurzame aanpak die je leert zelf de regie te nemen over je herstel.
@@ -235,15 +235,11 @@ Deze training is voor jou als je je herkent in de volgende dingen:
 - Als je niet bereid bent aan jezelf te werken
 - Als je in een toxische omgeving leeft met iemand die je (verbaal of fysiek) misbruikt. In dit geval raden we je aan eerst persoonlijke ondersteuning te zoeken. Heb je een dergelijk trauma meegemaakt in het verleden, dan is de training wél geschikt. 
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
-  Start mijn herstel
-</a>
-
 We kunnen niet wachten om je te mogen begeleiden, zodat je leert wat wij hebben geleerd en ook kunt herstellen. <br>
 Je bent zo welkom bij OhLijf!
 
-<a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
+<!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
   Doe mij die training
-</a>
+</a> -->
 
-<!-- <TrainingForm id=trainingform1 /> -->
+<TrainingForm id=trainingform1 />
