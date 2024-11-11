@@ -195,14 +195,12 @@ De leukste **community** die er is, waar je ervaringen kunt delen en vragen aan 
 ## Veelgestelde vragen
 
 <Question question='Wanneer start OhLijfs Grote Hersteltraining?'>
-  <p>We zijn 1 november met een groep gestart en de volgende training staat gepland in het voorjaar. Wil je als eerste horen wanneer deze start? Zet jezelf dan vrijblijvend op de wachtlijst:</p>
+  <p>We zijn 1 november met een groep gestart en de volgende training staat gepland in het voorjaar van 2025. Wil je als eerste horen wanneer deze start? Zet jezelf dan vrijblijvend op de wachtlijst hieronder.</p>
 
   <!-- <a href='https://ohlijf.systeme.io/inschrijving-nov-2024' target='_blank' class='cta' style='justify-self: center; margin-block: 2rem;'>
     Start jouw herstelreis
   </a> -->
 </Question>
-
-<TrainingForm id=trainingform1 />
 
 <Question question='Is er persoonlijke begeleiding?'>
   Ja, we vinden het belangrijk om persoonlijk contact te hebben met onze deelnemers. Gedurende 6 maanden is er <b>elke maand een live Q&A</b> waarbij we ingaan op al je persoonlijke vragen.
