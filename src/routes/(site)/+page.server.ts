@@ -20,7 +20,7 @@ export const actions: Actions = {
 		}
 
 		try {
-			addOrUpdateContact({ email: form.data.email, tags: ['interesse'] });
+			addOrUpdateContact({ email: form.data.email, tags: ['nieuwsbrief'] });
 		} catch (e) {
 			console.error('Failed to create contact:', e);
 		}

@@ -1,9 +1,10 @@
 import { SYSTEME_API_KEY } from "$env/static/private"
 
 
-export type Tag = 'interesse' | 'MBS' | 'Geen MBS' | 'Vermoeidheid' | 'Pijn' | 'Anders'
+export type Tag = 'interesse' | 'nieuwsbrief' | 'MBS' | 'Geen MBS' | 'Vermoeidheid' | 'Pijn' | 'Anders'
 
 const tagMap: Record<Tag, number> = {
+  nieuwsbrief: 1076903,
   interesse: 1151851,
   MBS: 868210,
   "Geen MBS": 868215,
