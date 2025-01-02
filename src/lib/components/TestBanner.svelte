@@ -1,11 +1,11 @@
 <script lang="ts">
-	export let title = 'Is een klachtenvrij leven voor mij mogelijk?';
+	export let title = 'Voel direct verlichting in je klachten in de gratis online sessie';
 	export let background: string | null = null;
 </script>
 
 <section class="content test-banner" style:background>
 	<h2>{title}</h2>
-	<a href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen" class="cta center">Naar de gratis training!</a>
+	<a href="https://ohlijf.systeme.io/webinar-9jan" class="cta center">Dit wil ik</a>
 </section>
 
 <style>

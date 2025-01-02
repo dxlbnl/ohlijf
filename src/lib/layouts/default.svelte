@@ -14,7 +14,7 @@
 	export let omschrijving = '';
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
-	export let testBanner = 'Ontdek de echte oorzaak van je klachten';
+	export let testBanner = 'Voel direct verlichting in je klachten in de gratis online sessie';
 	export let meta = {};
 
 	export let style = ''
