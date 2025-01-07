@@ -1,11 +1,15 @@
 <script context="module" lang="ts">
 	import { z } from 'zod';
 
+	export const menuItemSchema = z.object({
+		path: z.string(),
+		label: z.string(),
+		special: z.boolean().optional()
+	})
+
 	export const menuSchema = z.array(
-		z.object({
-			path: z.string(),
-			label: z.string(),
-			special: z.boolean().optional()
+		menuItemSchema.extend({
+			items: menuItemSchema.array().optional()
 		})
 	);
 	export type Menu = z.infer<typeof menuSchema>;
@@ -54,6 +58,16 @@
 			{#each menu as item}
 				<li data-active={$page.url.pathname === item.path} class:special={item.special}>
 					<a href={item.path}>{item.label}</a>
+
+					{#if item.items}
+						<ul class='submenu'>
+							{#each item.items as subitem}
+								<li data-active={$page.url.pathname === subitem.path} class:special={subitem.special}>
+									<a href={subitem.path}>{subitem.label}</a>
+								</li>
+							{/each}
+						</ul>
+					{/if}
 				</li>
 			{/each}
 		</ul>
@@ -84,11 +98,8 @@
 			color: var(--green);
 		}
 
-		& .special a {
-			/* color: var(--pink); */
-		}
 
-		& > ul {
+		&  ul {
 			display: grid;
 			grid-auto-flow: column;
 			justify-items: end;
@@ -105,10 +116,16 @@
 
 			& > li {
 				white-space: nowrap;
+
+
+				&:has(a:hover,a:focus) .submenu {
+					max-height: 100%;
+				}
 			}
 			& a {
 				display: block;
 				height: 4.5rem;
+				min-width: 100%;
 				line-height: 4.5rem;
 				text-decoration: none;
 				transition: 0.25s;
@@ -116,6 +133,20 @@
 				&:hover {
 					color: var(--dark-green);
 				}
+			}
+		}
+
+		& .submenu {
+			transition: all .3s;
+			max-height: 0;
+			overflow: hidden;
+			position: absolute;
+			background: white;
+
+			& a {
+				height: auto;
+				line-height: 3rem;
+				text-align: center;
 			}
 		}
 	}

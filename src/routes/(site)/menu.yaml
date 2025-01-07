@@ -7,6 +7,9 @@
 - label: De hersteltraining
   path: /training
   special: true
+  # items:
+  #   - label: test
+  #     path: /training
 
 - label: Over ons
   path: /ons
