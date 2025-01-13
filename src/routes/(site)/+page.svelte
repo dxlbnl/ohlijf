@@ -132,7 +132,7 @@
 	<section class="content call-to-action">
 		<h2>Is minder pijn of vermoeidheid echt mogelijk...? Ervaar het in de online sessie op 9 januari:</h2>
 		<a
-			href="https://ohlijf.systeme.io/webinar-9jan"
+			href="https://ohlijf.systeme.io/webinar-jan-25"
 			class="cta center"
 			target="_blank">Klaar voor minder pijn?</a
 		>

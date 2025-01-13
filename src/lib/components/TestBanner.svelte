@@ -5,7 +5,7 @@
 
 <section class="content test-banner" style:background>
 	<h2>{title}</h2>
-	<a href="https://ohlijf.systeme.io/webinar-9jan" class="cta center">Dit wil ik!</a>
+	<a href="https://ohlijf.systeme.io/webinar-jan-25" class="cta center">Dit wil ik!</a>
 </section>
 
 <style>
