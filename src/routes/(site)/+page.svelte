@@ -23,7 +23,7 @@
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.systeme.io/webinar-9jan"
+		href="https://ohlijf.systeme.io/webinar-jan-25"
 		target="_blank">Yes, ik doe gratis mee!</a
 	>
 </Header>
