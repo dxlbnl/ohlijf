@@ -23,7 +23,7 @@
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.systeme.io/webinar-jan-25"
+		href="https://ohlijf.systeme.io/webinar-2025"
 		target="_blank">Yes, ik doe gratis mee!</a
 	>
 </Header>
@@ -132,7 +132,7 @@
 	<section class="content call-to-action">
 		<h2>Is minder pijn of vermoeidheid echt mogelijk...? Ervaar het in de online sessie op 9 januari:</h2>
 		<a
-			href="https://ohlijf.systeme.io/webinar-jan-25"
+			href="https://ohlijf.systeme.io/webinar-2025"
 			class="cta center"
 			target="_blank">Klaar voor minder pijn?</a
 		>
