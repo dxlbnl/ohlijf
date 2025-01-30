@@ -5,7 +5,7 @@
   path: /methode
 
 - label: De hersteltraining
-  path: href="https://ohlijf.systeme.io/webinar-2025"
+  path: https://ohlijf.systeme.io/trainingen
   special: true
   # items:
   #   - label: test
