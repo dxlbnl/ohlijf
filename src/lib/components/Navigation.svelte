@@ -143,6 +143,11 @@
 			position: absolute;
 			background: white;
 
+			grid-auto-flow: row;
+			padding-inline: 1rem;
+			margin-left:-1rem;
+			justify-items: start;
+
 			& a {
 				height: auto;
 				line-height: 3rem;
@@ -214,8 +219,23 @@
 			/* right: -100%; */
 			grid-auto-flow: row;
 			top: var(--nav-height);
+			width: 100%;
+			justify-items: start;
 			background: white;
 			box-shadow: var(--box-shadow);
+		}
+
+		nav .submenu {
+			max-height: initial;
+			position: static;
+
+			margin: 0;
+			margin-top: 1rem;
+			margin-inline: 1rem;
+
+		}
+		nav .submenu a {
+			line-height: normal;
 		}
 		nav > ul > li > a {
 			display: block;
