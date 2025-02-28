@@ -1,15 +1,17 @@
 # - label: Doe de test!
 #   path: /test
 
-- label: Onze aanpak
+- label: Methode
   path: /methode
 
-- label: De hersteltraining
+- label: Trainingen
   path: https://ohlijf.systeme.io/trainingen
   special: true
-  # items:
-  #   - label: test
-  #     path: /training
+  items:
+  - label: Grote Hersteltraining
+  path: https://ohlijf.systeme.io/trainingen
+  - label: Rust in je hoofd
+  path: https://ohlijf.systeme.io/rust
 
 - label: Over ons
   path: /ons
