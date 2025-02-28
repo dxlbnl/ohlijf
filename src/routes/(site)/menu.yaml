@@ -9,9 +9,9 @@
   special: true
   items:
   - label: Grote Hersteltraining
-  path: https://ohlijf.systeme.io/trainingen
+    path: https://ohlijf.systeme.io/trainingen
   - label: Rust in je hoofd
-  path: https://ohlijf.systeme.io/rust
+    path: https://ohlijf.systeme.io/rust
 
 - label: Over ons
   path: /ons
