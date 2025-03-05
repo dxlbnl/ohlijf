@@ -130,7 +130,7 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Is minder pijn of vermoeidheid echt mogelijk...? Ervaar het in de online sessie op 9 januari:</h2>
+		<h2>Is minder pijn of vermoeidheid echt mogelijk...? Ervaar het in de online sessie op 8 maart:</h2>
 		<a
 			href="https://ohlijf.systeme.io/webinar-2025"
 			class="cta center"
