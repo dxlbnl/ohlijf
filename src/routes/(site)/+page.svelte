@@ -19,12 +19,12 @@
 		samenwerken, is herstel mogelijk.
 	</p>
 	<p class="subheader white bold">
-		Gratis kennismaken met onze methode? Kom naar de online herstelsessie en ervaar direct verlichting:
+		Kun jij ook herstellen van jouw klachten? Test het hier!
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.systeme.io/webinar-2025"
-		target="_blank">Yes, ik doe gratis mee!</a
+		href="https://ohlijf.com/test"
+		target="_blank">Naar de test</a
 	>
 </Header>
 
@@ -130,11 +130,11 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Is minder pijn of vermoeidheid echt mogelijk...? Ervaar het in de online sessie op 8 maart:</h2>
+		<h2>Is minder pijn of vermoeidheid echt mogelijk...? Doe de test</h2>
 		<a
-			href="https://ohlijf.systeme.io/webinar-2025"
+			href="https://ohlijf.com/test"
 			class="cta center"
-			target="_blank">Klaar voor minder pijn?</a
+			target="_blank">Naar de test</a
 		>
 	</section>
 </main>

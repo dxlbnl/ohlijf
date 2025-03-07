@@ -1,11 +1,11 @@
 <script lang="ts">
-	export let title = 'Direct verlichting voelen? Kom naar de online sessie';
+	export let title = 'Benieuwd of jij ook kunt herstellen? Test het hier!';
 	export let background: string | null = null;
 </script>
 
 <section class="content test-banner" style:background>
 	<h2>{title}</h2>
-	<a href="https://ohlijf.systeme.io/webinar-2025" class="cta center">Dit wil ik!</a>
+	<a href="https://ohlijf.com/test" class="cta center">Naar de test</a>
 </section>
 
 <style>
