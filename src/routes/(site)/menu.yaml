@@ -13,6 +13,9 @@
   - label: Rust in je hoofd
     path: https://ohlijf.systeme.io/rust
 
+- label: Doe de test
+  path: /test
+
 - label: Over ons
   path: /ons
 
