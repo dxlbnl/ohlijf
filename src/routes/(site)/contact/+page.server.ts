@@ -9,9 +9,15 @@ export const actions = {
 		const name = data.get('name') as string;
 		const email = data.get('email') as string;
 		const message = data.get('message') as string;
+		const other = data.get('other') as string;
 
 		if (!email || !message) {
 			error(400, 'email of bericht is verplicht.');
+		}
+
+		if (other) {
+			console.log(`Did not mail ${name} (${email}) with message: \n\t ${message}`)
+			return
 		}
 
 		try {
@@ -24,7 +30,7 @@ export const actions = {
 				].join('\n')
 			);
 
-			console.log('Message sent: %s', info.messageId);
+			console.log('Message sent: %s', info?.messageId);
 		} catch (e) {
 			console.error('Failed to send email:', e);
 		}
