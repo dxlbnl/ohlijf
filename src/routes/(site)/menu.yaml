@@ -1,6 +1,14 @@
 # - label: Doe de test!
 #   path: /test
 
+- label: Podcast
+  path: https://app.springcast.fm/podcast/de-grote-vriendelijke-herstelshow
+  items:
+  - label: Naar Spotify
+    path: https://open.spotify.com/show/7LOqRUTQoei0SPgktyCfOc?si=4f547fdb7ead48fa
+  - label: Naar Apple Podcasts
+    path: https://podcasts.apple.com/us/podcast/de-grote-vriendelijke-herstelshow/id1800173096
+
 - label: Methode
   path: /methode
 
