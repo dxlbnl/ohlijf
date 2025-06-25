@@ -12,7 +12,7 @@
 
 <Header>
 	<h1 class="title white">De leukste manier om van je hoofdpijn af te komen</h1>
-	<p class="subheader white">Voor vrouwen met chronische hoofdpijn en ADHD(-kenmerken)</p>
+	<p class="subheader white"><i>Voor vrouwen met chronische hoofdpijn en ADHD(-kenmerken)</i></p>
 	<p class="subheader white">
 		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
 Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook anders kan.</p>
@@ -47,7 +47,7 @@ Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpi
 Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd aanstaan’ maakten ons extra vatbaar voor pijn. </p>
 				<p>Maar... diezelfde eigenschappen bleken ook de sleutel tot herstel.
 </p>
-				<a href="/methode" target="_blank">Hoe dan?</a>
+				<a href="/methode" target="_blank">Hoe werkt dat dan?</a>
 			</article>
 		</Columns>
 
