@@ -35,8 +35,17 @@
 			<Input label="Naam:" name="name" disabled={posting} />
 			<Input label="E-mail:" name="email" type="email" disabled={posting} />
 			<Input label="Bericht:" name="message" type="textarea" disabled={posting} />
+			<input name='other' disabled={posting} />
 
 			<button disabled={posting}>Verzend</button>
 		</form>
 	{/if}
 </Layout>
+
+
+<style>
+	input[name='other'] {
+		opacity: 0;
+		pointer-events: noned;
+	}
+</style>

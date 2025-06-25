@@ -12,19 +12,18 @@
 
 <Header>
 	<h1 class="title white">Een lichter leven zonder pijn</h1>
-	<p class="subheader white">Helemaal klaar met die aanhoudende symptomen?</p>
+	<p class="subheader white">Helemaal klaar met die aanhoudende pijn?</p>
 	<p class="subheader white">
-		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn, vermoeidheid en
-		onbegrepen klachten. Door de echte oorzaak aan te pakken en je mind en body te laten
+		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn, en voor meer rust in je overvolle hoofd. Door de echte oorzaak aan te pakken en je mind en body te laten
 		samenwerken, is herstel mogelijk.
 	</p>
 	<p class="subheader white bold">
-		Gratis kennismaken met onze methode? Doe de 3-daagse training en ervaar zelf verlichting:
+		Kun jij ook herstellen van jouw fysieke pijn? Test het hier!
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen"
-		target="_blank">Naar de gratis training</a
+		href="https://ohlijf.com/test"
+		target="_blank">Naar de test</a
 	>
 </Header>
 
@@ -42,13 +41,13 @@
 				<h2 class="heading">De verlamming van pijn...</h2>
 				<p>Wij kennen het maar al te goed...</p>
 				<p>
-					Je worstelt met aanhoudende symptomen die je leven beheersen en dat frustreert! Je bent
-					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je klachten.
+					Je worstelt met aanhoudende pijn die je leven beheerst en dat frustreert! Je bent
+					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je lijf.
 				</p>
 				<p>
 					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf leer je wat
 					jouw klachten triggert, omgaan met negatieve gedachten en begrijp je de rol van emoties.
-					Met onze duidelijke oefeningen kun je je symptomen onder controle te krijgen en stap voor
+					Met onze duidelijke oefeningen kun je je pijn onder controle te krijgen en stap voor
 					stap hersellen.
 				</p>
 				<a href="/methode" target="_blank">Ontdek onze methode</a>
@@ -67,7 +66,7 @@
 				<h2 class="heading">Overwin je symptomen</h2>
 				<p>
 					Bij OhLijf bieden we praktische begeleiding om je te helpen bij het overwinnen van
-					chronische symptomen.
+					chronische pijn.
 				</p>
 				<p>
 					In onze online hersteltraining nemen we je stap voor stap mee, waarbij we kleine, concrete
@@ -130,11 +129,11 @@
 	<WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Herstellen van jouw symptomen onmogelijk...? Doe de gratis 3-daagse training:</h2>
+		<h2>Is minder pijn echt mogelijk...? Doe de test</h2>
 		<a
-			href="https://ohlijf.systeme.io/mind-body-visie-in-3-dagen"
+			href="https://ohlijf.com/test"
 			class="cta center"
-			target="_blank">Ik herstel lekker wel!</a
+			target="_blank">Naar de test</a
 		>
 	</section>
 </main>

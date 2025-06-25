@@ -1,12 +1,28 @@
 # - label: Doe de test!
 #   path: /test
 
-- label: Onze aanpak
+- label: Podcast
+  path: https://app.springcast.fm/podcast/de-grote-vriendelijke-herstelshow
+  items:
+  - label: Naar Spotify
+    path: https://open.spotify.com/show/7LOqRUTQoei0SPgktyCfOc?si=4f547fdb7ead48fa
+  - label: Naar Apple Podcasts
+    path: https://podcasts.apple.com/us/podcast/de-grote-vriendelijke-herstelshow/id1800173096
+
+- label: Methode
   path: /methode
 
-- label: De hersteltraining
-  path: /training
+- label: Trainingen
+  path: https://ohlijf.systeme.io/trainingen
   special: true
+  items:
+  - label: Grote Hersteltraining
+    path: https://ohlijf.systeme.io/trainingen
+  - label: Rust in je hoofd
+    path: https://ohlijf.systeme.io/rust
+
+- label: Doe de test
+  path: /test
 
 - label: Over ons
   path: /ons

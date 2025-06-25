@@ -2,7 +2,7 @@
 	export let label: string;
 
 	export let type: 'text' | 'email' | 'textarea' = 'text';
-	export let value: string;
+	export let value: string | undefined = undefined;
 </script>
 
 <label>

@@ -14,7 +14,7 @@
 	export let omschrijving = '';
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
-	export let testBanner = 'Ontdek de echte oorzaak van je klachten';
+	export let testBanner = 'Is minder pijn of vermoeidheid echt mogelijk? Doe de test!';
 	export let meta = {};
 
 	export let style = ''
