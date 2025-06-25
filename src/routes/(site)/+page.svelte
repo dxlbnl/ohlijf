@@ -16,8 +16,8 @@
 	<p class="subheader white">
 		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
 Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook anders kan.</p>
-<p>Met een totaal andere aanpak leer je wat jouw klachten écht proberen te zeggen. We combineren wetenschappelijke inzichten over het zenuwstelsel en de mindbody-connectie met humor, herkenning en een diepe kijk in jouw unieke ADHD-brein.</p>
-<p>Je hebt al van alles geprobeerd en doet zó hard je best. Maar herstel begint met het ánders doen — en dat leren we jou!
+<p class="subheader white">Met een totaal andere aanpak leer je wat jouw klachten écht proberen te zeggen. We combineren wetenschappelijke inzichten over het zenuwstelsel en de mindbody-connectie met humor, herkenning en een diepe kijk in jouw unieke ADHD-brein.</p>
+<p class="subheader white">Je hebt al van alles geprobeerd en doet zó hard je best. Maar herstel begint met het ánders doen — en dat leren we jou!
 	</p>
 	<p class="subheader white bold">
 		Nieuwsgierig of jouw hoofdpijn te maken heeft met hoe jij bedraad bent? Doe de test
