@@ -11,7 +11,7 @@
 
 	<article>
 		<h2>Wie zijn wij?</h2>		
-		<p>Hoi! Wij zijn Robin (links) en Aurinke en hadden jarenlang <b>dagelijks hoofdpijn</b>, rugpijn en migraine. Daarnaast ook nog eens een hoofd vol <b>razende gedachten</b>.</p>
+		<p>Hoi! Wij zijn Robin Boelsums (links) en Aurinke Stokx-Vos en hadden jarenlang <b>dagelijks hoofdpijn</b>, rugpijn en migraine. Daarnaast ook nog eens een hoofd vol <b>razende gedachten</b>.</p>
 		<p><b>"Leren leven" met de pijn?</b> Leren "omgaan met" een vol ADHD-hoofd? Nee, hier konden wij ons niet bij neerleggen! Er zit toch meer in het leven? We moeten toch niet alleen maar <b>ploeteren?</b></p>
 		<p>Na veel, heel veel behandelingen, besloten we ons zelf te verdiepen in de werking van de hersenen. Wouw, er ging een wereld voor ons open! <b>Pijnvrij leven en rust in je hoofd</b> is echt mogelijk!</p>
 		<p>Tijdens onze studie aan de Technische Universiteit zijn we kritisch én nieuwsgierig opgeleid. Dus hebben we bergen onderzoeken gelezen, artsen en ervaringsdeskundigen bestudeerd. </p>
