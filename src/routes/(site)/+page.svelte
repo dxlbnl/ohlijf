@@ -7,12 +7,12 @@
 </script>
 
 <svelte:head>
-	<title>Ohlijf- Een lichter leven zonder pijn</title>
+	<title>Ohlijf- de manier om van je hoofdpijn af te komen</title>
 </svelte:head>
 
 <Header>
-	<h1 class="title white">De leukste manier om van je hoofdpijn af te komen</h1>
-	<p class="subheader white"><i>Voor vrouwen met chronische hoofdpijn en ADHD(-kenmerken)</i></p>
+	<h1 class="title white">Dé manier om van je hoofdpijn af te komen</h1>
+	<p class="subheader white"><i>Voor vrouwen met chronische hoofdpijn en ADHD</i></p>
 	<p class="subheader white">
 		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
 Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook anders kan.</p>
@@ -70,7 +70,7 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 		</Columns>
 
 		<section class="testimonials">
-			<h2 class="heading">Waarom kiezen voor OhLijf?</h2>
+			<h2 class="heading">Dit zeggen onze dappere deelnemers:</h2>
 
 			<section>
 				<article>
