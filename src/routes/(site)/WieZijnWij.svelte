@@ -10,22 +10,15 @@
 	/>
 
 	<article>
-		<h2>Maak kennis met:<br /> Robin en Aurinke</h2>
+		<h2>Wie zijn wij?</h2>		
+		<p>Hoi! Wij zijn Robin (links) en Aurinke en hadden jarenlang <b>dagelijks hoofdpijn</b>, rugpijn en migraine. Daarnaast ook nog eens een hoofd vol <b>razende gedachten</b>.</p>
+		<p><b>"Leren leven" met de pijn?</b> Leren "omgaan met" een vol ADHD-hoofd? Nee, hier konden wij ons niet bij neerleggen! Er zit toch meer in het leven? We moeten toch niet alleen maar <b>ploeteren?</b></p>
+		<p>Na veel, heel veel behandelingen, besloten we ons zelf te verdiepen in de werking van de hersenen. Wouw, er ging een wereld voor ons open! <b>Pijnvrij leven en rust in je hoofd</b> is echt mogelijk!</p>
+		<p>Tijdens onze studie aan de Technische Universiteit zijn we kritisch én nieuwsgierig opgeleid. Dus hebben we bergen onderzoeken gelezen, artsen en ervaringsdeskundigen bestudeerd. </p>
+		<p>Zo ontstond OhLijf: met trainingen voor vrouwen die zichzelf vaak voorbijrennen, veel in hun hoofd zitten, en worstelen met terugkerende hoofdpijn. Want echt, het kan anders.</p>
+		<p>Inmiddels hebben we heel wat vrouwen mogen helpen hun <b>hoofdpijn achter zich te laten.</b> Doe je ook mee?</p>
 		<p>
-			De drijvende krachten achter OhLijf. Ooit worstelden we zelf met chronische klachten: van
-			hoofdpijn tot <b> extreme vermoeidheid </b> <a href="/ons">lees hier ons verhaal.</a>
-		</p>
-		<p>
-			We moesten jarenlang zoeken maar de weg naar herstel bleek simpel met de juiste methode. We
-			leven weer vol energie en gunnen jou deze <b> krachtige transformatie </b> ook! Daarom delen we
-			onze kennis en ervaring om jou te helpen.
-		</p>
-		<p>
-			OhLijf biedt praktische (online) trainingen voor <b> blijvend herstel </b> op jouw tempo. Laat
-			ons je begeleiden met lichtheid en een glimlach..
-		</p>
-		<p>
-			<a href="/training">Klaar voor de eerste stap?</a>
+			<a href="/training">Lees meer over ons</a>
 		</p>
 	</article>
 </section>

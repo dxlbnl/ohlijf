@@ -7,18 +7,20 @@
 </script>
 
 <svelte:head>
-	<title>Ohlijf- Een lichter leven zonder pijn</title>
+	<title>Ohlijf- de manier om van je hoofdpijn af te komen</title>
 </svelte:head>
 
 <Header>
-	<h1 class="title white">Een lichter leven zonder pijn</h1>
-	<p class="subheader white">Helemaal klaar met die aanhoudende pijn?</p>
+	<h1 class="title white">Dé manier om van je hoofdpijn af te komen</h1>
+	<p class="subheader white"><i>Voor vrouwen met chronische hoofdpijn en ADHD</i></p>
 	<p class="subheader white">
-		Ontdek de praktische herstelmethode van OhLijf, voor een leven zonder pijn, en voor meer rust in je overvolle hoofd. Door de echte oorzaak aan te pakken en je mind en body te laten
-		samenwerken, is herstel mogelijk.
+		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
+Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook anders kan.</p>
+<p class="subheader white">Met een totaal andere aanpak leer je wat jouw klachten écht proberen te zeggen. We combineren wetenschappelijke inzichten over het zenuwstelsel en de mindbody-connectie met humor, herkenning en een diepe kijk in jouw unieke ADHD-brein.</p>
+<p class="subheader white">Je hebt al van alles geprobeerd en doet zó hard je best. Maar herstel begint met het ánders doen — en dat leren we jou!
 	</p>
 	<p class="subheader white bold">
-		Kun jij ook herstellen van jouw fysieke pijn? Test het hier!
+		Nieuwsgierig of jouw hoofdpijn te maken heeft met hoe jij bedraad bent? Doe de test
 	</p>
 	<a
 		class="cta"
@@ -38,19 +40,14 @@
 				alt="Een vrouw met zichtbare hoofdpijn"
 			/>
 			<article>
-				<h2 class="heading">De verlamming van pijn...</h2>
-				<p>Wij kennen het maar al te goed...</p>
-				<p>
-					Je worstelt met aanhoudende pijn die je leven beheerst en dat frustreert! Je bent
-					gewend om altijd door te kunnen gaan, maar wordt nu belemmerd door je lijf.
-				</p>
-				<p>
-					Heb je van alles geprobeerd maar helpt het niet of maar tijdelijk? Bij OhLijf leer je wat
-					jouw klachten triggert, omgaan met negatieve gedachten en begrijp je de rol van emoties.
-					Met onze duidelijke oefeningen kun je je pijn onder controle te krijgen en stap voor
-					stap hersellen.
-				</p>
-				<a href="/methode" target="_blank">Ontdek onze methode</a>
+				<h2 class="heading">Wij pakken het anders aan</h2>
+				<p>Wij – Aurinke & Robin – weten hoe het is.</p>
+				<p>De hoofdpijn die elke dag overschaduwt. De gedachten die maar doorrazen, zonder pauzeknop. De overprikkeling, het gevoel dat je alles ‘goed’ moet doen, en niet goed kunnen ontspannen. </p>
+				<p>Wij zijn ervaringsdeskundigen én vrouwen met ADHD. We hebben zelf jarenlang met hoofdpijn en migraine geworsteld — en weten hoe uitzichtloos dat kan voelen.
+Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd aanstaan’ maakten ons extra vatbaar voor pijn. </p>
+				<p>Maar... diezelfde eigenschappen bleken ook de sleutel tot herstel.
+</p>
+				<a href="/methode" target="_blank">Hoe werkt dat dan?</a>
 			</article>
 		</Columns>
 
@@ -63,25 +60,17 @@
 				alt="Een vrouw springt op een pad in een groene vallei"
 			/>
 			<article>
-				<h2 class="heading">Overwin je symptomen</h2>
-				<p>
-					Bij OhLijf bieden we praktische begeleiding om je te helpen bij het overwinnen van
-					chronische pijn.
-				</p>
-				<p>
-					In onze online hersteltraining nemen we je stap voor stap mee, waarbij we kleine, concrete
-					aanpassingen in je dagelijkse leven maken die een positief sneeuwbaleffect creëren.
-				</p>
-				<p>
-					Een andere mindset en praktische oefeningen zorgen ervoor dat je zelf kan herstellen.
-					Klaar voor een positieve verandering?
-				</p>
+				<h2 class="heading">Je mag jezelf zijn - eindelijk</h2>
+				<p>Wij begeleidden al tientallen vrouwen en horen na afloop steeds hetzelfde: wat heerlijk dat ik mezelf weer kan zijn! </p>
+				<p>Wij streven ernaar dat jij weer het gevoel hebt dat alles kan en alles mag. Dit betekent jezelf zijn, zonder schaamte en schuldgevoel. Je leven leiden zoals jij dat graag wil, lol hebben met je kinderen, met plezier naar je werk gaan. </p>
+				<p>Het lijkt niet zo simpel, maar met de juiste tools is het veel dichterbij dan je denkt! Nee, niet efficiënter werken of agenda-management. Wij kijken veel dieper - naar patronen, gedachten en emoties.</p>
+				<p>We gunnen het je dat je niet meer dagelijks ploetert om alle ballen in de lucht te houden, maar het gevoel hebt dat je alles onder controle hebt en kan gaan spelen :) </p>
 				<a href="/training">Bekijk onze online training</a>
 			</article>
 		</Columns>
 
 		<section class="testimonials">
-			<h2 class="heading">Waarom kiezen voor OhLijf?</h2>
+			<h2 class="heading">Dit zeggen onze dappere deelnemers:</h2>
 
 			<section>
 				<article>
@@ -92,18 +81,17 @@
 					<p>Ik ben reuze blij met de training!</p>
 					<section>
 						(deelnemer training, week 4)
-						<span class="name">Carla (Chronische hoofdpijn en vermoeidheid)</span>
+						<span class="name">Carla (Chronische hoofdpijn)</span>
 					</section>
 				</article>
 
 				<article>
-					<p>Het was een verademing om hulp te krijgen van iemand die het eindelijk begrijpt.</p>
-
-					<p>Jullie snappen mij!</p>
+					<p>Ik ging van dagelijks hoofdpijn naar nog maar af en toe, een enorm verschil! </p>
+					<p>En als het er is, kijk ik er heel luchtig naar.</p>
 
 					<section>
 						(deelnemer training)
-						<span class="name">Lora (Long Covid)</span>
+						<span class="name">Samantha (Chronische hoofdpijn)</span>
 					</section>
 				</article>
 
@@ -119,7 +107,7 @@
 					</p>
 					<section>
 						(deelnemer training, week 3)
-						<span class="name">Jet (Chronische hoofdpijn en weinig energie)</span>
+						<span class="name">Jet (Chronische hoofdpijn)</span>
 					</section>
 				</article>
 			</section>
