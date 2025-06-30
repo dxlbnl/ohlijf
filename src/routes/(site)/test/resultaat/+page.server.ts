@@ -6,6 +6,7 @@ import { fail, superValidate } from 'sveltekit-superforms';
 import type { PageServerLoad } from './$types';
 import { addOrUpdateContact, type Tag } from '$lib/systeme';
 // import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
+import questions from '../vragen.yaml';
 
 export const load: PageServerLoad = async () => {
 	const form = await superValidate(zod(testForm), { id: 'testResult' });
@@ -39,11 +40,11 @@ export const actions = {
 		const positiveAnswers = antwoorden.filter((answer) =>
 			['ja', 'twijfel', 'soms', 'enigszins'].includes(answer.toLowerCase())
 		).length;
-		const tags = positiveAnswers >= 3 ? ['nieuwsbrief', antwoorden.at(-1) ?? ''] : ['Geen MBS'];
+		const tags = positiveAnswers >= 3 ? ['nieuwsbrief', antwoorden.at(-2) ?? ''] : ['Geen MBS'];
 
 		try {
 			// Get list info
-			addOrUpdateContact({ email, tags: tags as Tag[], name });
+			await addOrUpdateContact({ email, tags: tags as Tag[], name });
 		} catch (e) {
 			console.error('Failed to create contact:', e);
 		}
