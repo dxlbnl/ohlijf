@@ -87,3 +87,17 @@
     - Vermoeidheid
     - Pijn
     - Anders
+- question: Bonusvraag. Ik heb AD(H)D of herken me in veel van onderstaande kenmerken.
+  explanation: |
+    Kenmerken zijn onder andere: 
+    
+    - moeite te focussen op één ding, makkelijk afgeleid
+    - veel gedachten tegelijkertijd
+    - vergeetachtig, chaotisch
+    - dingen uitstellen tot laatste moment
+    - nieuwe dingen zijn fantastisch, andere dingen al snel saai
+    - creatief, out of the box denken
+  answers:
+    - Ja
+    - Twijfel
+    - Nee

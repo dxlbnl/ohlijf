@@ -12,14 +12,9 @@
 - label: Methode
   path: /methode
 
-- label: Trainingen
+- label: Training
   path: https://ohlijf.systeme.io/trainingen
   special: true
-  items:
-  - label: Grote Hersteltraining
-    path: https://ohlijf.systeme.io/trainingen
-  - label: Rust in je hoofd
-    path: https://ohlijf.systeme.io/rust
 
 - label: Doe de test
   path: /test
