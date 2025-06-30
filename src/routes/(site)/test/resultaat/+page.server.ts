@@ -39,7 +39,7 @@ export const actions = {
 		const positiveAnswers = antwoorden.filter((answer) =>
 			['ja', 'twijfel', 'soms', 'enigszins'].includes(answer.toLowerCase())
 		).length;
-		const tags = positiveAnswers >= 3 ? ['MBS', antwoorden.at(-1) ?? ''] : ['Geen MBS'];
+		const tags = positiveAnswers >= 3 ? ['nieuwsbrief', antwoorden.at(-1) ?? ''] : ['Geen MBS'];
 
 		try {
 			// Get list info
@@ -62,7 +62,7 @@ export const actions = {
 					'Hoi Ohlijf,\n',
 					`Er is een test gemaakt door ${name}(${email}) op ohlijf.com.\n`,
 					`Het resultaat is: ${tags.join(', ')}\n`,
-          `De ingevulde vragen:\n${JSON.stringify(resultaten, null, 2)}\n`,
+					`De ingevulde vragen:\n${JSON.stringify(resultaten, null, 2)}\n`,
 					`Opmerking: ${result.note},`
 				].join('\n')
 			);
