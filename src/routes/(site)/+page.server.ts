@@ -1,5 +1,5 @@
 import { superValidate } from 'sveltekit-superforms';
-import { zod } from 'sveltekit-superforms/adapters';
+import { zod4 as zod } from 'sveltekit-superforms/adapters';
 import { fail } from '@sveltejs/kit';
 import { mailingFormSchema, trainingFormSchema } from '$lib/forms';
 import { mailHome } from '$lib/mail';
@@ -32,6 +32,7 @@ export const actions: Actions = {
 		};
 	},
 
+	// TODO: dit zit nu in systeme, kan er uit
 	async trainingform({ request }) {
 		const form = await superValidate(request, zod(trainingFormSchema));
 

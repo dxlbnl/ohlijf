@@ -14,19 +14,23 @@
 	<h1 class="title white">Dé manier om van je hoofdpijn af te komen</h1>
 	<p class="subheader white"><i>Voor vrouwen met chronische hoofdpijn en ADHD</i></p>
 	<p class="subheader white">
-		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
-Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook anders kan.</p>
-<p class="subheader white">Met een totaal andere aanpak leer je wat jouw klachten écht proberen te zeggen. We combineren wetenschappelijke inzichten over het zenuwstelsel en de mindbody-connectie met humor, herkenning en een diepe kijk in jouw unieke ADHD-brein.</p>
-<p class="subheader white">Je hebt al van alles geprobeerd en doet zó hard je best. Maar herstel begint met het ánders doen — en dat leren we jou!
+		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’? Nee, zeker niet!
+		Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook
+		anders kan.
+	</p>
+	<p class="subheader white">
+		Met een totaal andere aanpak leer je wat jouw klachten écht proberen te zeggen. We combineren
+		wetenschappelijke inzichten over het zenuwstelsel en de mindbody-connectie met humor, herkenning
+		en een diepe kijk in jouw unieke ADHD-brein.
+	</p>
+	<p class="subheader white">
+		Je hebt al van alles geprobeerd en doet zó hard je best. Maar herstel begint met het ánders doen
+		— en dat leren we jou!
 	</p>
 	<p class="subheader white bold">
 		Nieuwsgierig of jouw hoofdpijn te maken heeft met hoe jij bedraad bent? Doe de test
 	</p>
-	<a
-		class="cta"
-		href="https://ohlijf.com/test"
-		target="_blank">Naar de test</a
-	>
+	<a class="cta" href="https://ohlijf.com/test" target="_blank">Naar de test</a>
 </Header>
 
 <main>
@@ -42,11 +46,18 @@ Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpi
 			<article>
 				<h2 class="heading">Wij pakken het anders aan</h2>
 				<p>Wij – Aurinke & Robin – weten hoe het is.</p>
-				<p>De hoofdpijn die elke dag overschaduwt. De gedachten die maar doorrazen, zonder pauzeknop. De overprikkeling, het gevoel dat je alles ‘goed’ moet doen, en niet goed kunnen ontspannen. </p>
-				<p>Wij zijn ervaringsdeskundigen én vrouwen met ADHD. We hebben zelf jarenlang met hoofdpijn en migraine geworsteld — en weten hoe uitzichtloos dat kan voelen.
-Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd aanstaan’ maakten ons extra vatbaar voor pijn. </p>
-				<p>Maar... diezelfde eigenschappen bleken ook de sleutel tot herstel.
-</p>
+				<p>
+					De hoofdpijn die elke dag overschaduwt. De gedachten die maar doorrazen, zonder pauzeknop.
+					De overprikkeling, het gevoel dat je alles ‘goed’ moet doen, en niet goed kunnen
+					ontspannen.
+				</p>
+				<p>
+					Wij zijn ervaringsdeskundigen én vrouwen met ADHD. We hebben zelf jarenlang met hoofdpijn
+					en migraine geworsteld — en weten hoe uitzichtloos dat kan voelen. Juist ons drukke brein,
+					ons gevoelige zenuwstelsel en die neiging tot ‘altijd aanstaan’ maakten ons extra vatbaar
+					voor pijn.
+				</p>
+				<p>Maar... diezelfde eigenschappen bleken ook de sleutel tot herstel.</p>
 				<a href="/methode" target="_blank">Hoe werkt dat dan?</a>
 			</article>
 		</Columns>
@@ -61,10 +72,24 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 			/>
 			<article>
 				<h2 class="heading">Je mag jezelf zijn - eindelijk</h2>
-				<p>Wij begeleidden al tientallen vrouwen en horen na afloop steeds hetzelfde: wat heerlijk dat ik mezelf weer kan zijn! </p>
-				<p>Wij streven ernaar dat jij weer het gevoel hebt dat alles kan en alles mag. Dit betekent jezelf zijn, zonder schaamte en schuldgevoel. Je leven leiden zoals jij dat graag wil, lol hebben met je kinderen, met plezier naar je werk gaan. </p>
-				<p>Het lijkt niet zo simpel, maar met de juiste tools is het veel dichterbij dan je denkt! Nee, niet efficiënter werken of agenda-management. Wij kijken veel dieper - naar patronen, gedachten en emoties.</p>
-				<p>We gunnen het je dat je niet meer dagelijks ploetert om alle ballen in de lucht te houden, maar het gevoel hebt dat je alles onder controle hebt en kan gaan spelen :) </p>
+				<p>
+					Wij begeleidden al tientallen vrouwen en horen na afloop steeds hetzelfde: wat heerlijk
+					dat ik mezelf weer kan zijn!
+				</p>
+				<p>
+					Wij streven ernaar dat jij weer het gevoel hebt dat alles kan en alles mag. Dit betekent
+					jezelf zijn, zonder schaamte en schuldgevoel. Je leven leiden zoals jij dat graag wil, lol
+					hebben met je kinderen, met plezier naar je werk gaan.
+				</p>
+				<p>
+					Het lijkt niet zo simpel, maar met de juiste tools is het veel dichterbij dan je denkt!
+					Nee, niet efficiënter werken of agenda-management. Wij kijken veel dieper - naar patronen,
+					gedachten en emoties.
+				</p>
+				<p>
+					We gunnen het je dat je niet meer dagelijks ploetert om alle ballen in de lucht te houden,
+					maar het gevoel hebt dat je alles onder controle hebt en kan gaan spelen :)
+				</p>
 				<a href="/training">Bekijk onze online training</a>
 			</article>
 		</Columns>
@@ -86,7 +111,7 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 				</article>
 
 				<article>
-					<p>Ik ging van dagelijks hoofdpijn naar nog maar af en toe, een enorm verschil! </p>
+					<p>Ik ging van dagelijks hoofdpijn naar nog maar af en toe, een enorm verschil!</p>
 					<p>En als het er is, kijk ik er heel luchtig naar.</p>
 
 					<section>
@@ -118,11 +143,7 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 
 	<section class="content call-to-action">
 		<h2>Is minder pijn echt mogelijk...? Doe de test</h2>
-		<a
-			href="https://ohlijf.com/test"
-			class="cta center"
-			target="_blank">Naar de test</a
-		>
+		<a href="https://ohlijf.com/test" class="cta center" target="_blank">Naar de test</a>
 	</section>
 </main>
 
@@ -187,5 +208,6 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 
 	.title {
 		margin-bottom: 0;
+		max-width: 20ch;
 	}
 </style>
