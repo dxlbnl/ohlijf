@@ -80,5 +80,6 @@
 		"tough-cookie": "^6.0.0",
 		"unified": "^11.0.5",
 		"zod": "^4.1.12"
-	}
+	},
+  "packageManager": "pnpm@10.21.0"
 }
