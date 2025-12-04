@@ -16,8 +16,8 @@
   path: https://ohlijf.systeme.io/trainingen
   special: true
 
-- label: Doe de test
-  path: /test
+- label: Webinar
+  path: https://ohlijf.systeme.io/webinar-hoofdpijn-adhd
 
 - label: Over ons
   path: /ons
