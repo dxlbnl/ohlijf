@@ -14,18 +14,18 @@
 	<h1 class="title white">Dé manier om van je hoofdpijn af te komen</h1>
 	<p class="subheader white"><i>Voor vrouwen met chronische hoofdpijn en ADHD</i></p>
 	<p class="subheader white">
-		Huh? Kan ik van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
+		Kan ik echt van mijn hoofdpijn afkomen? Hoef ik hier niet mee te ‘leren leven’?
 Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpijn- tot we ontdekten dat het ook anders kan.</p>
 <p class="subheader white">Met een totaal andere aanpak leer je wat jouw klachten écht proberen te zeggen. We combineren wetenschappelijke inzichten over het zenuwstelsel en de mindbody-connectie met humor, herkenning en een diepe kijk in jouw unieke ADHD-brein.</p>
 <p class="subheader white">Je hebt al van alles geprobeerd en doet zó hard je best. Maar herstel begint met het ánders doen — en dat leren we jou!
 	</p>
 	<p class="subheader white bold">
-		Nieuwsgierig of jouw hoofdpijn te maken heeft met hoe jij bedraad bent? Doe de test
+		Maak kennis met onze methode en leer de eerste stappen in ons webinar:
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.com/test"
-		target="_blank">Naar de test</a
+		href="https://ohlijf.systeme.io/webinar-hoofdpijn-adhd"
+		target="_blank">Info webinar</a
 	>
 </Header>
 
