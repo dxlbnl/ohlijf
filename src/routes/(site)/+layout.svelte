@@ -23,7 +23,7 @@
 
 	const menu = menuSchema.parse(menuData);
 	const description =
-		'Ervaar de vrijheid van een lichter leven met OhLijf. Ontdek hoe wij mensen met chronische klachten begeleiden naar een leven vol energie en vrijheid.';
+		'Ervaar de vrijheid van een lichter leven met OhLijf. Ontdek hoe wij vrouwen met chronische hoofdpijn begeleiden naar een leven vol energie en vrijheid.';
 </script>
 
 <svelte:head>
