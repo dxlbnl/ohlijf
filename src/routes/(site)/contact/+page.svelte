@@ -14,14 +14,16 @@
 		Heb je een vraag of suggestie? Robin en Aurinke vinden het leuk om van je te horen.
 	</p>
 
+	<p class='large'>Je kunt ons bereiken via e-mail: <a href="mailto:info@ohlijf.com">info@ohlijf.com</a></p>
+
+<!-- 
 	{#if form?.success}
 		<p>Bedankt voor je bericht.</p>
 	{:else}
 		<p>Stuur een berichtje via onderstaand contactformulier:</p>
 
-		<form
+		<form 
 			method="post"
-			disabled={posting}
 			use:enhance={() => {
 				posting = true;
 				return ({ update }) => {
@@ -40,6 +42,9 @@
 			<button disabled={posting}>Verzend</button>
 		</form>
 	{/if}
+
+-->
+
 </Layout>
 
 
@@ -48,4 +53,5 @@
 		opacity: 0;
 		pointer-events: noned;
 	}
+
 </style>
