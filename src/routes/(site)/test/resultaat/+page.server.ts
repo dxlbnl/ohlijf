@@ -1,6 +1,6 @@
 import { db, testResult, type NewTestResult } from '$lib/database';
 import { mailHome } from '$lib/mail';
-import { zod } from 'sveltekit-superforms/adapters';
+import { zod4 as zod } from 'sveltekit-superforms/adapters';
 import { testForm } from '$lib/forms.js';
 import { fail, superValidate } from 'sveltekit-superforms';
 import type { PageServerLoad } from './$types';
