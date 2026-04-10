@@ -7,7 +7,7 @@
 	let posting = false;
 </script>
 
-<Layout titel="Contact" omschrijving="Stuur een berichtje" sidebar={false}>
+<Layout titel="Contact" omschrijving="Stuur een berichtje" sidebar={false} testBanner>
 	<h2>Neem contact op met Aurinke en Robin</h2>
 
 	<p class="large">

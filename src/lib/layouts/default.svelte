@@ -15,6 +15,7 @@
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
 	export let meta = {};
+	export let testBanner = false;
 
 	export let style = '';
 </script>
