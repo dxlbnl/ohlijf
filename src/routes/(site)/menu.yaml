@@ -1,6 +1,3 @@
-# - label: Doe de test!
-#   path: /test
-
 - label: Podcast
   path: https://app.springcast.fm/podcast/de-grote-vriendelijke-herstelshow
   items:

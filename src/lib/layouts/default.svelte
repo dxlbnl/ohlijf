@@ -5,7 +5,7 @@
 	// export { img };
 </script>
 
-<script lang='ts'>
+<script lang="ts">
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import TestBanner from '$lib/components/TestBanner.svelte';
@@ -14,10 +14,9 @@
 	export let omschrijving = '';
 	export let foto = 'default/armen-wijd';
 	export let sidebar = true;
-	export let testBanner = 'Is minder pijn of vermoeidheid echt mogelijk? Doe de test!';
 	export let meta = {};
 
-	export let style = ''
+	export let style = '';
 </script>
 
 <PageHeader {titel} {omschrijving} {foto} />
@@ -37,7 +36,7 @@
 </main>
 
 {#if testBanner}
-	<TestBanner title={testBanner} background="var(--bg-pink)" />
+	<TestBanner background="var(--bg-pink)" />
 {/if}
 
 <style>
