@@ -10,8 +10,8 @@ date: 2026-04-10
 OhLijf utilizes a serverless PostgreSQL database strategy.
 
 ## Infrastructure
-- **Provider**: Vercel Postgres (`@vercel/postgres`)
-- **Connection**: Managed via standard `pg` and `postgres` Node drivers.
+- **Provider**: Neon (via Vercel Integration)
+- **Driver**: `@neondatabase/serverless` (HTTP mode)
 
 ## ORM Details
 - **Library**: Drizzle ORM (`drizzle-orm`)

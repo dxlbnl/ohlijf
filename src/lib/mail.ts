@@ -1,19 +1,11 @@
-import nodemailer from 'nodemailer';
-import { SMTP_HOST, SMTP_USER, SMTP_PASSWORD } from '$env/static/private';
+import { Resend } from 'resend';
+import { RESEND_API_KEY } from '$env/static/private';
 
-const transporter = nodemailer.createTransport({
-	host: SMTP_HOST,
-	port: 465,
-	secure: true,
-	auth: {
-		user: SMTP_USER,
-		pass: SMTP_PASSWORD
-	}
-});
+const resend = new Resend(RESEND_API_KEY);
 
 export const mailHome = (subject: string, text: string) =>
-	transporter.sendMail({
-		from: 'ohlijf@dexterlabs.nl',
+	resend.emails.send({
+		from: 'ohlijf@ohlijf.dexterlabs.nl',
 		to: 'info@ohlijf.com',
 		subject,
 		text

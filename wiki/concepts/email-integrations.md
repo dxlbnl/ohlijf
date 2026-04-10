@@ -10,8 +10,8 @@ date: 2026-04-10
 Handling transactional emails and marketing campaigns.
 
 ## Transactional / System Emails
-- **Transport**: Nodemailer (`nodemailer`)
-- **Template Rendering**: MJML (`mjml`) is used to generate responsive HTML strings safely.
+- **Transport**: Resend (`resend`)
+- **Template Rendering**: MJML (`mjml`) is retained for generating custom responsive HTML strings.
 
 ## Marketing & Newsletter
 - **Provider**: Mailchimp (`@mailchimp/mailchimp_marketing`)

@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { mailHome } from '$lib/mail';
+import { db, contactLog } from '$lib/database';
 
 export const actions = {
 	async default({ request }) {
@@ -21,6 +22,12 @@ export const actions = {
 		}
 
 		try {
+			await db.insert(contactLog).values({
+				name: name || 'naamloos',
+				email: email,
+				message: message
+			});
+
 			const info = await mailHome(
 				`Contact van ${name || 'naamloos'} op ohlijf.com`,
 				[
@@ -30,9 +37,9 @@ export const actions = {
 				].join('\n')
 			);
 
-			console.log('Message sent: %s', info?.messageId);
+			console.log('Message sent: %s', (info as any)?.data?.id || (info as any)?.messageId);
 		} catch (e) {
-			console.error('Failed to send email:', e);
+			console.error('Failed to log or send email:', e);
 		}
 
 		return {
