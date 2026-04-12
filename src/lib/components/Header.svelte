@@ -39,16 +39,5 @@
 				top: -20%;
 			}
 		}
-
-		& .waas {
-			inset: 0;
-			z-index: -4;
-			background: linear-gradient(
-				117deg,
-				rgba(0, 0, 0, 0.58) 15.34%,
-				rgba(0, 0, 0, 0.42) 37.91%,
-				rgba(58, 128, 51, 0) 74.85%
-			);
-		}
 	}
 </style>
