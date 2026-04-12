@@ -4,6 +4,7 @@
 	import WieZijnWij from './WieZijnWij.svelte';
 	import Image from '$lib/components/Image.svelte';
 	import Columns from '$lib/components/Columns.svelte';
+	import Stats from '$lib/components/Stats.svelte';
 </script>
 
 <svelte:head>
@@ -112,9 +113,11 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 				</article>
 			</section>
 		</section>
+
+		<Stats />
 	</Content>
 
-	<WieZijnWij />
+<WieZijnWij />
 
 	<section class="content call-to-action">
 		<h2>Hoofdpijn kan je afleren! Leer alles in ons gratis webinar</h2>
