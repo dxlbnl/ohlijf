@@ -22,10 +22,13 @@
 
 * {
 	box-sizing: border-box;
-} /* Switch to border-box for box-sizing. */
+}
+
+/* Switch to border-box for box-sizing. */
 
 body {
-	margin: 0; /* Remove the tiny space around the edge of the page */
+	margin: 0;
+	/* Remove the tiny space around the edge of the page */
 	display: grid;
 
 	grid-template-areas:
@@ -48,8 +51,10 @@ audio,
 iframe,
 embed,
 object {
-	display: block; /* Switch display mode to block, since that's what we usually want for images. */
-	vertical-align: middle; /* If you override, and make an image inline, it's likely you'll want middle vertical alignment. */
+	display: block;
+	/* Switch display mode to block, since that's what we usually want for images. */
+	vertical-align: middle;
+	/* If you override, and make an image inline, it's likely you'll want middle vertical alignment. */
 }
 
 img {
@@ -80,12 +85,14 @@ ul {
 	0% {
 		transform: rotate(-45deg);
 	}
+
 	100% {
 		transform: rotate(45deg);
 	}
 }
 
-button {
+button,
+.button {
 	--_background: var(--button-background, var(--light-green));
 	--_hover: var(--button-hover, var(--green));
 	--_outline: var(--button-outline, var(--black));
@@ -103,15 +110,23 @@ button {
 	&:hover {
 		background: var(--_hover);
 	}
+
 	&:focus {
 		outline-color: var(--_outline);
 		outline-style: solid;
 		outline-width: 3px;
 	}
 
-	& > :global(svg) {
+	&> :global(svg) {
 		animation: rotate 2s infinite;
 	}
+
+
+}
+
+a.button {
+	color: var(--black);
+	text-decoration: none;
 }
 
 /* Layout */
@@ -121,7 +136,7 @@ button {
 	grid-template-areas: 'stack';
 	grid-template-columns: 100%;
 
-	& > * {
+	&>* {
 		grid-area: stack;
 	}
 }
@@ -135,30 +150,27 @@ button {
 
 	display: grid;
 	grid-template-columns:
-		[full-start] var(--full)
-		[feature-start] var(--feature)
-		[popout-start] var(--popout)
-		[content-start] var(--content) [content-end]
-		var(--popout) [popout-end]
-		var(--feature) [feature-end]
-		var(--full) [full-end];
+		[full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
 
 	grid-auto-rows: min-content;
 
-	& > * {
+	&>* {
 		grid-column: content;
 	}
 
 	& .popout {
 		grid-column: popout;
 	}
+
 	& .feature {
 		grid-column: feature;
 	}
+
 	& .full {
 		grid-column: full;
 	}
 }
+
 .content-with-sidebar {
 	--gap: clamp(1rem, 6vw, 3rem);
 	--full: minmax(var(--gap), 1fr);
@@ -169,31 +181,26 @@ button {
 
 	display: grid;
 	grid-template-columns:
-		[full-start] var(--full)
-		[feature-start] var(--feature)
-		[popout-start] var(--popout)
-		[content-start] var(--content) [content-end]
-		var(--gap)
-		[sidebar-start] var(--sidebar) [sidebar-end]
-		var(--popout) [popout-end]
-		var(--feature) [feature-end]
-		var(--full) [full-end];
+		[full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--gap) [sidebar-start] var(--sidebar) [sidebar-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
 
 	grid-auto-rows: min-content;
 
-	& > * {
+	&>* {
 		grid-column: content;
 	}
 
 	& .popout {
 		grid-column: popout;
 	}
+
 	& .feature {
 		grid-column: feature;
 	}
+
 	& .full {
 		grid-column: full;
 	}
+
 	& .sidebar {
 		grid-column: sidebar;
 		grid-row: 1/10000;
@@ -209,6 +216,7 @@ button {
 	font-weight: 600;
 	color: var(--green);
 }
+
 .white {
 	color: var(--white);
 }
@@ -225,6 +233,7 @@ h1,
 	font-weight: bold;
 	color: var(--green);
 }
+
 h2,
 .subheading {
 	font-family: 'Raleway', sans-serif;
@@ -232,6 +241,7 @@ h2,
 	font-weight: 600;
 	margin-bottom: 0;
 }
+
 h3,
 h4,
 h5,
