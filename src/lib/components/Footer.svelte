@@ -20,7 +20,6 @@
 	footer {
 		grid-area: footer;
 		background: #8bc385;
-		min-height: 12ch;
 
 		& ul {
 			display: grid;
