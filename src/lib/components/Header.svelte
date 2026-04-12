@@ -29,7 +29,7 @@
 			position: relative;
 			z-index: -10;
 
-			& > img {
+			& > :global(img) {
 				position: absolute;
 				inset: 0;
 				object-fit: cover;
