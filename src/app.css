@@ -13,7 +13,7 @@
 	--black: black;
 	--bg-pink: rgba(255, 229, 214, 0.25);
 
-	--rounded: 1rem;
+	--rounded: .3rem;
 
 	--wave-height: 8dvw;
 
@@ -100,7 +100,7 @@ button,
 	display: flex;
 	background: var(--_background);
 	border-radius: var(--rounded);
-	border: 2px solid var(--black);
+	border: none;
 	padding: 0.5rem 2rem;
 	box-shadow: var(--box-shadow);
 	text-align: center;
@@ -279,7 +279,7 @@ input[type='email'] {
 	box-shadow: var(--box-shadow);
 
 	border: thin solid black;
-	border-radius: 10px;
+	border-radius: var(--rounded);
 	padding: 0.5rem;
 }
 
@@ -294,7 +294,7 @@ input[type='email'] {
 
 	background: var(--yellow);
 	border-radius: var(--rounded);
-	border: 2px solid var(--black);
+	border: none;
 	box-shadow: var(--box-shadow);
 
 	transition: 0.25s;

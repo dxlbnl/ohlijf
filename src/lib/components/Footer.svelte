@@ -19,7 +19,7 @@
 <style>
 	footer {
 		grid-area: footer;
-		background: #8bc385;
+		background: var(--green);
 
 		& ul {
 			display: grid;
@@ -44,12 +44,14 @@
 			}
 		}
 
-		& a {
-			color: var(--black);
+		& a,
+		li {
+			color: var(--white);
 			font-weight: normal;
+			text-decoration: none;
 
-			&:hover {
-				color: var(--dark-green);
+			&a:hover {
+				color: var(--light-green);
 			}
 		}
 	}
