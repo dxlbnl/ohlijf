@@ -15,7 +15,7 @@ All routes are nested inside `src/routes/`.
 
 ### `(site)` Group 
 Contains the primary informational marketing pages. These share a default `+layout.svelte` which enforces the standard site `Navigation`, SEO meta tags, `Matomo` initialization, and the `Footer`.
-- `/contacto`
+- `/contact`
 - `/methode`
 - `/ons` (About Us)
 - `/test` (Lead gen assessment flow)

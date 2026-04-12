@@ -65,7 +65,7 @@
 
 			background: rgba(58, 128, 51, 1);
 
-			& img {
+			& :global(img) {
 				position: absolute;
 				opacity: 15%;
 				object-fit: cover;
