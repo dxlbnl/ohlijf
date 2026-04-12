@@ -47,9 +47,9 @@
 	<input id="menu_state" type="checkbox" bind:checked={menuOpen} />
 	<label for="menu_state" class="menu-toggle">
 		<div class="icon">
-			<span />
-			<span />
-			<span />
+			<span></span>
+			<span></span>
+			<span></span>
 		</div>
 	</label>
 
@@ -70,6 +70,20 @@
 					{/if}
 				</li>
 			{/each}
+			<li class="instagram">
+				<a
+					href="https://www.instagram.com/ohlijf_aurinke_robin"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="OhLijf op Instagram"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+						<circle cx="12" cy="12" r="4"/>
+						<circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+					</svg>
+				</a>
+			</li>
 		</ul>
 	{/if}
 </nav>
@@ -132,6 +146,23 @@
 
 				&:hover {
 					color: var(--dark-green);
+				}
+			}
+
+			& li.instagram a {
+				display: flex;
+				align-items: center;
+				height: 4.5rem;
+
+				& svg {
+					width: 1.4rem;
+					height: 1.4rem;
+					transition: 0.25s;
+				}
+
+				&:hover svg {
+					color: var(--dark-green);
+					transform: scale(1.1);
 				}
 			}
 		}
