@@ -5,7 +5,7 @@ const resend = new Resend(RESEND_API_KEY);
 
 export const mailHome = (subject: string, text: string) =>
 	resend.emails.send({
-		from: 'ohlijf@ohlijf.dexterlabs.nl',
+		from: 'ohlijf@lab.dxlb.nl',
 		to: 'info@ohlijf.com',
 		subject,
 		text
