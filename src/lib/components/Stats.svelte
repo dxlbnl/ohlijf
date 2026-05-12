@@ -3,26 +3,26 @@
 	<div class="stats-grid">
 		<!-- Linker kolom -->
 		<div class="stats-col">
-			<div class="stat-item">
+			<!-- <div class="stat-item">
 				<span class="stat-number">43<span class="stat-plus">+</span></span>
 				<p class="stat-text">vrouwen begeleid naar herstel</p>
-			</div>
+			</div> -->
 			<div class="stat-item">
 				<span class="stat-number">29<span class="stat-plus">+</span></span>
 				<p class="stat-text">boeken verslonden over mind-body, ADHD en het brein</p>
 			</div>
-			<div class="stat-item">
+			<!-- <div class="stat-item">
 				<span class="stat-number">23<span class="stat-plus">+</span></span>
 				<p class="stat-text">methodes uitgeprobeerd — en alleen de écht helpende behouden</p>
+			</div> -->
+			<div class="stat-item">
+				<span class="stat-number">987<span class="stat-plus">+</span></span>
+				<p class="stat-text">puzzelstukjes gelegd om de beste methode te creëren</p>
 			</div>
 		</div>
 
 		<!-- Rechter kolom -->
 		<div class="stats-col">
-			<div class="stat-item">
-				<span class="stat-number">987<span class="stat-plus">+</span></span>
-				<p class="stat-text">puzzelstukjes gelegd om de beste methode te creëren</p>
-			</div>
 			<div class="stat-item">
 				<span class="stat-number">2</span>
 				<p class="stat-text">ADHD-breinen vol ideeën</p>

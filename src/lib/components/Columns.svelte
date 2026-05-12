@@ -27,7 +27,7 @@
 	.reverse {
 		direction: rtl;
 
-		& > * {
+		& :global(> *) {
 			direction: ltr;
 		}
 	}
