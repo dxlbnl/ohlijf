@@ -5,7 +5,7 @@
 
 <section class="content test-banner" style:background>
 	<h2>{title}</h2>
-	<a href="https://ohlijf.systeme.io/webinar-hoofdpijn-adhd" class="cta center">Naar webinar</a>
+	<a href="https://ohlijf.webinargeek.com/ontmasker-je-hoofdpijn" class="cta center">Naar webinar</a>
 </section>
 
 <style>
