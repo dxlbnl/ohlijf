@@ -1,0 +1,15 @@
+supportedArchitectures:
+  os:
+    - linux
+  cpu:
+    - x64
+  libc:
+    - glibc
+    - musl
+
+allowBuilds:
+  "@resvg/resvg-js-linux-x64-musl": true
+  bufferutil: true
+  esbuild: true
+  node-libcurl: true
+  utf-8-validate: true
