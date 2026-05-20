@@ -25,7 +25,7 @@ Nee, zeker niet! Wij leefden meer dan 10 jaar met zo’n beetje non-stop hoofdpi
 	</p>
 	<a
 		class="cta"
-		href="https://ohlijf.systeme.io/webinar-hoofdpijn-adhd"
+		href="https://ohlijf.webinargeek.com/ontmasker-je-hoofdpijn"
 		target="_blank">Gratis webinar</a
 	>
 </Header>
@@ -122,7 +122,7 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 	<section class="content call-to-action">
 		<h2>Hoofdpijn kan je afleren! Leer alles in ons gratis webinar</h2>
 		<a
-			href="https://ohlijf.systeme.io/webinar-hoofdpijn-adhd"
+			href="https://ohlijf.webinargeek.com/ontmasker-je-hoofdpijn"
 			class="cta center"
 			target="_blank">Aanmelden webinar</a
 		>
