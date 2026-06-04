@@ -16,6 +16,9 @@
 - label: Webinar
   path: https://ohlijf.webinargeek.com/ontmasker-je-hoofdpijn
 
+- label: Workshop
+  path: /workshop
+
 - label: Over ons
   path: /ons
 
