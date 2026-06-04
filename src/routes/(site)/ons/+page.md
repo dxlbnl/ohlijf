@@ -19,7 +19,7 @@ We brengen het luchtig en met een glimlach, de stof is **praktisch en behapbaar*
 
 ## Robin Boelsums
 Robin, een ondernemende wervelwind, weet precies wat ze wil. Ze heeft gewerkt als HBO-docent, zette een blog op over duurzaamheid en heeft zelfs een korte internationale carrière gehad. Ruim 10 jaar kampte ze eigenlijk non-stop met **hoofdpijn**. Ze probeerde echt alles om er vanaf te komen -van fysiotherapie tot diëten en accupunctuur. Maar pas toen ze de pijn heel anders ging bekijken, viel het kwartje. Toen is ze van 7 dagen per week mét pijn, in slechts maanden gegaan naar nooit meer chronische pijn. 
-Robin heeft al lange tijd ADHD en herkent als geen ander hoe overprikkeling, perfectionisme en het altijd ‘aan’ staan samen kunnen hangen met fysieke klachten. Haar ervaring maakt dat ze vrouwen met ADHD meteen aanvoelt én gericht kan helpen.
+Robin heeft al lange tijd AD(H)D en herkent als geen ander hoe overprikkeling, perfectionisme en het altijd ‘aan’ staan samen kunnen hangen met fysieke klachten. Haar ervaring maakt dat ze vrouwen met ADHD meteen aanvoelt én gericht kan helpen.
 
 ## Aurinke Stokx-Vos
 Aurinke, een positieve krachtpatser die voorheen als constructeur werkte, staat bekend om haar doorzettingsvermogen en kritische blik. Altijd in voor een dansje en gezelligheid, maar tussendoor kampte ze met een bingokaart aan lichamelijke klachten. Voortdurende aanvallen van migraine, een hersenschudding die haar maandenlang uitschakelde door de hoofdpijn én om de bingokaart vol te maken Long Covid die gepaard ging met dagelijks hoofdpijn.
@@ -30,7 +30,7 @@ Beiden aan dezelfde Technische Universiteit gestudeerd, kwamen we elkaar toevall
 Dat zo’n eenvoudige methode zoveel verandering in gang kan zetten, vonden we haast niet te geloven. De andere focus en het trainen van de hersenen hebben ons de ruimte gegeven voor herstel.  
 >**“Het voelt alsof we de heilige graal in handen hebben.”**
 
-Dit willen we delen met alle ADHD-vrouwen die ook kampen met veel te veel hoofdpijn. Met OhLijf bieden we wat we zelf oh zo graag hadden gehad in onze zoektocht. Iemand die precies vertelt welke stappen nodig zijn en hoe je die praktisch in je leven integreert.
+Dit willen we delen met alle neurospicy vrouwen die ook kampen met veel te veel hoofdpijn. Met OhLijf bieden we wat we zelf oh zo graag hadden gehad in onze zoektocht. Iemand die precies vertelt welke stappen nodig zijn en hoe je die praktisch in je leven integreert.
 
 We ontwikkelden de Trust-Feel-Release-methode aan de hand van de mind-body-visie. Nu beiden we een een online video-training en een VIP-traject met persoonlijke coaching. 
 Samen leggen we een stevige basis, zodat je (weer) kan genieten van een gezond en veerkrachtig leven, met **blijvende transformatie** als resultaat.
