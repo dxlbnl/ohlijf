@@ -6,12 +6,14 @@
 	export let sizes = [1920, 1200, 800, 400];
 	export let base = 800;
 	export let ratio: string | null = null;
+	export let style = '';
 	export { cls as class };
 </script>
 
 <img
 	src="/images/{name}_{base}.webp"
 	class={cls}
+	style={style}
 	style:aspect-ratio={ratio}
 	{alt}
 	srcset={['webp', 'avif']
