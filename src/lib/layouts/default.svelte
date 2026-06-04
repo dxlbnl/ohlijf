@@ -13,6 +13,7 @@
 	export let titel = '';
 	export let omschrijving = '';
 	export let foto = 'default/armen-wijd';
+	export let fotoPositie = 'center';
 	export let sidebar = true;
 	export let meta = {};
 	export let testBanner = false;
@@ -20,7 +21,7 @@
 	export let style = '';
 </script>
 
-<PageHeader {titel} {omschrijving} {foto} />
+<PageHeader {titel} {omschrijving} {foto} {fotoPositie} />
 
 <svelte:head>
 	{#each Object.keys(meta) as key}

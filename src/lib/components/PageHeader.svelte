@@ -5,6 +5,7 @@
 	export let omschrijving = '';
 	export let foto = 'default/armen-wijd';
 	export let fotoAlt = 'een vrouw met armen wijd';
+	export let fotoPositie = 'center';
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
 <header class="stack" class:expanded={titel && omschrijving}>
 	{#if foto}
 		<div class="bg">
-			<Image name={foto} alt={fotoAlt} />
+			<Image name={foto} alt={fotoAlt} style="object-position: {fotoPositie};" />
 		</div>
 	{/if}
 
