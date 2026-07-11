@@ -120,9 +120,9 @@ Juist ons drukke brein, ons gevoelige zenuwstelsel en die neiging tot ‘altijd 
 <WieZijnWij />
 
 	<section class="content call-to-action">
-		<h2>Hoofdpijn kan je afleren! Leer alles in ons gratis webinar</h2>
+		<h2>Ontdek de diepere oorzaak van jouw hoofdpijn in ons gratis webinar</h2>
 		<a
-			href="https://ohlijf.webinargeek.com/ontmasker-je-hoofdpijn"
+			href="https://ohlijf.systeme.io/webinar-oorzaak-hoofdpijn"
 			class="cta center"
 			target="_blank">Aanmelden webinar</a
 		>
