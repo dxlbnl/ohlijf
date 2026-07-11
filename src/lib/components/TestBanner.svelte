@@ -1,11 +1,11 @@
 <script lang="ts">
-	export let title = 'Hoofdpijn kan je afleren! Leer alles in ons gratis webinar';
+	export let title = 'Ontdek de diepere oorzaak van jouw hoofdpijn in ons gratis webinar';
 	export let background: string | null = null;
 </script>
 
 <section class="content test-banner" style:background>
 	<h2>{title}</h2>
-	<a href="https://ohlijf.webinargeek.com/ontmasker-je-hoofdpijn" class="cta center">Naar webinar</a>
+	<a href="https://ohlijf.systeme.io/webinar-oorzaak-hoofdpijn" class="cta center">Naar webinar</a>
 </section>
 
 <style>
