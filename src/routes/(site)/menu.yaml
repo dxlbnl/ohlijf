@@ -19,6 +19,9 @@
 - label: Workshop
   path: /workshop
 
+- label: Workshop
+  path: /workshop
+
 - label: Over ons
   path: /ons
 
