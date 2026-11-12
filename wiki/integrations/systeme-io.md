@@ -2,7 +2,7 @@
 tags:
   - integrations
   - crm
-date: 2026-04-10
+date: 2026-11-12
 ---
 
 # Systeme.io Integration
@@ -13,6 +13,9 @@ The platform uses Systeme.io as its central CRM and funnel builder. OhLijf inter
 
 ## Authentication
 Interacts via the `https://api.systeme.io/api/` endpoint using the `X-API-Key` header populated by the private env variable `SYSTEME_API_KEY`.
+
+## Local Mock
+Set `SYSTEME_MOCK=true` (e.g. in the local `.env`) and `addOrUpdateContact` only logs `[systeme mock] Would add or update contact ...` instead of calling the API. Read via `$env/dynamic/private`, so it is off unless explicitly set.
 
 ## Operations Supported
 The integration exposes `addOrUpdateContact`.

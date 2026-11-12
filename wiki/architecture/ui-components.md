@@ -2,24 +2,32 @@
 tags:
   - architecture
   - ui
-date: 2026-04-10
+date: 2026-11-12
 ---
 
 # UI Components
 
-The frontend relies heavily on custom Svelte components (located in `src/lib/components/`) to maintain visual consistency across marketing pages.
+> These are the **legacy** components used by the `(site)` pages. New pages use the [design system](design-system.md) in `src/lib/ds/`.
+
+Custom Svelte components in `src/lib/components/` keep the marketing pages visually consistent. Fonts: Raleway (body), Bellota and Martel (headings), loaded via `@fontsource`.
 
 ## Layout Components
-- **`Columns.svelte`**: Used to structure responsive grid layouts, often alternating text and images on marketing pages.
-- **`Content.svelte`**: Standard constrained wrapper to format large text blocks.
-- **`Wave.svelte`**: Provides dynamic SVG wave borders to transition between stacked sections with different background colors.
+- **`Columns.svelte`**: Responsive grid, typically alternating image and text (`reverse` prop flips sides).
+- **`Content.svelte`**: Constrained wrapper for text blocks.
+- **`Wave.svelte`**: SVG wave borders between sections with different backgrounds.
+- **`Sidebar.svelte`**: Sidebar shown on markdown pages when `sidebar: true`.
 
-## Navigation Elements
-- **`Header.svelte`**: Modular hero header component used at the top of landing pages.
-- **`Navigation.svelte`**: Parses links centrally from `menu.yaml` to render dynamic desktop and mobile menus.
-- **`Footer.svelte`**: Standardized footer.
+## Headers & Navigation
+- **`Header.svelte`**: Hero header on the homepage.
+- **`PageHeader.svelte`**: Header for markdown pages (`titel`, `omschrijving`, `foto`, `fotoPositie`).
+- **`Navigation.svelte`**: Renders desktop/mobile menus from `menu.yaml` (validated with `menuSchema`).
+- **`Footer.svelte`**: Standard footer incl. Instagram link.
 
 ## Functional Components
-- **`Image.svelte`**: Wrapper to optimize image sizes for responsive delivery.
-- **`Matomo.svelte`**: Wraps tracking scripts globally (`disableCookies` is enabled by default to respect EU regulations).
-- **`TestBanner.svelte` / `TrainingForm.svelte`**: Components rendering specific CTAs connected to external endpoints.
+- **`Image.svelte`**: Responsive images; expects pre-generated `name_{size}.{avif,webp,jpeg}` files in `static/images/`.
+- **`Stats.svelte`**: Results/statistics block on the homepage.
+- **`TestBanner.svelte`**: Despite the name, now a CTA banner to the free webinar (`ohlijf.systeme.io/webinar-oorzaak-hoofdpijn`).
+- **`TrainingForm.svelte`**: Interest form posting to the homepage `trainingform` action.
+- **`Input.svelte`**, **`Loader.svelte`**: Form helpers.
+
+Analytics is no longer a component: Vercel Analytics and Speed Insights are injected in `(site)/+layout.svelte` (Matomo was removed in May 2026).
