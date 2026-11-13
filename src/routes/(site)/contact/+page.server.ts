@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 import type { Actions } from './$types';
-import { mailHome } from '$lib/mail';
-import { db, contactLog } from '$lib/database';
+import { mailHome } from '#lib/mail.ts';
+import { db, contactLog } from '#lib/database.ts';
 
 export const actions = {
 	async default({ request }) {

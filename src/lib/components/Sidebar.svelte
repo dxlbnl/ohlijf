@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { superForm } from 'sveltekit-superforms';
 	import { page } from '$app/stores';
-	import Input from '$lib/components/Input.svelte';
-	import Loader from '$lib/components/Loader.svelte';
+	import Input from '#lib/components/Input.svelte';
+	import Loader from '#lib/components/Loader.svelte';
 	import { get } from 'svelte/store';
 
 	// $: data = $page.data;

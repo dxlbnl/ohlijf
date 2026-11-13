@@ -7,7 +7,7 @@ fotoPositie: center 30%;
 ---
 
 <script>
-  import Image from '$lib/components/Image.svelte'
+  import Image from '#lib/components/Image.svelte'
 </script>
 
 ## Een workshop of presentatie die écht blijft hangen?

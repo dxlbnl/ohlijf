@@ -8,8 +8,8 @@ style: '--content-width: 80ch;'
 ---
 
 <script>
-  import Image from '$lib/components/Image.svelte'
-  import TrainingForm from '$lib/components/TrainingForm.svelte'
+  import Image from '#lib/components/Image.svelte'
+  import TrainingForm from '#lib/components/TrainingForm.svelte'
 
   import Sticker from './Sticker.svelte'
   import Text from './Text.svelte'

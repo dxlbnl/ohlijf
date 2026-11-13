@@ -1,6 +1,6 @@
 <script>
-	// import Columns from '$lib/components/Columns.svelte';
-	import Image from '$lib/components/Image.svelte';
+	// import Columns from '#lib/components/Columns.svelte';
+	import Image from '#lib/components/Image.svelte';
 </script>
 
 <section class="wiezijnwij">

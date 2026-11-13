@@ -9,8 +9,8 @@
 	import '../../app.css';
 	import menuData from './menu.yaml';
 
-	import Navigation, { menuSchema } from '$lib/components/Navigation.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Navigation, { menuSchema } from '#lib/components/Navigation.svelte';
+	import Footer from '#lib/components/Footer.svelte';
 
 	import { dev } from '$app/env';
 	import { page } from '$app/stores';

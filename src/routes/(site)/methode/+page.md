@@ -5,7 +5,7 @@ sidebar: true
 
 ---
 <script>
-  import Image from '$lib/components/Image.svelte'
+  import Image from '#lib/components/Image.svelte'
 </script>
 
 Bij OhLijf hebben we de Trust-Feel-Release-methode ontwikkeld. Deze vloeit voort uit de mind-body-visie, die is gebaseerd op de nieuwste inzichten in en onderzoeken naar terugkerende hoofdpijn. Hier zien we ook dat hoofdpijn vaker voorkomt bij vrouwen met ADHD of ADHD-kenmerken.

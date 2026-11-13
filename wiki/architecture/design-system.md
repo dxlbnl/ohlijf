@@ -30,7 +30,7 @@ The new OhLijf look ("garden-fresh, playful, game-board") is defined in the **Oh
 Not ported yet (build when needed): IconButton, Checkbox, PlayControls, ProgressMeter.
 
 ## Pages
-Pages in the new style live in the `src/routes/(ds)/` group. Its layout imports `$lib/ds/styles.css` (not `app.css`), renders `SiteHeader` + `SiteFooter` inside a `.ds` root with `data-sveltekit-reload` (links to legacy pages do a full load). First page: [/meditatie-veilig](routes.md).
+Pages in the new style live in the `src/routes/(ds)/` group. Its layout imports `#lib/ds/styles.css` (not `app.css`), renders `SiteHeader` + `SiteFooter` inside a `.ds` root with `data-sveltekit-reload` (links to legacy pages do a full load). First page: [/meditatie-veilig](routes.md).
 
 ## Storybook
 `pnpm storybook` (port 6006). Stories sit next to components (`*.stories.svelte`, addon-svelte-csf v5). Storybook was upgraded to a consistent v10 setup (removed v8-only addons, added `@storybook/addon-docs`); the preview adds the `ds` class to `<body>`.

@@ -1,10 +1,10 @@
-import { db, testResult, type NewTestResult } from '$lib/database';
-import { mailHome } from '$lib/mail';
+import { db, testResult, type NewTestResult } from '#lib/database.ts';
+import { mailHome } from '#lib/mail.ts';
 import { zod4 as zod } from 'sveltekit-superforms/adapters';
-import { testForm } from '$lib/forms.js';
+import { testForm } from '#lib/forms.js';
 import { fail, superValidate } from 'sveltekit-superforms';
 import type { PageServerLoad } from './$types';
-import { addOrUpdateContact, type Tag } from '$lib/systeme';
+import { addOrUpdateContact, type Tag } from '#lib/systeme.ts';
 
 export const load: PageServerLoad = async () => {
 	const form = await superValidate(zod(testForm), { id: 'testResult' });

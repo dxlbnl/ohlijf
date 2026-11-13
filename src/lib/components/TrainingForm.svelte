@@ -1,6 +1,6 @@
 <script>
-	import Input from '$lib/components/Input.svelte';
-	import Loader from '$lib/components/Loader.svelte';
+	import Input from '#lib/components/Input.svelte';
+	import Loader from '#lib/components/Loader.svelte';
 
 	import { page } from '$app/stores';
 	import { get } from 'svelte/store';

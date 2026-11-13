@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Image from '$lib/components/Image.svelte';
+	import Image from '#lib/components/Image.svelte';
 </script>
 
 <header class="stack">

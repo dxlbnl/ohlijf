@@ -1,7 +1,7 @@
 <script>
 	import { enhance } from '$app/forms';
-	import Input from '$lib/components/Input.svelte';
-	import Layout from '$lib/layouts/default.svelte';
+	import Input from '#lib/components/Input.svelte';
+	import Layout from '#lib/layouts/default.svelte';
 
 	export let form;
 	let posting = false;

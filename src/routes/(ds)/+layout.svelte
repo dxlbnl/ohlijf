@@ -1,9 +1,9 @@
 <script lang="ts">
 	// Layout for pages built with the new OhLijf design system (src/lib/ds).
 	// It deliberately does not load src/app.css: design-system tokens are scoped to .ds.
-	import '$lib/ds/styles.css';
-	import { SiteFooter, SiteHeader } from '$lib/ds';
-	import { footerLinks, headerCta, instagramUrl, navItems } from '$lib/ds/site';
+	import '#lib/ds/styles.css';
+	import { SiteFooter, SiteHeader } from '#lib/ds/index.ts';
+	import { footerLinks, headerCta, instagramUrl, navItems } from '#lib/ds/site.ts';
 
 	import { dev } from '$app/env';
 	import { inject } from '@vercel/analytics';

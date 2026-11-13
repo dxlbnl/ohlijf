@@ -5,7 +5,7 @@ sidebar: true
 ---
 
 <script>
-  import Image from '$lib/components/Image.svelte'
+  import Image from '#lib/components/Image.svelte'
 </script>
 
 ## Wij zijn Robin en Aurinke

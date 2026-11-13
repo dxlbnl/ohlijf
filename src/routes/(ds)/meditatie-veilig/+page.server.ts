@@ -1,8 +1,8 @@
 import { superValidate } from 'sveltekit-superforms';
 import { zod4 as zod } from 'sveltekit-superforms/adapters';
 import { fail } from '@sveltejs/kit';
-import { signupFormSchema } from '$lib/forms';
-import { addOrUpdateContact } from '$lib/systeme';
+import { signupFormSchema } from '#lib/forms.ts';
+import { addOrUpdateContact } from '#lib/systeme.ts';
 
 import type { Actions, PageServerLoad } from './$types';
 

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { superForm } from 'sveltekit-superforms';
-	import { Button, Card, Hero, Input, Sticker } from '$lib/ds';
+	import { Button, Card, Hero, Input, Sticker } from '#lib/ds/index.ts';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();

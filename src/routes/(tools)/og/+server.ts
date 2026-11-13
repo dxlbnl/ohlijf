@@ -2,7 +2,7 @@ import satori from 'satori';
 import { html as toReactNode } from 'satori-html';
 import { Resvg } from '@resvg/resvg-js';
 import { render } from 'svelte/server';
-// import NotoSans from '$lib/NotoSans-Regular.ttf';
+// import NotoSans from '#lib/NotoSans-Regular.ttf';
 import Raleway from './Raleway-ExtraBold.ttf';
 
 import { read } from '$app/server';

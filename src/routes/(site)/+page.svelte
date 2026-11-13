@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Header from '$lib/components/Header.svelte';
-	import Content from '$lib/components/Content.svelte';
+	import Header from '#lib/components/Header.svelte';
+	import Content from '#lib/components/Content.svelte';
 	import WieZijnWij from './WieZijnWij.svelte';
-	import Image from '$lib/components/Image.svelte';
-	import Columns from '$lib/components/Columns.svelte';
-	import Stats from '$lib/components/Stats.svelte';
+	import Image from '#lib/components/Image.svelte';
+	import Columns from '#lib/components/Columns.svelte';
+	import Stats from '#lib/components/Stats.svelte';
 </script>
 
 <svelte:head>

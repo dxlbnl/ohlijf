@@ -1,14 +1,14 @@
 <script context="module">
-	// import img from '$lib/components/Image.svelte'
+	// import img from '#lib/components/Image.svelte'
 	// import img from './img.svelte';
 
 	// export { img };
 </script>
 
 <script lang="ts">
-	import PageHeader from '$lib/components/PageHeader.svelte';
-	import Sidebar from '$lib/components/Sidebar.svelte';
-	import TestBanner from '$lib/components/TestBanner.svelte';
+	import PageHeader from '#lib/components/PageHeader.svelte';
+	import Sidebar from '#lib/components/Sidebar.svelte';
+	import TestBanner from '#lib/components/TestBanner.svelte';
 
 	export let titel = '';
 	export let omschrijving = '';

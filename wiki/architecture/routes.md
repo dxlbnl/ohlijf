@@ -31,7 +31,7 @@ Homepage form actions (`+page.server.ts`): `mailinglist` (Systeme tag `nieuwsbri
 Podcast (Springcast, with Spotify/Apple sub-items) · Methode · Training (`ohlijf.systeme.io/trainingen`, highlighted) · Webinar (`ohlijf.systeme.io/webinar-oorzaak-hoofdpijn`) · Workshop · Over ons · Contact.
 
 ## `(ds)` Group
-Pages built with the [new design system](design-system.md): own layout with `SiteHeader`/`SiteFooter`, loads `$lib/ds/styles.css` instead of `app.css`.
+Pages built with the [new design system](design-system.md): own layout with `SiteHeader`/`SiteFooter`, loads `#lib/ds/styles.css` instead of `app.css`.
 - `/meditatie-veilig` — signup (formerly `/aanmelden`) for the free meditation "Even niet op je hoede" (photo Hero, recognition list + story, sticky Card form with first name + email) → Systeme.io contact with `first_name`, tags `nieuwsbrief` + `meditatie-veilig anders`.
 
 ## `(tools)` Group
