@@ -3,7 +3,7 @@
 	// It deliberately does not load src/app.css: design-system tokens are scoped to .ds.
 	import '$lib/ds/styles.css';
 	import { SiteFooter, SiteHeader } from '$lib/ds';
-	import { footerLinks, headerCta, navItems } from '$lib/ds/site';
+	import { footerLinks, headerCta, instagramUrl, navItems } from '$lib/ds/site';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
@@ -26,10 +26,14 @@
 	<main id="main">
 		{@render children()}
 	</main>
-	<SiteFooter links={footerLinks} />
+	<SiteFooter links={footerLinks} instagram={instagramUrl} />
 </div>
 
 <style>
+	/* app.css (which resets this) is not loaded here, so drop the browser's default 8px body margin. */
+	:global(body) {
+		margin: 0;
+	}
 	.ds {
 		min-height: 100dvh;
 		display: grid;

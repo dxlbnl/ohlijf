@@ -16,7 +16,10 @@ export const headerCta: NavItem = {
 };
 
 export const footerLinks: FooterLink[] = [
+	{ label: 'Contact', path: '/contact' },
 	{ label: 'Privacybeleid', path: '/privacy' },
 	{ label: 'Disclaimer', path: '/disclaimer' },
 	{ label: 'Algemene voorwaarden', path: '/algemene-voorwaarden' }
 ];
+
+export const instagramUrl = 'https://www.instagram.com/ohlijf_aurinke_robin';

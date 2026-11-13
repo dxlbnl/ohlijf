@@ -32,7 +32,7 @@ Podcast (Springcast, with Spotify/Apple sub-items) · Methode · Training (`ohli
 
 ## `(ds)` Group
 Pages built with the [new design system](design-system.md): own layout with `SiteHeader`/`SiteFooter`, loads `$lib/ds/styles.css` instead of `app.css`.
-- `/aanmelden` — email signup (Hero, RulesPanel bullets, Card form) → Systeme.io tag `nieuwsbrief` (placeholder copy/tag).
+- `/meditatie-veilig` — signup (formerly `/aanmelden`) for the free meditation "Even niet op je hoede" (photo Hero, recognition list + story, sticky Card form with first name + email) → Systeme.io contact with `first_name`, tags `nieuwsbrief` + `meditatie-veilig anders`.
 
 ## `(tools)` Group
 - `/rust-aankoop` — `POST` webhook from a Systeme.io funnel (`customer.sale.completed`). Logs into [The Huddle](../integrations/the-huddle.md) and creates the user or adds level `57520`.

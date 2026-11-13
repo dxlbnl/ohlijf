@@ -32,3 +32,4 @@ Supported Enums mapping to specific Tag IDs:
 - `Vermoeidheid` (868216)
 - `Pijn` (868217)
 - `Anders` (868214)
+- `meditatie-veilig anders` (2289936) — set together with `nieuwsbrief` by `/meditatie-veilig` (meditation "Even niet op je hoede")

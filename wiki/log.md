@@ -9,6 +9,18 @@ date: 2026-04-10
 
 Append-only record of wiki modifications.
 
+## [2026-11-13] fix | White edge on design-system pages
+`(ds)/+layout.svelte` now sets `body { margin: 0 }`; without `app.css` the browser's default 8px margin showed a white border around the hero and footer.
+
+## [2026-11-13] update | /aanmelden → /meditatie-veilig
+Moved the meditation signup page to `src/routes/(ds)/meditatie-veilig/` (URL ohlijf.com/meditatie-veilig); tests renamed to `tests/meditatie-veilig.test.ts`. Updated `routes`, `design-system`, `systeme-io`.
+
+## [2026-11-13] update | Footer: contact & Instagram
+`SiteFooter` now also links to Contact and shows an Instagram icon (opens `ohlijf_aurinke_robin` in a new tab). Removed the "Geen spam" hint on `/aanmelden`; it now says the visitor gets the meditation plus an occasional mail. Updated `design-system`.
+
+## [2026-11-13] update | Aanmeldpagina: meditatie
+`/aanmelden` now offers the free meditation "Even niet op je hoede" (copy from Robin). Form asks first name + email (`signupFormSchema` in `src/lib/forms.ts`); name is sent to Systeme.io as `first_name`. Contacts get tags `nieuwsbrief` + `meditatie-veilig anders` (2289936). Updated Playwright tests and `routes`.
+
 ## [2026-11-12] update | Minimal footer
 `SiteFooter` reduced to copyright + Privacybeleid, Disclaimer, Algemene voorwaarden (no logo, blurb or link columns). Updated `design-system`.
 

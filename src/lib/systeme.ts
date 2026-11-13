@@ -11,7 +11,8 @@ export type Tag =
 	| 'Geen MBS'
 	| 'Vermoeidheid'
 	| 'Pijn'
-	| 'Anders';
+	| 'Anders'
+	| 'meditatie-veilig anders';
 
 const tagMap: Record<Tag, number> = {
 	nieuwsbrief: 1076903,
@@ -20,7 +21,8 @@ const tagMap: Record<Tag, number> = {
 	'Geen MBS': 868215,
 	Vermoeidheid: 868216,
 	Pijn: 868217,
-	Anders: 868214
+	Anders: 868214,
+	'meditatie-veilig anders': 2289936
 };
 
 type ContactField = {
