@@ -1,4 +1,8 @@
 import { SYSTEME_API_KEY } from '$env/static/private';
+import { env } from '$env/dynamic/private';
+
+// Set SYSTEME_MOCK=true (e.g. in a local .env) to log contacts instead of calling Systeme.io.
+const mockSysteme = env.SYSTEME_MOCK === 'true';
 
 export type Tag =
 	| 'interesse'
@@ -7,7 +11,8 @@ export type Tag =
 	| 'Geen MBS'
 	| 'Vermoeidheid'
 	| 'Pijn'
-	| 'Anders';
+	| 'Anders'
+	| 'meditatie-veilig anders';
 
 const tagMap: Record<Tag, number> = {
 	nieuwsbrief: 1076903,
@@ -16,7 +21,8 @@ const tagMap: Record<Tag, number> = {
 	'Geen MBS': 868215,
 	Vermoeidheid: 868216,
 	Pijn: 868217,
-	Anders: 868214
+	Anders: 868214,
+	'meditatie-veilig anders': 2289936
 };
 
 type ContactField = {
@@ -113,6 +119,11 @@ type Props = {
 	name?: string;
 };
 export const addOrUpdateContact = async ({ email, tags, name }: Props) => {
+	if (mockSysteme) {
+		console.log('[systeme mock] Would add or update contact', { email, tags, name });
+		return;
+	}
+
 	console.log('Adding or updating contact', email, 'with', tags, name);
 
 	const contact = await getContact(email);

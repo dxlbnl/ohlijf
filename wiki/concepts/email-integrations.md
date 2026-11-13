@@ -2,17 +2,17 @@
 tags:
   - concepts
   - email
-date: 2026-04-10
+date: 2026-11-12
 ---
 
 # Email Integrations
 
-Handling transactional emails and marketing campaigns.
-
-## Transactional / System Emails
-- **Transport**: Resend (`resend`)
-- **Template Rendering**: MJML (`mjml`) is retained for generating custom responsive HTML strings.
+## Notification Emails
+- **Transport**: Resend (`src/lib/mail.ts`, env `RESEND_API_KEY`)
+- `mailHome(subject, text)` sends plain-text notifications to `info@ohlijf.com`, currently from `ohlijf@lab.dxlb.nl`.
+- Used by: contact form, training interest form, test results.
+- MJML is still a dependency but not used by the current mail code.
 
 ## Marketing & Newsletter
-- **Provider**: Mailchimp (`@mailchimp/mailchimp_marketing`)
-- Enables managing subscriber lists and transactional marketing triggers.
+- **Provider**: [Systeme.io](../integrations/systeme-io.md) — contacts are tagged (`nieuwsbrief`, `interesse`, test outcome tags) and Systeme.io handles the email automations.
+- **Mailchimp** (`src/lib/mailchimp.ts`) is inactive: every import of it is commented out. It can be removed together with `MAILCHIMP_API_KEY`.

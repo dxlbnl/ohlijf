@@ -3,14 +3,14 @@ tags:
   - content
   - methode
   - framework
-date: 2026-04-10
+date: 2026-11-12
 ---
 
 # The Trust-Feel-Release Framework
 
 The core proprietary mechanism that OhLijf teaches is the "Trust-Feel-Release" method. The copy heavily anchors on this framework to simplify the complex scientific concepts of neuroplasticity and Mindbody Syndrome.
 
-> 🔗 **Source File:** [src/routes/(site)/methode/+page.md](file:///home/dexter/Projects/Web/ohlijf/src/routes/(site)/methode/+page.md)
+> 🔗 **Source File:** [src/routes/(site)/methode/+page.md](../../src/routes/(site)/methode/+page.md)
 
 ## 1. Trust (Vertrouwen opbouwen)
 The content emphasizes an evidence-based approach. The founders explicitly mention their TU Delft background to build immediate authority and counter the skepticism often associated with psychosomatic treatments (*"We hebben geleerd altijd naar harde cijfers te kijken"*).

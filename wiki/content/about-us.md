@@ -3,14 +3,14 @@ tags:
   - content
   - personas
   - founders
-date: 2026-04-10
+date: 2026-11-12
 ---
 
 # Founder Personas & Brand Voice
 
 The "About Us" content serves the dual purpose of building authority and displaying extreme empathy as "ervaringsdeskundigen" (experts by experience). 
 
-> 🔗 **Source File:** [src/routes/(site)/ons/+page.md](file:///home/dexter/Projects/Web/ohlijf/src/routes/(site)/ons/+page.md)
+> 🔗 **Source File:** [src/routes/(site)/ons/+page.md](../../src/routes/(site)/ons/+page.md)
 
 ## Robin Boelsums
 - **Background**: Former HBO teacher, sustainability blogger.

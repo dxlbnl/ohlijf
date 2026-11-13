@@ -2,7 +2,7 @@
 tags:
   - concepts
   - business
-date: 2026-04-10
+date: 2026-11-12
 ---
 
 # Business Context & Model
@@ -16,9 +16,11 @@ The primary focus is **women with ADHD**, addressing the intersection of neurodi
 The coaching is built on the foundation of **Mindbody Syndrome (MBS)** or TMS (Tension Myositis Syndrome), acknowledging the strong psychosomatic link between an overactive/sensitive nervous system and physical chronic pain. The aim is to help users understand their symptoms rather than simply trying to 'push through' or learn to live with them.
 
 ## Funnels & Conversion
-- **The Assessment (/test)**: Users take a quick online test to identify the root cause of their pain, serving as a primary lead generation tool.
-- **Free Webinar**: A middle-of-funnel offering directing traffic strictly to `ohlijf.systeme.io/webinar-hoofdpijn-adhd`.
-- **Online Training**: The core paid product, accessible via `Systeme.io` links.
+- **Free Webinar** (primary CTA): almost every call-to-action on the site points to `ohlijf.systeme.io/webinar-oorzaak-hoofdpijn`.
+- **Online Training**: The core paid product ("De Grote Vriendelijke Hersteltraining"), sold via `ohlijf.systeme.io/trainingen`.
+- **Workshops & presentations**: Live sessions for events, companies and conferences, see [workshop](../content/workshop.md).
+- **Podcast**: "De Grote Vriendelijke Herstelshow" (Springcast, Spotify, Apple Podcasts), linked from the menu.
+- **The Assessment (/test)**: Formerly the main lead magnet; still live but no longer promoted in the menu or banners.
 
 ## External Platforms
 To minimize infrastructure, OhLijf leverages [[systeme-io]] for sales funnels/CRM and [[the-huddle]] for the actual community management and course delivery.
