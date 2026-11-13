@@ -12,7 +12,7 @@
 	import Navigation, { menuSchema } from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
-	import { dev } from '$app/environment';
+	import { dev } from '$app/env';
 	import { page } from '$app/stores';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
@@ -42,6 +42,6 @@
 	<Navigation {menu} />
 {/if}
 
-<slot />
+<slot></slot>
 
 <Footer />

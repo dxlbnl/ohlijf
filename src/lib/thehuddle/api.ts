@@ -7,7 +7,7 @@ import {
 	THEHUDDLE_CLIENT_ID,
 	THEHUDDLE_TENANT_ID,
 	THEHUDDLE_CLIENT_SECRET
-} from '$env/static/private';
+} from '$app/env/private';
 
 const jar = new CookieJar();
 let csrfToken: string | null = null;

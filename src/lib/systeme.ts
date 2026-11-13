@@ -1,8 +1,7 @@
-import { SYSTEME_API_KEY } from '$env/static/private';
-import { env } from '$env/dynamic/private';
+import { SYSTEME_API_KEY, SYSTEME_MOCK } from '$app/env/private';
 
 // Set SYSTEME_MOCK=true (e.g. in a local .env) to log contacts instead of calling Systeme.io.
-const mockSysteme = env.SYSTEME_MOCK === 'true';
+const mockSysteme = SYSTEME_MOCK === 'true';
 
 export type Tag =
 	| 'interesse'

@@ -2,7 +2,7 @@ import { z } from 'zod';
 import type { RequestHandler } from './$types';
 
 import { createUser, findUserByEmail, login, updateUserLevels } from '$lib/thehuddle/api';
-import { THEHUDDLE_USER, THEHUDDLE_PASSWORD } from '$env/static/private';
+import { THEHUDDLE_USER, THEHUDDLE_PASSWORD } from '$app/env/private';
 
 // Receive data from a systeme funnel webhook
 // Get or create the user on thehuddle

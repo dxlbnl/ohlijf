@@ -5,7 +5,7 @@
 	import { SiteFooter, SiteHeader } from '$lib/ds';
 	import { footerLinks, headerCta, instagramUrl, navItems } from '$lib/ds/site';
 
-	import { dev } from '$app/environment';
+	import { dev } from '$app/env';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import type { Snippet } from 'svelte';
