@@ -7,6 +7,7 @@
 	export let data: PageData;
 </script>
 
+<!-- @migration-task could not auto-migrate `$app/stores` to `$app/state`: legacy `export let` props; migrate manually -->
 <h2 class="heading">{data.heading}</h2>
 <p>
 	{@html data.question}

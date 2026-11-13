@@ -38,20 +38,23 @@
 	};
 </script>
 
+<!-- @migration-task could not auto-migrate `$app/stores` to `$app/state`: legacy `export let` props; migrate manually -->
+
 <nav bind:this={navEl}>
 	<a class="logo" href="/">
-		<h1><span style:color="var(--light-green)">Oh</span>Lijf</h1>
-		<img src="/icons/logo.svg" alt="OhLijf logo" width="60" height="56" /></a
-	>
+		<h1>
+			<span style:color="var(--light-green)">Oh</span>
+			Lijf
+		</h1>
+
+		<img src="/icons/logo.svg" alt="OhLijf logo" width="60" height="56" />
+	</a>
 
 	<input id="menu_state" type="checkbox" bind:checked={menuOpen} />
-	<label for="menu_state" class="menu-toggle">
-		<div class="icon">
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-	</label>
+
+	<label for="menu_state" class="menu-toggle"
+		><div class="icon"><span></span> <span></span> <span></span></div></label
+	>
 
 	{#if menu.length}
 		<ul>
@@ -90,9 +93,10 @@
 						stroke-linejoin="round"
 						aria-hidden="true"
 					>
-						<rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-						<circle cx="12" cy="12" r="4" />
-						<circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+						<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+						<circle cx="12" cy="12" r="4"></circle>
+
+						<circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"></circle>
 					</svg>
 				</a>
 			</li>
@@ -100,7 +104,7 @@
 	{/if}
 </nav>
 
-<svelte:body on:click={closeMenu} />
+<svelte:body on:click={closeMenu}></svelte:body>
 
 <style>
 	nav {

@@ -15,6 +15,8 @@
 	});
 </script>
 
+<!-- @migration-task could not auto-migrate `$app/stores` to `$app/state`: legacy `export let` props; migrate manually -->
+
 <div class="full popout">
 	<section class="content">
 		{#if $posted}

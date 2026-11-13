@@ -2,7 +2,7 @@
 	import Input from '#lib/components/Input.svelte';
 	import Loader from '#lib/components/Loader.svelte';
 	import PageHeader from '#lib/components/PageHeader.svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { get } from 'svelte/store';
 	import { superForm } from 'sveltekit-superforms';
 	import { goto } from '$app/navigation';

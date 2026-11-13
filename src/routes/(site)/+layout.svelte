@@ -13,7 +13,7 @@
 	import Footer from '#lib/components/Footer.svelte';
 
 	import { dev } from '$app/env';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	inject({ mode: dev ? 'development' : 'production' });
@@ -38,7 +38,7 @@
 	<!-- <meta property="og:url" content="Canonical link preview URL"> -->
 </svelte:head>
 
-{#if !$page.url.searchParams.has('focus')}
+{#if !page.url.searchParams.has('focus')}
 	<Navigation {menu} />
 {/if}
 
