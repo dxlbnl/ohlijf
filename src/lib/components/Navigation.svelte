@@ -16,7 +16,7 @@
 </script>
 
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
 	export let menu: Menu = [];
 	let menuOpen = false;
@@ -38,8 +38,6 @@
 	};
 </script>
 
-<!-- @migration-task could not auto-migrate `$app/stores` to `$app/state`: legacy `export let` props; migrate manually -->
-
 <nav bind:this={navEl}>
 	<a class="logo" href="/">
 		<h1>
@@ -59,14 +57,14 @@
 	{#if menu.length}
 		<ul>
 			{#each menu as item}
-				<li data-active={$page.url.pathname === item.path} class:special={item.special}>
+				<li data-active={page.url.pathname === item.path} class:special={item.special}>
 					<a href={item.path}>{item.label}</a>
 
 					{#if item.items}
 						<ul class="submenu">
 							{#each item.items as subitem}
 								<li
-									data-active={$page.url.pathname === subitem.path}
+									data-active={page.url.pathname === subitem.path}
 									class:special={subitem.special}
 								>
 									<a href={subitem.path}>{subitem.label}</a>

@@ -2,20 +2,17 @@
 	import Input from '#lib/components/Input.svelte';
 	import Loader from '#lib/components/Loader.svelte';
 
-	import { page } from '$app/stores';
-	import { get } from 'svelte/store';
+	import { page } from '$app/state';
 	import { superForm } from 'sveltekit-superforms';
 
 	export let id = 'trainingform';
 
-	const { data } = get(page);
+	const { data } = page;
 
 	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.trainingform, {
 		id
 	});
 </script>
-
-<!-- @migration-task could not auto-migrate `$app/stores` to `$app/state`: legacy `export let` props; migrate manually -->
 
 <div class="full popout">
 	<section class="content">

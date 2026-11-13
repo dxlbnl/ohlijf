@@ -9,7 +9,7 @@ import yaml from '@modyfi/vite-plugin-yaml';
 export default defineConfig({
 	plugins: [
 		sveltekit({
-			extensions: ['.svelte', ...mdsvexConfig.extensions],
+			extensions: ['.svelte', ...(mdsvexConfig.extensions ?? [])],
 			// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 			// for more information about preprocessors
 			preprocess: [vitePreprocess(), mdsvex(mdsvexConfig)],

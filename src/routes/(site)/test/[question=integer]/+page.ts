@@ -29,7 +29,7 @@ export const load: PageLoad = async ({ params }) => {
 	const question = questions[questionId - 1];
 
 	if (!question) {
-		error(404, { message: 'Onbekende vraag' });
+		error(404, 'Onbekende vraag');
 	}
 
 	const next = questionId === questions.length ? '/test/resultaat' : `/test/${questionId + 1}`;

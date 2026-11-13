@@ -1,13 +1,11 @@
 <script lang="ts">
 	import { results } from '../store';
 	import { goto } from '$app/navigation';
-	import { page } from '$app/stores';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 </script>
 
-<!-- @migration-task could not auto-migrate `$app/stores` to `$app/state`: legacy `export let` props; migrate manually -->
 <h2 class="heading">{data.heading}</h2>
 <p>
 	{@html data.question}
@@ -25,7 +23,7 @@
 			<button
 				on:click={() => {
 					results.set(data.index, answer);
-					goto(data.next, { noScroll: true });
+					goto(data.next, { reset: false });
 				}}>{answer}</button
 			>
 		</li>

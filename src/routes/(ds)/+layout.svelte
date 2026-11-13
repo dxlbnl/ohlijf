@@ -7,7 +7,7 @@
 
 	import { dev } from '$app/env';
 	import { inject } from '@vercel/analytics';
-	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit-next';
 	import type { Snippet } from 'svelte';
 
 	inject({ mode: dev ? 'development' : 'production' });

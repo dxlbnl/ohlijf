@@ -2,11 +2,10 @@
 	import Loader from '#lib/components/Loader.svelte';
 	import { results } from '../store';
 	import Input from '#lib/components/Input.svelte';
-	import { get } from 'svelte/store';
 	import { page } from '$app/state';
 	import { superForm } from 'sveltekit-superforms';
 
-	const { data } = get(page);
+	const { data } = page;
 
 	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form);
 </script>

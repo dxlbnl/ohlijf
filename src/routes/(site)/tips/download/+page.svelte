@@ -3,17 +3,16 @@
 	import Loader from '#lib/components/Loader.svelte';
 	import PageHeader from '#lib/components/PageHeader.svelte';
 	import { page } from '$app/state';
-	import { get } from 'svelte/store';
 	import { superForm } from 'sveltekit-superforms';
-	import { goto } from '$app/navigation';
 
-	const { data } = get(page);
+	const { data } = page;
 
 	const { form, errors, constraints, enhance, submitting, posted } = superForm(data.form, {
 		applyAction: false,
 		onResult({ result }) {
 			if (result.type === 'redirect') {
-				goto(result.location);
+				// The PDF is a static file, not a route, so goto() would reject it.
+				window.location.href = result.location;
 			}
 		}
 	});

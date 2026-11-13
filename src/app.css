@@ -116,10 +116,6 @@ button,
 		outline-style: solid;
 		outline-width: 3px;
 	}
-
-	& > :global(svg) {
-		animation: rotate 2s infinite;
-	}
 }
 
 a.button {
