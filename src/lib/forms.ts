@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const mailingFormSchema = z.object({
 	email: z.string().email('Vul een geldig e-mailadres in.')

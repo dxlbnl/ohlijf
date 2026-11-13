@@ -13,7 +13,7 @@
 <img
 	src="/images/{name}_{base}.webp"
 	class={cls}
-	style={style}
+	{style}
 	style:aspect-ratio={ratio}
 	{alt}
 	srcset={['webp', 'avif']

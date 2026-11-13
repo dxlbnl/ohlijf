@@ -11,7 +11,7 @@ supportedArchitectures:
     - musl
 
 allowBuilds:
-  "@resvg/resvg-js-linux-x64-musl": true
+  '@resvg/resvg-js-linux-x64-musl': true
   bufferutil: true
   esbuild: true
   node-libcurl: true

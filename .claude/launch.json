@@ -1,31 +1,17 @@
 {
-  "version": "0.0.1",
-  "configurations": [
-    {
-      "name": "ohlijf-dev",
-      "runtimeExecutable": "mise",
-      "runtimeArgs": [
-        "exec",
-        "--",
-        "pnpm",
-        "dev",
-        "--port",
-        "5173"
-      ],
-      "port": 5173
-    },
-    {
-      "name": "ohlijf-storybook",
-      "runtimeExecutable": "mise",
-      "runtimeArgs": [
-        "exec",
-        "--",
-        "pnpm",
-        "storybook",
-        "--ci",
-        "--no-open"
-      ],
-      "port": 6006
-    }
-  ]
+	"version": "0.0.1",
+	"configurations": [
+		{
+			"name": "ohlijf-dev",
+			"runtimeExecutable": "mise",
+			"runtimeArgs": ["exec", "--", "pnpm", "dev", "--port", "5173"],
+			"port": 5173
+		},
+		{
+			"name": "ohlijf-storybook",
+			"runtimeExecutable": "mise",
+			"runtimeArgs": ["exec", "--", "pnpm", "storybook", "--ci", "--no-open"],
+			"port": 6006
+		}
+	]
 }

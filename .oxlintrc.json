@@ -1,0 +1,19 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"plugins": ["typescript", "unicorn", "oxc", "import"],
+	"categories": {
+		"correctness": "error",
+		"suspicious": "warn"
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es2024": true
+	},
+	"ignorePatterns": [".svelte-kit/**", "build/**", "static/**", "test-results/**"],
+	"rules": {
+		"import/no-unassigned-import": "off",
+		"eslint/no-shadow": "off",
+		"unicorn/require-module-specifiers": "off"
+	}
+}

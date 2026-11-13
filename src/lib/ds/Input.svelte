@@ -47,8 +47,7 @@ Supports `bind:value`; any other attribute (name, type, required, …) goes to t
 			aria-invalid={errorText ? 'true' : undefined}
 			aria-describedby={describedBy}
 			bind:value
-			{...rest as HTMLTextareaAttributes}
-		></textarea>
+			{...rest as HTMLTextareaAttributes}></textarea>
 	{:else}
 		<input
 			{id}

@@ -13,7 +13,7 @@
 	--black: black;
 	--bg-pink: rgba(255, 229, 214, 0.25);
 
-	--rounded: .3rem;
+	--rounded: 0.3rem;
 
 	--wave-height: 8dvw;
 
@@ -117,11 +117,9 @@ button,
 		outline-width: 3px;
 	}
 
-	&> :global(svg) {
+	& > :global(svg) {
 		animation: rotate 2s infinite;
 	}
-
-
 }
 
 a.button {
@@ -136,7 +134,7 @@ a.button {
 	grid-template-areas: 'stack';
 	grid-template-columns: 100%;
 
-	&>* {
+	& > * {
 		grid-area: stack;
 	}
 }
@@ -149,12 +147,15 @@ a.button {
 	--feature: minmax(0, 5rem);
 
 	display: grid;
-	grid-template-columns:
-		[full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
+	grid-template-columns: [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(
+			--popout
+		) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(
+			--feature
+		) [feature-end] var(--full) [full-end];
 
 	grid-auto-rows: min-content;
 
-	&>* {
+	& > * {
 		grid-column: content;
 	}
 
@@ -180,12 +181,15 @@ a.button {
 	--feature: minmax(0, 5rem);
 
 	display: grid;
-	grid-template-columns:
-		[full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--gap) [sidebar-start] var(--sidebar) [sidebar-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
+	grid-template-columns: [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(
+			--popout
+		) [content-start] var(--content) [content-end] var(--gap) [sidebar-start] var(
+			--sidebar
+		) [sidebar-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
 
 	grid-auto-rows: min-content;
 
-	&>* {
+	& > * {
 		grid-column: content;
 	}
 

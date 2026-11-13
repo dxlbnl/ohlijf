@@ -1,0 +1,26 @@
+{
+	"$schema": "./node_modules/oxfmt/configuration_schema.json",
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 100,
+	"sortPackageJson": false,
+	"svelte": {},
+	"associations": [
+		{
+			"files": ["*.svelte"],
+			"language": "svelte"
+		}
+	],
+	"ignorePatterns": [
+		"pnpm-lock.yaml",
+		"package-lock.json",
+		"yarn.lock",
+		"**/*.md",
+		"static/**",
+		"drizzle/**",
+		".svelte-kit/**",
+		"build/**",
+		"test-results/**"
+	]
+}

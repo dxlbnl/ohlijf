@@ -33,7 +33,6 @@ export const load: PageLoad = async ({ params }) => {
 	}
 
 	const next = questionId === questions.length ? '/test/resultaat' : `/test/${questionId + 1}`;
-	`/test/${questionId + 1}`;
 
 	return {
 		...question,

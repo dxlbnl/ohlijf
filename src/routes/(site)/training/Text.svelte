@@ -1,11 +1,10 @@
 <div>
-    <slot />
+	<slot />
 </div>
 
-
 <style>
-    div {
-        width: 80%;
-        margin: auto
-    }
+	div {
+		width: 80%;
+		margin: auto;
+	}
 </style>

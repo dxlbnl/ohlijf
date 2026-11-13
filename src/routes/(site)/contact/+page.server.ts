@@ -17,8 +17,8 @@ export const actions = {
 		}
 
 		if (other) {
-			console.log(`Did not mail ${name} (${email}) with message: \n\t ${message}`)
-			return
+			console.log(`Did not mail ${name} (${email}) with message: \n\t ${message}`);
+			return;
 		}
 
 		try {

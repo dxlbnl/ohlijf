@@ -5,7 +5,7 @@
 		path: z.string(),
 		label: z.string(),
 		special: z.boolean().optional()
-	})
+	});
 
 	export const menuSchema = z.array(
 		menuItemSchema.extend({
@@ -60,9 +60,12 @@
 					<a href={item.path}>{item.label}</a>
 
 					{#if item.items}
-						<ul class='submenu'>
+						<ul class="submenu">
 							{#each item.items as subitem}
-								<li data-active={$page.url.pathname === subitem.path} class:special={subitem.special}>
+								<li
+									data-active={$page.url.pathname === subitem.path}
+									class:special={subitem.special}
+								>
 									<a href={subitem.path}>{subitem.label}</a>
 								</li>
 							{/each}
@@ -77,10 +80,19 @@
 					rel="noopener noreferrer"
 					aria-label="OhLijf op Instagram"
 				>
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-						<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-						<circle cx="12" cy="12" r="4"/>
-						<circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						aria-hidden="true"
+					>
+						<rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+						<circle cx="12" cy="12" r="4" />
+						<circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
 					</svg>
 				</a>
 			</li>
@@ -112,8 +124,7 @@
 			color: var(--green);
 		}
 
-
-		&  ul {
+		& ul {
 			display: grid;
 			grid-auto-flow: column;
 			justify-items: end;
@@ -131,8 +142,7 @@
 			& > li {
 				white-space: nowrap;
 
-
-				&:has(a:hover,a:focus) .submenu {
+				&:has(a:hover, a:focus) .submenu {
 					max-height: 100%;
 				}
 			}
@@ -168,7 +178,7 @@
 		}
 
 		& .submenu {
-			transition: all .3s;
+			transition: all 0.3s;
 			max-height: 0;
 			overflow: hidden;
 			position: absolute;
@@ -176,7 +186,7 @@
 
 			grid-auto-flow: row;
 			padding-inline: 1rem;
-			margin-left:-1rem;
+			margin-left: -1rem;
 			justify-items: start;
 
 			& a {
@@ -263,7 +273,6 @@
 			margin: 0;
 			margin-top: 1rem;
 			margin-inline: 1rem;
-
 		}
 		nav .submenu a {
 			line-height: normal;

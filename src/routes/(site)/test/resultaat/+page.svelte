@@ -18,9 +18,7 @@
 	<form method="POST" use:enhance>
 		<h2 class="heading">Bedankt voor het invullen</h2>
 
-		<p class="large">
-			Vul je e-mailadres in om het resultaat te ontvangen.
-		</p>
+		<p class="large">Vul je e-mailadres in om het resultaat te ontvangen.</p>
 
 		<Input
 			label="Voornaam:"
