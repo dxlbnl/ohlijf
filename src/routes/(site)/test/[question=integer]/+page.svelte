@@ -2,6 +2,7 @@
 	import { results } from '../store';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 </script>

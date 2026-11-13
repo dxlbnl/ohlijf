@@ -5,7 +5,6 @@ import { downloadFormSchema } from '$lib/forms';
 
 import type { Actions, PageServerLoad } from './$types';
 import { addOrUpdateContact } from '$lib/systeme';
-// import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 
 export const load: PageServerLoad = async () => {
 	return { form: await superValidate(zod(downloadFormSchema)) };

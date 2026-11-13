@@ -8,7 +8,7 @@
 <label>
 	{label}
 	{#if type === 'textarea'}
-		<textarea {...$$restProps} bind:value />
+		<textarea {...$$restProps} bind:value></textarea>
 	{:else if type === 'text'}
 		<input type="text" {...$$restProps} bind:value />
 	{:else if type === 'email'}

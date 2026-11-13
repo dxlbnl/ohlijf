@@ -37,7 +37,7 @@ export const actions = {
 				].join('\n')
 			);
 
-			console.log('Message sent: %s', (info as any)?.data?.id || (info as any)?.messageId);
+			console.log('Message sent: %s', info.id);
 		} catch (e) {
 			console.error('Failed to log or send email:', e);
 		}

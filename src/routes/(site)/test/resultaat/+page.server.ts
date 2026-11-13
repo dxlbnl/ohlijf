@@ -5,7 +5,6 @@ import { testForm } from '$lib/forms.js';
 import { fail, superValidate } from 'sveltekit-superforms';
 import type { PageServerLoad } from './$types';
 import { addOrUpdateContact, type Tag } from '$lib/systeme';
-// import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 import questions from '../vragen.yaml';
 
 export const load: PageServerLoad = async () => {
@@ -68,7 +67,7 @@ export const actions = {
 				].join('\n')
 			);
 
-			console.log('Message sent: %s', info.messageId);
+			console.log('Message sent: %s', info.id);
 		} catch (e) {
 			console.error('Failed to send email:', e);
 		}

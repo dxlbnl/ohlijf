@@ -6,7 +6,6 @@ import { mailHome } from '$lib/mail';
 
 import type { Actions } from './$types';
 import { addOrUpdateContact } from '$lib/systeme';
-// import { addOrUpdateMailinglistMember } from '$lib/mailchimp';
 
 export const actions: Actions = {
 	async mailinglist({ request }) {
@@ -63,7 +62,7 @@ export const actions: Actions = {
 				].join('\n')
 			);
 
-			console.log('Message sent: %s', info.messageId);
+			console.log('Message sent: %s', info.id);
 		} catch (e) {
 			console.error('Failed to send email:', e);
 		}

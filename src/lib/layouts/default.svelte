@@ -15,7 +15,7 @@
 	export let foto = 'default/armen-wijd';
 	export let fotoPositie = 'center';
 	export let sidebar = true;
-	export let meta = {};
+	export let meta: Record<string, string> = {};
 	export let testBanner = false;
 
 	export let style = '';

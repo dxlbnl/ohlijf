@@ -1,6 +1,7 @@
 import satori from 'satori';
 import { html as toReactNode } from 'satori-html';
 import { Resvg } from '@resvg/resvg-js';
+import { render } from 'svelte/server';
 // import NotoSans from '$lib/NotoSans-Regular.ttf';
 import Raleway from './Raleway-ExtraBold.ttf';
 
@@ -11,15 +12,17 @@ const fontData = read(Raleway).arrayBuffer();
 
 /** @type {import('./$types').RequestHandler} */
 export const GET = async () => {
-	const result = Card.render();
-	const element = toReactNode(`${result.html}<style>${result.css.code}</style>`);
+	// Card uses css="injected", so its <style> ends up in `head`.
+	const { head, body } = render(Card);
+	const element = toReactNode(`${body}${head}`) as unknown as Parameters<typeof satori>[0];
 
 	const svg = await satori(element, {
 		fonts: [
 			{
 				name: 'Raleway',
 				data: await fontData,
-				style: 'bold'
+				weight: 800,
+				style: 'normal'
 			}
 		],
 		...size
@@ -34,7 +37,7 @@ export const GET = async () => {
 
 	const image = resvg.render();
 
-	return new Response(image.asPng(), {
+	return new Response(new Uint8Array(image.asPng()), {
 		headers: {
 			'content-type': 'image/png'
 		}

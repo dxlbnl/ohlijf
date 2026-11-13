@@ -1,4 +1,6 @@
-<script context="module">
+<svelte:options css="injected" />
+
+<script module>
 	export const size = {
 		height: 600,
 		width: 800
