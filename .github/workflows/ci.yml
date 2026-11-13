@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      # Placeholders so the build has every env var; SYSTEME_MOCK keeps tests away from Systeme.io.
+      POSTGRES_URL: postgres://ci:ci@localhost:5432/ci
+      SYSTEME_API_KEY: ci
+      SYSTEME_MOCK: 'true'
+      RESEND_API_KEY: re_ci
+      THEHUDDLE_CLIENT_ID: ci
+      THEHUDDLE_TENANT_ID: ci
+      THEHUDDLE_CLIENT_SECRET: ci
+      THEHUDDLE_USER: ci
+      THEHUDDLE_PASSWORD: ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check
+      - run: pnpm lint
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test
