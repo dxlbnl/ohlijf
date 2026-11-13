@@ -13,8 +13,8 @@ pnpm dev          # Start dev server
 pnpm build        # Production build
 pnpm preview      # Preview production build
 pnpm check        # Type-check with svelte-check
-pnpm lint         # Prettier + ESLint check
-pnpm format       # Auto-format with Prettier
+pnpm lint         # Oxfmt + Oxlint check
+pnpm format       # Auto-format with Oxfmt
 pnpm test         # Run Playwright e2e tests
 pnpm storybook    # Component development server on :6006
 ```
@@ -23,12 +23,14 @@ Database migrations are managed via Drizzle Kit. The config reads from `.env.dev
 
 ## Architecture
 
-**Framework**: SvelteKit with Vercel adapter, deployed to Vercel. Package manager is `pnpm`.
+**Framework**: SvelteKit 3 with Vercel adapter, deployed to Vercel. Package manager is `pnpm`. All SvelteKit config (adapter, mdsvex preprocessor, extensions) lives in the `sveltekit({...})` plugin in `vite.config.ts`; there is no `svelte.config.js`. Import shared code via `#lib/...` (not `$lib`), page state via `$app/state` (not `$app/stores`), and private env vars via `$app/env/private` (declared in `src/env.ts`). Use `@vercel/speed-insights/sveltekit-next`, not `/sveltekit`.
+
+**CI**: `.github/workflows/ci.yml` runs `pnpm check`, `pnpm lint` and Playwright on PRs and `main`.
 
 **Route Groups** (`src/routes/`):
 - `(site)/` — public marketing site; shares a layout that injects `Navigation`, `Footer`, Vercel Analytics + Speed Insights, and pre-loads both the mailing and training forms via `+layout.server.ts`. Adding `?focus` to a URL hides the navigation.
 - `(ds)/` — pages in the new design system (`src/lib/ds/`, Svelte 5 components with Storybook stories); own layout with `SiteHeader`/`SiteFooter`, does not load `app.css`. Tokens are scoped to `.ds` to avoid clashes with legacy variables.
-- `(tools)/` — isolated pages without standard nav: `/rust-aankoop` (Systeme.io sale webhook → The Huddle access) and `/og` (OG image generation). `/og/stats/*` are unused legacy analytics proxies.
+- `(tools)/` — isolated pages without standard nav: `/rust-aankoop` (Systeme.io sale webhook → The Huddle access) and `/og` (OG image generation).
 
 **Markdown Pages**: `.md` files in routes are processed by `mdsvex` and automatically wrapped in `src/lib/layouts/default.svelte`. Frontmatter props: `titel`, `omschrijving`, `foto`, `fotoPositie`, `sidebar`, `testBanner`, `meta`, `style`. The navigation links are driven by `src/routes/(site)/menu.yaml`.
 
@@ -48,7 +50,6 @@ Database migrations are managed via Drizzle Kit. The config reads from `.env.dev
 | The Huddle | `src/lib/thehuddle/api.ts` | Course platform — SSO login + CSRF workaround to create users via admin UI scraping |
 | Resend | `src/lib/mail.ts` | `mailHome()` sends notification mails to info@ohlijf.com |
 | Vercel Analytics / Speed Insights | `src/routes/(site)/+layout.svelte` | Analytics (replaced Matomo in May 2026) |
-| Mailchimp | `src/lib/mailchimp.ts` | **Inactive** — replaced by Systeme.io; all imports are commented out |
 
 ## Environment Variables
 
@@ -59,7 +60,6 @@ Required in `.env.local` / `.env`:
 - `SYSTEME_MOCK` — optional; `true` makes `addOrUpdateContact` log instead of calling Systeme.io (handy locally)
 - `THEHUDDLE_CLIENT_ID`, `THEHUDDLE_TENANT_ID`, `THEHUDDLE_CLIENT_SECRET` — The Huddle OAuth
 - `THEHUDDLE_USER`, `THEHUDDLE_PASSWORD` — The Huddle admin login used by the `/rust-aankoop` webhook
-- `MAILCHIMP_API_KEY` — only needed while `src/lib/mailchimp.ts` still exists
 
 Drizzle migrations specifically read from `.env.development.local`.
 

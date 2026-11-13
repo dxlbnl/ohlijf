@@ -18,7 +18,7 @@ This is the central catalog of the OhLijf project wiki.
 
 ## Concepts & Integrations
 - [Business Context](concepts/business-model.md) - High-level goals, target demographics, and psychological approach.
-- [Email Integrations](concepts/email-integrations.md) - Resend notification mails; Systeme.io for marketing (Mailchimp inactive).
+- [Email Integrations](concepts/email-integrations.md) - Resend notification mails; Systeme.io for marketing (Mailchimp removed).
 - [Systeme.io Integration](integrations/systeme-io.md) - Custom API handling for CRM tags and contacts.
 - [The Huddle Integration](integrations/the-huddle.md) - Automated SSO and course registration workflows.
 

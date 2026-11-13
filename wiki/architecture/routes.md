@@ -37,7 +37,6 @@ Pages built with the [new design system](design-system.md): own layout with `Sit
 ## `(tools)` Group
 - `/rust-aankoop` — `POST` webhook from a Systeme.io funnel (`customer.sale.completed`). Logs into [The Huddle](../integrations/the-huddle.md) and creates the user or adds level `57520`.
 - `/og` — dynamic OpenGraph images via `satori` + `@resvg/resvg-js` (`/og/preview` to inspect).
-- `/og/stats/*` — legacy proxies to old self-hosted Matomo/Plausible analytics; no longer referenced, candidates for removal.
 
 ## Markdown pages
 `.md` files are processed by mdsvex and wrapped in `src/lib/layouts/default.svelte`. Supported frontmatter: `titel`, `omschrijving`, `foto` (image name under `static/images`), `fotoPositie`, `sidebar` (default `true`), `testBanner`, `meta`, `style`.

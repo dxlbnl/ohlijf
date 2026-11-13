@@ -15,4 +15,4 @@ date: 2026-11-12
 
 ## Marketing & Newsletter
 - **Provider**: [Systeme.io](../integrations/systeme-io.md) — contacts are tagged (`nieuwsbrief`, `interesse`, test outcome tags) and Systeme.io handles the email automations.
-- **Mailchimp** (`src/lib/mailchimp.ts`) is inactive: every import of it is commented out. It can be removed together with `MAILCHIMP_API_KEY`.
+- **Mailchimp** was removed in November 2026 (code and packages); `MAILCHIMP_API_KEY` is no longer needed.

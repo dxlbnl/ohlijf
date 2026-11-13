@@ -9,6 +9,9 @@ date: 2026-04-10
 
 Append-only record of wiki modifications.
 
+## [2026-11-13] update | Project renovation (branch chore/renovatie)
+Removed unused packages, Mailchimp and `/og/stats`; fixed all type errors (Resend failures now throw, `/og` renders with Svelte 5 `render()`). Replaced ESLint + Prettier with Oxlint + Oxfmt. Upgraded to SvelteKit 3 (config in `vite.config.ts`, `#lib`, `$app/state`, `$app/env/private` + `src/env.ts`), adapter-vercel 7, superforms 3, satori 0.63, jsdom 31. Speed Insights now via `sveltekit-next`. Added GitHub Actions CI. TypeScript stays on 6. Updated `tech-stack`, `routes`, `email-integrations`, `index`, `CLAUDE.md`.
+
 ## [2026-11-13] fix | White edge on design-system pages
 `(ds)/+layout.svelte` now sets `body { margin: 0 }`; without `app.css` the browser's default 8px margin showed a white border around the hero and footer.
 
