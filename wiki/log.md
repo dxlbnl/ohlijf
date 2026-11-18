@@ -9,6 +9,15 @@ date: 2026-04-10
 
 Append-only record of wiki modifications.
 
+## [2026-11-18] update | Game Changer: bands and new about photo
+New DS component `Band` (+ story). `/gamechanger`: Pssst as peach strip, "Daarom: de Game Changer" and "Unieke aanpak" as full-width panels with the review below (no side-by-side), keerpunt section as plain centred text with only the sticker standing out, "de Game Changer" title restored above "Experience in 21 dagen", about photo replaced by the ADHerDay photo (adherday_samen.jpg, cropped above the Dopamina's logo) (`~/Documents/Ohlijf/Foto's`). Updated `design-system`.
+
+## [2026-11-18] update | Game Changer: no menu, screenshots, photo placement
+`(ds)` layout hides the header when page data has `salespage: true`. `/gamechanger` uses the review screenshots as images again, the original week icons and training mockup, and photos next to the same copy as on Systeme.io. Updated `routes`, `design-system`.
+
+## [2026-11-18] create | Game Changer sales page
+Ported `ohlijf.systeme.io/gamechanger` to `/gamechanger` in the `(ds)` group (all copy, FAQ, 3-week board, offer card, countdowns, CTAs to the Systeme.io waiting list). New DS component `Countdown` + story. Updated `routes`, `design-system`.
+
 ## [2026-11-13] fix | White edge on design-system pages
 `(ds)/+layout.svelte` now sets `body { margin: 0 }`; without `app.css` the browser's default 8px margin showed a white border around the hero and footer.
 

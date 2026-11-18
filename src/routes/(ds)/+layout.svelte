@@ -6,6 +6,7 @@
 	import { footerLinks, headerCta, instagramUrl, navItems } from '$lib/ds/site';
 
 	import { dev } from '$app/environment';
+	import { page } from '$app/state';
 	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import type { Snippet } from 'svelte';
@@ -14,6 +15,9 @@
 	injectSpeedInsights();
 
 	let { children }: { children: Snippet } = $props();
+
+	// Sales pages return `{ salespage: true }` from their load: no header/menu, no distractions.
+	const salespage = $derived(page.data.salespage === true);
 </script>
 
 <svelte:head>
@@ -21,8 +25,10 @@
 </svelte:head>
 
 <!-- data-sveltekit-reload: links to legacy pages do a full load, so their CSS starts clean. -->
-<div class="ds" data-sveltekit-reload>
-	<SiteHeader items={navItems} cta={headerCta} />
+<div class="ds" class:ds--salespage={salespage} data-sveltekit-reload>
+	{#if !salespage}
+		<SiteHeader items={navItems} cta={headerCta} />
+	{/if}
 	<main id="main">
 		{@render children()}
 	</main>
@@ -41,5 +47,8 @@
 		/* The legacy body is a CSS grid; make sure this root spans it fully. */
 		grid-column: 1 / -1;
 		grid-row: 1 / -1;
+	}
+	.ds--salespage {
+		grid-template-rows: 1fr auto;
 	}
 </style>
