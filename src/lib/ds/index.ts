@@ -1,8 +1,10 @@
 // OhLijf design system — Svelte components.
 // Tokens and base styles: import './styles.css' once (done in the (ds) layout and Storybook preview).
 export { default as Badge } from './Badge.svelte';
+export { default as Band } from './Band.svelte';
 export { default as Button } from './Button.svelte';
 export { default as Card } from './Card.svelte';
+export { default as Countdown } from './Countdown.svelte';
 export { default as Hero } from './Hero.svelte';
 export { default as Input } from './Input.svelte';
 export { default as RulesPanel } from './RulesPanel.svelte';

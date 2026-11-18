@@ -24,13 +24,15 @@ The new OhLijf look ("garden-fresh, playful, game-board") is defined in the **Oh
 | `Badge`, `Sticker` | peach variants use `ink-900` text for contrast (deviation from the DS) |
 | `RulesPanel` | "Spelregels" numbered list; used for landing-page bullets |
 | `Hero` | not a DS component (only in the marketing kit); eyebrow, Caveat script line, title + marker `highlight`, lead, children (actions/form), `media` snippet. With `image` it becomes a **photo header**: ≥901px text on a green panel left and the photo on the right 64%; ≤900px the photo is a 4:3 block on top with the text below on green. Use photos with faces in the upper half. |
+| `Band` | full-width band for one short standalone message so it is read on its own (Robin: two things side by side split attention). `strip` = narrow strip, Caveat label left + text right (`tone` green/peach); `panel` = rounded dark-green panel with kicker, Caveat title, centred text |
+| `Countdown` | days/hours/min/sec as pop-style tiles to a fixed `deadline`; `tone` light/dark; renders nothing after the deadline; screen readers get one sentence instead of ticking digits |
 | `SiteHeader` | sticky header from `site.ts`; mobile menu toggle below 900px, CTA moves into the menu |
 | `SiteFooter` | deliberately minimal (Robin's choice): dark-green bar with `© <year> OhLijf` the links from `footerLinks` in `site.ts` (Contact, Privacybeleid, Disclaimer, Algemene voorwaarden) and an Instagram icon (`instagram` prop, URL `instagramUrl` in `site.ts`) |
 
 Not ported yet (build when needed): IconButton, Checkbox, PlayControls, ProgressMeter.
 
 ## Pages
-Pages in the new style live in the `src/routes/(ds)/` group. Its layout imports `$lib/ds/styles.css` (not `app.css`), renders `SiteHeader` + `SiteFooter` inside a `.ds` root with `data-sveltekit-reload` (links to legacy pages do a full load). First page: [/meditatie-veilig](routes.md).
+Pages in the new style live in the `src/routes/(ds)/` group. Its layout imports `$lib/ds/styles.css` (not `app.css`), renders `SiteHeader` + `SiteFooter` inside a `.ds` root with `data-sveltekit-reload` (links to legacy pages do a full load). A page whose load returns `{ salespage: true }` gets no `SiteHeader` (sales pages: no menu, no distraction). First page: [/meditatie-veilig](routes.md); sales page: [/gamechanger](routes.md).
 
 ## Storybook
 `pnpm storybook` (port 6006). Stories sit next to components (`*.stories.svelte`, addon-svelte-csf v5). Storybook was upgraded to a consistent v10 setup (removed v8-only addons, added `@storybook/addon-docs`); the preview adds the `ds` class to `<body>`.
