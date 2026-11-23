@@ -12,7 +12,8 @@ export type Tag =
 	| 'Vermoeidheid'
 	| 'Pijn'
 	| 'Anders'
-	| 'meditatie-veilig anders';
+	| 'meditatie-veilig anders'
+	| 'hohoho';
 
 const tagMap: Record<Tag, number> = {
 	nieuwsbrief: 1076903,
@@ -22,7 +23,8 @@ const tagMap: Record<Tag, number> = {
 	Vermoeidheid: 868216,
 	Pijn: 868217,
 	Anders: 868214,
-	'meditatie-veilig anders': 2289936
+	'meditatie-veilig anders': 2289936,
+	hohoho: 2311439
 };
 
 type ContactField = {
@@ -138,7 +140,8 @@ export const addOrUpdateContact = async ({ email, tags, name }: Props) => {
 			]
 		: null;
 
-	const newTagIds = new Set(tags.map((tag) => tagMap[tag]));
+	// Tags without an ID yet (0) are skipped instead of sent to Systeme.io.
+	const newTagIds = new Set(tags.map((tag) => tagMap[tag]).filter((id) => id > 0));
 
 	if (contact) {
 		console.log('Updating contact', contact.email, 'with fields', fields);
