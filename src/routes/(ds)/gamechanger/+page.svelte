@@ -447,8 +447,9 @@
 </section>
 
 <!-- Aanbod -->
-<section class="section ds-container offer" id="aanbod">
-	<Card variant="pop" as="article" class="offer__card" aria-labelledby="offer-title">
+<section class="section ds-container offer">
+	<!-- Scroll target of all buttons: the card itself, so small screens land on the price, not the mockup. -->
+	<Card variant="pop" as="article" class="offer__card" id="aanbod" aria-labelledby="offer-title">
 		<div class="offer__head">
 			<h2 id="offer-title" class="offer__title">de Game Changer</h2>
 			<p class="offer__start">Start samen {startdatum}</p>
@@ -592,7 +593,8 @@
 				<strong>Bonus:</strong> 1-op-1 sessie “Blueprint voor mijn pijn” met coach Robin Boelsums
 			</li>
 		</ul>
-		<Button variant="pop" size="lg" href={toAanbod} popColor="var(--yellow-600)">Ik doe mee!</Button>
+		<Button variant="pop" size="lg" href={toAanbod} popColor="var(--yellow-600)">Ik doe mee!</Button
+		>
 	</div>
 </section>
 
@@ -1029,10 +1031,10 @@
 		justify-content: center;
 		align-items: center;
 		gap: clamp(32px, 6vw, 72px);
-		scroll-margin-top: 24px;
 	}
 	:global(.offer__card) {
 		padding: var(--space-8) !important;
+		scroll-margin-top: 16px;
 	}
 	.offer__side {
 		order: -1;
