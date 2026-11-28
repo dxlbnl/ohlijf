@@ -1,14 +1,13 @@
 <script lang="ts">
-	import { Badge, Band, Button, Card, Countdown, Hero, RulesPanel, Sticker } from '$lib/ds';
+	import { Badge, Band, Button, Card, Hero, RulesPanel, Sticker } from '$lib/ds';
 
 	// ---- Campagne-instellingen: pas deze aan voor een nieuwe ronde ----
 	/** Alle knoppen gaan naar het Systeme.io-bestelformulier (betaling + tag via Systeme). */
 	const ctaUrl = 'https://ohlijf.systeme.io/game-changer-7dsg43hs';
-	/** Einde van de tijdelijke korting; de timers verdwijnen daarna vanzelf. */
-	const deadline = '2026-11-27T23:30:00+01:00';
+	// Voor een nieuwe actie met afteltimer: zie `Countdown` in $lib/ds (git-historie van deze pagina).
 	const startdatum = 'maandag 25 januari';
 	const looptijd = 'maandag 25 januari t/m vrijdag 12 februari';
-	const prijs = '49,-';
+	const prijs = '199,-';
 	const waarde = '€447';
 	// -------------------------------------------------------------------
 
@@ -82,7 +81,7 @@
 	] as const;
 
 	const aanbod = [
-		{ text: '21 dagen begeleiding met video’s en oefeningen', value: 'Normaal €199' },
+		{ text: '21 dagen begeleiding met video’s en oefeningen', value: 't.w.v. €199' },
 		{ text: 'Community met de leukste vrouwen om ervaringen uit te wisselen' }
 	];
 	const bonussen = [
@@ -190,23 +189,15 @@
 	</figure>
 {/snippet}
 
-{#snippet countdownBlock(tone: 'light' | 'dark')}
-	<Countdown {deadline} {tone} label="Het tijdelijke aanbod loopt nog" />
-{/snippet}
-
-<!-- Tijdelijk aanbod -->
-<div class="promo">
-	<div class="promo__inner ds-container">
-		<img
-			class="promo__logo"
-			src="/images/ds/ohlijf-logo.png"
-			alt="OhLijf"
-			width="110"
-			height="38"
-		/>
-		<span class="promo__text">Tijdelijk: <strong>90% korting + BONUS masterclass</strong></span>
-		<Countdown {deadline} class="promo__timer" label="Het tijdelijke aanbod loopt nog" />
-	</div>
+<!-- Alleen het logo bovenaan (geen menu op een salespage) -->
+<div class="brandbar">
+	<img
+		class="brandbar__logo"
+		src="/images/ds/ohlijf-logo.png"
+		alt="OhLijf"
+		width="110"
+		height="38"
+	/>
 </div>
 
 <Hero
@@ -457,13 +448,12 @@
 <section class="section ds-container offer" id="aanbod">
 	<Card variant="pop" as="article" class="offer__card" aria-labelledby="offer-title">
 		<div class="offer__head">
-			<Sticker tone="yellow" size="sm" tilt={-4}>Tijdelijk aanbod</Sticker>
 			<h2 id="offer-title" class="offer__title">de Game Changer</h2>
 			<p class="offer__start">Start samen {startdatum}</p>
 		</div>
 		<div class="offer__price">
-			<span class="offer__was">Totale waarde <s>{waarde}</s></span>
-			<span class="offer__now"><span class="offer__nu">Nu slechts</span> €{prijs}</span>
+			<span class="offer__was">Totale waarde {waarde}</span>
+			<span class="offer__now"><span class="offer__nu">Jouw investering</span> €{prijs}</span>
 		</div>
 		<h3 class="offer__sub">Dit krijg je 👇</h3>
 		<ul class="offer__list">
@@ -480,7 +470,6 @@
 			{/each}
 		</ul>
 		<div class="offer__cta">
-			{@render countdownBlock('light')}
 			<Button variant="pop" size="lg" block href={ctaUrl}>Dit wil ik!</Button>
 		</div>
 	</Card>
@@ -587,15 +576,13 @@
 <!-- Slot-CTA -->
 <section class="final">
 	<div class="ds-container final__inner">
-		{@render countdownBlock('dark')}
 		<p class="final__script">Speel mee</p>
 		<h2 class="final__title">de Game Changer</h2>
 		<p class="final__lead">
 			Ontdek de diepere oorzaak van je hoofdpijn zodat je in je hele lijf voelt: ik kan herstellen.
 		</p>
 		<p class="final__price">
-			Tijdelijk 90% korting. Je betaalt geen <s>{waarde}</s> maar slechts
-			<strong>€{prijs}</strong>
+			Totale waarde {waarde}. Jouw investering: <strong>€{prijs}</strong>
 		</p>
 		<ul class="final__bonus">
 			<li><strong>Bonus:</strong> direct toegang tot de Masterclass Hoofdpijn en je brein</li>
@@ -792,40 +779,17 @@
 		border-color: var(--green-200);
 	}
 
-	/* ---------- Promo bar ---------- */
-	.promo {
-		background: var(--yellow-300);
-		border-bottom: 2px solid var(--ink-900);
-	}
-	.promo__inner {
+	/* ---------- Brand bar (logo only) ---------- */
+	.brandbar {
 		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
 		justify-content: center;
-		gap: var(--space-3) var(--space-6);
 		padding-block: var(--space-3);
+		background: var(--surface-page);
+		border-bottom: 1px solid var(--border);
 	}
-	.promo__logo {
-		height: 30px;
+	.brandbar__logo {
+		height: 32px;
 		width: auto;
-		margin-inline-end: auto;
-	}
-	.promo__text {
-		font-size: var(--text-md);
-		color: var(--ink-900);
-		text-align: center;
-	}
-	.promo :global(.promo__timer .tile) {
-		min-width: 2.6rem;
-		padding: 4px 6px 3px;
-		box-shadow: 2px 2px 0 var(--green-700);
-	}
-	.promo :global(.promo__timer .value),
-	.promo :global(.promo__timer .sep) {
-		font-size: var(--text-lg);
-	}
-	.promo :global(.promo__timer .sep) {
-		line-height: 1.8;
 	}
 
 	/* ---------- Pain ---------- */
@@ -1334,9 +1298,6 @@
 		.future__photo,
 		.expect__photo {
 			max-width: 320px;
-		}
-		.promo__logo {
-			margin-inline-end: 0;
 		}
 		.offer__now {
 			font-size: var(--text-4xl);
