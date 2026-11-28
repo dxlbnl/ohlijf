@@ -2,8 +2,10 @@
 	import { Badge, Band, Button, Card, Hero, RulesPanel, Sticker } from '$lib/ds';
 
 	// ---- Campagne-instellingen: pas deze aan voor een nieuwe ronde ----
-	/** Alle knoppen gaan naar het Systeme.io-bestelformulier (betaling + tag via Systeme). */
+	/** Alleen de "Dit wil ik!"-knop in het aanbod gaat naar het Systeme.io-bestelformulier (betaling + tag). */
 	const ctaUrl = 'https://ohlijf.systeme.io/game-changer-7dsg43hs';
+	/** Alle andere knoppen scrollen eerst naar het aanbod, zodat mensen de prijs zien. */
+	const toAanbod = '#aanbod';
 	// Voor een nieuwe actie met afteltimer: zie `Countdown` in $lib/ds (git-historie van deze pagina).
 	const startdatum = 'maandag 25 januari';
 	const looptijd = 'maandag 25 januari t/m vrijdag 12 februari';
@@ -212,7 +214,7 @@
 		position: 'center 30%'
 	}}
 >
-	<Button variant="pop" size="lg" href={ctaUrl}>Ik doe mee!</Button>
+	<Button variant="pop" size="lg" href={toAanbod}>Ik doe mee!</Button>
 </Hero>
 
 <!-- Herkenning -->
@@ -290,7 +292,7 @@
 		<p>Je voelt tot in je tenen dat er niks mis is met je.</p>
 		<p>En je weet dat herstel voor jou (ja jou!) echt mogelijk is.</p>
 		<Sticker tone="yellow" size="md" tilt={-3} class="turn__sticker">Dit is het keerpunt</Sticker>
-		<Button variant="pop" size="lg" href={ctaUrl}>Ik wil het anders!</Button>
+		<Button variant="pop" size="lg" href={toAanbod}>Ik wil het anders!</Button>
 	</div>
 </section>
 
@@ -373,7 +375,7 @@
 		</Card>
 	</div>
 	<div class="center">
-		<Button variant="pop" size="lg" href={ctaUrl}>Ik ga er gewoon voor!</Button>
+		<Button variant="pop" size="lg" href={toAanbod}>Ik ga er gewoon voor!</Button>
 	</div>
 </section>
 
@@ -398,7 +400,7 @@
 			'Sabine is 56 en heeft de meeste dagen hoofdpijn of migraine. Ze zegt over de Game Changer:',
 			'Chatbericht van Sabine: ik heb de meeste vinkjes staan bij subtiele incheck gedachten. En geen bij gedachten over controle. Ik heb me vandaag ook al bedacht dat ik sinds de start nog geen hoofdpijn heb gehad.'
 		)}
-		<Button variant="pop" size="lg" href={ctaUrl}>Jaaa dit wil ik!</Button>
+		<Button variant="pop" size="lg" href={toAanbod}>Jaaa dit wil ik!</Button>
 		{@render quote('Mia', 'Mia:', [
 			'Ik kreeg het gevoel dat ik me nergens voor hoef te schamen, dat eigenlijk alles er mag zijn.'
 		])}
@@ -440,20 +442,21 @@
 		<p class="big">
 			Die constante twijfel "wat doe ik verkeerd", maakt plaats voor rust en helderheid.
 		</p>
-		<Button variant="pop" size="lg" href={ctaUrl}>Zaaalig, ik doe mee!</Button>
+		<Button variant="pop" size="lg" href={toAanbod}>Zaaalig, ik doe mee!</Button>
 	</div>
 </section>
 
 <!-- Aanbod -->
-<section class="section ds-container offer" id="aanbod">
-	<Card variant="pop" as="article" class="offer__card" aria-labelledby="offer-title">
+<section class="section ds-container offer">
+	<!-- Scroll target of all buttons: the card itself, so small screens land on the price, not the mockup. -->
+	<Card variant="pop" as="article" class="offer__card" id="aanbod" aria-labelledby="offer-title">
 		<div class="offer__head">
 			<h2 id="offer-title" class="offer__title">de Game Changer</h2>
 			<p class="offer__start">Start samen {startdatum}</p>
 		</div>
 		<div class="offer__price">
 			<span class="offer__was">Totale waarde {waarde}</span>
-			<span class="offer__now"><span class="offer__nu">Jouw investering</span> €{prijs}</span>
+			<span class="offer__now"><span class="offer__nu">Jouw investering</span> {prijs}</span>
 		</div>
 		<h3 class="offer__sub">Dit krijg je 👇</h3>
 		<ul class="offer__list">
@@ -582,7 +585,7 @@
 			Ontdek de diepere oorzaak van je hoofdpijn zodat je in je hele lijf voelt: ik kan herstellen.
 		</p>
 		<p class="final__price">
-			Totale waarde {waarde}. Jouw investering: <strong>€{prijs}</strong>
+			Totale waarde {waarde}. Jouw investering: <strong>{prijs}</strong>
 		</p>
 		<ul class="final__bonus">
 			<li><strong>Bonus:</strong> direct toegang tot de Masterclass Hoofdpijn en je brein</li>
@@ -590,7 +593,8 @@
 				<strong>Bonus:</strong> 1-op-1 sessie “Blueprint voor mijn pijn” met coach Robin Boelsums
 			</li>
 		</ul>
-		<Button variant="pop" size="lg" href={ctaUrl} popColor="var(--yellow-600)">Ik doe mee!</Button>
+		<Button variant="pop" size="lg" href={toAanbod} popColor="var(--yellow-600)">Ik doe mee!</Button
+		>
 	</div>
 </section>
 
@@ -777,6 +781,13 @@
 	.quote--green .quote__bubble {
 		background: var(--green-100);
 		border-color: var(--green-200);
+	}
+
+	/* Buttons jump to the offer: glide there, unless the visitor prefers less motion. */
+	@media (prefers-reduced-motion: no-preference) {
+		:global(html) {
+			scroll-behavior: smooth;
+		}
 	}
 
 	/* ---------- Brand bar (logo only) ---------- */
@@ -1020,10 +1031,10 @@
 		justify-content: center;
 		align-items: center;
 		gap: clamp(32px, 6vw, 72px);
-		scroll-margin-top: 80px;
 	}
 	:global(.offer__card) {
 		padding: var(--space-8) !important;
+		scroll-margin-top: 16px;
 	}
 	.offer__side {
 		order: -1;
@@ -1063,7 +1074,7 @@
 	}
 	.offer__now {
 		font-weight: var(--weight-extra);
-		font-size: var(--text-5xl);
+		font-size: var(--text-3xl);
 		line-height: 1;
 		color: var(--ink-900);
 		letter-spacing: var(--tracking-tight);
@@ -1261,7 +1272,7 @@
 		font-size: var(--text-lg);
 	}
 	.final__price strong {
-		font-size: var(--text-2xl);
+		font-size: var(--text-xl);
 		color: var(--yellow-400);
 	}
 	.final__bonus {
@@ -1300,7 +1311,7 @@
 			max-width: 320px;
 		}
 		.offer__now {
-			font-size: var(--text-4xl);
+			font-size: var(--text-2xl);
 		}
 	}
 	@media (max-width: 480px) {

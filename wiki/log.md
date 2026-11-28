@@ -9,6 +9,9 @@ date: 2026-04-10
 
 Append-only record of wiki modifications.
 
+## [2026-11-28] update | Game Changer: knoppen naar aanbod
+All buttons on `/gamechanger` now scroll to `#aanbod`; only "Dit wil ik!" links to Systeme.io. Price shown as "199,-" (no euro sign, smaller). Updated `routes`.
+
 ## [2026-11-28] update | Game Changer: actie voorbij
 Removed the promo bar, all countdowns and the discount wording from `/gamechanger`; price is now €199 (value €447), top bar shows only the logo. `Countdown` stays in the design system for future offers. Updated `routes`.
 
