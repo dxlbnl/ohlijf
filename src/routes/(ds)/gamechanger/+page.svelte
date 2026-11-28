@@ -453,7 +453,7 @@
 		</div>
 		<div class="offer__price">
 			<span class="offer__was">Totale waarde {waarde}</span>
-			<span class="offer__now"><span class="offer__nu">Jouw investering</span> €{prijs}</span>
+			<span class="offer__now"><span class="offer__nu">Jouw investering</span> {prijs}</span>
 		</div>
 		<h3 class="offer__sub">Dit krijg je 👇</h3>
 		<ul class="offer__list">
@@ -582,7 +582,7 @@
 			Ontdek de diepere oorzaak van je hoofdpijn zodat je in je hele lijf voelt: ik kan herstellen.
 		</p>
 		<p class="final__price">
-			Totale waarde {waarde}. Jouw investering: <strong>€{prijs}</strong>
+			Totale waarde {waarde}. Jouw investering: <strong>{prijs}</strong>
 		</p>
 		<ul class="final__bonus">
 			<li><strong>Bonus:</strong> direct toegang tot de Masterclass Hoofdpijn en je brein</li>
@@ -1063,7 +1063,7 @@
 	}
 	.offer__now {
 		font-weight: var(--weight-extra);
-		font-size: var(--text-5xl);
+		font-size: var(--text-4xl);
 		line-height: 1;
 		color: var(--ink-900);
 		letter-spacing: var(--tracking-tight);
@@ -1261,7 +1261,7 @@
 		font-size: var(--text-lg);
 	}
 	.final__price strong {
-		font-size: var(--text-2xl);
+		font-size: var(--text-xl);
 		color: var(--yellow-400);
 	}
 	.final__bonus {
@@ -1300,7 +1300,7 @@
 			max-width: 320px;
 		}
 		.offer__now {
-			font-size: var(--text-4xl);
+			font-size: var(--text-3xl);
 		}
 	}
 	@media (max-width: 480px) {
